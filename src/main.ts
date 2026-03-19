@@ -13,11 +13,11 @@ if (!validLevels.includes(rawLevel)) {
 const levelType: LevelType = validLevels.includes(rawLevel)
   ? (rawLevel as LevelType)
   : 'procedural';
-const editorMode = params.get('mode') === 'editor';
+const mode = (params.get('mode') ?? 'gameplay') as 'gameplay' | 'editor' | 'object-replace';
 
 async function main(): Promise<void> {
   await RAPIER.init();
-  game = new Game(RAPIER, levelType, editorMode);
+  game = new Game(RAPIER, levelType, mode);
   await game.init();
   game.start();
 }

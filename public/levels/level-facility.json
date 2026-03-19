@@ -1,7 +1,7 @@
 {
   "version": 1,
   "levelType": "facility",
-  "spawn": { "x": -10.1, "y": -3.3, "z": -5.6 },
+  "spawn": { "x": -8, "y": 1, "z": -2 },
   "music": "/music/102 Facility.mp3",
   "fog": { "color": { "r": 16, "g": 32, "b": 16 }, "near": 15, "far": 60 },
   "lights": [
@@ -12,5 +12,383 @@
     { "position": { "x": -8, "y": -0.5, "z": -5 }, "intensity": 0.7, "radius": 5 }
   ],
   "objects": [
+    {
+      "id": "slot_196",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": -180,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -7.3779,
+          "y": 0.4406,
+          "z": -5.175
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_197",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": -180,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -6.0279,
+          "y": 0.4406,
+          "z": -5.175
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_198",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": -180,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -4.6779,
+          "y": 0.4406,
+          "z": -5.175
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_199",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": -180,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -3.3221,
+          "y": 0.4406,
+          "z": -5.175
+        },
+        "modelScale": 0.009390834375
+      }
+    },
+    {
+      "id": "slot_200",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -2.9872,
+          "y": 0.4406,
+          "z": 3.675
+        },
+        "modelScale": 0.009390834375
+      }
+    },
+    {
+      "id": "slot_201",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -4.3409,
+          "y": 0.4406,
+          "z": 3.675
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_202",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -5.6909,
+          "y": 0.4406,
+          "z": 3.675
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_203",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -7.0409,
+          "y": 0.4406,
+          "z": 3.675
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_204",
+      "type": "door-bathroom",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/bathroom-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -8.3966,
+          "y": 0.4406,
+          "z": 3.675
+        },
+        "modelScale": 0.009390834375
+      }
+    },
+    {
+      "id": "slot_205",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -2.1844,
+          "y": 0.3426,
+          "z": -1.886
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_206",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": -90,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": 0.086,
+          "y": 0.3426,
+          "z": 0.3844
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_207",
+      "type": "door-brown-sliding",
+      "config": {
+        "type": "sliding",
+        "modelUrl": "/models/doors/brown-sliding-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "slideDirection": -1,
+        "position": {
+          "x": 6.975,
+          "y": -3.4553,
+          "z": 4.6594
+        },
+        "modelScale": 0.009375
+      }
+    },
+    {
+      "id": "slot_208",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -1.1344,
+          "y": -3.2614,
+          "z": 1.264
+        },
+        "modelScale": 0.009401653125
+      }
+    },
+    {
+      "id": "slot_209",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": -90,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -8.4774,
+          "y": -3.2614,
+          "z": -3.9938
+        },
+        "modelScale": 0.009414759375
+      }
+    },
+    {
+      "id": "slot_210",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": 90,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -9.8547,
+          "y": -3.2614,
+          "z": -3.9938
+        },
+        "modelScale": 0.009401643749999999
+      }
+    },
+    {
+      "id": "slot_211",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": -90,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -8.4774,
+          "y": -3.2614,
+          "z": 6.6937
+        },
+        "modelScale": 0.009414759375
+      }
+    },
+    {
+      "id": "slot_212",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": 90,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": -9.8547,
+          "y": -3.2614,
+          "z": 6.6937
+        },
+        "modelScale": 0.009401643749999999
+      }
+    },
+    {
+      "id": "slot_217",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": 0,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": 2.9156,
+          "y": -3.2614,
+          "z": 9.2274
+        },
+        "modelScale": 0.00941475
+      }
+    },
+    {
+      "id": "slot_220",
+      "type": "door-grey-swinging",
+      "config": {
+        "type": "swinging",
+        "modelUrl": "/models/doors/grey-swinging-door.glb",
+        "rotation": 90,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "hingeSide": "left",
+        "swingDirection": 1,
+        "position": {
+          "x": 5.1734,
+          "y": -3.2614,
+          "z": 21.4219
+        },
+        "modelScale": 0.009401643749999999
+      }
+    },
+    {
+      "id": "slot_222",
+      "type": "door-brown-sliding",
+      "config": {
+        "type": "sliding",
+        "modelUrl": "/models/doors/brown-sliding-door.glb",
+        "rotation": 90,
+        "triggerRadius": 3,
+        "openDuration": 3,
+        "slideDirection": -1,
+        "position": {
+          "x": 10.6687,
+          "y": -3.4553,
+          "z": 14.9625
+        },
+        "modelScale": 0.009375
+      }
+    }
   ]
 }

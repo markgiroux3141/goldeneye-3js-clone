@@ -43,6 +43,7 @@ export interface DoorConfig {
   // Audio (type-aware defaults if not provided)
   openSound?: string;
   closeSound?: string;
+
 }
 
 export class DoorEntity extends Entity implements Interactable {
@@ -129,41 +130,14 @@ export class DoorEntity extends Entity implements Interactable {
     if (config.modelScale) {
       this.meshGroup.scale.setScalar(config.modelScale);
     }
+
+    // Mirror mesh for right-hinge doors
+    if (this.doorType === 'swinging' && this.hingeSide === 'right') {
+      this.meshGroup.scale.x *= -1;
+    }
+
     this.meshGroup.position.copy(this.pivotOffset);
     this.pivotGroup.add(this.meshGroup);
-
-    // Auto-raise so the bottom of the door sits at the pivot's Y origin
-    this.meshGroup.updateMatrixWorld(true);
-    const autoBox = new THREE.Box3().setFromObject(this.meshGroup);
-    if (autoBox.min.y < 0) {
-      this.meshGroup.position.y -= autoBox.min.y;
-    }
-
-    // Auto-calculate hinge offset for swinging doors when no explicit pivotOffset given
-    if (this.doorType === 'swinging' && !config.pivotOffset) {
-      if (this.hingeSide === 'right') {
-        this.meshGroup.scale.x *= -1;  // mirror mesh for right hinge
-      }
-      this.meshGroup.updateMatrixWorld(true);
-      const hingeBox = new THREE.Box3().setFromObject(this.meshGroup);
-      if (this.hingeSide === 'left') {
-        this.meshGroup.position.x -= hingeBox.min.x;  // hinge at left edge
-      } else {
-        this.meshGroup.position.x -= hingeBox.max.x;  // hinge at right edge
-      }
-      // Sync pivotOffset so animations use the correct base
-      this.pivotOffset.copy(this.meshGroup.position);
-    }
-
-    // Auto-calculate slide distance from bounding box when not specified
-    if (this.doorType === 'sliding' && config.slideDistance == null) {
-      this.meshGroup.updateMatrixWorld(true);
-      const slideBox = new THREE.Box3().setFromObject(this.meshGroup);
-      const slideSize = new THREE.Vector3();
-      slideBox.getSize(slideSize);
-      this.slideDistance = this.slideAxis === 'x' ? slideSize.x : slideSize.z;
-    }
-
     this.scene.add(this.pivotGroup);
 
     // Enable shadows on all door meshes

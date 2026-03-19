@@ -16,6 +16,7 @@ import type { InputManager } from '../core/InputManager';
 import type { PhysicsWorld } from '../physics/PhysicsWorld';
 import type { AudioManager } from '../audio/AudioManager';
 import type { AssetLoader } from '../core/AssetLoader';
+import { SecurityEntity } from '../entities/SecurityEntity';
 
 export class World {
   readonly eventBus = new EventBus();
@@ -29,9 +30,9 @@ export class World {
   private inputManager!: InputManager;
 
   constructor(
-    private scene: THREE.Scene,
-    private physicsWorld: PhysicsWorld,
-    private RAPIER: typeof RAPIER_API,
+    readonly scene: THREE.Scene,
+    readonly physicsWorld: PhysicsWorld,
+    readonly RAPIER: typeof RAPIER_API,
     readonly audioManager: AudioManager,
     readonly assetLoader: AssetLoader
   ) {
@@ -104,6 +105,13 @@ export class World {
       const pos = this.player.playerController.getPosition();
       const interact = this.inputManager.isKeyDown('KeyB');
       this.interactionSystem.update(pos, interact);
+
+      // Update security entities with player position (for camera detection)
+      for (const entity of this.entityManager.getAll()) {
+        if (entity instanceof SecurityEntity && entity.active) {
+          entity.setPlayerPosition(pos);
+        }
+      }
     }
     this.entityManager.updateAll(dt);
   }

@@ -24,11 +24,19 @@ import { AudioManager } from './audio/AudioManager';
 import { DoorPlacer } from './tools/DoorPlacer';
 import type { DoorConfig } from './entities/DoorEntity';
 import { createDoorSpawner } from './entities/spawners/DoorSpawner';
+import { createPropSpawner } from './entities/spawners/PropSpawner';
+import { createConsoleSpawner } from './entities/spawners/ConsoleSpawner';
+import { createSecuritySpawner } from './entities/spawners/SecuritySpawner';
 import { FreeFlyCamera } from './editor/FreeFlyCamera';
 import { PlacementSystem } from './editor/PlacementSystem';
 import { EditorUI } from './editor/EditorUI';
 import { registerDefinitions, getDefinition, autoSave, autoLoad, fetchLevelData } from './editor/LevelData';
 import { DOOR_DEFINITIONS } from './editor/definitions/DoorDefinitions';
+import { PROP_DEFINITIONS } from './editor/definitions/PropDefinitions';
+import { CONSOLE_DEFINITIONS } from './editor/definitions/ConsoleDefinitions';
+import { SECURITY_DEFINITIONS } from './editor/definitions/SecurityDefinitions';
+import { ObjectReplaceSystem } from './editor/ObjectReplaceSystem';
+import { ObjectReplaceUI } from './editor/ObjectReplaceUI';
 import { getLevelConfig, getDoorScale, type LevelConfig, type LevelType } from './levels/LevelRegistry';
 import { bakeVertexColors } from './world/VertexColorBaker';
 export type { LevelType } from './levels/LevelRegistry';
@@ -51,6 +59,8 @@ export class Game {
   private freeFlyCamera!: FreeFlyCamera;
   private placementSystem!: PlacementSystem;
   private editorUI!: EditorUI;
+  private objectReplaceSystem!: ObjectReplaceSystem;
+  private objectReplaceUI!: ObjectReplaceUI;
 
   private readonly levelConfig: LevelConfig;
   private levelData: import('./editor/LevelData').LevelData | null = null;
@@ -58,7 +68,7 @@ export class Game {
   constructor(
     private RAPIER: typeof RAPIER_API,
     private levelType: LevelType = 'procedural',
-    private editorMode = false
+    private mode: 'gameplay' | 'editor' | 'object-replace' = 'gameplay'
   ) {
     this.levelConfig = getLevelConfig(this.levelType)!;
   }
@@ -103,8 +113,10 @@ export class Game {
       this.engine.scene.background = new THREE.Color(fogCfg.color);
     }
 
-    if (this.editorMode) {
+    if (this.mode === 'editor') {
       await this.initEditor(canvas, overlay, levelLoader, colliderFactory, assetLoader);
+    } else if (this.mode === 'object-replace') {
+      await this.initObjectReplace(canvas, overlay, levelLoader, colliderFactory, assetLoader);
     } else {
       await this.initGameplay(canvas, overlay, levelLoader, colliderFactory, assetLoader);
     }
@@ -140,7 +152,7 @@ export class Game {
     ]);
 
     // Register placeable definitions
-    registerDefinitions(DOOR_DEFINITIONS);
+    registerDefinitions([...DOOR_DEFINITIONS, ...PROP_DEFINITIONS, ...CONSOLE_DEFINITIONS, ...SECURITY_DEFINITIONS]);
 
     // Free-fly camera
     this.freeFlyCamera = new FreeFlyCamera(this.engine.camera, canvas, this.inputManager);
@@ -203,6 +215,70 @@ export class Game {
     );
   }
 
+  // ── Object Replace mode initialization ─────────────────────────
+
+  private async initObjectReplace(
+    canvas: HTMLCanvasElement,
+    overlay: HTMLElement,
+    levelLoader: LevelLoader,
+    colliderFactory: ColliderFactory,
+    assetLoader: AssetLoader
+  ): Promise<void> {
+    // Load level geometry (same as gameplay/editor)
+    await this.loadLevelGeometry(levelLoader, colliderFactory, assetLoader);
+
+    // Hide click-to-play overlay, show object replace banner
+    overlay.innerHTML = '<h1>Object Replace</h1><p>Load a GLB · Click objects · Assign types</p>';
+    overlay.addEventListener('click', () => overlay.classList.add('hidden'));
+
+    // Register placeable definitions (doors, props, consoles, security)
+    registerDefinitions([...DOOR_DEFINITIONS, ...PROP_DEFINITIONS, ...CONSOLE_DEFINITIONS, ...SECURITY_DEFINITIONS]);
+
+    // Free-fly camera
+    this.freeFlyCamera = new FreeFlyCamera(this.engine.camera, canvas, this.inputManager);
+    this.freeFlyCamera.setPosition(this.spawn.x, this.spawn.y + 1, this.spawn.z);
+
+    // Object Replace system
+    this.objectReplaceSystem = new ObjectReplaceSystem(
+      this.engine.scene,
+      this.engine.camera,
+      canvas,
+      this.levelConfig.modelScale ?? 1,
+      assetLoader
+    );
+
+    // Object Replace UI
+    this.objectReplaceUI = new ObjectReplaceUI(
+      this.objectReplaceSystem,
+      this.freeFlyCamera,
+      this.levelType,
+      this.spawn
+    );
+
+    // N64 graphics (optional visual preview)
+    const dummyWeaponScene = new THREE.Scene();
+    const dummyWeaponCamera = new THREE.PerspectiveCamera();
+    this.n64System = new N64GraphicsSystem(this.engine, dummyWeaponScene, dummyWeaponCamera);
+    this.n64UI = new N64SettingsUI(this.n64System);
+
+    // Game loop
+    this.gameLoop = new GameLoop(
+      (dt) => {
+        this.freeFlyCamera.update(dt);
+        this.objectReplaceSystem.update();
+        this.n64System.update(dt);
+        this.objectReplaceUI.updateStatus();
+      },
+      () => {
+        if (this.n64System.isEnabled()) {
+          this.n64System.render();
+        } else {
+          this.engine.render();
+        }
+      }
+    );
+  }
+
   // ── Gameplay mode initialization ────────────────────────────────
 
   private async initGameplay(
@@ -213,6 +289,7 @@ export class Game {
     assetLoader: AssetLoader
   ): Promise<void> {
     const doorScale = getDoorScale(this.levelConfig);
+    const modelScale = this.levelConfig.modelScale ?? 1;
 
     this.fpsCamera = new FPSCamera(this.engine.camera, canvas);
 
@@ -272,6 +349,9 @@ export class Game {
 
     // Register object spawners
     this.world.objectRegistry.register('door-', createDoorSpawner(doorScale));
+    this.world.objectRegistry.register('prop-', createPropSpawner(modelScale));
+    this.world.objectRegistry.register('console-', createConsoleSpawner(modelScale));
+    this.world.objectRegistry.register('security-', createSecuritySpawner(modelScale));
 
     // Spawn level objects via registry (doors, future: consoles, cameras, etc.)
     let spawnedDoors = 0;
@@ -414,12 +494,6 @@ export class Game {
       // bakeVertexColors(levelGroup, { lights });
       void levelGroup; // keep reference for future baking use
 
-      // Load test objects overlay (temporary — for alignment testing)
-      if (this.levelType === 'facility') {
-        const testObjects = await assetLoader.loadGLTF('/models/levels/facility-test-objects.glb');
-        testObjects.scale.setScalar(config.modelScale ?? 1);
-        this.engine.scene.add(testObjects);
-      }
     } else if (config.type === 'sandbox') {
       const planeGeo = new THREE.PlaneGeometry(50, 50);
       planeGeo.rotateX(-Math.PI / 2);
@@ -447,9 +521,13 @@ export class Game {
     }
     this.n64UI?.dispose();
     this.n64System?.dispose();
-    if (this.editorMode) {
+    if (this.mode === 'editor') {
       this.editorUI?.dispose();
       this.placementSystem?.dispose();
+      this.freeFlyCamera?.dispose();
+    } else if (this.mode === 'object-replace') {
+      this.objectReplaceUI?.dispose();
+      this.objectReplaceSystem?.dispose();
       this.freeFlyCamera?.dispose();
     } else {
       this.weaponSystem?.dispose();

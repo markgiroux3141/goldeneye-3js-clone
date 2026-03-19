@@ -1,5 +1,7 @@
 import type { Entity } from '../entities/Entity';
 import type { Actor } from '../entities/Actor';
+import type { DestroyEffect } from '../entities/PropEntity';
+import type { ConsoleAction } from '../entities/ConsoleEntity';
 
 export interface GameEvents {
   'entity-damaged': { entity: Actor; damage: number; source?: Entity };
@@ -12,6 +14,13 @@ export interface GameEvents {
   'door-opened': { door: Entity; doorId: string };
   'door-closing': { door: Entity; doorId: string };
   'door-closed': { door: Entity; doorId: string };
+  'prop-destroyed': { entity: Actor; effect: DestroyEffect };
+  'player-detected': { detector: Entity; detectorId: string };
+  'alarm-sounded': { alarm: Entity; alarmId: string };
+  'alarm-stopped': { alarm: Entity; alarmId: string };
+  'security-disabled': { targetId?: string };
+  'security-destroyed': { entity: Entity };
+  'console-used': { console: Entity; action: ConsoleAction };
 }
 
 type EventCallback<T> = (data: T) => void;
