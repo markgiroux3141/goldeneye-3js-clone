@@ -1,0 +1,55 @@
+# Bug Severity Classification Matrix
+# Reference for step-01-triage.md
+
+severity_levels:
+  critical:
+    name: "Critical"
+    description: "System down, data loss, security breach, blocking all users"
+    response: "Immediate fix required. Drop everything."
+    indicators:
+      - "Application crashes or is completely unusable"
+      - "Data corruption or loss occurring"
+      - "Security vulnerability actively exploitable"
+      - "All users affected, no workaround"
+    fix_approach_bias: "minimal"
+
+  high:
+    name: "High"
+    description: "Major feature broken, significant users affected, workaround difficult"
+    response: "Fix within current session. Prioritize over planned work."
+    indicators:
+      - "Core feature not working correctly"
+      - "Many users affected but system still usable"
+      - "Workaround exists but is painful"
+      - "Regression from recent changes"
+    fix_approach_bias: "minimal"
+
+  medium:
+    name: "Medium"
+    description: "Feature partially broken, edge case failures, reasonable workaround exists"
+    response: "Fix soon. Can be scheduled alongside planned work."
+    indicators:
+      - "Edge case or uncommon scenario fails"
+      - "Non-critical feature affected"
+      - "Easy workaround available"
+      - "Cosmetic issue with functional impact"
+    fix_approach_bias: "minimal-or-comprehensive"
+
+  low:
+    name: "Low"
+    description: "Minor issue, cosmetic, typo, no functional impact"
+    response: "Fix when convenient. Bundle with other work if possible."
+    indicators:
+      - "Typo in UI or documentation"
+      - "Cosmetic inconsistency"
+      - "Minor performance optimization"
+      - "Code quality improvement"
+    fix_approach_bias: "any"
+
+# Escalation triggers - when bug-fix should hand off to correct-course
+escalation_signals:
+  - "Root cause is in architecture or design, not implementation"
+  - "Fix requires changes across 5+ components"
+  - "Fix contradicts current PRD requirements"
+  - "Fix requires API contract changes affecting other teams"
+  - "Multiple epics or stories would need modification"

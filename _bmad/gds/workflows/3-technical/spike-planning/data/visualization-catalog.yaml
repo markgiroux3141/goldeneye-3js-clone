@@ -1,0 +1,277 @@
+# Visualization Catalog for Game Development Spike Testing
+# Engine-specific debugging and visualization approaches
+
+visualization_approaches:
+  unity:
+    name: "Unity Visualization Approaches"
+
+    gizmos:
+      description: "OnDrawGizmos/OnDrawGizmosSelected methods for editor visualization"
+      use_for:
+        - "Spatial structures (octree, bounds)"
+        - "Paths and waypoints"
+        - "Collision shapes"
+        - "Debug areas"
+      examples:
+        - "Gizmos.DrawWireCube(center, size)"
+        - "Gizmos.DrawWireSphere(position, radius)"
+        - "Gizmos.DrawLine(start, end)"
+        - "Gizmos.DrawRay(position, direction)"
+      tips:
+        - "Use Gizmos.color to differentiate elements"
+        - "Draw in OnDrawGizmosSelected for less visual noise"
+        - "Use Handles for interactive gizmos"
+
+    debug_draw:
+      description: "Debug.Draw* methods for runtime visualization"
+      use_for:
+        - "Runtime paths"
+        - "Velocity vectors"
+        - "Temporary visualization"
+      examples:
+        - "Debug.DrawLine(start, end, color, duration)"
+        - "Debug.DrawRay(origin, direction, color)"
+      tips:
+        - "Set duration > 0 for persistent lines"
+        - "Use in Update() or physics callbacks"
+
+    debug_ui:
+      description: "OnGUI or new UI Toolkit for debug overlays"
+      use_for:
+        - "Runtime stats (FPS, memory)"
+        - "State machine visualization"
+        - "Parameter tweaking"
+      examples:
+        - "GUI.Label for simple text"
+        - "GUILayout.HorizontalSlider for parameter tuning"
+        - "EditorWindow for complex debug tools"
+      tips:
+        - "Use [ExecuteInEditMode] for editor-time updates"
+        - "Create debug prefab for easy scene addition"
+
+    profiler:
+      description: "Unity Profiler for performance analysis"
+      use_for:
+        - "CPU/GPU timing"
+        - "Memory allocation"
+        - "Rendering analysis"
+        - "GC spike detection"
+      examples:
+        - "Profiler.BeginSample('MyCode')"
+        - "Profiler.EndSample()"
+        - "ProfilerMarker for job system"
+      tips:
+        - "Profile in builds, not editor"
+        - "Use Deep Profile sparingly (slow)"
+        - "Memory Profiler package for detailed memory"
+
+    frame_debugger:
+      description: "Frame Debugger for rendering analysis"
+      use_for:
+        - "Draw call analysis"
+        - "Shader debugging"
+        - "Batching verification"
+      tips:
+        - "Step through draw calls"
+        - "Identify redundant state changes"
+        - "Verify batching is working"
+
+    render_doc:
+      description: "RenderDoc integration for GPU debugging"
+      use_for:
+        - "Compute shader debugging"
+        - "Texture inspection"
+        - "GPU performance analysis"
+      tips:
+        - "Capture frames with F12 (when integrated)"
+        - "Inspect buffers and textures"
+        - "Step through compute shader dispatch"
+
+  unreal:
+    name: "Unreal Engine Visualization Approaches"
+
+    draw_debug:
+      description: "DrawDebug* functions for runtime visualization"
+      use_for:
+        - "Spatial structures"
+        - "AI navigation"
+        - "Collision debugging"
+        - "Path visualization"
+      examples:
+        - "DrawDebugBox(World, Center, Extent, Color)"
+        - "DrawDebugSphere(World, Center, Radius, Segments, Color)"
+        - "DrawDebugLine(World, Start, End, Color)"
+        - "DrawDebugString(World, Location, Text)"
+      tips:
+        - "Use bPersistentLines for persistent visualization"
+        - "LifeTime parameter controls duration"
+        - "Draw in Tick or timer callbacks"
+
+    visual_logger:
+      description: "Visual Logger for AI and gameplay debugging"
+      use_for:
+        - "AI behavior trees"
+        - "State machines"
+        - "Event sequences"
+      examples:
+        - "UE_VLOG(Owner, Category, Verbose, TEXT('Message'))"
+        - "UE_VLOG_LOCATION(Owner, Category, Verbose, Location, Radius, Color, TEXT('Label'))"
+      tips:
+        - "Enable with 'vislog' console command"
+        - "Scrub through time to analyze events"
+        - "Filter by category"
+
+    gameplay_debugger:
+      description: "Gameplay Debugger for runtime inspection"
+      use_for:
+        - "AI debugging"
+        - "Perception system"
+        - "EQS queries"
+      tips:
+        - "Press ' key to activate"
+        - "Numpad to switch categories"
+        - "Customizable categories"
+
+    insights:
+      description: "Unreal Insights for profiling"
+      use_for:
+        - "CPU profiling"
+        - "GPU profiling"
+        - "Network analysis"
+        - "Memory tracking"
+      examples:
+        - "TRACE_CPUPROFILER_EVENT_SCOPE(MyFunction)"
+        - "TRACE_BOOKMARK(TEXT('MarkerName'))"
+      tips:
+        - "Launch with -trace=default"
+        - "Use UnrealInsights.exe for analysis"
+        - "Filter and search events"
+
+    render_doc:
+      description: "RenderDoc for GPU debugging"
+      use_for:
+        - "Shader debugging"
+        - "Draw call analysis"
+        - "Compute shader inspection"
+      tips:
+        - "Launch editor from RenderDoc"
+        - "Use pixel history for shader debugging"
+
+    stat_commands:
+      description: "Console stat commands for quick profiling"
+      use_for:
+        - "Quick performance checks"
+        - "Frame time breakdown"
+        - "Memory overview"
+      examples:
+        - "stat fps"
+        - "stat unit"
+        - "stat scenerendering"
+        - "stat memory"
+
+  godot:
+    name: "Godot Visualization Approaches"
+
+    draw_functions:
+      description: "_draw() override for 2D visualization"
+      use_for:
+        - "2D debug overlays"
+        - "Custom controls"
+        - "Path visualization"
+      examples:
+        - "draw_line(from, to, color, width)"
+        - "draw_circle(position, radius, color)"
+        - "draw_rect(rect, color, filled)"
+        - "draw_string(font, pos, text)"
+      tips:
+        - "Call queue_redraw() to trigger redraw"
+        - "Use in Node2D or Control subclass"
+        - "Check is_visible_in_tree() for performance"
+
+    immediate_geometry:
+      description: "ImmediateMesh for 3D debug visualization"
+      use_for:
+        - "3D debug lines"
+        - "Wireframe shapes"
+        - "Dynamic geometry"
+      examples:
+        - "surface_begin(PRIMITIVE_LINES)"
+        - "surface_add_vertex(position)"
+        - "surface_end()"
+      tips:
+        - "Clear before adding new geometry"
+        - "Use MeshInstance3D with ImmediateMesh"
+        - "Consider DebugDraw addon for convenience"
+
+    debug_draw_addon:
+      description: "DebugDraw3D addon for easy visualization"
+      use_for:
+        - "Quick 3D debug shapes"
+        - "Persistent or one-frame draws"
+        - "No setup required"
+      examples:
+        - "DebugDraw3D.draw_box(position, size, color)"
+        - "DebugDraw3D.draw_sphere(position, radius)"
+        - "DebugDraw3D.draw_line(from, to)"
+      tips:
+        - "Install from Asset Library"
+        - "Configurable draw duration"
+
+    profiler:
+      description: "Built-in debugger and profiler"
+      use_for:
+        - "Function timing"
+        - "Memory usage"
+        - "Render analysis"
+      tips:
+        - "Use Debugger -> Profiler tab"
+        - "Enable with profiler.enable = true"
+        - "Monitor panel for real-time stats"
+
+    remote_debugger:
+      description: "Remote debugging for device testing"
+      use_for:
+        - "Mobile debugging"
+        - "Console debugging"
+        - "Remote profiling"
+      tips:
+        - "Enable in export settings"
+        - "Connect via IP address"
+        - "Use scene tree inspector remotely"
+
+    print_debug:
+      description: "Print statements and logging"
+      use_for:
+        - "Quick debugging"
+        - "State logging"
+        - "Error tracking"
+      examples:
+        - "print('Value: ', value)"
+        - "push_error('Error message')"
+        - "push_warning('Warning message')"
+      tips:
+        - "Use print_verbose for detailed logs"
+        - "Configure logging in project settings"
+
+# General visualization best practices
+best_practices:
+  - name: "Start simple"
+    description: "Begin with print/log statements, add visual debugging as needed"
+
+  - name: "Color code"
+    description: "Use consistent colors: green=valid, red=error, yellow=warning, blue=selected"
+
+  - name: "Toggle visibility"
+    description: "Add keyboard shortcuts to toggle debug visualization on/off"
+
+  - name: "Layer debug rendering"
+    description: "Use separate render layers/passes for debug visualization"
+
+  - name: "Profile the profiling"
+    description: "Debug visualization can impact performance - disable in final testing"
+
+  - name: "Screenshot comparison"
+    description: "Capture reference screenshots for visual validation"
+
+  - name: "Add debug UI"
+    description: "Create parameter sliders for runtime tweaking without code changes"

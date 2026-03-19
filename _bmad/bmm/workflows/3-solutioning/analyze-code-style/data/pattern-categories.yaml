@@ -1,0 +1,398 @@
+# Pattern Categories for Code Style Analysis
+# This file defines the 12 categories of patterns to extract and document
+
+categories:
+  - id: naming_conventions
+    name: "Naming Conventions"
+    description: "How variables, functions, classes, files, and other identifiers are named"
+    sub_patterns:
+      - id: variables
+        name: "Variables"
+        detection_hints:
+          - "const", "let", "var" declarations
+          - Assignment patterns
+        classify_by:
+          - case_style: [camelCase, snake_case, PascalCase, SCREAMING_SNAKE_CASE]
+          - boolean_prefixes: [is, has, can, should, will, did]
+          - type_prefixes: [str, num, arr, obj]
+      - id: functions
+        name: "Functions/Methods"
+        detection_hints:
+          - "function", "def", "fn" keywords
+          - Arrow function expressions
+          - Method definitions in classes
+        classify_by:
+          - case_style: [camelCase, snake_case, PascalCase]
+          - verb_patterns: [get, set, fetch, handle, create, update, delete, on, before, after, is, has]
+          - async_naming: [Async suffix, no suffix]
+      - id: classes
+        name: "Classes/Components"
+        detection_hints:
+          - "class" keyword
+          - React/Vue component definitions
+        classify_by:
+          - case_style: [PascalCase, camelCase]
+          - suffixes: [Service, Controller, Repository, Component, Provider, Factory, Wrapper, Handler, Manager]
+      - id: files
+        name: "Files"
+        detection_hints:
+          - Scan file names in source directories
+        classify_by:
+          - case_style: [kebab-case, snake_case, PascalCase, camelCase]
+          - patterns: ["*.service.ts", "*.test.ts", "use*.ts", "index.ts", "*.spec.ts"]
+      - id: constants
+        name: "Constants"
+        detection_hints:
+          - Uppercase variable declarations
+          - "const" with all-caps names
+        classify_by:
+          - case_style: [SCREAMING_SNAKE_CASE, PascalCase]
+          - grouping: [enum, object, flat]
+      - id: types
+        name: "Types/Interfaces"
+        detection_hints:
+          - "type", "interface" keywords
+          - Generic type parameters
+        classify_by:
+          - prefixes: [I, T, none]
+          - suffixes: [Type, Interface, DTO, Request, Response, Props, State]
+
+  - id: code_formatting
+    name: "Code Formatting"
+    description: "How code is visually structured and formatted"
+    sub_patterns:
+      - id: indentation
+        name: "Indentation"
+        detection_hints:
+          - Leading whitespace in files
+          - Tab characters vs spaces
+        classify_by:
+          - style: [2_spaces, 4_spaces, tabs]
+      - id: line_length
+        name: "Line Length"
+        detection_hints:
+          - Maximum characters per line
+          - Line wrapping patterns
+        classify_by:
+          - soft_limit: [80, 100, 120, unlimited]
+      - id: bracket_style
+        name: "Bracket Style"
+        detection_hints:
+          - Opening brace position after if/function/class
+        classify_by:
+          - style: [K&R, Allman, other]
+      - id: semicolons
+        name: "Semicolons"
+        detection_hints:
+          - Statement terminators in JS/TS
+        classify_by:
+          - usage: [always, never, mixed]
+        languages: [javascript, typescript]
+      - id: quotes
+        name: "Quotes"
+        detection_hints:
+          - String literal delimiters
+        classify_by:
+          - style: [single, double, backtick_for_interpolation]
+        languages: [javascript, typescript, python]
+      - id: trailing_commas
+        name: "Trailing Commas"
+        detection_hints:
+          - Last element in arrays/objects
+        classify_by:
+          - usage: [always, multiline_only, never]
+
+  - id: comment_style
+    name: "Comment Style"
+    description: "How and when comments are used"
+    sub_patterns:
+      - id: documentation_format
+        name: "Documentation Format"
+        detection_hints:
+          - "/**", "'''", '"""' patterns
+        classify_by:
+          - format: [JSDoc, TSDoc, docstring, inline_only]
+      - id: inline_comments
+        name: "Inline Comments"
+        detection_hints:
+          - "//", "#" single-line comments
+        classify_by:
+          - frequency: [heavy, moderate, minimal, none]
+          - position: [above_line, end_of_line]
+      - id: todo_format
+        name: "TODO/FIXME Format"
+        detection_hints:
+          - "TODO", "FIXME", "HACK", "NOTE" keywords
+        classify_by:
+          - format: ["TODO:", "TODO(name):", "TODO [JIRA-123]:"]
+
+  - id: design_patterns
+    name: "Design Patterns"
+    description: "Architectural and structural patterns used"
+    sub_patterns:
+      - id: creational
+        name: "Creational Patterns"
+        detection_hints:
+          - "*Factory" classes
+          - "create*" functions
+          - "*Builder" classes
+        patterns: [Factory, Builder, Singleton]
+      - id: structural
+        name: "Structural Patterns"
+        detection_hints:
+          - "*Repository" classes
+          - "*Service" classes
+          - "*Adapter" classes
+        patterns: [Repository, Service, Adapter, Facade, Decorator]
+      - id: behavioral
+        name: "Behavioral Patterns"
+        detection_hints:
+          - "EventEmitter", "on(", "emit("
+          - "*Strategy" classes
+          - "*Command" classes
+        patterns: [Observer, Strategy, Command, State]
+      - id: framework_specific
+        name: "Framework-Specific"
+        detection_hints:
+          - Varies by framework
+        patterns: [React_Hooks, React_Context, Angular_Services, Vue_Composables, NestJS_Modules]
+
+  - id: error_handling
+    name: "Error Handling"
+    description: "How errors are created, caught, and handled"
+    sub_patterns:
+      - id: error_classes
+        name: "Custom Error Classes"
+        detection_hints:
+          - "extends Error"
+          - "*Error", "*Exception" class names
+        classify_by:
+          - naming: ["*Error", "*Exception"]
+          - properties: [code, status, message, cause]
+      - id: try_catch
+        name: "Try/Catch Patterns"
+        detection_hints:
+          - try/catch blocks
+        classify_by:
+          - style: [catch_all, catch_specific, rethrow]
+          - finally_usage: [common, rare, never]
+      - id: error_responses
+        name: "Error Responses"
+        detection_hints:
+          - API error response structures
+        classify_by:
+          - format: [envelope, flat, RFC7807]
+      - id: logging
+        name: "Logging"
+        detection_hints:
+          - "console.*", "logger.*"
+        classify_by:
+          - framework: [console, pino, winston, bunyan, custom]
+          - levels: [error, warn, info, debug, trace]
+
+  - id: import_organization
+    name: "Import Organization"
+    description: "How imports are structured and ordered"
+    sub_patterns:
+      - id: import_order
+        name: "Import Order"
+        detection_hints:
+          - Import statement groupings
+        classify_by:
+          - order: [builtin, external, internal, relative]
+          - blank_lines: [between_groups, none]
+      - id: import_style
+        name: "Import Style"
+        detection_hints:
+          - Import syntax variations
+        classify_by:
+          - style: [named, default, namespace, side_effect]
+      - id: path_aliases
+        name: "Path Aliases"
+        detection_hints:
+          - "@/", "~/", custom prefixes
+        classify_by:
+          - aliases: ["@/", "~/", "@company/", custom]
+      - id: barrel_files
+        name: "Barrel Files"
+        detection_hints:
+          - "index.ts" re-exports
+        classify_by:
+          - usage: [all_directories, public_only, none]
+
+  - id: file_structure
+    name: "File Structure"
+    description: "How code is organized within files"
+    sub_patterns:
+      - id: section_order
+        name: "Section Ordering"
+        detection_hints:
+          - Order of imports, types, constants, functions, exports
+        classify_by:
+          - order: [imports, types, constants, utilities, main_export, exports]
+      - id: class_member_order
+        name: "Class Member Ordering"
+        detection_hints:
+          - Order of static, public, private members
+        classify_by:
+          - order: [static_props, static_methods, public_props, private_props, constructor, public_methods, private_methods]
+      - id: component_structure
+        name: "Component Structure"
+        detection_hints:
+          - React/Vue component organization
+        classify_by:
+          - hook_order: [useState, useRef, useMemo, useCallback, useEffect, custom]
+        frameworks: [react, vue]
+
+  - id: function_patterns
+    name: "Function Patterns"
+    description: "How functions are written and structured"
+    sub_patterns:
+      - id: parameters
+        name: "Parameter Patterns"
+        detection_hints:
+          - Function signatures
+        classify_by:
+          - ordering: [required_first, options_object, destructured]
+      - id: returns
+        name: "Return Patterns"
+        detection_hints:
+          - Return statements
+        classify_by:
+          - style: [early_return, single_exit]
+          - type_annotations: [explicit, inferred]
+      - id: async_patterns
+        name: "Async Patterns"
+        detection_hints:
+          - async/await, .then()
+        classify_by:
+          - style: [async_await, promise_chains, mixed]
+          - error_handling: [try_catch, catch_method]
+      - id: function_length
+        name: "Function Length"
+        detection_hints:
+          - Lines per function
+        classify_by:
+          - average: [short_5_15, medium_15_30, long_30_plus]
+      - id: arrow_vs_function
+        name: "Arrow vs Function"
+        detection_hints:
+          - "=>" vs "function" usage
+        classify_by:
+          - preference: [arrow_dominant, function_dominant, mixed]
+
+  - id: type_annotations
+    name: "Type Annotations"
+    description: "How types are annotated (for typed languages)"
+    sub_patterns:
+      - id: annotation_style
+        name: "Annotation Style"
+        detection_hints:
+          - Explicit type annotations vs inference
+        classify_by:
+          - style: [always_explicit, infer_when_obvious, minimal]
+      - id: generic_naming
+        name: "Generic Naming"
+        detection_hints:
+          - Generic type parameters
+        classify_by:
+          - style: [single_letter, descriptive]
+          - common_names: [T, U, K, V, TData, TResponse]
+      - id: null_handling
+        name: "Null Handling"
+        detection_hints:
+          - Optional, nullable, assertions
+        classify_by:
+          - style: [optional_chaining, nullable_union, assertions]
+      - id: type_location
+        name: "Type Location"
+        detection_hints:
+          - Where type definitions live
+        classify_by:
+          - location: [inline, separate_file, central_directory]
+    languages: [typescript, flow]
+
+  - id: testing_style
+    name: "Testing Style"
+    description: "How tests are written and structured"
+    sub_patterns:
+      - id: test_naming
+        name: "Test Naming"
+        detection_hints:
+          - describe/it block content
+        classify_by:
+          - describe_style: [class_name, function_name, scenario]
+          - it_style: [should, when_then, descriptive]
+      - id: test_structure
+        name: "Test Structure"
+        detection_hints:
+          - Test body organization
+        classify_by:
+          - style: [AAA, given_when_then, BDD]
+      - id: mocking
+        name: "Mocking Patterns"
+        detection_hints:
+          - Mock function calls
+        classify_by:
+          - framework: [jest, vitest, sinon, manual]
+          - reset: [beforeEach, afterEach, afterAll]
+      - id: test_data
+        name: "Test Data"
+        detection_hints:
+          - Test fixtures, factories
+        classify_by:
+          - pattern: [factories, fixtures, inline, builders]
+
+  - id: documentation
+    name: "Documentation Conventions"
+    description: "How documentation is written"
+    sub_patterns:
+      - id: readme_structure
+        name: "README Structure"
+        detection_hints:
+          - README.md sections
+        classify_by:
+          - sections: [installation, usage, api, contributing, license]
+      - id: api_docs
+        name: "API Documentation"
+        detection_hints:
+          - Generated documentation
+        classify_by:
+          - tool: [JSDoc, TSDoc, TypeDoc, Sphinx, none]
+      - id: inline_docs
+        name: "Inline Documentation"
+        detection_hints:
+          - Code comments
+        classify_by:
+          - required_for: [public_apis, complex_logic, nothing]
+
+  - id: anti_patterns
+    name: "Anti-Patterns"
+    description: "Patterns to avoid"
+    sub_patterns:
+      - id: code_smells
+        name: "Code Smells"
+        detection_hints:
+          - Anomalies from other categories
+        items:
+          - any_type_usage
+          - console_log_in_production
+          - nested_callbacks
+          - magic_numbers
+          - commented_out_code
+      - id: security
+        name: "Security Anti-Patterns"
+        detection_hints:
+          - Hardcoded values, unsafe operations
+        items:
+          - hardcoded_secrets
+          - unsafe_type_assertions
+          - missing_input_validation
+      - id: inconsistencies
+        name: "Inconsistencies"
+        detection_hints:
+          - Deviations from dominant patterns
+        items:
+          - mixed_naming_conventions
+          - inconsistent_error_handling
+          - mixed_async_patterns

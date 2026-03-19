@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "levelType": "dam",
+  "spawn": { "x": 225.9, "y": 1, "z": 195.1 },
+  "music": "/music/101 Dam.mp3",
+  "fog": { "color": { "r": 136, "g": 152, "b": 168 }, "near": 30, "far": 120 },
+  "objects": []
+}

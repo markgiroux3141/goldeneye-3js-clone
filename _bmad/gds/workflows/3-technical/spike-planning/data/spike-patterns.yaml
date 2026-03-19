@@ -1,0 +1,318 @@
+# Spike Patterns for Technical Validation (Game Development)
+# Common patterns for designing isolated proof-of-concept experiments in game dev
+
+spike_patterns:
+  # CPU-first pattern - validate on CPU before GPU
+  cpu_algorithm:
+    name: "CPU Algorithm Spike"
+    description: "Validate algorithm on CPU before porting to GPU/compute shader"
+    use_when:
+      - "Algorithm will eventually run on GPU"
+      - "Need to verify correctness before optimization"
+      - "Complex algorithm with many edge cases"
+    isolation_approach:
+      - "Console app or editor script"
+      - "Simple test data (sphere SDF, basic shapes)"
+      - "Debug visualization of intermediate results"
+    typical_validations:
+      - "Correctness against reference implementation"
+      - "Edge cases handled"
+      - "Baseline performance established"
+    success_criteria_examples:
+      - "Output matches expected values for test cases"
+      - "All edge cases produce valid output"
+      - "Runs in < Xms for N elements (baseline)"
+    visualization_approaches:
+      - "Console output with formatted data"
+      - "Simple mesh/point visualization"
+      - "Step-by-step debug rendering"
+    complexity: "Medium"
+    next_spike: "gpu_port"
+
+  gpu_port:
+    name: "GPU Port Spike"
+    description: "Port validated CPU algorithm to compute shader"
+    use_when:
+      - "CPU algorithm is validated and correct"
+      - "Need to verify GPU version matches"
+      - "Performance is critical"
+    depends_on: "cpu_algorithm"
+    isolation_approach:
+      - "Minimal compute shader with hardcoded inputs"
+      - "Same test data as CPU version"
+      - "Output comparison between CPU and GPU"
+    typical_validations:
+      - "Output matches CPU reference"
+      - "Meets frame budget target"
+      - "No platform-specific issues"
+    success_criteria_examples:
+      - "GPU output matches CPU output within tolerance"
+      - "Runs in < Xms (meets frame budget)"
+      - "Works on all target platforms"
+    visualization_approaches:
+      - "RenderDoc/PIX frame capture"
+      - "Profiler integration"
+      - "Visual diff between CPU and GPU output"
+    complexity: "Medium"
+
+  procedural_generation:
+    name: "Procedural Generation Spike"
+    description: "Validate procedural content generation quality and performance"
+    use_when:
+      - "Generating terrain, levels, or content procedurally"
+      - "Using noise functions"
+      - "Concerned about visual quality"
+    isolation_approach:
+      - "2D slice visualization"
+      - "Single chunk/tile generation"
+      - "Color-coded output for values"
+    typical_validations:
+      - "Visual quality acceptable"
+      - "Seamless tiling (if required)"
+      - "Deterministic with same seed"
+      - "Performance acceptable"
+    success_criteria_examples:
+      - "No visible seams between chunks"
+      - "Same seed produces identical output"
+      - "Generation time < Xms per chunk"
+    visualization_approaches:
+      - "Texture preview of noise values"
+      - "Height map visualization"
+      - "Gizmo bounds for generated regions"
+      - "Color gradient for value ranges"
+    complexity: "Medium"
+
+  spatial_structure:
+    name: "Spatial Structure Spike"
+    description: "Validate spatial data structures (octree, BVH, quadtree)"
+    use_when:
+      - "Implementing octree, BVH, quadtree"
+      - "Spatial partitioning for culling or queries"
+      - "LOD systems"
+    isolation_approach:
+      - "Gizmo visualization only (no mesh generation)"
+      - "Colored wireframes for levels/nodes"
+      - "Query visualization"
+    typical_validations:
+      - "Correct subdivision"
+      - "Query performance"
+      - "Memory usage acceptable"
+    success_criteria_examples:
+      - "Subdivides correctly for test data"
+      - "Query returns correct results"
+      - "Memory usage < X MB for N objects"
+    visualization_approaches:
+      - "Wireframe bounds per node"
+      - "Color by depth/level"
+      - "Highlight query results"
+      - "Node count overlay"
+    complexity: "Medium"
+
+  mesh_generation:
+    name: "Mesh Generation Spike"
+    description: "Validate runtime mesh generation (marching cubes, etc.)"
+    use_when:
+      - "Generating meshes at runtime"
+      - "Marching cubes, dual contouring, etc."
+      - "Destructible terrain or voxels"
+    isolation_approach:
+      - "Simple SDF (sphere, box)"
+      - "Single chunk generation"
+      - "No LOD or optimization initially"
+    typical_validations:
+      - "Mesh is valid (no degenerate triangles)"
+      - "Vertex/triangle count reasonable"
+      - "Performance acceptable"
+    success_criteria_examples:
+      - "Generates valid mesh for sphere SDF"
+      - "Triangle count matches expected for resolution"
+      - "Generation time < Xms per chunk"
+    visualization_approaches:
+      - "Vertex color by normal"
+      - "Wireframe overlay"
+      - "Triangle count debug UI"
+      - "Gizmo for chunk bounds"
+    complexity: "Medium to Large"
+
+  physics_validation:
+    name: "Physics Validation Spike"
+    description: "Validate physics behavior and performance"
+    use_when:
+      - "Complex physics interactions"
+      - "Custom physics behavior"
+      - "Concerned about physics performance"
+    isolation_approach:
+      - "Isolated physics scene"
+      - "Controlled test scenarios"
+      - "Frame-by-frame debugging"
+    typical_validations:
+      - "Behavior matches expectations"
+      - "Performance under load"
+      - "Determinism (if required)"
+    success_criteria_examples:
+      - "Ball bounces to expected height"
+      - "1000 objects simulated in < Xms"
+      - "Consistent across multiple runs"
+    visualization_approaches:
+      - "Debug draw for collision shapes"
+      - "Velocity vectors"
+      - "Contact point visualization"
+      - "Physics profiler"
+    complexity: "Medium"
+
+  networking_sync:
+    name: "Network Synchronization Spike"
+    description: "Validate network synchronization and latency handling"
+    use_when:
+      - "Multiplayer functionality"
+      - "State synchronization"
+      - "Lag compensation needed"
+    isolation_approach:
+      - "Minimal networked scene"
+      - "Artificial latency injection"
+      - "Multiple client simulation"
+    typical_validations:
+      - "State synchronizes correctly"
+      - "Handles packet loss"
+      - "Latency compensation works"
+    success_criteria_examples:
+      - "State consistent within X frames"
+      - "Playable at 200ms latency"
+      - "Handles 5% packet loss"
+    visualization_approaches:
+      - "Network stats overlay"
+      - "State diff visualization"
+      - "Latency simulation controls"
+      - "Desync indicators"
+    complexity: "Large"
+
+  animation_integration:
+    name: "Animation Integration Spike"
+    description: "Validate animation system integration and state machines"
+    use_when:
+      - "Complex animation state machines"
+      - "Procedural animation"
+      - "Animation blending"
+    isolation_approach:
+      - "Single character test scene"
+      - "Debug state machine visualization"
+      - "Input-to-animation testing"
+    typical_validations:
+      - "State transitions correct"
+      - "Blending looks good"
+      - "Input responsiveness"
+    success_criteria_examples:
+      - "All state transitions work correctly"
+      - "Blend time < Xms"
+      - "Input-to-animation < Xms"
+    visualization_approaches:
+      - "State machine debug view"
+      - "Bone visualization"
+      - "Blend weight display"
+      - "Animation event markers"
+    complexity: "Medium"
+
+  shader_effect:
+    name: "Shader Effect Spike"
+    description: "Validate shader effects and material systems"
+    use_when:
+      - "Custom shader development"
+      - "Complex visual effects"
+      - "Cross-platform shader concerns"
+    isolation_approach:
+      - "Simple test scene with shader"
+      - "Parameter controls"
+      - "Platform testing"
+    typical_validations:
+      - "Visual quality acceptable"
+      - "Performance impact"
+      - "Platform compatibility"
+    success_criteria_examples:
+      - "Looks correct on all platforms"
+      - "< Xms GPU time"
+      - "No shader compile errors"
+    visualization_approaches:
+      - "RenderDoc capture"
+      - "GPU profiler"
+      - "Visual comparison across platforms"
+      - "Parameter tweaking UI"
+    complexity: "Small to Medium"
+
+  ui_framework:
+    name: "UI Framework Spike"
+    description: "Validate UI framework choice and patterns"
+    use_when:
+      - "Evaluating UI frameworks"
+      - "Complex UI requirements"
+      - "Performance-critical UI"
+    isolation_approach:
+      - "Prototype key UI elements"
+      - "Test with representative content"
+      - "Input testing"
+    typical_validations:
+      - "Workflow is efficient"
+      - "Performance acceptable"
+      - "Accessibility supported"
+    success_criteria_examples:
+      - "Can build required UI elements"
+      - "60fps with UI active"
+      - "Controller navigation works"
+    visualization_approaches:
+      - "UI profiler"
+      - "Layout debugging"
+      - "Input event logging"
+    complexity: "Small to Medium"
+
+  audio_integration:
+    name: "Audio Integration Spike"
+    description: "Validate audio system integration and middleware"
+    use_when:
+      - "Using audio middleware (FMOD, Wwise)"
+      - "3D spatial audio"
+      - "Complex audio behavior"
+    isolation_approach:
+      - "Test scene with audio triggers"
+      - "Profiler integration"
+      - "Platform testing"
+    typical_validations:
+      - "Audio plays correctly"
+      - "3D positioning works"
+      - "Performance impact acceptable"
+    success_criteria_examples:
+      - "All audio events trigger correctly"
+      - "3D audio positioned accurately"
+      - "< Xms audio processing time"
+    visualization_approaches:
+      - "Audio source gizmos"
+      - "Listener position visualization"
+      - "Audio profiler"
+      - "Waveform display"
+    complexity: "Small to Medium"
+
+# Complexity Estimates (for planning purposes only)
+# Small: 1-2 days focused work
+# Medium: 3-5 days focused work
+# Large: 1-2 weeks focused work
+
+complexity_guidance:
+  small:
+    description: "Straightforward validation with clear success criteria"
+    typical_duration: "1-2 days"
+    examples:
+      - "Shader effect test"
+      - "UI framework prototype"
+      - "Audio integration test"
+  medium:
+    description: "Multiple components or moderate complexity"
+    typical_duration: "3-5 days"
+    examples:
+      - "CPU algorithm validation"
+      - "Procedural generation quality"
+      - "Animation state machine"
+  large:
+    description: "Complex system interaction or algorithmic challenge"
+    typical_duration: "1-2 weeks"
+    examples:
+      - "Networking synchronization"
+      - "Full mesh generation pipeline"
+      - "Cross-platform compute shaders"

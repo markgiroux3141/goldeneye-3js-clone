@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "levelType": "sandbox",
+  "spawn": { "x": 0, "y": 1, "z": 5 },
+  "music": "/music/102 Facility.mp3",
+  "fog": { "color": { "r": 154, "g": 168, "b": 184 }, "near": 40, "far": 150 },
+  "objects": []
+}

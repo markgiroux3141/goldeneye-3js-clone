@@ -1,0 +1,273 @@
+# Risk Categories for Technical Spike Planning (Game Development)
+# Extends standard risk categories with game-specific concerns
+
+# Standard Risk Categories (inherited from BMM)
+risk_categories:
+  novelty:
+    name: "Novelty Risk"
+    description: "Team has limited experience with this technology or approach"
+    severity_base: 3
+    triggers:
+      - "new technology"
+      - "unfamiliar"
+      - "experimental"
+      - "first time"
+      - "never used"
+      - "learning curve"
+    assessment_questions:
+      - "Has the team used this technology in production before?"
+      - "Is there established documentation and community support?"
+      - "Are there known pitfalls or gotchas?"
+    mitigation_approaches:
+      - "Build minimal proof-of-concept first"
+      - "Allocate learning time before implementation"
+      - "Identify fallback technologies"
+
+  integration:
+    name: "Integration Risk"
+    description: "Integration with external systems, plugins, or services"
+    severity_base: 2
+    triggers:
+      - "plugin"
+      - "third-party"
+      - "SDK"
+      - "external service"
+      - "multiplayer backend"
+      - "analytics"
+      - "monetization"
+    assessment_questions:
+      - "Is the plugin stable and well-documented?"
+      - "What are the platform restrictions?"
+      - "How do we handle service outages?"
+    mitigation_approaches:
+      - "Build integration spike with real plugin"
+      - "Test on all target platforms"
+      - "Verify performance impact"
+
+  complexity:
+    name: "Complexity Risk"
+    description: "Inherent algorithmic or system complexity"
+    severity_base: 3
+    triggers:
+      - "algorithm"
+      - "optimization"
+      - "procedural"
+      - "generation"
+      - "pathfinding"
+      - "AI behavior"
+      - "state machine"
+    assessment_questions:
+      - "Is this a well-understood algorithm with known solutions?"
+      - "Are there edge cases that could cause issues?"
+      - "What are the worst-case performance characteristics?"
+    mitigation_approaches:
+      - "Implement algorithm in isolation first"
+      - "Test edge cases thoroughly"
+      - "Profile worst-case scenarios"
+
+  dependency:
+    name: "Dependency Risk"
+    description: "Critical path dependencies that could block progress"
+    severity_base: 2
+    triggers:
+      - "depends on"
+      - "requires"
+      - "blocks"
+      - "prerequisite"
+      - "before we can"
+    assessment_questions:
+      - "What happens if this dependency is delayed?"
+      - "Is there a fallback or workaround?"
+      - "Can we mock the dependency?"
+    mitigation_approaches:
+      - "Identify and validate dependencies early"
+      - "Create mocks for dependent systems"
+      - "Plan parallel workstreams"
+
+# Game-Specific Risk Categories
+game_risk_categories:
+  frame_budget:
+    name: "Frame Budget Risk"
+    description: "Operations that may exceed frame budget and cause stutters or frame drops"
+    severity_base: 3
+    triggers:
+      - "compute shader"
+      - "GPU"
+      - "rendering"
+      - "particles"
+      - "physics"
+      - "every frame"
+      - "update loop"
+      - "draw calls"
+      - "batching"
+      - "instancing"
+      - "culling"
+      - "LOD"
+      - "mesh generation"
+      - "real-time"
+    assessment_questions:
+      - "What is the expected CPU/GPU time for this operation?"
+      - "How does this scale with scene complexity?"
+      - "Can this be amortized across frames?"
+      - "What is the target frame budget for this system?"
+    thresholds:
+      60fps: "16.67ms total frame budget"
+      30fps: "33.33ms total frame budget"
+      system_budget: "Typically 2-4ms per major system"
+    mitigation_approaches:
+      - "Profile on minimum spec hardware"
+      - "Test with worst-case scene complexity"
+      - "Build frame budget spike with profiler integration"
+      - "Consider async/job system offloading"
+
+  visual_fidelity:
+    name: "Visual Fidelity Risk"
+    description: "Visual results may not match expectations or have quality issues"
+    severity_base: 2
+    triggers:
+      - "procedural generation"
+      - "noise"
+      - "mesh generation"
+      - "marching cubes"
+      - "terrain"
+      - "LOD transition"
+      - "seamless"
+      - "tiling"
+      - "artifacts"
+      - "shader"
+      - "material"
+      - "lighting"
+    assessment_questions:
+      - "What are the visual quality requirements?"
+      - "How will we validate visual correctness?"
+      - "Are LOD transitions acceptable?"
+      - "Are there visible seams or artifacts?"
+    mitigation_approaches:
+      - "Build visual spike with debug rendering"
+      - "Create reference images for comparison"
+      - "Test at multiple quality settings"
+      - "Validate with art team"
+
+  input_latency:
+    name: "Input Latency Risk"
+    description: "Input-to-response timing critical for game feel"
+    severity_base: 3
+    triggers:
+      - "player input"
+      - "responsive"
+      - "frame-perfect"
+      - "input lag"
+      - "controller"
+      - "feel"
+      - "tight controls"
+      - "action game"
+      - "fighting game"
+      - "rhythm"
+    assessment_questions:
+      - "What is the acceptable input-to-response time?"
+      - "Does this need to be frame-perfect?"
+      - "How does network latency affect this?"
+      - "Is input buffering appropriate?"
+    thresholds:
+      excellent: "< 50ms input-to-visual"
+      acceptable: "50-100ms"
+      noticeable: "100-150ms"
+      problematic: "> 150ms"
+    mitigation_approaches:
+      - "Measure input-to-visual latency"
+      - "Test on target hardware"
+      - "Consider input prediction"
+      - "Profile input processing pipeline"
+
+  platform_divergence:
+    name: "Platform Divergence Risk"
+    description: "Behavior may vary significantly across target platforms"
+    severity_base: 2
+    triggers:
+      - "cross-platform"
+      - "mobile"
+      - "console"
+      - "PC"
+      - "shader compatibility"
+      - "compute shader"
+      - "graphics API"
+      - "Vulkan"
+      - "Metal"
+      - "DirectX"
+      - "OpenGL"
+      - "minimum spec"
+    assessment_questions:
+      - "What are all target platforms?"
+      - "Are there known shader compatibility issues?"
+      - "What are the minimum specs per platform?"
+      - "Does this feature work on mobile?"
+    mitigation_approaches:
+      - "Test spike on all target platforms"
+      - "Create platform-specific fallbacks"
+      - "Use feature detection"
+      - "Test on minimum spec hardware"
+
+  networking:
+    name: "Networking Risk"
+    description: "Network-dependent features with latency, synchronization, or reliability concerns"
+    severity_base: 3
+    triggers:
+      - "multiplayer"
+      - "network"
+      - "synchronization"
+      - "replication"
+      - "authoritative"
+      - "client prediction"
+      - "lag compensation"
+      - "rollback"
+      - "P2P"
+      - "dedicated server"
+    assessment_questions:
+      - "What networking model is being used?"
+      - "How is state synchronized?"
+      - "What happens with high latency?"
+      - "How do we handle cheating/security?"
+    mitigation_approaches:
+      - "Build networking spike with simulated latency"
+      - "Test with artificial packet loss"
+      - "Validate synchronization with multiple clients"
+      - "Profile bandwidth usage"
+
+  memory:
+    name: "Memory Risk"
+    description: "Memory-intensive operations that may exceed platform limits"
+    severity_base: 2
+    triggers:
+      - "streaming"
+      - "large world"
+      - "open world"
+      - "texture memory"
+      - "mesh memory"
+      - "pooling"
+      - "allocation"
+      - "garbage collection"
+      - "console memory"
+      - "mobile memory"
+    assessment_questions:
+      - "What are the memory budgets per platform?"
+      - "How does memory usage scale?"
+      - "Are there GC spikes?"
+      - "Is memory being pooled appropriately?"
+    mitigation_approaches:
+      - "Profile memory on target platforms"
+      - "Test with worst-case content loaded"
+      - "Monitor for GC spikes"
+      - "Implement object pooling"
+
+# Severity Scoring (same as BMM)
+# Probability (1-3) x Impact (1-3) = Severity (1-9)
+# 1-3: DOCUMENT - Awareness only, no spike required
+# 4-5: CONSIDER - Spike recommended but optional
+# 6-8: REQUIRED - Spike required before implementation
+# 9: CRITICAL - Spike required, may need architecture review
+
+severity_thresholds:
+  document: 3
+  consider: 5
+  required: 8
+  critical: 9

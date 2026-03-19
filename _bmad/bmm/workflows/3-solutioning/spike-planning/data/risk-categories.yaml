@@ -1,0 +1,184 @@
+# Risk Categories for Technical Spike Planning
+# Used to identify high-risk components that need isolated validation
+
+risk_categories:
+  novelty:
+    name: "Novelty Risk"
+    description: "Team has limited experience with this technology or approach"
+    severity_base: 3
+    triggers:
+      - "new technology"
+      - "unfamiliar"
+      - "experimental"
+      - "first time"
+      - "never used"
+      - "learning curve"
+      - "cutting edge"
+      - "emerging"
+    assessment_questions:
+      - "Has the team used this technology in production before?"
+      - "Is there established documentation and community support?"
+      - "Are there known pitfalls or gotchas?"
+      - "Do we have access to expertise if we get stuck?"
+    mitigation_approaches:
+      - "Build minimal proof-of-concept first"
+      - "Allocate learning time before implementation"
+      - "Identify fallback technologies"
+
+  integration:
+    name: "Integration Risk"
+    description: "Integration with external systems, APIs, or third-party services"
+    severity_base: 2
+    triggers:
+      - "API"
+      - "third-party"
+      - "SDK"
+      - "external service"
+      - "integration"
+      - "webhook"
+      - "OAuth"
+      - "authentication"
+    assessment_questions:
+      - "Is the API stable and well-documented?"
+      - "What is the SLA/reliability of the service?"
+      - "How do we handle service outages?"
+      - "Are there rate limits or quotas?"
+      - "What happens if the vendor changes their API?"
+    mitigation_approaches:
+      - "Build integration spike with real API calls"
+      - "Test error handling and edge cases"
+      - "Verify rate limits and performance"
+      - "Create abstraction layer for vendor independence"
+
+  performance:
+    name: "Performance Risk"
+    description: "Performance-critical requirements that may be difficult to meet"
+    severity_base: 3
+    triggers:
+      - "real-time"
+      - "high throughput"
+      - "low latency"
+      - "scalability"
+      - "concurrent"
+      - "batch processing"
+      - "large dataset"
+      - "streaming"
+    assessment_questions:
+      - "What are the specific performance requirements?"
+      - "How will we measure performance?"
+      - "What is the expected load?"
+      - "Are there hard deadlines or SLAs?"
+    mitigation_approaches:
+      - "Build performance benchmark spike"
+      - "Test with realistic data volumes"
+      - "Profile and identify bottlenecks early"
+      - "Establish performance baselines"
+
+  complexity:
+    name: "Complexity Risk"
+    description: "Inherent algorithmic or system complexity that may be underestimated"
+    severity_base: 3
+    triggers:
+      - "distributed"
+      - "concurrent"
+      - "stateful"
+      - "eventual consistency"
+      - "consensus"
+      - "synchronization"
+      - "race condition"
+      - "deadlock"
+      - "algorithm"
+      - "optimization"
+    assessment_questions:
+      - "Is this a well-understood problem with known solutions?"
+      - "Are there edge cases that could cause issues?"
+      - "How do we handle partial failures?"
+      - "What are the consistency requirements?"
+    mitigation_approaches:
+      - "Implement algorithm in isolation first"
+      - "Test edge cases thoroughly"
+      - "Consider simpler alternatives"
+      - "Build state machine visualization"
+
+  dependency:
+    name: "Dependency Risk"
+    description: "Critical path dependencies that could block progress"
+    severity_base: 2
+    triggers:
+      - "depends on"
+      - "requires"
+      - "blocks"
+      - "prerequisite"
+      - "waiting for"
+      - "before we can"
+      - "critical path"
+    assessment_questions:
+      - "What happens if this dependency is delayed?"
+      - "Is there a fallback or workaround?"
+      - "Can we mock or stub the dependency?"
+      - "Who owns the dependency?"
+    mitigation_approaches:
+      - "Identify and validate dependencies early"
+      - "Create mocks for dependent systems"
+      - "Establish clear interfaces upfront"
+      - "Plan parallel workstreams where possible"
+
+  data:
+    name: "Data Risk"
+    description: "Data migration, transformation, or integrity concerns"
+    severity_base: 2
+    triggers:
+      - "migration"
+      - "transformation"
+      - "ETL"
+      - "data integrity"
+      - "schema change"
+      - "backwards compatible"
+      - "data loss"
+    assessment_questions:
+      - "What is the volume of data to migrate?"
+      - "How do we validate data integrity?"
+      - "What is the rollback strategy?"
+      - "Can we test with production-like data?"
+    mitigation_approaches:
+      - "Build data migration spike with sample data"
+      - "Create validation scripts"
+      - "Test rollback procedures"
+      - "Establish data quality metrics"
+
+  security:
+    name: "Security Risk"
+    description: "Security-sensitive functionality that requires careful implementation"
+    severity_base: 3
+    triggers:
+      - "authentication"
+      - "authorization"
+      - "encryption"
+      - "sensitive data"
+      - "PII"
+      - "compliance"
+      - "audit"
+      - "credentials"
+    assessment_questions:
+      - "What security standards must we comply with?"
+      - "How will we handle sensitive data?"
+      - "What is the threat model?"
+      - "Who will review the security implementation?"
+    mitigation_approaches:
+      - "Build security spike with penetration testing"
+      - "Get security review early"
+      - "Use established security libraries"
+      - "Document security decisions"
+
+# Severity Scoring
+# Probability (1-3) x Impact (1-3) = Severity (1-9)
+# 1-3: DOCUMENT - Awareness only, no spike required
+# 4-5: CONSIDER - Spike recommended but optional
+# 6-8: REQUIRED - Spike required before implementation
+# 9: CRITICAL - Spike required, may need architecture review
+
+severity_thresholds:
+  document: 3
+  consider: 5
+  required: 8
+  critical: 9

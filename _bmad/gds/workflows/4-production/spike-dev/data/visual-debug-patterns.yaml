@@ -1,0 +1,210 @@
+# Visual Debugging Patterns for Game Development Spikes
+# Engine-specific approaches for debugging and visualization
+
+debug_visualization:
+  unity:
+    gizmos:
+      description: "OnDrawGizmos for editor visualization"
+      usage: |
+        void OnDrawGizmos() {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireCube(transform.position, size);
+        }
+      best_for:
+        - "Spatial structures (octree, bounds)"
+        - "Paths and waypoints"
+        - "Collision volumes"
+      tips:
+        - "Use OnDrawGizmosSelected for less clutter"
+        - "Use Handles for interactive elements"
+        - "Color-code by state or level"
+
+    debug_draw:
+      description: "Debug.DrawLine/DrawRay for runtime"
+      usage: |
+        Debug.DrawLine(start, end, Color.red, duration);
+        Debug.DrawRay(origin, direction, Color.blue);
+      best_for:
+        - "Runtime paths"
+        - "Velocity vectors"
+        - "Ray traces"
+      tips:
+        - "Set duration > 0 for persistent lines"
+        - "Use in Update() or FixedUpdate()"
+
+    debug_ui:
+      description: "OnGUI or UI Toolkit for overlays"
+      usage: |
+        void OnGUI() {
+            GUI.Label(new Rect(10, 10, 200, 20), $"FPS: {1/Time.deltaTime:F1}");
+        }
+      best_for:
+        - "Frame timing display"
+        - "State information"
+        - "Parameter tuning sliders"
+
+    profiler_markers:
+      description: "Custom profiler markers"
+      usage: |
+        using (new ProfilerMarker("MySpike").Auto()) {
+            // Code to profile
+        }
+      best_for:
+        - "Precise timing measurement"
+        - "Identifying hotspots"
+
+  unreal:
+    draw_debug:
+      description: "DrawDebug* functions"
+      usage: |
+        DrawDebugBox(GetWorld(), Center, Extent, FColor::Green, false, -1.f, 0, 2.f);
+        DrawDebugLine(GetWorld(), Start, End, FColor::Red, false, -1.f, 0, 1.f);
+      best_for:
+        - "Spatial structures"
+        - "AI paths"
+        - "Physics shapes"
+      tips:
+        - "Use bPersistentLines for persistent viz"
+        - "LifeTime -1 for permanent until cleared"
+
+    visual_logger:
+      description: "UE Visual Logger"
+      usage: |
+        UE_VLOG_LOCATION(Owner, LogCategory, Verbose, Location, 50.f, FColor::Blue, TEXT("Label"));
+      best_for:
+        - "AI behavior debugging"
+        - "State tracking over time"
+        - "Event sequences"
+      tips:
+        - "Enable with 'vislog' console command"
+        - "Scrub through time in Visual Logger window"
+
+    stat_commands:
+      description: "Console stat commands"
+      commands:
+        - "stat fps - Show FPS"
+        - "stat unit - Frame time breakdown"
+        - "stat gpu - GPU timing"
+        - "stat scenerendering - Render thread"
+        - "stat memory - Memory usage"
+
+    insights:
+      description: "Unreal Insights profiling"
+      usage: |
+        TRACE_CPUPROFILER_EVENT_SCOPE(MySpikeFunction);
+        TRACE_BOOKMARK(TEXT("SpikeStart"));
+      best_for:
+        - "Detailed CPU profiling"
+        - "Timeline analysis"
+        - "Multi-frame patterns"
+
+  godot:
+    draw_functions:
+      description: "_draw() for 2D/3D visualization"
+      usage: |
+        func _draw():
+            draw_line(start, end, Color.RED, 2.0)
+            draw_circle(position, radius, Color.BLUE)
+      best_for:
+        - "2D debug overlays"
+        - "Path visualization"
+        - "Area indicators"
+      tips:
+        - "Call queue_redraw() to trigger update"
+        - "Use in CanvasItem-derived nodes"
+
+    immediate_mesh:
+      description: "ImmediateMesh for 3D debug"
+      usage: |
+        var mesh = ImmediateMesh.new()
+        mesh.surface_begin(Mesh.PRIMITIVE_LINES)
+        mesh.surface_add_vertex(start)
+        mesh.surface_add_vertex(end)
+        mesh.surface_end()
+      best_for:
+        - "3D wireframes"
+        - "Dynamic debug geometry"
+
+    debug_draw_addon:
+      description: "DebugDraw3D addon (recommended)"
+      install: "Asset Library: DebugDraw3D"
+      usage: |
+        DebugDraw3D.draw_box(position, size, color)
+        DebugDraw3D.draw_sphere(position, radius)
+      best_for:
+        - "Quick 3D debug shapes"
+        - "No setup required"
+
+    print_debug:
+      description: "Print statements"
+      usage: |
+        print("Value: ", value)
+        print_debug("Spike reached checkpoint")
+      tips:
+        - "Use print_verbose for detailed logs"
+        - "Check Output panel"
+
+# Frame budget debugging
+frame_budget_debugging:
+  setup:
+    - "Display frame time on screen during spike"
+    - "Profile multiple frames, not just one"
+    - "Test on target hardware, not dev machine"
+    - "Disable VSync to see true frame time"
+
+  measurement:
+    unity: |
+      // Add to Update()
+      float frameTime = Time.deltaTime * 1000f;
+      Debug.Log($"Frame: {frameTime:F2}ms");
+    unreal: |
+      // In Tick()
+      float FrameTime = DeltaTime * 1000.f;
+      GEngine->AddOnScreenDebugMessage(-1, 0.f, FColor::Yellow,
+          FString::Printf(TEXT("Frame: %.2fms"), FrameTime));
+    godot: |
+      # In _process()
+      var frame_time = delta * 1000.0
+      print("Frame: %.2fms" % frame_time)
+
+  thresholds:
+    60fps: "< 16.67ms (target 12-14ms for headroom)"
+    30fps: "< 33.33ms (target 28-30ms for headroom)"
+    budget_per_system: "2-4ms typical allocation per major system"
+
+# Common spike visualization patterns
+spike_patterns:
+  marching_cubes:
+    visualization:
+      - "Gizmo wireframe for chunk bounds"
+      - "Vertex colors by normal direction"
+      - "Triangle count overlay"
+      - "Edge cases highlighted in red"
+
+  octree_structure:
+    visualization:
+      - "Wireframe boxes for each node"
+      - "Color by depth level"
+      - "Highlight occupied vs empty"
+      - "Show query results in different color"
+
+  noise_generation:
+    visualization:
+      - "2D texture preview of noise values"
+      - "Color gradient for value range"
+      - "Slice visualization for 3D noise"
+      - "Histogram of value distribution"
+
+  pathfinding:
+    visualization:
+      - "NavMesh/grid overlay"
+      - "Path as colored line"
+      - "Open/closed sets in different colors"
+      - "Cost values as debug text"
+
+  physics_simulation:
+    visualization:
+      - "Collision shapes as wireframes"
+      - "Velocity vectors as arrows"
+      - "Contact points as spheres"
+      - "Forces as colored arrows"

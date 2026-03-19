@@ -1,0 +1,208 @@
+# Isolation Guidance for Game Development Spike Execution
+# Includes engine-specific setup guidance
+
+isolation_approaches:
+  console_script:
+    name: "Console/Script"
+    description: "Standalone script or editor tool"
+    best_for:
+      - "Algorithm validation (CPU)"
+      - "Data transformation logic"
+      - "Tool/pipeline testing"
+      - "Pure computation without rendering"
+    setup_guidance:
+      unity:
+        - "Create Editor script in `Assets/Editor/Spikes/{spike-name}/`"
+        - "Use `[MenuItem]` attribute for easy access"
+        - "Add timing with `System.Diagnostics.Stopwatch`"
+      unreal:
+        - "Create Editor Utility Blueprint or C++ command"
+        - "Use `UFUNCTION(Exec)` for console commands"
+        - "Add timing with `FPlatformTime::Seconds()`"
+      godot:
+        - "Create tool script with `@tool` annotation"
+        - "Use `Time.get_ticks_msec()` for timing"
+    cleanup: "Delete spike folder or keep for reference"
+    recommended_for_patterns:
+      - "cpu_algorithm"
+      - "data_transformation"
+
+  test_scene:
+    name: "Test Scene/Level"
+    description: "Isolated scene within the game project"
+    best_for:
+      - "Rendering validation"
+      - "Visual debugging with gizmos"
+      - "Frame budget testing"
+      - "Shader development"
+      - "Procedural generation visualization"
+    setup_guidance:
+      unity:
+        - "Create new Scene: `Assets/Scenes/Spikes/Spike_{name}.unity`"
+        - "Add empty GameObject with spike script"
+        - "Enable Gizmos in Scene view"
+        - "Open Profiler window (Window > Analysis > Profiler)"
+      unreal:
+        - "Create new Level: `Content/Spikes/Spike_{name}`"
+        - "Add Actor with spike component"
+        - "Enable Debug Drawing in viewport"
+        - "Open Session Frontend for profiling"
+      godot:
+        - "Create new Scene: `res://spikes/spike_{name}.tscn`"
+        - "Add Node with spike script"
+        - "Use `_draw()` for debug visualization"
+        - "Open Debugger > Monitors for profiling"
+    cleanup: "Delete scene file or keep for reference"
+    recommended_for_patterns:
+      - "gpu_port"
+      - "procedural_generation"
+      - "spatial_structure"
+      - "mesh_generation"
+      - "shader_effect"
+
+  test_project:
+    name: "Test Project"
+    description: "Completely separate game project"
+    best_for:
+      - "Plugin/package evaluation"
+      - "Engine feature testing"
+      - "Clean performance baselines"
+      - "Build pipeline testing"
+    setup_guidance:
+      unity:
+        - "Create new project at `../SpikeProject_{name}/`"
+        - "Use minimal template (3D Core or 2D Core)"
+        - "Copy only necessary packages"
+      unreal:
+        - "Create new project at `../SpikeProject_{name}/`"
+        - "Use Blank template"
+        - "Enable only needed plugins"
+      godot:
+        - "Create new project at `../SpikeProject_{name}/`"
+        - "Use minimal project settings"
+    cleanup: "Delete project folder when spike complete"
+    recommended_for_patterns:
+      - "infrastructure_proof"
+      - "networking_sync"
+
+  sandbox_branch:
+    name: "Sandbox Branch"
+    description: "Git branch for throwaway exploration"
+    best_for:
+      - "Integration with existing game systems"
+      - "Refactoring exploration"
+      - "Feature feasibility in full context"
+      - "When you need real project structure"
+    setup_guidance:
+      all_engines:
+        - "Create branch: `git checkout -b spike/{spike-name}`"
+        - "Make changes freely - this branch will be deleted"
+        - "Do NOT merge to main - extract learnings only"
+        - "Commit frequently with descriptive messages"
+    cleanup: |
+      After documenting learnings:
+      git checkout main
+      git branch -D spike/{spike-name}
+    recommended_for_patterns:
+      - "architecture_slice"
+      - "performance_baseline"
+      - "animation_integration"
+      - "audio_integration"
+
+# Pattern-to-isolation mapping for game development
+pattern_recommendations:
+  cpu_algorithm:
+    primary: "console_script"
+    rationale: "CPU algorithms can be validated in editor without rendering"
+
+  gpu_port:
+    primary: "test_scene"
+    rationale: "GPU work needs rendering context and profiler access"
+
+  procedural_generation:
+    primary: "test_scene"
+    rationale: "Need visual feedback and frame profiling"
+
+  spatial_structure:
+    primary: "test_scene"
+    rationale: "Gizmo visualization essential for octree/BVH debugging"
+
+  mesh_generation:
+    primary: "test_scene"
+    rationale: "Need to see and profile generated meshes"
+
+  shader_effect:
+    primary: "test_scene"
+    rationale: "Shaders need rendering context"
+
+  physics_validation:
+    primary: "test_scene"
+    rationale: "Physics needs runtime and debug visualization"
+
+  networking_sync:
+    primary: "test_project"
+    rationale: "Networking often needs clean test environment"
+
+  animation_integration:
+    primary: "sandbox_branch"
+    rationale: "Animation often depends on existing rigs/characters"
+
+  audio_integration:
+    primary: "sandbox_branch"
+    rationale: "Audio middleware needs project configuration"
+
+# Validation approach guidance (game-specific)
+validation_approaches:
+  automated_test:
+    description: "Write and run automated tests"
+    when_to_use:
+      - "Criterion has deterministic expected output"
+      - "Can be verified programmatically"
+    how_to_validate:
+      - "Write PlayMode or EditMode test (Unity)"
+      - "Write Automation test (Unreal)"
+      - "Write GDScript unit test (Godot)"
+
+  manual_inspection:
+    description: "User visually verifies criterion"
+    when_to_use:
+      - "Visual quality assessment"
+      - "LOD transition evaluation"
+      - "Animation feel verification"
+    how_to_validate:
+      - "Present what to look for"
+      - "User confirms pass/fail"
+      - "Capture screenshots if helpful"
+
+  frame_profiling:
+    description: "Measure frame timing and GPU/CPU budget"
+    when_to_use:
+      - "Frame budget validation"
+      - "Performance comparison"
+      - "Identifying bottlenecks"
+    how_to_validate:
+      unity: "Use Profiler window, record 100+ frames, check average"
+      unreal: "Use stat unit, stat gpu, Unreal Insights"
+      godot: "Use Debugger > Monitors, check frame time"
+
+  gpu_profiling:
+    description: "Detailed GPU analysis"
+    when_to_use:
+      - "Shader performance"
+      - "Draw call analysis"
+      - "GPU memory usage"
+    how_to_validate:
+      - "RenderDoc frame capture"
+      - "PIX (Windows/Xbox)"
+      - "Platform-specific GPU profilers"
+
+  visual_diff:
+    description: "Compare visual output against reference"
+    when_to_use:
+      - "Visual correctness validation"
+      - "LOD quality comparison"
+      - "Shader output verification"
+    how_to_validate:
+      - "Capture reference screenshot"
+      - "Capture spike output screenshot"
+      - "Compare side by side"

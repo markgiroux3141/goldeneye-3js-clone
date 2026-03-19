@@ -1,0 +1,143 @@
+# Isolation Guidance for Spike Development
+# Helps select appropriate isolation approach based on spike type
+
+isolation_approaches:
+  console_script:
+    name: "Console/Script"
+    description: "Standalone script or console application"
+    best_for:
+      - "Algorithm validation"
+      - "Data transformation logic"
+      - "API integration testing"
+      - "Pure computation without UI"
+    setup_guidance:
+      - "Create a new file at `spikes/{spike-name}/main.{ext}`"
+      - "Add minimal dependencies only"
+      - "Include test data inline or in adjacent file"
+      - "Add timing/profiling instrumentation"
+    cleanup: "Delete spike folder or keep for reference"
+    recommended_for_patterns:
+      - "algorithm_proof"
+      - "api_integration"
+      - "data_transformation"
+
+  test_project:
+    name: "Test Project"
+    description: "Completely separate project for the spike"
+    best_for:
+      - "Infrastructure validation"
+      - "Framework evaluation"
+      - "Deployment testing"
+      - "Complex dependency scenarios"
+    setup_guidance:
+      - "Create new project at `../spike-{name}/` (outside main repo)"
+      - "Use minimal project template"
+      - "Document setup steps for reproducibility"
+      - "Consider containerization if deployment-related"
+    cleanup: "Delete project folder when spike complete"
+    recommended_for_patterns:
+      - "infrastructure_proof"
+      - "architecture_slice"
+
+  sandbox_branch:
+    name: "Sandbox Branch"
+    description: "Git branch for throwaway exploration"
+    best_for:
+      - "Integration with existing codebase"
+      - "Refactoring exploration"
+      - "Feature feasibility in context"
+      - "When you need real project structure"
+    setup_guidance:
+      - "Create branch: `git checkout -b spike/{spike-name}`"
+      - "Make changes freely - this branch will be deleted"
+      - "Do NOT merge to main - extract learnings only"
+      - "Commit frequently with descriptive messages"
+    cleanup: |
+      After documenting learnings:
+      git checkout main
+      git branch -D spike/{spike-name}
+    recommended_for_patterns:
+      - "architecture_slice"
+      - "performance_baseline"
+      - "security_validation"
+
+# Pattern-to-isolation mapping
+pattern_recommendations:
+  algorithm_proof:
+    primary: "console_script"
+    rationale: "Algorithms can be validated in isolation without project context"
+
+  api_integration:
+    primary: "console_script"
+    rationale: "API calls don't need full project, just HTTP client"
+
+  data_transformation:
+    primary: "console_script"
+    rationale: "Data transforms are pure functions, test in isolation"
+
+  architecture_slice:
+    primary: "sandbox_branch"
+    rationale: "Need real project structure to validate cross-cutting concerns"
+
+  performance_baseline:
+    primary: "sandbox_branch"
+    rationale: "Performance must be measured in realistic context"
+
+  infrastructure_proof:
+    primary: "test_project"
+    rationale: "Infrastructure changes need clean environment"
+
+  security_validation:
+    primary: "sandbox_branch"
+    rationale: "Security often depends on project configuration"
+
+  concurrency_proof:
+    primary: "console_script"
+    rationale: "Concurrency can be tested with synthetic load"
+
+# Validation approach guidance
+validation_approaches:
+  automated_test:
+    description: "Write and run automated tests"
+    when_to_use:
+      - "Criterion has deterministic expected output"
+      - "Can be verified programmatically"
+    how_to_validate:
+      - "Write test case with assertion"
+      - "Run test, capture pass/fail result"
+      - "Record any error messages on failure"
+
+  manual_inspection:
+    description: "User visually verifies criterion"
+    when_to_use:
+      - "Visual quality assessment"
+      - "Subjective evaluation"
+      - "Complex output that's hard to assert"
+    how_to_validate:
+      - "Present what to look for"
+      - "User confirms pass/fail"
+      - "Capture notes on observation"
+
+  profiling:
+    description: "Measure performance metrics"
+    when_to_use:
+      - "Performance thresholds"
+      - "Memory usage limits"
+      - "Timing requirements"
+    how_to_validate:
+      - "Guide user to profiling tool"
+      - "User captures measurement"
+      - "Compare against threshold"
+      - "Record actual measurement"
+
+  log_analysis:
+    description: "Verify behavior through logs"
+    when_to_use:
+      - "Event sequences"
+      - "Error handling paths"
+      - "State transitions"
+    how_to_validate:
+      - "Enable verbose logging"
+      - "Run scenario"
+      - "Analyze log output"
+      - "Verify expected entries present"

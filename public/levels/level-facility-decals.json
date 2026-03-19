@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "levelType": "facility",
+  "include": [
+    "primary_Room06_5",
+    "primary_Room08_7",
+    "primary_Room08_9",
+    "primary_Room0C_11",
+    "primary_Room1D_6",
+    "primary_Room38_13",
+    "primary_Room39_15",
+    "primary_Room3E_9",
+    "primary_Room42_16",
+    "primary_Room42_18",
+    "primary_Room42_19",
+    "primary_Room43_9",
+    "primary_Room47_8"
+  ],
+  "exclude": []
+}

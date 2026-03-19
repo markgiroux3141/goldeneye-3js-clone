@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "levelType": "aztec",
+  "spawn": { "x": 77.2, "y": 1, "z": -0.1 },
+  "music": "/music/119 Aztec.mp3",
+  "fog": { "color": { "r": 138, "g": 144, "b": 112 }, "near": 20, "far": 80 },
+  "objects": []
+}

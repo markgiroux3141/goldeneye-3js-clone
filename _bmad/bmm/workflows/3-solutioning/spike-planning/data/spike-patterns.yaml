@@ -1,0 +1,202 @@
+# Spike Patterns for Technical Validation
+# Common patterns for designing isolated proof-of-concept experiments
+
+spike_patterns:
+  api_integration:
+    name: "API Integration Spike"
+    description: "Validate external API integration works as expected"
+    use_when:
+      - "Integrating with third-party API"
+      - "Using unfamiliar SDK"
+      - "Uncertain about API behavior or limits"
+    isolation_approach:
+      - "Standalone script or minimal project"
+      - "No production dependencies"
+      - "Direct API calls with logging"
+    typical_validations:
+      - "Authentication flow works"
+      - "Expected data structure returned"
+      - "Error responses handled correctly"
+      - "Rate limits understood"
+      - "Timeout behavior acceptable"
+    success_criteria_examples:
+      - "Successfully authenticate and retrieve data"
+      - "Handle 4xx and 5xx errors gracefully"
+      - "Response time < Xms at expected load"
+    complexity: "Small"
+
+  algorithm_proof:
+    name: "Algorithm Proof Spike"
+    description: "Validate algorithmic approach before full implementation"
+    use_when:
+      - "Implementing complex algorithm"
+      - "Uncertain about correctness"
+      - "Performance requirements unclear"
+    isolation_approach:
+      - "Unit test harness with known inputs"
+      - "Console application for quick iteration"
+      - "Hardcoded test data"
+    typical_validations:
+      - "Produces correct output for known inputs"
+      - "Handles edge cases"
+      - "Performance acceptable for expected scale"
+    success_criteria_examples:
+      - "Output matches reference implementation"
+      - "All test cases pass"
+      - "Runs in < Xms for N items"
+    complexity: "Medium"
+
+  architecture_slice:
+    name: "Vertical Slice Spike"
+    description: "Validate cross-cutting architectural pattern end-to-end"
+    use_when:
+      - "New architectural pattern"
+      - "Validating data flow through layers"
+      - "Testing integration between components"
+    isolation_approach:
+      - "Minimal implementation of one feature"
+      - "All layers represented but minimal"
+      - "Real database/services where critical"
+    typical_validations:
+      - "Data flows correctly through all layers"
+      - "Error handling works at each boundary"
+      - "Performance acceptable end-to-end"
+    success_criteria_examples:
+      - "Request flows from UI to database and back"
+      - "Errors bubble up correctly"
+      - "Round-trip time < Xms"
+    complexity: "Medium to Large"
+
+  data_transformation:
+    name: "Data Transformation Spike"
+    description: "Validate data migration or transformation logic"
+    use_when:
+      - "Complex data migration"
+      - "Schema transformation"
+      - "ETL pipeline design"
+    isolation_approach:
+      - "Sample dataset (subset of production)"
+      - "Standalone transformation script"
+      - "Before/after comparison"
+    typical_validations:
+      - "All records transform correctly"
+      - "Edge cases handled"
+      - "No data loss"
+      - "Performance acceptable for full dataset"
+    success_criteria_examples:
+      - "100% of test records transform correctly"
+      - "Null/empty values handled"
+      - "Processes N records in < X minutes"
+    complexity: "Medium"
+
+  performance_baseline:
+    name: "Performance Baseline Spike"
+    description: "Establish performance characteristics before optimization"
+    use_when:
+      - "Performance requirements unclear"
+      - "Need to validate approach scales"
+      - "Choosing between implementation options"
+    isolation_approach:
+      - "Benchmark harness"
+      - "Realistic data volumes"
+      - "Controlled environment"
+    typical_validations:
+      - "Baseline performance measured"
+      - "Bottlenecks identified"
+      - "Scaling characteristics understood"
+    success_criteria_examples:
+      - "Handles X requests/second"
+      - "Memory usage < Y under load"
+      - "Response time < Zms at P99"
+    complexity: "Medium"
+
+  infrastructure_proof:
+    name: "Infrastructure Proof Spike"
+    description: "Validate infrastructure or deployment approach"
+    use_when:
+      - "New deployment target"
+      - "Complex infrastructure setup"
+      - "CI/CD pipeline changes"
+    isolation_approach:
+      - "Minimal deployable application"
+      - "Infrastructure-as-code scripts"
+      - "Isolated environment"
+    typical_validations:
+      - "Deployment succeeds"
+      - "Application runs correctly"
+      - "Rollback works"
+    success_criteria_examples:
+      - "Deploy and verify health check"
+      - "Rollback to previous version"
+      - "Environment variables configured correctly"
+    complexity: "Small to Medium"
+
+  security_validation:
+    name: "Security Validation Spike"
+    description: "Validate security-sensitive functionality"
+    use_when:
+      - "Implementing authentication/authorization"
+      - "Handling sensitive data"
+      - "Compliance requirements"
+    isolation_approach:
+      - "Minimal auth implementation"
+      - "Test with various attack vectors"
+      - "Security scanning tools"
+    typical_validations:
+      - "Authentication works correctly"
+      - "Authorization enforced"
+      - "No obvious vulnerabilities"
+    success_criteria_examples:
+      - "Valid credentials grant access"
+      - "Invalid credentials rejected"
+      - "Security scan passes"
+    complexity: "Medium"
+
+  concurrency_proof:
+    name: "Concurrency Proof Spike"
+    description: "Validate concurrent/parallel processing approach"
+    use_when:
+      - "Multi-threaded implementation"
+      - "Distributed processing"
+      - "Race condition concerns"
+    isolation_approach:
+      - "Stress test harness"
+      - "Concurrent operation simulation"
+      - "State inspection tooling"
+    typical_validations:
+      - "No race conditions"
+      - "No deadlocks"
+      - "Consistent state"
+    success_criteria_examples:
+      - "1000 concurrent operations complete"
+      - "Final state is consistent"
+      - "No deadlocks detected"
+    complexity: "Medium to Large"
+
+# Complexity Estimates (for planning purposes only)
+# Small: 1-2 days focused work
+# Medium: 3-5 days focused work
+# Large: 1-2 weeks focused work
+
+complexity_guidance:
+  small:
+    description: "Straightforward validation with clear success criteria"
+    typical_duration: "1-2 days"
+    examples:
+      - "API authentication test"
+      - "Single algorithm validation"
+      - "Basic deployment test"
+  medium:
+    description: "Multiple components or moderate complexity"
+    typical_duration: "3-5 days"
+    examples:
+      - "End-to-end data flow"
+      - "Performance benchmarking"
+      - "Integration with multiple services"
+  large:
+    description: "Complex system interaction or algorithmic challenge"
+    typical_duration: "1-2 weeks"
+    examples:
+      - "Full vertical slice"
+      - "Distributed system proof"
+      - "Complex algorithm implementation"
