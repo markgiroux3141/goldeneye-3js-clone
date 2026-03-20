@@ -39,6 +39,7 @@ import { ObjectReplaceSystem } from './editor/ObjectReplaceSystem';
 import { ObjectReplaceUI } from './editor/ObjectReplaceUI';
 import { getLevelConfig, getDoorScale, type LevelConfig, type LevelType } from './levels/LevelRegistry';
 import { bakeVertexColors } from './world/VertexColorBaker';
+import { HealthHUD } from './ui/HealthHUD';
 export type { LevelType } from './levels/LevelRegistry';
 
 export class Game {
@@ -53,6 +54,7 @@ export class Game {
   private n64System!: N64GraphicsSystem;
   private n64UI!: N64SettingsUI;
   private world!: World;
+  private healthHUD!: HealthHUD;
   private debugEl: HTMLElement | null = null;
   private bgMusic: HTMLAudioElement | null = null;
 
@@ -361,6 +363,16 @@ export class Game {
       console.log(`[Game] Spawned ${entities.length} objects from level-${this.levelType}.json`);
     }
 
+    // Load enemy placements from level data
+    if (this.levelData?.enemyPlacements && this.levelData.enemyPlacements.length > 0) {
+      await this.world.loadEnemyPlacements(this.levelData.enemyPlacements);
+      console.log(`[Game] Loaded ${this.levelData.enemyPlacements.length} enemy placements`);
+    }
+
+    // Health/armor HUD
+    this.healthHUD = new HealthHUD(this.world.eventBus, this.world.player, audioManager);
+    await this.healthHUD.init();
+
     // Fallback to hardcoded sandbox doors if no level file
     if (spawnedDoors === 0 && this.levelType === 'sandbox') {
       const fallbackDoors: DoorConfig[] = [
@@ -411,9 +423,16 @@ export class Game {
             this.fpsCamera.autoLevel(dt, 2.0);
           }
 
+          // Debug: press L to take damage
+          if (this.inputManager.isKeyDown('KeyL')) {
+            this.inputManager.setKeyState('KeyL', false); // consume the press
+            this.world.damageSystem.applyDamage(this.world.player, 10);
+          }
+
           this.world.update(dt);
           doorPlacer.update();
           this.weaponSystem.update(dt, mouse.dx);
+          this.healthHUD.update(dt);
           this.n64System.update(dt);
           this.physicsWorld.step();
           const p = this.playerController.getPosition();
@@ -531,6 +550,7 @@ export class Game {
       this.freeFlyCamera?.dispose();
     } else {
       this.weaponSystem?.dispose();
+      this.healthHUD?.dispose();
       this.gamepadManager?.dispose();
       this.fpsCamera?.dispose();
     }

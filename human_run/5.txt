@@ -1,1 +1,0 @@
-The door ahead is obviously where we came from, there's a door to the left which might be promising, and there's a crate to the right which might be covering something. Let's walk halfway across the room and rotate to the right so we can see what's behind the crate, if there's nothing then we'll explore the doorway we saw to the left.

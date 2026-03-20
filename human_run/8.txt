@@ -1,1 +1,0 @@
-ok, we can clearly see the start of the ramp. Let's strafe to the right until we hit the wall and then walk forward until we hit that wall and that should ensure that we're on the ramp!

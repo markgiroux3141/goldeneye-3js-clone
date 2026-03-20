@@ -13,6 +13,7 @@ import { BulletDecalManager } from './BulletDecalManager';
 import { HUD } from '../ui/HUD';
 import type { WeaponStats } from './WeaponConfig';
 import type { GamepadManager } from '../core/GamepadManager';
+import { EnemyCharacter } from '../entities/EnemyCharacter';
 import type { World } from '../core/World';
 import { Actor } from '../entities/Actor';
 
@@ -220,8 +221,15 @@ export class WeaponSystem {
       const hitEntity = this.shooting.getHitEntity(hit);
       if (hitEntity instanceof Actor && this.world) {
         this.world.damageSystem.applyDamage(hitEntity, this.config.damage, this.world.player);
+        // Trigger visual hit feedback on enemy characters
+        if (hitEntity instanceof EnemyCharacter) {
+          hitEntity.onHit(hit.point);
+          this.hud.showHitMarker();
+        }
+      } else {
+        // Only add bullet decals to static geometry, not actors
+        this.decalManager.addDecal(hit.point, hit.normal);
       }
-      this.decalManager.addDecal(hit.point, hit.normal);
     }
 
     this.hud.updateAmmo(this.slot.magazineAmmo, this.slot.reserveAmmo);

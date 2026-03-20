@@ -23,6 +23,13 @@ export class ModelCache {
     return cached.clone();
   }
 
+  /** Return the original cached model (for SkeletonUtils.clone on skinned meshes) */
+  getOriginal(url: string): THREE.Group {
+    const cached = this.cache.get(url);
+    if (!cached) throw new Error(`Model not preloaded: ${url}`);
+    return cached;
+  }
+
   has(url: string): boolean {
     return this.cache.has(url);
   }

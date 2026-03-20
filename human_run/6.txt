@@ -1,1 +1,0 @@
-It looks like there's a ramp in there! That seems very promising, we should check this room first. If it turns out to be nothing, then we'll check the other room after. Let's aim ourselves directly through the doorway and raycast, then walk forward until we hit something.

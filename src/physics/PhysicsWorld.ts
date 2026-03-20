@@ -37,6 +37,15 @@ export class PhysicsWorld {
     return this.world.createRigidBody(desc);
   }
 
+  createEnemyCharacterController(): RAPIER_API.KinematicCharacterController {
+    const c = this.world.createCharacterController(0.01);
+    c.enableAutostep(0.3, 0.15, false);
+    c.setMaxSlopeClimbAngle((45 * Math.PI) / 180);
+    c.setSlideEnabled(true);
+    c.enableSnapToGround(0.3);
+    return c;
+  }
+
   // F13: Free character controller before world
   dispose(): void {
     this.characterController.free();

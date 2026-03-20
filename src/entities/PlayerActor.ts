@@ -42,6 +42,6 @@ export class PlayerActor extends Actor {
 
   protected onKilled(killer?: import('./Entity').Entity): void {
     super.onKilled(killer);
-    // Future: death screen, respawn logic
+    // Freeze player movement — HealthHUD handles the death screen UI
   }
 }

@@ -21,6 +21,9 @@ export interface GameEvents {
   'security-disabled': { targetId?: string };
   'security-destroyed': { entity: Entity };
   'console-used': { console: Entity; action: ConsoleAction };
+  'enemy-alert': { enemy: Actor };
+  'enemy-fired': { enemy: Actor; weaponId: string };
+  'all-enemies-dead': {};
 }
 
 type EventCallback<T> = (data: T) => void;

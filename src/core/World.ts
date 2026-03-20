@@ -3,13 +3,13 @@ import type RAPIER_API from '@dimforge/rapier3d-compat';
 import { EventBus } from './EventBus';
 import { EntityManager } from '../entities/EntityManager';
 import { PlayerActor } from '../entities/PlayerActor';
-import { EnemyActor, type EnemySpawnConfig } from '../entities/EnemyActor';
 import { DoorManager } from '../entities/DoorManager';
 import type { DoorConfig } from '../entities/DoorEntity';
 import { DamageSystem } from '../systems/DamageSystem';
 import { InteractionSystem } from '../systems/InteractionSystem';
 import { ModelCache } from './ModelCache';
 import { ObjectRegistry } from '../entities/spawners/ObjectRegistry';
+import { EnemyManager, type EnemyPlacement } from '../entities/EnemyManager';
 import type { PlayerController } from '../player/PlayerController';
 import type { FPSCamera } from '../player/FPSCamera';
 import type { InputManager } from '../core/InputManager';
@@ -26,6 +26,7 @@ export class World {
   readonly interactionSystem = new InteractionSystem();
   readonly objectRegistry = new ObjectRegistry();
   readonly doorManager: DoorManager;
+  enemyManager!: EnemyManager;
   player!: PlayerActor;
   private inputManager!: InputManager;
 
@@ -62,17 +63,25 @@ export class World {
     return this.player;
   }
 
-  spawnEnemy(config: EnemySpawnConfig): EnemyActor {
-    const enemy = new EnemyActor(
-      this.eventBus,
+  initEnemyManager(): void {
+    this.enemyManager = new EnemyManager(
       this.scene,
       this.physicsWorld,
-      this.entityManager,
       this.RAPIER,
-      config
+      this.eventBus,
+      this.entityManager,
+      this.audioManager,
+      this.modelCache,
+      this.assetLoader,
+      this.damageSystem,
+      this.player
     );
-    this.entityManager.add(enemy);
-    return enemy;
+  }
+
+  async loadEnemyPlacements(placements: EnemyPlacement[]): Promise<void> {
+    if (!this.enemyManager) this.initEnemyManager();
+    await this.enemyManager.preloadModels(placements);
+    await this.enemyManager.loadPlacements(placements);
   }
 
   async spawnDoor(config: DoorConfig) {
@@ -112,11 +121,18 @@ export class World {
           entity.setPlayerPosition(pos);
         }
       }
+
+      // Update enemies with player position
+      if (this.enemyManager) {
+        const playerVec = new THREE.Vector3(pos.x, pos.y, pos.z);
+        this.enemyManager.update(dt, playerVec);
+      }
     }
     this.entityManager.updateAll(dt);
   }
 
   dispose(): void {
+    this.enemyManager?.dispose();
     this.doorManager.disposeAll();
     this.entityManager.disposeAll();
     this.eventBus.clear();

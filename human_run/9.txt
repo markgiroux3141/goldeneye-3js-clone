@@ -1,1 +1,0 @@
-ok, we've hit the wall and we should be on the ramp now. We know the ramp goes up and to the left so lets turn left to verify.

@@ -1,1 +1,0 @@
-now that we have it in view, let's ray cast and walk as far as we can before we hit something

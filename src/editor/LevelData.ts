@@ -16,6 +16,17 @@ export interface BakeLight {
   falloff?: number;      // attenuation exponent, default 2.0
 }
 
+export interface EnemyPlacementData {
+  characterId: string;
+  characterFile?: string;
+  position: { x: number; y: number; z: number };
+  rotation?: number;
+  weaponId?: string;
+  weaponOptions?: { dual?: boolean };
+  health?: number;
+  ai?: Record<string, unknown> | false;
+}
+
 export interface LevelData {
   version: 1;
   levelType: string;
@@ -24,6 +35,7 @@ export interface LevelData {
   fog?: { color: { r: number; g: number; b: number }; near: number; far: number };
   lights?: BakeLight[];
   objects: PlacedObjectData[];
+  enemyPlacements?: EnemyPlacementData[];
 }
 
 // ── Serialization ───────────────────────────────────────────────────
