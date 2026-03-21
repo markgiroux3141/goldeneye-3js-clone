@@ -13,7 +13,7 @@ import { LevelLoader } from './world/LevelLoader';
 import { setupLighting } from './world/Lighting';
 import { loadStarterRoomMaterials } from './world/StarterRoomMaterials';
 import { WeaponSystem } from './weapons/WeaponSystem';
-import { PISTOL, RCP90, AR33, KF7 } from './weapons/WeaponConfig';
+import { ALL_WEAPONS, loadWeaponOverrides } from './weapons/WeaponConfig';
 import { GamepadManager } from './core/GamepadManager';
 import { N64GraphicsSystem } from './n64/N64GraphicsSystem';
 import { N64SettingsUI } from './n64/N64SettingsUI';
@@ -37,6 +37,8 @@ import { CONSOLE_DEFINITIONS } from './editor/definitions/ConsoleDefinitions';
 import { SECURITY_DEFINITIONS } from './editor/definitions/SecurityDefinitions';
 import { ObjectReplaceSystem } from './editor/ObjectReplaceSystem';
 import { ObjectReplaceUI } from './editor/ObjectReplaceUI';
+import { WeaponEditorSystem } from './weapons/WeaponEditorSystem';
+import { WeaponEditorUI } from './weapons/WeaponEditorUI';
 import { getLevelConfig, getDoorScale, type LevelConfig, type LevelType } from './levels/LevelRegistry';
 import { bakeVertexColors } from './world/VertexColorBaker';
 import { HealthHUD } from './ui/HealthHUD';
@@ -63,6 +65,8 @@ export class Game {
   private editorUI!: EditorUI;
   private objectReplaceSystem!: ObjectReplaceSystem;
   private objectReplaceUI!: ObjectReplaceUI;
+  private weaponEditorSystem!: WeaponEditorSystem;
+  private weaponEditorUI!: WeaponEditorUI;
 
   private readonly levelConfig: LevelConfig;
   private levelData: import('./editor/LevelData').LevelData | null = null;
@@ -70,7 +74,7 @@ export class Game {
   constructor(
     private RAPIER: typeof RAPIER_API,
     private levelType: LevelType = 'procedural',
-    private mode: 'gameplay' | 'editor' | 'object-replace' = 'gameplay'
+    private mode: 'gameplay' | 'editor' | 'object-replace' | 'weapon-editor' = 'gameplay'
   ) {
     this.levelConfig = getLevelConfig(this.levelType)!;
   }
@@ -85,6 +89,9 @@ export class Game {
 
     this.engine = new Engine(canvas);
     this.inputManager = new InputManager(canvas);
+
+    // Load weapon config overrides from JSON (if present in public/config/)
+    await loadWeaponOverrides();
     this.physicsWorld = new PhysicsWorld(this.RAPIER);
 
     const colliderFactory = new ColliderFactory(this.physicsWorld, this.RAPIER);
@@ -119,6 +126,8 @@ export class Game {
       await this.initEditor(canvas, overlay, levelLoader, colliderFactory, assetLoader);
     } else if (this.mode === 'object-replace') {
       await this.initObjectReplace(canvas, overlay, levelLoader, colliderFactory, assetLoader);
+    } else if (this.mode === 'weapon-editor') {
+      await this.initWeaponEditor(canvas, overlay, levelLoader, colliderFactory, assetLoader);
     } else {
       await this.initGameplay(canvas, overlay, levelLoader, colliderFactory, assetLoader);
     }
@@ -330,12 +339,11 @@ export class Game {
     this.weaponSystem = new WeaponSystem(
       this.engine, this.physicsWorld, this.inputManager,
       this.fpsCamera, this.playerController, this.RAPIER,
-      [
-        { config: PISTOL, magazineAmmo: PISTOL.magazineSize, reserveAmmo: 50 },
-        { config: RCP90, magazineAmmo: RCP90.magazineSize, reserveAmmo: 800 },
-        { config: AR33, magazineAmmo: AR33.magazineSize, reserveAmmo: 200 },
-        { config: KF7, magazineAmmo: KF7.magazineSize, reserveAmmo: 200 },
-      ]
+      ALL_WEAPONS.map(w => ({
+        config: w,
+        magazineAmmo: w.magazineSize,
+        reserveAmmo: w.magazineSize * 10,
+      }))
     );
     await this.weaponSystem.init(assetLoader);
     this.weaponSystem.setGamepadManager(this.gamepadManager);
@@ -357,7 +365,7 @@ export class Game {
 
     // Spawn level objects via registry (doors, future: consoles, cameras, etc.)
     let spawnedDoors = 0;
-    if (this.levelData && this.levelData.objects.length > 0) {
+    if (this.levelData?.objects && this.levelData.objects.length > 0) {
       const entities = await this.world.objectRegistry.spawnAll(this.world, this.levelData.objects);
       spawnedDoors = entities.length;
       console.log(`[Game] Spawned ${entities.length} objects from level-${this.levelType}.json`);
@@ -485,6 +493,59 @@ export class Game {
     };
   }
 
+  // ── Weapon Editor mode initialization ──────────────────────────
+
+  private async initWeaponEditor(
+    canvas: HTMLCanvasElement,
+    overlay: HTMLElement,
+    levelLoader: LevelLoader,
+    colliderFactory: ColliderFactory,
+    assetLoader: AssetLoader
+  ): Promise<void> {
+    // Load level geometry as backdrop
+    await this.loadLevelGeometry(levelLoader, colliderFactory, assetLoader);
+
+    // Overlay instructions
+    overlay.innerHTML = '<h1>Weapon Editor</h1><p>Right-click drag to look · WASD to fly · [ ] cycle weapons</p>';
+    overlay.addEventListener('click', () => overlay.classList.add('hidden'));
+
+    // Free-fly camera for inspection
+    this.freeFlyCamera = new FreeFlyCamera(this.engine.camera, canvas, this.inputManager);
+    this.freeFlyCamera.setPosition(this.spawn.x, this.spawn.y + 1, this.spawn.z);
+
+    // Weapon editor system with all weapon configs
+    this.weaponEditorSystem = new WeaponEditorSystem(this.engine, assetLoader, ALL_WEAPONS);
+    await this.weaponEditorSystem.init();
+
+    // Weapon editor UI panel
+    this.weaponEditorUI = new WeaponEditorUI(this.weaponEditorSystem);
+
+    // N64 graphics (use weapon editor's scene/camera for shader preview)
+    this.n64System = new N64GraphicsSystem(
+      this.engine,
+      this.weaponEditorSystem.getWeaponScene(),
+      this.weaponEditorSystem.getWeaponCamera()
+    );
+    this.n64UI = new N64SettingsUI(this.n64System);
+
+    // Game loop
+    this.gameLoop = new GameLoop(
+      (dt) => {
+        this.freeFlyCamera.update(dt);
+        this.weaponEditorSystem.update(dt);
+        this.n64System.update(dt);
+      },
+      () => {
+        if (this.n64System.isEnabled()) {
+          this.n64System.render();
+        } else {
+          this.engine.render();
+        }
+        this.weaponEditorSystem.render();
+      }
+    );
+  }
+
   // ── Shared level geometry loading ───────────────────────────────
 
   private async loadLevelGeometry(
@@ -547,6 +608,10 @@ export class Game {
     } else if (this.mode === 'object-replace') {
       this.objectReplaceUI?.dispose();
       this.objectReplaceSystem?.dispose();
+      this.freeFlyCamera?.dispose();
+    } else if (this.mode === 'weapon-editor') {
+      this.weaponEditorUI?.dispose();
+      this.weaponEditorSystem?.dispose();
       this.freeFlyCamera?.dispose();
     } else {
       this.weaponSystem?.dispose();

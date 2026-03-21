@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "statue",
+  "spawn": { "x": -178.8, "y": 13.1, "z": 44.8 },
+  "music": "/music/110 Statue.mp3"
+}

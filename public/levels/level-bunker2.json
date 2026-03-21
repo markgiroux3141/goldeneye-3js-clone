@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "bunker2",
+  "spawn": { "x": -37.8, "y": 2.1, "z": 52.2 },
+  "music": "/music/109 Bunker 2.mp3"
+}

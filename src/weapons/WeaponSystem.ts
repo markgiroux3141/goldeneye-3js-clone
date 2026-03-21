@@ -49,6 +49,11 @@ export class WeaponSystem {
   private gameTime = 0;
   private lastFireTime = -Infinity;
 
+  // Zoom/ADS
+  private static readonly DEFAULT_FOV = 75;
+  private static readonly ZOOM_LERP_SPEED = 10;
+  private currentFOV = 75;
+
   constructor(
     private engine: Engine,
     private physicsWorld: PhysicsWorld,
@@ -63,9 +68,9 @@ export class WeaponSystem {
     this.weaponCamera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.01, 10);
     this.weaponScene.add(this.weaponCamera);
 
-    // Lighting for weapon scene
-    this.weaponScene.add(new THREE.AmbientLight(0xffffff, 0.6));
-    const dirLight = new THREE.DirectionalLight(0xffffff, 0.8);
+    // Lighting for weapon scene (kept low so N64 vertex colors dominate)
+    this.weaponScene.add(new THREE.AmbientLight(0xffffff, 0.35));
+    const dirLight = new THREE.DirectionalLight(0xffffff, 0.45);
     dirLight.position.set(1, 2, 1);
     this.weaponScene.add(dirLight);
 
@@ -176,6 +181,20 @@ export class WeaponSystem {
     } else {
       this.viewmodel.setAimOffset(0, 0);
       this.crosshairEl.style.display = 'none';
+    }
+
+    // Zoom/ADS — lerp FOV when aiming with a weapon that has zoom
+    const targetFOV = this.gamepadManager?.aimMode && this.config.zoomFOV < WeaponSystem.DEFAULT_FOV
+      ? this.config.zoomFOV
+      : WeaponSystem.DEFAULT_FOV;
+    if (this.currentFOV !== targetFOV) {
+      this.currentFOV += (targetFOV - this.currentFOV) * Math.min(dt * WeaponSystem.ZOOM_LERP_SPEED, 1);
+      // Snap when close enough
+      if (Math.abs(this.currentFOV - targetFOV) < 0.1) this.currentFOV = targetFOV;
+      this.weaponCamera.fov = this.currentFOV;
+      this.weaponCamera.updateProjectionMatrix();
+      this.engine.camera.fov = this.currentFOV;
+      this.engine.camera.updateProjectionMatrix();
     }
 
     this.viewmodel.update(dt, isMoving, this.playerController.getGrounded(), mouseDX);

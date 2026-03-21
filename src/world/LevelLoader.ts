@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { mergeVertices } from 'three/addons/utils/BufferGeometryUtils.js';
+import { mergeVertices, deinterleaveGeometry } from 'three/addons/utils/BufferGeometryUtils.js';
 import { Engine } from '../core/Engine';
 import { AssetLoader } from '../core/AssetLoader';
 import { PhysicsWorld } from '../physics/PhysicsWorld';
@@ -32,6 +32,8 @@ export class LevelLoader {
     }
     group.traverse((child) => {
       if (child instanceof THREE.Mesh) {
+        // Deinterleave if needed (gltf-transform outputs interleaved buffers)
+        deinterleaveGeometry(child.geometry);
         // Smooth shading (N64-style Gouraud)
         child.geometry = mergeVertices(child.geometry, 1e-3);
         child.geometry.computeVertexNormals();

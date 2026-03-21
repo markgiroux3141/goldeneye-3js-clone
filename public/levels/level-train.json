@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "train",
+  "spawn": { "x": 13.4, "y": 3.5, "z": -2.6 },
+  "music": "/music/114 Train.mp3"
+}

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "levelType": "complex",
-  "spawn": { "x": 1.7, "y": 5.0, "z": -1.7 },
+  "spawn": { "x": 2.7, "y": 4.7, "z": -1.9 },
   "music": "/music/102 Facility.mp3",
   "fog": { "color": { "r": 128, "g": 136, "b": 144 }, "near": 15, "far": 55 },
   "objects": []

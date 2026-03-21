@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "control",
+  "spawn": { "x": -43.7, "y": 1.9, "z": -12.7 },
+  "music": "/music/116 Control.mp3"
+}

@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "levelType": "bunker1",
+  "spawn": { "x": -15.7, "y": 4.3, "z": 26.2 },
+  "music": "/music/105 Bunker 1.mp3",
+  "fog": { "color": { "r": 96, "g": 104, "b": 104 }, "near": 12, "far": 50 },
+  "objects": []
+}

@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "streets",
+  "spawn": { "x": -10.0, "y": 1.7, "z": -14.2 },
+  "music": "/music/112 Streets.mp3"
+}

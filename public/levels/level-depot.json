@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "depot",
+  "spawn": { "x": 19.3, "y": 2.2, "z": -100.1 },
+  "music": "/music/113 Depot.mp3"
+}

@@ -263,6 +263,14 @@ export class N64GraphicsSystem {
       const mesh = obj as THREE.Mesh;
 
       if (toN64) {
+        // Skip additive-blended meshes (muzzle flash) — N64 RDP handled these differently
+        const mats = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
+        const isAdditive = mats.some((m: THREE.Material) => m.blending === THREE.AdditiveBlending);
+        if (isAdditive) {
+          this.swappedMeshes.add(mesh);
+          return;
+        }
+
         if (Array.isArray(mesh.material)) {
           const originals = mesh.material;
           mesh.userData._originalMaterial = originals;
@@ -289,6 +297,15 @@ export class N64GraphicsSystem {
       if (this.swappedMeshes.has(obj)) return;
       // New mesh found — swap it
       const mesh = obj as THREE.Mesh;
+
+      // Skip additive-blended meshes (muzzle flash)
+      const mats = Array.isArray(mesh.material) ? mesh.material : [mesh.material];
+      const isAdditive = mats.some((m: THREE.Material) => m.blending === THREE.AdditiveBlending);
+      if (isAdditive) {
+        this.swappedMeshes.add(mesh);
+        return;
+      }
+
       if (Array.isArray(mesh.material)) {
         mesh.userData._originalMaterial = mesh.material;
         mesh.material = mesh.material.map((m: THREE.Material) => this.getOrCreateN64Mat(m));

@@ -276,7 +276,7 @@ http://localhost:5173/?level=<level>&mode=<mode>
 | Parameter | Values | Default | Description |
 |-----------|--------|---------|-------------|
 | `level` | `procedural`, `sandbox`, `facility`, `dam`, `bunker`, `aztec`, `caverns`, `complex` | `procedural` | Level to load |
-| `mode` | `editor`, `object-replace` | *(none)* | Enables the level editor or GLB object replace editor |
+| `mode` | `editor`, `object-replace`, `weapon-editor` | *(none)* | Enables the level editor, GLB object replace editor, or weapon positioning editor |
 
 **Examples:**
 ```
@@ -287,4 +287,5 @@ localhost:5173/?level=sandbox            # Flat sandbox with test doors (play mo
 localhost:5173/?level=facility&mode=editor # Facility level in editor mode
 localhost:5173/?level=sandbox&mode=editor # Sandbox in editor mode
 localhost:5173/?mode=object-replace       # GLB object replace editor
+localhost:5173/?mode=weapon-editor        # Weapon positioning/zoom editor
 ```

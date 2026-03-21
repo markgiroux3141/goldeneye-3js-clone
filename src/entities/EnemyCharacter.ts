@@ -107,7 +107,7 @@ export class EnemyCharacter extends Actor {
   private shotCallbacks: Array<() => void> = [];
 
   // Hit reaction
-  private isHitReacting = false;
+  private hitReactionFinishedListener: ((e: { action: THREE.AnimationAction }) => void) | null = null;
 
   // Fade-out
   private isFading = false;
@@ -619,10 +619,8 @@ export class EnemyCharacter extends Actor {
     // Play impact sound
     this.audioManager.play('/sounds/enemies/bullet-hit.wav', 0.5);
 
-    // Hit reaction animation — interrupts firing, only skipped if already reacting
-    if (!this.isHitReacting) {
-      this.playHitReaction();
-    }
+    // Hit reaction animation — always interrupt current animation (GoldenEye spaz out)
+    this.playHitReaction();
   }
 
   private async playHitReaction(): Promise<void> {
@@ -635,7 +633,11 @@ export class EnemyCharacter extends Actor {
     const clip = await loadClip(animPath, this.assetLoader);
     if (!clip) return;
 
-    this.isHitReacting = true;
+    // Remove previous hit reaction listener so it doesn't fire stale callbacks
+    if (this.hitReactionFinishedListener && this.mixer) {
+      this.mixer.removeEventListener('finished', this.hitReactionFinishedListener);
+    }
+
     if (this.isFiring) this.stopFireState();
     this.moveTarget = null;
     this.setEnemyState('action');
@@ -644,13 +646,14 @@ export class EnemyCharacter extends Actor {
     const onFinished = (e: { action: THREE.AnimationAction }) => {
       if (e.action === this.currentAction) {
         this.mixer!.removeEventListener('finished', onFinished);
-        this.isHitReacting = false;
+        this.hitReactionFinishedListener = null;
         if (this.enemyState !== 'dead') {
           this.setEnemyState('idle');
           this.playIdle();
         }
       }
     };
+    this.hitReactionFinishedListener = onFinished;
     this.mixer!.addEventListener('finished', onFinished);
   }
 
@@ -717,7 +720,10 @@ export class EnemyCharacter extends Actor {
 
     // Stop all current activity
     this.moveTarget = null;
-    this.isHitReacting = false;
+    if (this.hitReactionFinishedListener && this.mixer) {
+      this.mixer.removeEventListener('finished', this.hitReactionFinishedListener);
+      this.hitReactionFinishedListener = null;
+    }
     if (this.isFiring) this.stopFireState();
 
     this.setEnemyState('dead');

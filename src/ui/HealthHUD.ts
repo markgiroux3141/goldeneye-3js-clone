@@ -42,7 +42,7 @@ export class HealthHUD {
   private deathEl!: HTMLElement;
   private isDead = false;
 
-  private static readonly HIT_SOUND = '/sounds/breathe.wav';
+  private static readonly HIT_SOUND = '/sounds/player/breathe.wav';
 
   constructor(
     private eventBus: EventBus,

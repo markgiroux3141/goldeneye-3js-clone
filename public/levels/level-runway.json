@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "runway",
+  "spawn": { "x": 90.8, "y": -3.4, "z": -58.2 },
+  "music": "/music/103 Runway.mp3"
+}

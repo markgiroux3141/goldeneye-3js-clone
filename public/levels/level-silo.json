@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "levelType": "silo",
+  "spawn": { "x": -0.3, "y": -19.4, "z": 34.7 },
+  "music": "/music/106 Silo.mp3"
+}

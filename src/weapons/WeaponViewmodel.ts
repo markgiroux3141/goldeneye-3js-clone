@@ -1,9 +1,6 @@
 import * as THREE from 'three';
-import { mergeVertices } from 'three/addons/utils/BufferGeometryUtils.js';
 import { AssetLoader } from '../core/AssetLoader';
 import type { WeaponStats } from './WeaponConfig';
-
-const DEBUG_STEP = 0.01;
 
 export class WeaponViewmodel {
   private model: THREE.Group | null = null;
@@ -15,7 +12,6 @@ export class WeaponViewmodel {
 
   // Muzzle flash (from GLB model)
   private muzzleFlashMeshes: THREE.Object3D[] = [];
-  private muzzleLight: THREE.PointLight | null = null;
   private flashTimer = 0;
 
   // Recoil
@@ -31,10 +27,8 @@ export class WeaponViewmodel {
   private reloadDuration = 1.5;
   private onLowered: (() => void) | null = null;
 
-  // Debug positioning mode
-  private debugMode = false;
-  private debugOffset = new THREE.Vector3();
-  private debugPivot = new THREE.Vector3();
+  // Editor freeze — skips bob/sway/recoil when true
+  private frozen = false;
 
   constructor(
     private weaponCamera: THREE.PerspectiveCamera,
@@ -51,15 +45,14 @@ export class WeaponViewmodel {
     // Load gun model
     this.gunGltf = await assetLoader.loadGLTF(this.config.modelPath);
     this.gunGltf.scale.setScalar(this.config.modelScale);
-    this.gunGltf.rotation.y = Math.PI; // Flip 180° so barrel faces forward
+    this.gunGltf.rotation.set(this.config.modelRotation.x, this.config.modelRotation.y, this.config.modelRotation.z);
     this.gunGltf.position.copy(this.config.pivotOffset);
     this.model.add(this.gunGltf);
 
-    // Smooth shading on all gun meshes + strip PBR for N64-authentic look
+    // Strip PBR for N64-authentic look (keep original normals from GLB)
     this.gunGltf.traverse((child) => {
       if (child instanceof THREE.Mesh) {
-        child.geometry = mergeVertices(child.geometry, 1e-3);
-        child.geometry.computeVertexNormals();
+        const hasColors = child.geometry.hasAttribute('color');
         const mats = Array.isArray(child.material) ? child.material : [child.material];
         for (const mat of mats) {
           if (mat instanceof THREE.MeshStandardMaterial) {
@@ -69,62 +62,79 @@ export class WeaponViewmodel {
             mat.roughnessMap = null;
             mat.metalnessMap = null;
             mat.aoMap = null;
+            mat.envMap = null;
+            // Preserve emissive for env-mapped materials (gold/silver/chrome)
+            if (!mat.name.includes('EnvMapping')) {
+              mat.emissiveMap = null;
+              mat.emissive = new THREE.Color(0, 0, 0);
+            }
+            mat.lightMap = null;
+            // Enable vertex colors from N64 model data
+            if (hasColors) mat.vertexColors = true;
             mat.needsUpdate = true;
           }
         }
       }
     });
 
-    // Load muzzle flash from separate GLB
-    this.flashGltf = await assetLoader.loadGLTF(this.config.muzzleFlashPath);
-    this.flashGltf.scale.setScalar(this.config.modelScale);
-    this.flashGltf.rotation.y = Math.PI;
-    this.flashGltf.position.copy(this.config.pivotOffset);
-    this.model.add(this.flashGltf);
+    // Load muzzle flash from separate GLB (skip if no muzzle flash configured)
+    if (this.config.muzzleFlashPath) {
+      this.flashGltf = await assetLoader.loadGLTF(this.config.muzzleFlashPath);
+      this.flashGltf.scale.setScalar(this.config.modelScale);
+      this.flashGltf.rotation.set(this.config.modelRotation.x, this.config.modelRotation.y, this.config.modelRotation.z);
+      this.flashGltf.position.copy(this.config.pivotOffset);
+      this.model.add(this.flashGltf);
 
-    // Collect top-level children as flash variants (start hidden)
-    for (const child of [...this.flashGltf.children]) {
-      child.visible = false;
-      this.muzzleFlashMeshes.push(child);
+      // Collect top-level children as flash variants (start hidden)
+      for (const child of [...this.flashGltf.children]) {
+        child.visible = false;
+        this.muzzleFlashMeshes.push(child);
+      }
+
+      // Set up additive blending on all flash meshes
+      this.flashGltf.traverse((child) => {
+        if (child instanceof THREE.Mesh) {
+          const mats = Array.isArray(child.material) ? child.material : [child.material];
+          for (const mat of mats) {
+            mat.transparent = true;
+            mat.blending = THREE.AdditiveBlending;
+            mat.depthWrite = false;
+            mat.side = THREE.DoubleSide;
+          }
+        }
+      });
     }
 
-    // Set up additive blending on all flash meshes
-    this.flashGltf.traverse((child) => {
-      if (child instanceof THREE.Mesh) {
-        const mats = Array.isArray(child.material) ? child.material : [child.material];
-        for (const mat of mats) {
-          mat.transparent = true;
-          mat.blending = THREE.AdditiveBlending;
-          mat.depthWrite = false;
-          mat.side = THREE.DoubleSide;
-        }
-      }
-    });
-
-    // Point light for muzzle flash dynamic lighting
-    this.muzzleLight = new THREE.PointLight(0xffaa00, 3, 2);
-    this.muzzleLight.position.copy(this.config.muzzleOffset);
-    this.muzzleLight.visible = false;
-    this.model.add(this.muzzleLight);
-
     this.weaponCamera.add(this.model);
-
-    // Debug positioning mode
-    this.debugOffset.copy(this.config.modelOffset);
-    this.debugPivot.copy(this.config.pivotOffset);
-    document.addEventListener('keydown', this.onDebugKey);
   }
 
   update(dt: number, isMoving: boolean, isGrounded: boolean, mouseDX: number): void {
     if (!this.model) return;
 
-    // In debug mode, freeze all animation and use debug values
-    if (this.debugMode) {
-      this.model.position.copy(this.debugOffset);
-      if (this.gunGltf) this.gunGltf.position.copy(this.debugPivot);
-      if (this.flashGltf) this.flashGltf.position.copy(this.debugPivot);
-      this.model.rotation.x = 0;
-      this.model.rotation.y = 0;
+    // Frozen mode — static display for weapon editor
+    if (this.frozen) {
+      this.model.position.copy(this.baseOffset);
+
+      // Apply aim rotation if set (for aim preview in weapon editor)
+      if (this._aimX !== 0 || this._aimY !== 0) {
+        const halfTan = Math.tan(this.weaponCamera.fov * 0.5 * Math.PI / 180);
+        const aspect = this.weaponCamera.aspect;
+        const yaw = Math.atan(this._aimX * halfTan * aspect);
+        const pitch = Math.atan(-this._aimY * halfTan);
+        this.model.rotation.y = -yaw;
+        this.model.rotation.x = pitch;
+      } else {
+        this.model.rotation.x = 0;
+        this.model.rotation.y = 0;
+      }
+
+      // Still tick muzzle flash timer for fire test
+      if (this.flashTimer > 0) {
+        this.flashTimer -= dt;
+        if (this.flashTimer <= 0) {
+          for (const flash of this.muzzleFlashMeshes) flash.visible = false;
+        }
+      }
       return;
     }
 
@@ -191,7 +201,6 @@ export class WeaponViewmodel {
       this.flashTimer -= dt;
       if (this.flashTimer <= 0) {
         for (const flash of this.muzzleFlashMeshes) flash.visible = false;
-        if (this.muzzleLight) this.muzzleLight.visible = false;
       }
     }
   }
@@ -208,7 +217,6 @@ export class WeaponViewmodel {
 
   playMuzzleFlash(): void {
     for (const flash of this.muzzleFlashMeshes) flash.visible = true;
-    if (this.muzzleLight) this.muzzleLight.visible = true;
     this.flashTimer = 0.12;
   }
 
@@ -225,8 +233,35 @@ export class WeaponViewmodel {
     this.reloadProgress = 0.5;
   }
 
+  // ── Public setters for weapon editor ──────────────────────────
+
+  setFrozen(frozen: boolean): void {
+    this.frozen = frozen;
+  }
+
+  setModelOffset(v: THREE.Vector3): void {
+    this.baseOffset.copy(v);
+    if (this.model) this.model.position.copy(v);
+  }
+
+  setPivotOffset(v: THREE.Vector3): void {
+    if (this.gunGltf) this.gunGltf.position.copy(v);
+    if (this.flashGltf) this.flashGltf.position.copy(v);
+  }
+
+  setModelScale(s: number): void {
+    if (this.gunGltf) this.gunGltf.scale.setScalar(s);
+    if (this.flashGltf) this.flashGltf.scale.setScalar(s);
+  }
+
+  setMuzzleOffset(_v: THREE.Vector3): void { /* no-op: muzzle offset stored in config only */ }
+
+  setModelRotation(x: number, y: number, z: number): void {
+    if (this.gunGltf) this.gunGltf.rotation.set(x, y, z);
+    if (this.flashGltf) this.flashGltf.rotation.set(x, y, z);
+  }
+
   dispose(): void {
-    document.removeEventListener('keydown', this.onDebugKey);
     if (this.model) {
       this.weaponCamera.remove(this.model);
       this.model.traverse((obj) => {
@@ -240,40 +275,5 @@ export class WeaponViewmodel {
         }
       });
     }
-  }
-
-  private onDebugKey = (e: KeyboardEvent): void => {
-    if (e.code === 'Backquote') {
-      this.debugMode = !this.debugMode;
-      console.log(`[WeaponDebug] ${this.debugMode ? 'ON' : 'OFF'}`);
-      if (this.debugMode) this.logDebugValues();
-      return;
-    }
-
-    if (!this.debugMode) return;
-
-    const sign = e.shiftKey ? -1 : 1;
-    const step = DEBUG_STEP * sign;
-
-    switch (e.code) {
-      case 'KeyI': this.debugOffset.x += step; break;
-      case 'KeyO': this.debugOffset.y += step; break;
-      case 'KeyP': this.debugOffset.z += step; break;
-      case 'KeyJ': this.debugPivot.x += step; break;
-      case 'KeyK': this.debugPivot.y += step; break;
-      case 'KeyL': this.debugPivot.z += step; break;
-      default: return;
-    }
-
-    this.logDebugValues();
-  };
-
-  private logDebugValues(): void {
-    const o = this.debugOffset;
-    const p = this.debugPivot;
-    console.log(
-      `[WeaponDebug] modelOffset: (${o.x.toFixed(3)}, ${o.y.toFixed(3)}, ${o.z.toFixed(3)})  ` +
-      `pivotOffset: (${p.x.toFixed(3)}, ${p.y.toFixed(3)}, ${p.z.toFixed(3)})`
-    );
   }
 }

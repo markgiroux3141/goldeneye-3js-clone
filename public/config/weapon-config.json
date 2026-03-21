@@ -1,0 +1,458 @@
+{
+  "PP7": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.08,
+      -0.14
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "DD44 Dostovei": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.12000000000000001,
+      -0.09000000000000001,
+      -0.29000000000000015
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0.017453292519943295,
+      3.0194196059501914,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Cougar Magnum": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.2500000000000001
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Golden Gun": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.2400000000000001
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Gold PP7": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.17000000000000004
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Silver PP7": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.16000000000000003
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "PP7 (Silenced)": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.17000000000000004
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Klobb": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.12000000000000001
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "D5K Deutsche": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.11,
+      -0.14,
+      -0.1
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "D5K (Silenced)": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.11,
+      -0.14,
+      -0.1
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Phantom": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.11,
+      -0.13,
+      -0.39000000000000024
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "ZMG 9mm": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.13
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "RC-P90": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.09,
+      -0.12,
+      0.13
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "AR33": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.12,
+      -0.13,
+      -0.1
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      -0.10471975511965977,
+      3.0019663134302483,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "KF7 Soviet": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.12,
+      -0.15000000000000002,
+      -0.09
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.0194196059501914,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Shotgun": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.1
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Auto Shotgun": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.15000000000000002,
+      -0.1
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 75
+  },
+  "Sniper Rifle": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.14,
+      -0.17000000000000004
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      -0.12217304763960307,
+      3.141592653589793,
+      0
+    ],
+    "zoomFOV": 25
+  },
+  "Moonraker Laser": {
+    "modelScale": 0.0007,
+    "modelOffset": [
+      0.1,
+      -0.1,
+      -0.30000000000000016
+    ],
+    "pivotOffset": [
+      0,
+      0,
+      -0.06
+    ],
+    "muzzleOffset": [
+      0.05,
+      0.05,
+      -0.3
+    ],
+    "modelRotation": [
+      0,
+      3.0543261909900776,
+      0
+    ],
+    "zoomFOV": 75
+  }
+}

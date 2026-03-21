@@ -38,10 +38,10 @@ void main() {
   float diff = max(dot(worldNormal, normalize(u_lightDir)), 0.0);
   float dynamicLit = 0.45 + 0.55 * diff;
 
-  // Baked vertex colors (guard against missing attribute which defaults to black)
+  // Vertex colors: always apply when present (N64 models bake shading into vertex colors)
   vec3 vc = mix(vec3(1.0), color, u_hasVertexColors);
-  vVertexColor = mix(vec3(1.0), vc, u_useBakedLighting);
-  vLighting = mix(1.0, dynamicLit, u_vertexLit * (1.0 - u_useBakedLighting));
+  vVertexColor = vc;
+  vLighting = mix(1.0, dynamicLit, u_vertexLit * (1.0 - u_hasVertexColors * u_useBakedLighting));
 
   // Fog distance (view-space depth)
   vFogDist = length(mvPos.xyz);
