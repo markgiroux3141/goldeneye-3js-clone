@@ -160,7 +160,7 @@ export class WeaponViewmodel {
       this.reloadProgress += dt / (this.reloadDuration * 0.5);
       if (this.onLowered && this.reloadProgress >= 0.5) {
         // Weapon switch: freeze at bottom, fire callback
-        reloadOffsetY = -0.3;
+        reloadOffsetY = -0.6;
         const cb = this.onLowered;
         this.onLowered = null;
         cb();
@@ -168,13 +168,13 @@ export class WeaponViewmodel {
         this.reloadProgress = -1;
       } else {
         // Down then up
-        reloadOffsetY = -Math.sin(this.reloadProgress * Math.PI) * 0.3;
+        reloadOffsetY = -Math.sin(this.reloadProgress * Math.PI) * 0.6;
       }
     }
 
     // Recoil decay — snaps back quickly
     this.recoilZ *= Math.max(0, 1 - dt * 15);
-    this.recoilRot *= Math.max(0, 1 - dt * 15);
+    this.recoilRot *= Math.max(0, 1 - dt * 10);
 
     this.model.position.set(
       this.baseOffset.x + bobX + this.swayX,
@@ -211,8 +211,8 @@ export class WeaponViewmodel {
   }
 
   playRecoil(): void {
-    this.recoilZ = 0.04;   // kick back
-    this.recoilRot = -0.06; // pitch up slightly
+    this.recoilZ = this.config.recoilZ;
+    this.recoilRot = this.config.recoilRot;
   }
 
   playMuzzleFlash(): void {

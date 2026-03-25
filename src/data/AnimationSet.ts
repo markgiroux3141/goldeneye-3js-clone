@@ -175,7 +175,7 @@ export const FIRE_ANIMS_BY_TYPE: Record<string, string[]> = {
 
 /** Forward-facing only — excludes turn/roll for AI combat */
 export const AI_FIRE_ANIMS_BY_TYPE: Record<string, string[]> = {
-  rifle:  ['01', '02', '03', '04', '07', '08', '09', '0A'],
+  rifle:  ['01', '02', '03', '07', '08', '09', '0A'],
   pistol: ['41', '42', '43', '44', '45', '46'],
   dual:   ['6C', '6D', '74', '7A'],
 };

@@ -11,6 +11,7 @@ import type { ModelCache } from '../core/ModelCache';
 import type { AssetLoader } from '../core/AssetLoader';
 import type { DamageSystem } from '../systems/DamageSystem';
 import type { Actor } from './Actor';
+import type { NavMeshSystem } from '../navigation/NavMeshSystem';
 
 /**
  * Enemy placement descriptor from level JSON.
@@ -46,6 +47,7 @@ export class EnemyManager {
   private entries: EnemyEntry[] = [];
   private dormant: EnemyPlacement[] = [];
   private maxActive: number;
+  private navMeshSystem: NavMeshSystem | null = null;
 
   // Default AI config (merged with per-placement overrides)
   private defaultAI: Partial<AIConfig> = {
@@ -68,6 +70,10 @@ export class EnemyManager {
     maxActive = 12
   ) {
     this.maxActive = maxActive;
+  }
+
+  setNavMeshSystem(navMeshSystem: NavMeshSystem): void {
+    this.navMeshSystem = navMeshSystem;
   }
 
   // ── Model preloading ─────────────────────────────────────────────
@@ -290,7 +296,8 @@ export class EnemyManager {
         this.damageSystem,
         this.playerActor,
         this.eventBus,
-        mergedConfig
+        mergedConfig,
+        this.navMeshSystem
       );
     }
 

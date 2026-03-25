@@ -27,6 +27,8 @@ export class WeaponEditorUI {
   private zoomBtn!: HTMLButtonElement;
   private aimBtn!: HTMLButtonElement;
   private aimLabel!: HTMLElement;
+  private crosshairBtn!: HTMLButtonElement;
+  private saveStatus!: HTMLElement;
   private inputs = new Map<string, HTMLInputElement>();
 
   constructor(private system: WeaponEditorSystem) {
@@ -108,8 +110,8 @@ export class WeaponEditorUI {
     // ── Scale section ──
     this.addScalarSection(body, 'SCALE', 'modelScale');
 
-    // ── Pivot section ──
-    this.addSection(body, 'PIVOT', 'pivotOffset');
+    // ── Pivot depth section ──
+    this.addPivotDepthSection(body);
 
     // ── Muzzle Offset section ──
     this.addSection(body, 'MUZZLE', 'muzzleOffset');
@@ -147,6 +149,10 @@ export class WeaponEditorUI {
     aimNextBtn.addEventListener('click', () => this.system.cycleAimDirection(1));
     toolbar.appendChild(aimNextBtn);
 
+    this.crosshairBtn = this.makeBtn('CROSSHAIR [X]');
+    this.crosshairBtn.addEventListener('click', () => this.toggleCrosshair());
+    toolbar.appendChild(this.crosshairBtn);
+
     const fireBtn = this.makeBtn('FIRE [F]');
     fireBtn.addEventListener('click', () => this.system.fireTest());
     toolbar.appendChild(fireBtn);
@@ -173,6 +179,9 @@ export class WeaponEditorUI {
     loadJsonBtn.style.color = '#44cc88';
     loadJsonBtn.addEventListener('click', () => this.loadJSON());
     toolbar.appendChild(loadJsonBtn);
+
+    this.saveStatus = this.el('div', `color:${TEXT_COLOR};font-size:9px;padding:2px 6px;opacity:0.8;`);
+    toolbar.appendChild(this.saveStatus);
 
     // ── Keyboard shortcuts ──
     document.addEventListener('keydown', this.onKeyDown);
@@ -213,6 +222,64 @@ export class WeaponEditorUI {
     parent.appendChild(section);
 
     parent.appendChild(this.el('div', `height:1px;background:${BORDER};margin:2px 0;flex-shrink:0;`));
+  }
+
+  private addPivotDepthSection(parent: HTMLElement): void {
+    const sectionLabel = this.el('div',
+      `padding:6px 12px 2px;color:${TEXT_COLOR};font-size:9px;letter-spacing:1px;opacity:0.6;`
+    );
+    sectionLabel.textContent = 'PIVOT DEPTH';
+    parent.appendChild(sectionLabel);
+
+    const section = this.el('div', `padding:0 8px 4px;`);
+    const row = this.el('div', `display:flex;align-items:center;gap:4px;`);
+
+    const minusBtn = this.makeBtn('-');
+    minusBtn.style.padding = '2px 6px';
+    minusBtn.addEventListener('click', () => {
+      this.system.adjustPivotDepth(-this.step());
+      this.refreshPivotDepth();
+      this.refreshVec3Inputs('modelOffset');
+    });
+    row.appendChild(minusBtn);
+
+    const input = this.makeInput('number', '0');
+    input.style.width = '100px';
+    this.inputs.set('pivotDepth', input);
+    input.addEventListener('change', () => {
+      const target = parseFloat(input.value) || 0;
+      const current = this.system.currentState.modelOffset.z;
+      this.system.adjustPivotDepth(target - current);
+      this.refreshPivotDepth();
+      this.refreshVec3Inputs('modelOffset');
+    });
+    row.appendChild(input);
+
+    const plusBtn = this.makeBtn('+');
+    plusBtn.style.padding = '2px 6px';
+    plusBtn.addEventListener('click', () => {
+      this.system.adjustPivotDepth(this.step());
+      this.refreshPivotDepth();
+      this.refreshVec3Inputs('modelOffset');
+    });
+    row.appendChild(plusBtn);
+
+    section.appendChild(row);
+    parent.appendChild(section);
+    parent.appendChild(this.el('div', `height:1px;background:${BORDER};margin:2px 0;flex-shrink:0;`));
+  }
+
+  private refreshPivotDepth(): void {
+    const input = this.inputs.get('pivotDepth');
+    if (!input) return;
+    input.value = this.system.currentState.modelOffset.z.toFixed(4);
+  }
+
+  private refreshVec3Inputs(prop: Vec3Prop): void {
+    const isDeg = prop === 'modelRotation';
+    for (const axis of ['x', 'y', 'z'] as Axis[]) {
+      this.updateVec3Input(prop, axis, isDeg);
+    }
   }
 
   private makeVec3Row(prop: Vec3Prop, axis: Axis, isDegrees: boolean): HTMLElement {
@@ -369,7 +436,7 @@ export class WeaponEditorUI {
   private refreshAllValues(): void {
     this.weaponNameEl.textContent = this.system.currentConfig.name;
 
-    for (const prop of ['modelOffset', 'pivotOffset', 'muzzleOffset', 'modelRotation'] as Vec3Prop[]) {
+    for (const prop of ['modelOffset', 'muzzleOffset', 'modelRotation'] as Vec3Prop[]) {
       const isDeg = prop === 'modelRotation';
       for (const axis of ['x', 'y', 'z'] as Axis[]) {
         this.updateVec3Input(prop, axis, isDeg);
@@ -377,6 +444,7 @@ export class WeaponEditorUI {
     }
     this.refreshScalarInput('modelScale');
     this.refreshScalarInput('zoomFOV');
+    this.refreshPivotDepth();
     this.updateZoomButton();
     this.updateAimButton();
   }
@@ -396,6 +464,16 @@ export class WeaponEditorUI {
   private toggleAim(): void {
     this.system.toggleAimPreview();
     this.updateAimButton();
+  }
+
+  private toggleCrosshair(): void {
+    this.system.toggleCrosshair();
+    this.updateCrosshairButton();
+  }
+
+  private updateCrosshairButton(): void {
+    this.crosshairBtn.style.background = this.system.isCrosshairVisible ? ACCENT : PANEL_BG;
+    this.crosshairBtn.style.color = this.system.isCrosshairVisible ? TEXT_BRIGHT : TEXT_COLOR;
   }
 
   private updateAimButton(): void {
@@ -429,8 +507,20 @@ export class WeaponEditorUI {
 
   // ── JSON save/load ──────────────────────────────────────────
 
-  private saveJSON(): void {
+  private async saveJSON(): Promise<void> {
     const json = this.system.getExportJSON();
+
+    // Try saving directly to disk via dev server API
+    const { saveToProject } = await import('../utils/editorApi');
+    const result = await saveToProject('config/weapon-config.json', json);
+    if (result.ok) {
+      console.log('[WeaponEditor] Saved to disk: config/weapon-config.json');
+      this.showSaveStatus(true);
+      return;
+    }
+
+    // Fallback: download
+    console.warn('[WeaponEditor] Direct save failed, falling back to download:', result.error);
     const blob = new Blob([json], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -438,7 +528,13 @@ export class WeaponEditorUI {
     a.download = 'weapon-config.json';
     a.click();
     URL.revokeObjectURL(url);
-    console.log('[WeaponEditor] JSON saved');
+    this.showSaveStatus(false);
+  }
+
+  private showSaveStatus(savedToDisk: boolean): void {
+    this.saveStatus.textContent = savedToDisk ? '✓ Saved to disk' : '⬇ Downloaded';
+    this.saveStatus.style.color = savedToDisk ? '#44cc44' : '#cccc44';
+    setTimeout(() => { this.saveStatus.textContent = ''; }, 2000);
   }
 
   private loadJSON(): void {
@@ -510,6 +606,9 @@ export class WeaponEditorUI {
         break;
       case 'KeyF':
         this.system.fireTest();
+        break;
+      case 'KeyX':
+        this.toggleCrosshair();
         break;
       case 'KeyC':
         this.copyConfig();

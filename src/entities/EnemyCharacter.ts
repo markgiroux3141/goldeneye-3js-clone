@@ -12,7 +12,7 @@ import {
   DEFAULT_ANIMATIONS,
   SPEED_THRESHOLDS,
   FIRE_TIMING,
-  FIRE_ANIMS_BY_TYPE,
+  AI_FIRE_ANIMS_BY_TYPE,
   HIT_ANIMS,
   DEATH_ANIMS,
   getAnimIdFromPath,
@@ -512,7 +512,7 @@ export class EnemyCharacter extends Actor {
       : (this.weaponConfig?.type ?? 'rifle');
 
     if (!animId) {
-      const available = FIRE_ANIMS_BY_TYPE[type];
+      const available = AI_FIRE_ANIMS_BY_TYPE[type];
       animId = available ? available[0] : '01';
     }
 

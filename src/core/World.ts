@@ -16,6 +16,7 @@ import type { InputManager } from '../core/InputManager';
 import type { PhysicsWorld } from '../physics/PhysicsWorld';
 import type { AudioManager } from '../audio/AudioManager';
 import type { AssetLoader } from '../core/AssetLoader';
+import type { NavMeshSystem } from '../navigation/NavMeshSystem';
 import { SecurityEntity } from '../entities/SecurityEntity';
 
 export class World {
@@ -76,6 +77,12 @@ export class World {
       this.damageSystem,
       this.player
     );
+  }
+
+  setNavMeshSystem(navMeshSystem: NavMeshSystem): void {
+    if (this.enemyManager) {
+      this.enemyManager.setNavMeshSystem(navMeshSystem);
+    }
   }
 
   async loadEnemyPlacements(placements: EnemyPlacement[]): Promise<void> {

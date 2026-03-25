@@ -39,6 +39,10 @@ export class WeaponEditorSystem {
   private aimPreview = false;
   private aimPreviewDirection = 0;
 
+  // Crosshair
+  private crosshairEl: HTMLElement | null = null;
+  private showCrosshair = false;
+
   // Callback for UI refresh
   onChange: (() => void) | null = null;
 
@@ -76,6 +80,8 @@ export class WeaponEditorSystem {
       zoomFOV: cfg.zoomFOV,
     }));
 
+    this.crosshairEl = document.getElementById('crosshair');
+
     window.addEventListener('resize', this.onResize);
   }
 
@@ -111,6 +117,10 @@ export class WeaponEditorSystem {
     return this.aimPreview ? AIM_DIRECTION_LABELS[this.aimPreviewDirection] : '';
   }
 
+  get isCrosshairVisible(): boolean {
+    return this.showCrosshair;
+  }
+
   // ── Weapon cycling ───────────────────────────────────────────
 
   async cycleWeapon(direction: 1 | -1): Promise<void> {
@@ -131,6 +141,14 @@ export class WeaponEditorSystem {
   setPivotOffset(x: number, y: number, z: number): void {
     this.currentState.pivotOffset.set(x, y, z);
     this.viewmodel.setPivotOffset(this.currentState.pivotOffset);
+  }
+
+  adjustPivotDepth(delta: number): void {
+    const s = this.currentState;
+    s.modelOffset.z += delta;
+    s.pivotOffset.z -= delta;
+    this.viewmodel.setModelOffset(s.modelOffset);
+    this.viewmodel.setPivotOffset(s.pivotOffset);
   }
 
   setMuzzleOffset(x: number, y: number, z: number): void {
@@ -174,6 +192,13 @@ export class WeaponEditorSystem {
     this.aimPreviewDirection =
       (this.aimPreviewDirection + dir + AIM_DIRECTIONS.length) % AIM_DIRECTIONS.length;
     this.onChange?.();
+  }
+
+  toggleCrosshair(): void {
+    this.showCrosshair = !this.showCrosshair;
+    if (!this.showCrosshair && this.crosshairEl) {
+      this.crosshairEl.style.display = 'none';
+    }
   }
 
   toggleZoomPreview(): void {
@@ -272,6 +297,19 @@ export class WeaponEditorSystem {
       this.viewmodel.setAimOffset(x * aspect, y);
     }
 
+    // Crosshair positioning
+    if (this.showCrosshair && this.crosshairEl) {
+      this.crosshairEl.style.display = 'block';
+      if (this.aimPreview) {
+        const [ax, ay] = AIM_DIRECTIONS[this.aimPreviewDirection];
+        this.crosshairEl.style.left = `${(0.5 + ax * 0.5) * 100}%`;
+        this.crosshairEl.style.top = `${(0.5 + ay * 0.5) * 100}%`;
+      } else {
+        this.crosshairEl.style.left = '50%';
+        this.crosshairEl.style.top = '50%';
+      }
+    }
+
     this.viewmodel.update(dt, false, true, 0);
 
     // Sync weapon camera to main camera
@@ -293,6 +331,7 @@ export class WeaponEditorSystem {
 
   dispose(): void {
     window.removeEventListener('resize', this.onResize);
+    if (this.crosshairEl) this.crosshairEl.style.display = 'none';
     this.viewmodel.dispose();
   }
 

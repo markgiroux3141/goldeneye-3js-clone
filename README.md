@@ -288,4 +288,24 @@ localhost:5173/?level=facility&mode=editor # Facility level in editor mode
 localhost:5173/?level=sandbox&mode=editor # Sandbox in editor mode
 localhost:5173/?mode=object-replace       # GLB object replace editor
 localhost:5173/?mode=weapon-editor        # Weapon positioning/zoom editor
+localhost:5173/?mode=object-viewer&path=test_facility_objects  # Browse split level objects
+localhost:5173/?mode=object-viewer&path=dedup_preview          # Browse dedup preview groups (arrow keys to navigate groups)
 ```
+
+## Level Object Tools
+
+Scripts for extracting and deduplicating GoldenEye level objects from Setup Editor OBJ exports.
+
+```bash
+# Convert OBJ to combined GLB (one per level)
+node tools/ge-objects-to-glb.cjs --batch "D:/GoldenPerfectModding/Levels/Level Objects" public/all_level_objects/
+
+# Split into individual GLBs with dedup (centered, scale-normalized)
+node tools/split-level-objects.cjs --dedup "D:/path/to/facility objects" public/test_facility_objects/
+node tools/split-level-objects.cjs --dedup --batch "D:/path/to/Level Objects" public/split_objects/
+
+# Preview dedup grouping at a specific bin level (for tuning)
+node tools/preview-dedup.cjs --bins 50 "D:/path/to/facility objects" public/dedup_preview/
+```
+
+Use `?mode=object-viewer&path=<folder>` to browse results. The dedup preview groups objects by fingerprint — use arrow keys to navigate groups and verify merges are correct. Lower bin values = more aggressive merging.

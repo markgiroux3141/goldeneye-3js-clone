@@ -14,6 +14,8 @@ export interface WeaponStats {
   pivotOffset: THREE.Vector3;
   muzzleOffset: THREE.Vector3;
   modelRotation: THREE.Vector3; // radians (x, y, z)
+  recoilZ: number; // kick-back distance on fire
+  recoilRot: number; // pitch-up rotation on fire (radians, negative = up)
   zoomFOV: number; // camera FOV when zoomed (75 = no zoom)
   sounds: {
     fire: string;
@@ -36,6 +38,8 @@ export const RCP90: WeaponStats = {
   pivotOffset: new THREE.Vector3(0, 0, -0.06),
   muzzleOffset: new THREE.Vector3(0.05, 0.05, -0.3),
   modelRotation: new THREE.Vector3(0, Math.PI, 0),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: {
     fire: '/sounds/weapons/rcp90-fire.wav',
@@ -58,6 +62,8 @@ export const AR33: WeaponStats = {
   pivotOffset: new THREE.Vector3(0, 0, -0.06),
   muzzleOffset: new THREE.Vector3(0.05, 0.05, -0.3),
   modelRotation: new THREE.Vector3(0, Math.PI, 0),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: {
     fire: '/sounds/weapons/ar33-fire.wav',
@@ -80,6 +86,8 @@ export const KF7: WeaponStats = {
   pivotOffset: new THREE.Vector3(0, 0, -0.06),
   muzzleOffset: new THREE.Vector3(0.05, 0.05, -0.3),
   modelRotation: new THREE.Vector3(0, Math.PI, 0),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: {
     fire: '/sounds/weapons/k47-fire.wav',
@@ -102,6 +110,8 @@ export const PISTOL: WeaponStats = {
   pivotOffset: new THREE.Vector3(0, 0, -0.06),
   muzzleOffset: new THREE.Vector3(0.05, 0.05, -0.3),
   modelRotation: new THREE.Vector3(0, Math.PI, 0),
+  recoilZ: 0.03,
+  recoilRot: 0.26,
   zoomFOV: 75,
   sounds: {
     fire: '/sounds/weapons/pp7-fire.wav',
@@ -139,6 +149,8 @@ export const DD44: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.03,
+  recoilRot: 0.26,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/dd44-fire.wav'),
 };
@@ -157,6 +169,8 @@ export const KLOBB: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/klobb-fire.wav'),
 };
@@ -175,6 +189,8 @@ export const DK5: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/dk5-fire.wav'),
 };
@@ -193,6 +209,8 @@ export const DK5_SILENCER: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/silencer-pistol.wav'),
 };
@@ -211,6 +229,8 @@ export const PHANTOM: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/k47-fire.wav'),
 };
@@ -229,6 +249,8 @@ export const AUTO_SHOTGUN: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.04,
+  recoilRot: 0.06,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/auto-shotgun-fire.wav'),
 };
@@ -247,6 +269,8 @@ export const SHOTGUN: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.04,
+  recoilRot: 0.06,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/shotgun-fire.wav'),
 };
@@ -265,6 +289,8 @@ export const SNIPER: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 25,
   sounds: snd('/sounds/weapons/silencer-pistol.wav'),
 };
@@ -283,6 +309,8 @@ export const MAGNUM: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.03,
+  recoilRot: 0.26,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/magnum-fire.wav'),
 };
@@ -301,6 +329,8 @@ export const GOLDEN_GUN: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.03,
+  recoilRot: 0.26,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/pp7-fire.wav'),
 };
@@ -319,6 +349,8 @@ export const GOLD_PP7: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.03,
+  recoilRot: 0.26,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/pp7-fire.wav'),
 };
@@ -337,6 +369,8 @@ export const SILVER_PP7: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.03,
+  recoilRot: 0.26,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/pp7-fire.wav'),
 };
@@ -355,6 +389,8 @@ export const PP7_SILENCER: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.03,
+  recoilRot: 0.26,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/silencer-pistol.wav'),
 };
@@ -373,6 +409,8 @@ export const LASER: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/laser-fire.wav'),
 };
@@ -391,6 +429,8 @@ export const ZMG: WeaponStats = {
   pivotOffset: DEFAULT_PIVOT.clone(),
   muzzleOffset: DEFAULT_MUZZLE.clone(),
   modelRotation: DEFAULT_ROT.clone(),
+  recoilZ: 0.02,
+  recoilRot: 0.03,
   zoomFOV: 75,
   sounds: snd('/sounds/weapons/k47-fire.wav'),
 };

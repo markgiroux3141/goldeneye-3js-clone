@@ -1,4 +1,5 @@
 import type { PlaceableDefinition, PlacedObject } from './PlaceableDefinition';
+import { saveToProject } from '../utils/editorApi';
 
 // ── Serialized formats ──────────────────────────────────────────────
 
@@ -61,10 +62,18 @@ export function serializeLevelData(
 
 // ── Save (download as JSON + copy to clipboard) ─────────────────────
 
-export function saveLevelData(data: LevelData): void {
+export async function saveLevelData(data: LevelData): Promise<boolean> {
   const json = JSON.stringify(data, null, 2);
 
-  // Download as file
+  // Try saving directly to disk via dev server API
+  const result = await saveToProject(`levels/level-${data.levelType}.json`, json);
+  if (result.ok) {
+    console.log(`[LevelData] Saved to disk: levels/level-${data.levelType}.json`);
+    return true;
+  }
+
+  // Fallback: download as file
+  console.warn('[LevelData] Direct save failed, falling back to download:', result.error);
   const blob = new Blob([json], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -79,7 +88,7 @@ export function saveLevelData(data: LevelData): void {
     () => console.log('[LevelData] Clipboard copy failed')
   );
 
-  console.log('[LevelData] Saved:', json);
+  return false;
 }
 
 // ── Load (from file input) ──────────────────────────────────────────

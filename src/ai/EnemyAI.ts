@@ -6,6 +6,7 @@ import type { PhysicsWorld } from '../physics/PhysicsWorld';
 import type { DamageSystem } from '../systems/DamageSystem';
 import type { Actor } from '../entities/Actor';
 import type { EventBus } from '../core/EventBus';
+import type { NavMeshSystem, NavPoint } from '../navigation/NavMeshSystem';
 
 /**
  * AI state machine for enemy characters.
@@ -60,6 +61,11 @@ export class EnemyAI {
   // Target (set each frame)
   private target: THREE.Vector3 | null = null;
 
+  // Navmesh pathfinding
+  private navMeshSystem: NavMeshSystem | null = null;
+  private currentPath: NavPoint[] = [];
+  private pathIndex = 0;
+
   constructor(
     private enemy: EnemyCharacter,
     private physicsWorld: PhysicsWorld,
@@ -67,7 +73,8 @@ export class EnemyAI {
     private damageSystem: DamageSystem,
     private playerActor: Actor,
     private eventBus: EventBus,
-    config: AIConfig = {}
+    config: AIConfig = {},
+    navMeshSystem: NavMeshSystem | null = null
   ) {
     this.detectionRange = config.detectionRange ?? 12;
     this.detectionCone = ((config.detectionCone ?? 120) * Math.PI) / 180;
@@ -78,6 +85,7 @@ export class EnemyAI {
     this.accuracyCone = ((config.accuracyCone ?? 15) * Math.PI) / 180;
     this.maxRange = config.maxRange ?? 15;
     this.damage = config.damage ?? 10;
+    this.navMeshSystem = navMeshSystem;
   }
 
   update(dt: number, playerPos: THREE.Vector3): void {
@@ -142,6 +150,7 @@ export class EnemyAI {
       this.hasLineOfSight()
     ) {
       this.enemy.stop();
+      this.currentPath = [];
       this.aiState = 'attack';
       this.isAttacking = false;
       return;
@@ -150,15 +159,64 @@ export class EnemyAI {
     // Lost target → idle
     if (dist > this.detectionRange * 1.5) {
       this.enemy.stop();
+      this.currentPath = [];
       this.aiState = 'idle';
       return;
     }
 
-    // Update chase target periodically
+    // Recompute path periodically
     this.chaseTimer += dt;
     if (this.chaseTimer >= this.CHASE_UPDATE_INTERVAL) {
       this.chaseTimer = 0;
-      this.enemy.moveTo(this.target.clone(), this.chaseSpeed);
+
+      // LOS shortcut: if we can see the player, go direct
+      if (this.hasLineOfSight() && dist < this.attackRange * 2) {
+        this.currentPath = [];
+        this.enemy.moveTo(this.target.clone(), this.chaseSpeed);
+        return;
+      }
+
+      // Use navmesh pathfinding
+      if (this.navMeshSystem) {
+        const pos = this.enemy.position;
+        const path = this.navMeshSystem.computePath(
+          { x: pos.x, y: pos.y, z: pos.z },
+          { x: this.target.x, y: this.target.y, z: this.target.z }
+        );
+        if (path && path.length > 0) {
+          this.currentPath = path;
+          this.pathIndex = 0;
+        } else {
+          // Fallback: direct movement
+          this.currentPath = [];
+          this.enemy.moveTo(this.target.clone(), this.chaseSpeed);
+          return;
+        }
+      } else {
+        // No navmesh: direct movement
+        this.enemy.moveTo(this.target.clone(), this.chaseSpeed);
+        return;
+      }
+    }
+
+    // Follow current path waypoints
+    if (this.currentPath.length > 0 && this.pathIndex < this.currentPath.length) {
+      const wp = this.currentPath[this.pathIndex];
+      const pos = this.enemy.position;
+      const dx = wp.x - pos.x;
+      const dz = wp.z - pos.z;
+      const waypointDist = Math.sqrt(dx * dx + dz * dz);
+
+      if (waypointDist < 0.3) {
+        // Arrived at waypoint, advance
+        this.pathIndex++;
+        if (this.pathIndex < this.currentPath.length) {
+          const next = this.currentPath[this.pathIndex];
+          this.enemy.moveTo(new THREE.Vector3(next.x, next.y, next.z), this.chaseSpeed);
+        }
+      } else {
+        this.enemy.moveTo(new THREE.Vector3(wp.x, wp.y, wp.z), this.chaseSpeed);
+      }
     }
   }
 

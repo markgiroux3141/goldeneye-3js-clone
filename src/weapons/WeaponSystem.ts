@@ -46,6 +46,7 @@ export class WeaponSystem {
   // State
   private reloading = false;
   private reloadTimer = 0;
+  private reloadDelayTimer = 0;
   private gameTime = 0;
   private lastFireTime = -Infinity;
 
@@ -142,12 +143,21 @@ export class WeaponSystem {
       }
     }
 
+    // Post-fire reload delay (pause before reload starts)
+    if (this.reloadDelayTimer > 0) {
+      this.reloadDelayTimer -= dt;
+      if (this.reloadDelayTimer <= 0 && this.slot.magazineAmmo === 0 &&
+          this.slot.reserveAmmo > 0 && !this.reloading && !this.switching) {
+        this.startReload();
+      }
+    }
+
     // Fire input
     if (this.inputManager.isMouseDown(0) && !this.reloading && !this.switching) {
       if (this.slot.magazineAmmo > 0 && this.gameTime - this.lastFireTime >= this.config.fireCooldown) {
         this.fire();
-      } else if (this.slot.magazineAmmo === 0) {
-        // Auto-reload on empty
+      } else if (this.slot.magazineAmmo === 0 && this.reloadDelayTimer <= 0) {
+        // Auto-reload on empty click (only after delay has elapsed)
         if (!this.reloading && this.slot.reserveAmmo > 0) {
           this.audio.play(this.config.sounds.empty, 0.5);
           this.startReload();
@@ -155,8 +165,8 @@ export class WeaponSystem {
       }
     }
 
-    // Manual reload
-    if (this.inputManager.isKeyDown('KeyR') && !this.reloading &&
+    // Manual reload (blocked during delay)
+    if (this.inputManager.isKeyDown('KeyR') && !this.reloading && this.reloadDelayTimer <= 0 &&
         this.slot.magazineAmmo < this.config.magazineSize && this.slot.reserveAmmo > 0) {
       this.startReload();
     }
@@ -198,7 +208,6 @@ export class WeaponSystem {
     }
 
     this.viewmodel.update(dt, isMoving, this.playerController.getGrounded(), mouseDX);
-    this.hud.update(dt);
 
     // Sync weapon camera to main camera
     this.weaponCamera.position.copy(this.engine.camera.position);
@@ -220,6 +229,11 @@ export class WeaponSystem {
   private fire(): void {
     this.lastFireTime = this.gameTime;
     this.slot.magazineAmmo--;
+
+    // Start reload delay when magazine empties
+    if (this.slot.magazineAmmo === 0 && this.slot.reserveAmmo > 0) {
+      this.reloadDelayTimer = 0.5;
+    }
 
     this.audio.play(this.config.sounds.fire, 0.6);
     this.viewmodel.playMuzzleFlash();
@@ -243,7 +257,7 @@ export class WeaponSystem {
         // Trigger visual hit feedback on enemy characters
         if (hitEntity instanceof EnemyCharacter) {
           hitEntity.onHit(hit.point);
-          this.hud.showHitMarker();
+
         }
       } else {
         // Only add bullet decals to static geometry, not actors

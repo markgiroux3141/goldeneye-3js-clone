@@ -42,6 +42,7 @@ import { WeaponEditorUI } from './weapons/WeaponEditorUI';
 import { getLevelConfig, getDoorScale, type LevelConfig, type LevelType } from './levels/LevelRegistry';
 import { bakeVertexColors } from './world/VertexColorBaker';
 import { HealthHUD } from './ui/HealthHUD';
+import { NavMeshSystem } from './navigation/NavMeshSystem';
 export type { LevelType } from './levels/LevelRegistry';
 
 export class Game {
@@ -57,6 +58,7 @@ export class Game {
   private n64UI!: N64SettingsUI;
   private world!: World;
   private healthHUD!: HealthHUD;
+  private navMeshSystem: NavMeshSystem | null = null;
   private debugEl: HTMLElement | null = null;
   private bgMusic: HTMLAudioElement | null = null;
 
@@ -321,7 +323,14 @@ export class Game {
       this.RAPIER
     );
 
-    await this.loadLevelGeometry(levelLoader, colliderFactory, assetLoader);
+    const levelGroup = await this.loadLevelGeometry(levelLoader, colliderFactory, assetLoader);
+
+    // DISABLED: navmesh WIP — uncomment to re-enable
+    // this.navMeshSystem = new NavMeshSystem(this.engine.scene);
+    // await this.navMeshSystem.init();
+    // if (levelGroup) {
+    //   await this.navMeshSystem.generate(levelGroup);
+    // }
 
     this.playerController.teleportTo(this.spawn.x, this.spawn.y, this.spawn.z);
 
@@ -376,6 +385,11 @@ export class Game {
       await this.world.loadEnemyPlacements(this.levelData.enemyPlacements);
       console.log(`[Game] Loaded ${this.levelData.enemyPlacements.length} enemy placements`);
     }
+
+    // DISABLED: navmesh WIP — uncomment to re-enable
+    // if (this.navMeshSystem) {
+    //   this.world.setNavMeshSystem(this.navMeshSystem);
+    // }
 
     // Health/armor HUD
     this.healthHUD = new HealthHUD(this.world.eventBus, this.world.player, audioManager);
@@ -469,8 +483,12 @@ export class Game {
       this.bgMusic?.play();
     });
 
-    // F9 toggles door placer
+    // F8 toggles navmesh debug, F9 toggles door placer
     window.addEventListener('keydown', (e) => {
+      if (e.code === 'F8') {
+        e.preventDefault();
+        this.navMeshSystem?.toggle();
+      }
       if (e.code === 'F9') {
         e.preventDefault();
         doorPlacer.toggle();
@@ -552,7 +570,7 @@ export class Game {
     levelLoader: LevelLoader,
     colliderFactory: ColliderFactory,
     assetLoader: AssetLoader
-  ): Promise<void> {
+  ): Promise<THREE.Group | null> {
     const config = this.levelConfig;
     if (config.type === 'glb' && config.modelPath) {
       // Load per-level decal overrides (manual include/exclude list)
@@ -572,7 +590,7 @@ export class Game {
       // Vertex color baking disabled — too slow without BVH acceleration
       // const lights = this.levelData?.lights ?? [];
       // bakeVertexColors(levelGroup, { lights });
-      void levelGroup; // keep reference for future baking use
+      return levelGroup;
 
     } else if (config.type === 'sandbox') {
       const planeGeo = new THREE.PlaneGeometry(50, 50);
@@ -586,6 +604,7 @@ export class Game {
       const materials = await loadStarterRoomMaterials(assetLoader);
       levelLoader.createLevel(materials);
     }
+    return null;
   }
 
   start(): void {
@@ -619,6 +638,7 @@ export class Game {
       this.gamepadManager?.dispose();
       this.fpsCamera?.dispose();
     }
+    this.navMeshSystem?.dispose();
     this.world?.dispose();
     this.gameLoop.stop();
     this.inputManager.dispose();

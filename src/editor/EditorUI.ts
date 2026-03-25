@@ -426,9 +426,12 @@ export class EditorUI {
 
   // ── Save / Load ───────────────────────────────────────────────
 
-  private save(): void {
+  private async save(): Promise<void> {
     const data = serializeLevelData(this.levelType, this.placement.objects, this.levelSpawn);
-    saveLevelData(data);
+    const savedToDisk = await saveLevelData(data);
+    this.statusBar.textContent = savedToDisk ? '✓ Saved to disk' : '⬇ Downloaded (dev server unavailable)';
+    this.statusBar.style.color = savedToDisk ? '#44cc44' : '#cccc44';
+    setTimeout(() => { this.statusBar.style.color = ''; }, 2000);
   }
 
   private async load(): Promise<void> {

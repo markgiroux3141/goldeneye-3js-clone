@@ -504,7 +504,7 @@ export class ObjectReplaceUI {
 
   // ── Save / Load ────────────────────────────────────────────────────
 
-  private saveJSON(): void {
+  private async saveJSON(): Promise<void> {
     const objects = this.replaceSystem.getAssignedObjects();
     if (objects.length === 0) {
       console.warn('[ObjectReplace] No assigned objects to save');
@@ -512,14 +512,24 @@ export class ObjectReplaceUI {
     }
     const data = serializeLevelData(this.levelType, [], this.spawn);
     data.objects = objects;
-    saveLevelData(data);
-    console.log(`[ObjectReplace] Saved ${objects.length} objects to level JSON`);
+    const savedToDisk = await saveLevelData(data);
+    this.showSaveFeedback(savedToDisk, `${objects.length} objects`);
   }
 
-  private saveAssignments(): void {
+  private async saveAssignments(): Promise<void> {
     const mapping = this.replaceSystem.getAssignmentMapping();
     const json = JSON.stringify({ assignments: mapping }, null, 2);
 
+    const { saveToProject } = await import('../utils/editorApi');
+    const result = await saveToProject(`assignments/assignments-${this.levelType}.json`, json);
+    if (result.ok) {
+      console.log(`[ObjectReplace] Saved assignment mapping to disk`);
+      this.showSaveFeedback(true, 'assignments');
+      return;
+    }
+
+    // Fallback: download
+    console.warn('[ObjectReplace] Direct save failed, falling back to download:', result.error);
     const blob = new Blob([json], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
@@ -529,7 +539,15 @@ export class ObjectReplaceUI {
     URL.revokeObjectURL(url);
 
     navigator.clipboard.writeText(json).catch(() => {});
-    console.log(`[ObjectReplace] Saved assignment mapping`);
+    this.showSaveFeedback(false, 'assignments');
+  }
+
+  private showSaveFeedback(savedToDisk: boolean, what: string): void {
+    this.statusBar.textContent = savedToDisk
+      ? `✓ Saved ${what} to disk`
+      : `⬇ Downloaded ${what} (dev server unavailable)`;
+    this.statusBar.style.color = savedToDisk ? '#44cc44' : '#cccc44';
+    setTimeout(() => { this.statusBar.style.color = ''; }, 2000);
   }
 
   private loadAssignments(): void {

@@ -95,8 +95,14 @@ function showLevelSelect(): void {
 
 const params = new URLSearchParams(window.location.search);
 const rawLevel = params.get('level');
+const rawMode = params.get('mode');
 
-if (!rawLevel) {
+if (rawMode === 'object-viewer') {
+  const basePath = params.get('path') ?? 'test_facility_objects';
+  import('./viewer/ObjectViewer').then(({ launchObjectViewer }) => {
+    launchObjectViewer(basePath);
+  });
+} else if (!rawLevel) {
   showLevelSelect();
 } else {
   const validLevels = getValidLevels();
