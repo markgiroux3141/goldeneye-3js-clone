@@ -9,8 +9,6 @@
   "unknown.glb": "secondary_026.glb",
   "unknown_1.glb": "primary_027.glb",
   "beaker.glb": "secondary_028.glb",
-  "bench.glb": "primary_029.glb",
-  "test_tubes.glb": "secondary_029.glb",
   "blue_chair.glb": "secondary_058.glb",
   "body_armor.glb": "primary_059.glb",
   "wooden_crate.glb": "primary_062.glb",
@@ -53,5 +51,7 @@
   "invisible_1.glb": "secondary_267.glb",
   "window_glass_4.glb": "secondary_268.glb",
   "window_glass_5.glb": "secondary_272.glb",
-  "grey_door_2.glb": "primary_276.glb"
+  "grey_door_2.glb": "primary_276.glb",
+  "test_tubes_primary.glb": "primary_029.glb",
+  "test_tubes_secondary.glb": "secondary_029.glb"
 }

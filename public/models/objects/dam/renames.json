@@ -51,8 +51,6 @@
   "explosive_barrel_4.glb": "primary_152.glb",
   "explosive_barrel_5.glb": "primary_155.glb",
   "wall_display.glb": "primary_158.glb",
-  "satelite_dish.glb": "primary_159.glb",
-  "metal_support.glb": "secondary_159.glb",
   "window_glass_1.glb": "secondary_160.glb",
   "brown_sliding_door.glb": "primary_162.glb",
   "window_glass_2.glb": "secondary_163.glb",
@@ -62,5 +60,7 @@
   "padlock.glb": "primary_173.glb",
   "window_glass_3.glb": "secondary_174.glb",
   "window_glass_4.glb": "secondary_177.glb",
-  "wall_display_1.glb": "primary_184.glb"
+  "wall_display_1.glb": "primary_184.glb",
+  "satelite_dish_primary.glb": "primary_159.glb",
+  "satelite_dish_secondary.glb": "secondary_159.glb"
 }

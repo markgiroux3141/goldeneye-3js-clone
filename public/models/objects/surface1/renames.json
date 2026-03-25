@@ -26,11 +26,7 @@
   "brown_sliding_door.glb": "primary_038.glb",
   "wooden_crate.glb": "primary_039.glb",
   "explosive_barrel.glb": "primary_051.glb",
-  "wooden_door.glb": "primary_063.glb",
-  "window_glass.glb": "secondary_063.glb",
-  "wooden_door_1.glb": "primary_065.glb",
   "wooden_door_2.glb": "primary_069.glb",
-  "window_glass_1.glb": "secondary_069.glb",
   "metal_door.glb": "primary_071.glb",
   "window_glass_2.glb": "secondary_071.glb",
   "metal_door_1.glb": "primary_072.glb",
@@ -55,5 +51,9 @@
   "window_glass_3.glb": "secondary_111.glb",
   "window_glass_4.glb": "secondary_115.glb",
   "window_glass_5.glb": "secondary_150.glb",
-  "window_glass_6.glb": "secondary_152.glb"
+  "window_glass_6.glb": "secondary_152.glb",
+  "wooden_door_primary.glb": "primary_063.glb",
+  "wooden_door_secondary.glb": "secondary_063.glb",
+  "wooden_door_primary_1.glb": "primary_065.glb",
+  "wooden_door_secondary_1.glb": "secondary_069.glb"
 }
