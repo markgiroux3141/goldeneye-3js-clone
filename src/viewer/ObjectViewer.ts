@@ -172,6 +172,7 @@ export async function launchObjectViewer(basePath: string): Promise<void> {
   const loader = new GLTFLoader();
   let currentModel: THREE.Group | null = null;
   let currentFiles: string[] = [];
+  let currentRenames: Record<string, string> = {};
 
   // Rename mode helpers
   function enterRenameMode(): void {
@@ -233,6 +234,12 @@ export async function launchObjectViewer(basePath: string): Promise<void> {
     if (idx !== -1) currentFiles[idx] = newFilename;
     const manifestPath = `${currentBasePath}/manifest.json`;
     await saveToProject(manifestPath, JSON.stringify(currentFiles, null, 2));
+
+    // Update renames mapping (always chain back to the original name)
+    const originalName = currentRenames[oldFilename] || oldFilename;
+    delete currentRenames[oldFilename];
+    currentRenames[newFilename] = originalName;
+    await saveToProject(`${currentBasePath}/renames.json`, JSON.stringify(currentRenames, null, 2));
 
     // Update dropdown option in place
     const opt = select.options[select.selectedIndex];
@@ -297,6 +304,14 @@ export async function launchObjectViewer(basePath: string): Promise<void> {
   async function showFolder(folderPath: string, files: string[]): Promise<void> {
     currentBasePath = folderPath;
     currentFiles = files;
+
+    // Load renames mapping
+    try {
+      const resp = await fetch(`/${folderPath}/renames.json`);
+      currentRenames = resp.ok ? await resp.json() : {};
+    } catch {
+      currentRenames = {};
+    }
 
     // Update title
     title.textContent = `Object Viewer — ${folderPath}`;
