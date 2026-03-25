@@ -1,13 +1,13 @@
 [
-  "primary_00.glb",
-  "primary_03.glb",
-  "primary_04.glb",
-  "primary_09.glb",
-  "secondary_09.glb",
-  "primary_12.glb",
-  "secondary_12.glb",
-  "primary_13.glb",
-  "primary_14.glb",
-  "primary_15.glb",
-  "primary_18.glb"
+  "guard.glb",
+  "trevelyn.glb",
+  "body_armor.glb",
+  "drone_gun_primary.glb",
+  "drone_gun_secondary.glb",
+  "helicopter_primary.glb",
+  "helicopter_secondary.glb",
+  "console.glb",
+  "brown_sliding_door.glb",
+  "brown_sliding_door_1.glb",
+  "brown_sliding_door_2.glb"
 ]
