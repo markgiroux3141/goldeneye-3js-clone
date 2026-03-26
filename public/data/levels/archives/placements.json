@@ -1,0 +1,6976 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -38.7191,
+        3.9411,
+        -25.5595
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -33.4744,
+        0.705,
+        -4.5806
+      ],
+      "rotation": [
+        0,
+        -1.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -35.4161,
+        0.705,
+        -44.5298
+      ],
+      "rotation": [
+        0,
+        -1.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -2.7202,
+        3.9411,
+        -16.0074
+      ],
+      "rotation": [
+        0,
+        -1.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -4.7288,
+        1.1068,
+        14.412
+      ],
+      "rotation": [
+        0,
+        -1.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -38.0353,
+        6.9764,
+        -29.1722
+      ],
+      "rotation": [
+        0,
+        88.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -34.9349,
+        0.705,
+        -3.913
+      ],
+      "rotation": [
+        0,
+        -136.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -19.521,
+        0.705,
+        -14.901
+      ],
+      "rotation": [
+        0,
+        43.79,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -20.5157,
+        0.705,
+        -15.3797
+      ],
+      "rotation": [
+        0,
+        88.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_10",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -4.4805,
+        3.9411,
+        -17.3608
+      ],
+      "rotation": [
+        0,
+        -91.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_11",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -30.0792,
+        3.9411,
+        -24.7034
+      ],
+      "rotation": [
+        0,
+        -91.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_12",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -28.7259,
+        3.9411,
+        -28.45
+      ],
+      "rotation": [
+        0,
+        178.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_13",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -19.1096,
+        3.9411,
+        -43.0317
+      ],
+      "rotation": [
+        0,
+        88.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_14",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -0.8981,
+        3.9411,
+        -34.1938
+      ],
+      "rotation": [
+        0,
+        88.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_15",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -5.8081,
+        1.1068,
+        6.5142
+      ],
+      "rotation": [
+        0,
+        88.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_16",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -8.7318,
+        1.1068,
+        9.5272
+      ],
+      "rotation": [
+        0,
+        88.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_17",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -16.4206,
+        3.9411,
+        8.2826
+      ],
+      "rotation": [
+        0,
+        -91.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_18",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        -17.101,
+        3.9411,
+        -6.7426
+      ],
+      "rotation": [
+        0,
+        88.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_19",
+      "type": "guard",
+      "meshes": [
+        "archives_guard.glb"
+      ],
+      "position": [
+        0.0742,
+        3.9411,
+        -8.5404
+      ],
+      "rotation": [
+        0,
+        43.79,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_01",
+      "type": "guard_1",
+      "meshes": [
+        "archives_guard_1.glb"
+      ],
+      "position": [
+        -16.0887,
+        3.9411,
+        -27.1887
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_02",
+      "type": "guard_1",
+      "meshes": [
+        "archives_guard_1.glb"
+      ],
+      "position": [
+        -29.7776,
+        3.9411,
+        -53.4319
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_01",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -6.4204,
+        0.5951,
+        -13.5504
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_02",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -39.3634,
+        3.8312,
+        -41.6127
+      ],
+      "rotation": [
+        0,
+        133.37,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_03",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -32.8109,
+        3.8312,
+        -42.0097
+      ],
+      "rotation": [
+        0,
+        88.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_04",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -0.5284,
+        3.8312,
+        11.5573
+      ],
+      "rotation": [
+        0,
+        -1.63,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_05",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -0.0056,
+        3.8312,
+        15.5899
+      ],
+      "rotation": [
+        0,
+        -46.63,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_06",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -3.7837,
+        3.8312,
+        15.3046
+      ],
+      "rotation": [
+        0,
+        -136.64,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_07",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -2.4623,
+        0.9968,
+        11.6743
+      ],
+      "rotation": [
+        0,
+        176.78,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_08",
+      "type": "guard_2",
+      "meshes": [
+        "archives_guard_2.glb"
+      ],
+      "position": [
+        -0.3856,
+        0.9968,
+        15.3982
+      ],
+      "rotation": [
+        0,
+        -128.64,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "natalia_01",
+      "type": "natalia",
+      "meshes": [
+        "archives_natalia.glb"
+      ],
+      "position": [
+        -38.7207,
+        4.1988,
+        -40.9013
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "helicopter_blackbox_01",
+      "type": "helicopter_blackbox",
+      "meshes": [
+        "archives_helicopter_blackbox.glb"
+      ],
+      "position": [
+        -6.5169,
+        0.0716,
+        -14.9084
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "lamp_01",
+      "type": "lamp",
+      "meshes": [
+        "archives_lamp_primary.glb",
+        "archives_lamp_secondary.glb"
+      ],
+      "position": [
+        1.271,
+        4.1251,
+        1.5465
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "lamp_02",
+      "type": "lamp",
+      "meshes": [
+        "archives_lamp_primary.glb",
+        "archives_lamp_secondary.glb"
+      ],
+      "position": [
+        -1.8813,
+        4.1251,
+        14.1932
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wedge_01",
+      "type": "wedge",
+      "meshes": [
+        "archives_wedge.glb"
+      ],
+      "position": [
+        0.8481,
+        0.9041,
+        11.9753
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "pp7_01",
+      "type": "pp7",
+      "meshes": [
+        "archives_pp7_primary.glb",
+        "archives_pp7_secondary.glb"
+      ],
+      "position": [
+        1.1429,
+        0.9069,
+        11.058
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_01",
+      "type": "metal_window",
+      "meshes": [
+        "archives_metal_window.glb"
+      ],
+      "position": [
+        -0.4017,
+        1.7743,
+        -13.7925
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_02",
+      "type": "metal_window",
+      "meshes": [
+        "archives_metal_window.glb"
+      ],
+      "position": [
+        -0.4017,
+        1.7743,
+        -8.8379
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_03",
+      "type": "metal_window",
+      "meshes": [
+        "archives_metal_window.glb"
+      ],
+      "position": [
+        -18.7918,
+        1.7743,
+        -13.7925
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_04",
+      "type": "metal_window",
+      "meshes": [
+        "archives_metal_window.glb"
+      ],
+      "position": [
+        -18.7918,
+        1.7743,
+        -8.8379
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_1_01",
+      "type": "metal_window_1",
+      "meshes": [
+        "archives_metal_window_1.glb"
+      ],
+      "position": [
+        -0.4017,
+        1.7743,
+        -4.0954
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_2_01",
+      "type": "metal_window_2",
+      "meshes": [
+        "archives_metal_window_2.glb"
+      ],
+      "position": [
+        2.2318,
+        1.1159,
+        -23.6571
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_2_02",
+      "type": "metal_window_2",
+      "meshes": [
+        "archives_metal_window_2.glb"
+      ],
+      "position": [
+        2.2318,
+        1.1159,
+        -28.5001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_2_03",
+      "type": "metal_window_2",
+      "meshes": [
+        "archives_metal_window_2.glb"
+      ],
+      "position": [
+        2.2318,
+        1.1159,
+        -32.1379
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_2_04",
+      "type": "metal_window_2",
+      "meshes": [
+        "archives_metal_window_2.glb"
+      ],
+      "position": [
+        2.2318,
+        4.352,
+        -32.1379
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_2_05",
+      "type": "metal_window_2",
+      "meshes": [
+        "archives_metal_window_2.glb"
+      ],
+      "position": [
+        2.2318,
+        4.352,
+        -28.5001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_2_06",
+      "type": "metal_window_2",
+      "meshes": [
+        "archives_metal_window_2.glb"
+      ],
+      "position": [
+        2.2318,
+        4.352,
+        -23.6571
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_window_3_01",
+      "type": "metal_window_3",
+      "meshes": [
+        "archives_metal_window_3.glb"
+      ],
+      "position": [
+        -26.5807,
+        4.8988,
+        -16.5823
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_01",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -21.7154,
+        0.8897,
+        -27.4615
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_02",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -28.076,
+        0.8897,
+        -32.5516
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_03",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -21.76,
+        0.8897,
+        -22.442
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_04",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -25.9335,
+        0.8897,
+        -39.0888
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_05",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -19.5163,
+        0.8897,
+        -40.3286
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_06",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -20.5102,
+        0.8897,
+        -18.9133
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_07",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -1.5063,
+        0.8897,
+        -26.8382
+      ],
+      "rotation": [
+        0,
+        168,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_08",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -29.0134,
+        0.8897,
+        -53.1069
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_09",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -3.4256,
+        4.1143,
+        -27.1952
+      ],
+      "rotation": [
+        0,
+        168,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_10",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -33.7671,
+        4.1143,
+        -54.4902
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_11",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -30.04,
+        4.1143,
+        -54.4232
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_12",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -20.9343,
+        4.1143,
+        -41.1221
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_13",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -20.0069,
+        4.1143,
+        -33.1422
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_14",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -19.9627,
+        4.1143,
+        -28.9688
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_15",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -20.9566,
+        4.1143,
+        -25.1197
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_16",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -38.6205,
+        4.1143,
+        -33.6555
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_17",
+      "type": "bookshelf",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ],
+      "position": [
+        -31.7684,
+        4.1143,
+        -19.6621
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_01",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -24.4382,
+        0.8897,
+        -22.4529
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_02",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -27.5851,
+        0.8897,
+        -27.4507
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_03",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -22.0948,
+        0.8897,
+        -32.6522
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_04",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -21.2579,
+        0.8897,
+        -36.1785
+      ],
+      "rotation": [
+        0,
+        0.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_05",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -1.5063,
+        0.8897,
+        -31.0899
+      ],
+      "rotation": [
+        0,
+        -12,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_06",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -1.7575,
+        0.8897,
+        -22.4952
+      ],
+      "rotation": [
+        0,
+        166,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_07",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -31.6915,
+        0.8897,
+        -53.1178
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_08",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -0.7921,
+        4.1143,
+        -26.6263
+      ],
+      "rotation": [
+        0,
+        -12,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_09",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -30.2186,
+        4.1143,
+        -46.9357
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_10",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -26.4468,
+        4.1143,
+        -54.4123
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_11",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -26.8922,
+        4.1143,
+        -39.9715
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_12",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -23.4339,
+        4.1143,
+        -33.5896
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_13",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -18.6355,
+        4.1143,
+        -38.0085
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_14",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -27.5404,
+        4.1143,
+        -25.5551
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_15",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -39.2807,
+        4.1143,
+        -29.4598
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_16",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -35.0829,
+        4.1143,
+        -33.5663
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_1_17",
+      "type": "bookshelf_1",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ],
+      "position": [
+        -31.4465,
+        4.1143,
+        -27.6298
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_01",
+      "type": "cardboard_crate",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ],
+      "position": [
+        -23.0863,
+        0.1,
+        -18.7419
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_02",
+      "type": "cardboard_crate",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ],
+      "position": [
+        -8.9256,
+        0.1,
+        -15.1473
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_03",
+      "type": "cardboard_crate",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ],
+      "position": [
+        -9.8742,
+        0.1,
+        -10.5947
+      ],
+      "rotation": [
+        0,
+        0.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_04",
+      "type": "cardboard_crate",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ],
+      "position": [
+        -38.0498,
+        0.0898,
+        -18.3307
+      ],
+      "rotation": [
+        0,
+        -12.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_05",
+      "type": "cardboard_crate",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ],
+      "position": [
+        -32.181,
+        0.1,
+        -19.6555
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_06",
+      "type": "cardboard_crate",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ],
+      "position": [
+        -30.2473,
+        1.1936,
+        -24.1354
+      ],
+      "rotation": [
+        0,
+        -89.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_07",
+      "type": "cardboard_crate",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ],
+      "position": [
+        -22.6424,
+        0.4915,
+        14.2833
+      ],
+      "rotation": [
+        0,
+        -172.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_01",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -22.9858,
+        1.1834,
+        -18.8811
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_02",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -7.631,
+        0.0898,
+        -42.5386
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_03",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -0.6677,
+        0.0898,
+        -17.7661
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_04",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        0.6043,
+        0.0898,
+        -34.2696
+      ],
+      "rotation": [
+        0,
+        -0.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_05",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        0.3346,
+        1.1713,
+        -34.1274
+      ],
+      "rotation": [
+        0,
+        82.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_06",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -12.0838,
+        0.0898,
+        -15.2641
+      ],
+      "rotation": [
+        0,
+        1.27,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_07",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -8.8361,
+        1.1834,
+        -15.2879
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_08",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -11.4493,
+        0.1,
+        -11.5193
+      ],
+      "rotation": [
+        0,
+        82.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_09",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -11.3581,
+        1.1834,
+        -11.6617
+      ],
+      "rotation": [
+        0,
+        -0.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_10",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -9.7735,
+        1.1834,
+        -10.7355
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_11",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -8.9924,
+        0.0898,
+        -9.4634
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_12",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -8.6596,
+        1.1713,
+        -10.939
+      ],
+      "rotation": [
+        0,
+        82.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_13",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -10.1753,
+        0.0898,
+        -7.1756
+      ],
+      "rotation": [
+        0,
+        -0.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_14",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -10.6485,
+        0.1,
+        -7.273
+      ],
+      "rotation": [
+        0,
+        -97.1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_15",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -11.5482,
+        0.0898,
+        -7.2073
+      ],
+      "rotation": [
+        0,
+        1.27,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_16",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -30.2518,
+        0.1,
+        -24.127
+      ],
+      "rotation": [
+        0,
+        -0.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_17",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -37.3585,
+        0.0898,
+        -23.7022
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_18",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -38.5191,
+        0.0898,
+        -26.5143
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_19",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -38.6777,
+        1.1713,
+        -26.582
+      ],
+      "rotation": [
+        0,
+        52.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_20",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -37.3571,
+        1.1713,
+        -26.6033
+      ],
+      "rotation": [
+        0,
+        -7.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_21",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -37.1131,
+        0.0898,
+        -27.8644
+      ],
+      "rotation": [
+        0,
+        -0.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_22",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -36.5008,
+        0.0898,
+        -33.9216
+      ],
+      "rotation": [
+        0,
+        -90.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_23",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -34.1452,
+        1.1713,
+        -34.3057
+      ],
+      "rotation": [
+        0,
+        82.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_24",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -34.0108,
+        0.0898,
+        -33.255
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_25",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -32.0913,
+        1.1834,
+        -19.7961
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_26",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -32.7184,
+        0.1,
+        -23.4371
+      ],
+      "rotation": [
+        0,
+        82.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_27",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -32.6271,
+        1.1834,
+        -23.5793
+      ],
+      "rotation": [
+        0,
+        -0.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_28",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -30.2521,
+        0.1,
+        -31.0936
+      ],
+      "rotation": [
+        0,
+        82.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_29",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -30.1499,
+        1.1834,
+        -31.2344
+      ],
+      "rotation": [
+        0,
+        -0.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_30",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -28.0869,
+        0.0898,
+        -17.8303
+      ],
+      "rotation": [
+        0,
+        -90.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_31",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -31.4443,
+        0.0898,
+        -44.6816
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_32",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -31.4253,
+        1.1713,
+        -44.6542
+      ],
+      "rotation": [
+        0,
+        106.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_33",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -30.8172,
+        1.1834,
+        -42.9089
+      ],
+      "rotation": [
+        0,
+        164.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_34",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -35.1937,
+        0.0898,
+        -55.3487
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_35",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -34.9959,
+        1.1713,
+        -55.4752
+      ],
+      "rotation": [
+        0,
+        106.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_36",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -33.9788,
+        0.0898,
+        -55.704
+      ],
+      "rotation": [
+        0,
+        -90.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_37",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -26.0997,
+        0.0898,
+        -55.2381
+      ],
+      "rotation": [
+        0,
+        149.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_38",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -23.6095,
+        0.1,
+        -36.7605
+      ],
+      "rotation": [
+        0,
+        82.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_39",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -24.976,
+        3.3361,
+        -18.8098
+      ],
+      "rotation": [
+        0,
+        106.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_40",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -24.9173,
+        4.4298,
+        -18.7234
+      ],
+      "rotation": [
+        0,
+        90.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_41",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -24.3045,
+        3.3361,
+        -50.94
+      ],
+      "rotation": [
+        0,
+        0.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_42",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -24.57,
+        4.4298,
+        -49.9082
+      ],
+      "rotation": [
+        0,
+        106.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_43",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -24.4172,
+        4.4298,
+        -44.8518
+      ],
+      "rotation": [
+        0,
+        106.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_44",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -5.3438,
+        0.4915,
+        2.9916
+      ],
+      "rotation": [
+        0,
+        0.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_45",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -8.335,
+        0.4915,
+        7.397
+      ],
+      "rotation": [
+        0,
+        91,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_46",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -8.3236,
+        0.4915,
+        12.7756
+      ],
+      "rotation": [
+        0,
+        90.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_47",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -9.5841,
+        0.4915,
+        12.3652
+      ],
+      "rotation": [
+        0,
+        0.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_48",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -10.5554,
+        0.4915,
+        10.1868
+      ],
+      "rotation": [
+        0,
+        90.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_49",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -10.5907,
+        0.4915,
+        8.8282
+      ],
+      "rotation": [
+        0,
+        -89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_50",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -8.4579,
+        1.5731,
+        12.7649
+      ],
+      "rotation": [
+        0,
+        6.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_51",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -9.6184,
+        1.5628,
+        12.3632
+      ],
+      "rotation": [
+        0,
+        6.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_52",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -20.2321,
+        0.4915,
+        10.4797
+      ],
+      "rotation": [
+        0,
+        -89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_53",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -21.4263,
+        0.4915,
+        11.1492
+      ],
+      "rotation": [
+        0,
+        -89.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_54",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -20.0758,
+        0.4915,
+        12.466
+      ],
+      "rotation": [
+        0,
+        -89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_55",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -24.1823,
+        0.4915,
+        8.6273
+      ],
+      "rotation": [
+        0,
+        -89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_56",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -22.5941,
+        1.5731,
+        14.3
+      ],
+      "rotation": [
+        0,
+        -119.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_57",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -27.2047,
+        0.4915,
+        0.4338
+      ],
+      "rotation": [
+        0,
+        90.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_58",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -17.0073,
+        4.4195,
+        13.4926
+      ],
+      "rotation": [
+        0,
+        -89.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_59",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -15.9231,
+        3.3361,
+        -4.4857
+      ],
+      "rotation": [
+        0,
+        90.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_60",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -5.1321,
+        4.4298,
+        0.1569
+      ],
+      "rotation": [
+        0,
+        -83.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_1_61",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ],
+      "position": [
+        -0.7336,
+        4.4195,
+        16.3975
+      ],
+      "rotation": [
+        0,
+        -108.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_01",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -8.8718,
+        0.0898,
+        -24.0426
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_02",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -4.1227,
+        0.0898,
+        -5.0092
+      ],
+      "rotation": [
+        0,
+        109.88,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_03",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -6.0688,
+        0.0898,
+        -7.5758
+      ],
+      "rotation": [
+        0,
+        65.27,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_04",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -10.4785,
+        0.0898,
+        -15.2175
+      ],
+      "rotation": [
+        0,
+        -0.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_05",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -11.3359,
+        0.0898,
+        -10.4548
+      ],
+      "rotation": [
+        0,
+        65.27,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_06",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -9.8536,
+        0.0898,
+        -12.2046
+      ],
+      "rotation": [
+        0,
+        -0.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_07",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -8.3483,
+        1.1834,
+        -12.3522
+      ],
+      "rotation": [
+        0,
+        64.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_08",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -39.2906,
+        0.0898,
+        -31.782
+      ],
+      "rotation": [
+        0,
+        63.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_09",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -30.2518,
+        1.1834,
+        -24.127
+      ],
+      "rotation": [
+        0,
+        63.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_10",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -30.9572,
+        0.1,
+        -43.1397
+      ],
+      "rotation": [
+        0,
+        -24.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_11",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -31.7123,
+        0.0898,
+        -48.7689
+      ],
+      "rotation": [
+        0,
+        18.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_12",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -24.5831,
+        0.0898,
+        -55.4166
+      ],
+      "rotation": [
+        0,
+        63.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_13",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -24.6084,
+        1.1713,
+        -55.285
+      ],
+      "rotation": [
+        0,
+        177.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_14",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -24.4562,
+        0.0898,
+        -53.9594
+      ],
+      "rotation": [
+        0,
+        -56.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_15",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -22.6414,
+        0.0898,
+        -42.7842
+      ],
+      "rotation": [
+        0,
+        63.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_16",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -5.4783,
+        3.3361,
+        -34.3376
+      ],
+      "rotation": [
+        0,
+        154.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_17",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -24.7387,
+        3.3361,
+        -42.9078
+      ],
+      "rotation": [
+        0,
+        154.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_18",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -24.761,
+        3.3361,
+        -17.5992
+      ],
+      "rotation": [
+        0,
+        154.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_19",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -24.4709,
+        3.3361,
+        -44.8941
+      ],
+      "rotation": [
+        0,
+        154.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_20",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -10.4994,
+        1.5731,
+        9.9097
+      ],
+      "rotation": [
+        0,
+        -19.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_21",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -22.6031,
+        0.4915,
+        15.6527
+      ],
+      "rotation": [
+        0,
+        -130.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_22",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -16.929,
+        3.3361,
+        -7.9549
+      ],
+      "rotation": [
+        0,
+        -25.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_23",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -12.4638,
+        3.3361,
+        0.3892
+      ],
+      "rotation": [
+        0,
+        154.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_2_24",
+      "type": "cardboard_crate_2",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ],
+      "position": [
+        -5.1228,
+        3.3361,
+        0.1688
+      ],
+      "rotation": [
+        0,
+        -25.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_3_01",
+      "type": "cardboard_crate_3",
+      "meshes": [
+        "archives_cardboard_crate_3.glb"
+      ],
+      "position": [
+        -7.2175,
+        0.1,
+        -40.8656
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_3_02",
+      "type": "cardboard_crate_3",
+      "meshes": [
+        "archives_cardboard_crate_3.glb"
+      ],
+      "position": [
+        -7.2243,
+        1.1936,
+        -40.8663
+      ],
+      "rotation": [
+        0,
+        -7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_3_03",
+      "type": "cardboard_crate_3",
+      "meshes": [
+        "archives_cardboard_crate_3.glb"
+      ],
+      "position": [
+        -18.748,
+        3.3361,
+        10.3105
+      ],
+      "rotation": [
+        0,
+        -173.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_3_04",
+      "type": "cardboard_crate_3",
+      "meshes": [
+        "archives_cardboard_crate_3.glb"
+      ],
+      "position": [
+        -0.7336,
+        3.3361,
+        16.3975
+      ],
+      "rotation": [
+        0,
+        -131.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_4_01",
+      "type": "cardboard_crate_4",
+      "meshes": [
+        "archives_cardboard_crate_4.glb"
+      ],
+      "position": [
+        -8.559,
+        0.0898,
+        -11.0813
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_4_02",
+      "type": "cardboard_crate_4",
+      "meshes": [
+        "archives_cardboard_crate_4.glb"
+      ],
+      "position": [
+        -39.4921,
+        0.0898,
+        -20.8119
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_4_03",
+      "type": "cardboard_crate_4",
+      "meshes": [
+        "archives_cardboard_crate_4.glb"
+      ],
+      "position": [
+        -39.893,
+        0.0898,
+        -26.5923
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_4_04",
+      "type": "cardboard_crate_4",
+      "meshes": [
+        "archives_cardboard_crate_4.glb"
+      ],
+      "position": [
+        -37.3492,
+        0.0898,
+        -26.5923
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_4_05",
+      "type": "cardboard_crate_4",
+      "meshes": [
+        "archives_cardboard_crate_4.glb"
+      ],
+      "position": [
+        -34.0457,
+        0.0898,
+        -34.4482
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_5_01",
+      "type": "cardboard_crate_5",
+      "meshes": [
+        "archives_cardboard_crate_5.glb"
+      ],
+      "position": [
+        -8.3775,
+        0.1,
+        -12.3061
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_6_01",
+      "type": "cardboard_crate_6",
+      "meshes": [
+        "archives_cardboard_crate_6.glb"
+      ],
+      "position": [
+        -8.9593,
+        1.1713,
+        -9.4311
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "archives_body_armor.glb"
+      ],
+      "position": [
+        -39.4761,
+        0.7646,
+        -20.9515
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_01",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        -24.3813,
+        0.226,
+        -48.5869
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_02",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        -32.8197,
+        3.4621,
+        -40.2388
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_03",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        -37.4733,
+        3.4621,
+        -41.8622
+      ],
+      "rotation": [
+        0,
+        150.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_04",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        0.7376,
+        0.6277,
+        11.3146
+      ],
+      "rotation": [
+        0,
+        0.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_05",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        -20.3992,
+        3.4621,
+        5.478
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_06",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        -2.6329,
+        3.4621,
+        14.0056
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_07",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        1.6281,
+        3.4621,
+        1.6744
+      ],
+      "rotation": [
+        0,
+        -179.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_08",
+      "type": "wooden_table",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ],
+      "position": [
+        1.657,
+        3.4621,
+        -7.2919
+      ],
+      "rotation": [
+        0,
+        134.48,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_1_01",
+      "type": "wooden_table_1",
+      "meshes": [
+        "archives_wooden_table_1.glb"
+      ],
+      "position": [
+        -12.5482,
+        0.226,
+        -26.9669
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_2_01",
+      "type": "wooden_table_2",
+      "meshes": [
+        "archives_wooden_table_2.glb"
+      ],
+      "position": [
+        -9.7627,
+        0.4143,
+        -31.157
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_01",
+      "type": "black_chair",
+      "meshes": [
+        "archives_black_chair.glb"
+      ],
+      "position": [
+        -25.5481,
+        -0.0352,
+        -48.5944
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_1_01",
+      "type": "black_chair_1",
+      "meshes": [
+        "archives_black_chair_1.glb"
+      ],
+      "position": [
+        -10.9608,
+        -0.0352,
+        -26.912
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_2_01",
+      "type": "black_chair_2",
+      "meshes": [
+        "archives_black_chair_2.glb"
+      ],
+      "position": [
+        -11.7112,
+        -0.0352,
+        -31.4653
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_01",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -18.4905,
+        0.8146,
+        -4.5532
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_02",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -14.25,
+        0.8146,
+        -13.7482
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_03",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -2.8347,
+        0.8146,
+        -16.8836
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_04",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -16.3817,
+        0.8146,
+        -16.8836
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_05",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -31.9371,
+        4.0396,
+        -37.6055
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_06",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -2.8347,
+        4.0507,
+        -16.6827
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_07",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -16.3817,
+        4.0507,
+        -16.6827
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_08",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -20.9231,
+        4.0507,
+        0.8038
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_09",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -2.8341,
+        4.0507,
+        9.6079
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_10",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -4.14,
+        1.2163,
+        14.3508
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_11",
+      "type": "metal_door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ],
+      "position": [
+        -7.577,
+        1.2163,
+        14.3502
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_01",
+      "type": "metal_door_1",
+      "meshes": [
+        "archives_metal_door_1.glb"
+      ],
+      "position": [
+        -7.1756,
+        0.8146,
+        -6.3718
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_01",
+      "type": "metal_door_2",
+      "meshes": [
+        "archives_metal_door_2.glb"
+      ],
+      "position": [
+        -27.3287,
+        1.0601,
+        -43.9107
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_02",
+      "type": "metal_door_2",
+      "meshes": [
+        "archives_metal_door_2.glb"
+      ],
+      "position": [
+        -28.6113,
+        1.0601,
+        -43.9107
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_03",
+      "type": "metal_door_2",
+      "meshes": [
+        "archives_metal_door_2.glb"
+      ],
+      "position": [
+        -29.9065,
+        1.0601,
+        -43.9107
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_04",
+      "type": "metal_door_2",
+      "meshes": [
+        "archives_metal_door_2.glb"
+      ],
+      "position": [
+        -31.2002,
+        1.0601,
+        -43.9107
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_05",
+      "type": "metal_door_2",
+      "meshes": [
+        "archives_metal_door_2.glb"
+      ],
+      "position": [
+        -4.3409,
+        1.0601,
+        -17.6427
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_3_01",
+      "type": "metal_door_3",
+      "meshes": [
+        "archives_metal_door_3.glb"
+      ],
+      "position": [
+        -29.9171,
+        1.0601,
+        -32.2269
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_3_02",
+      "type": "metal_door_3",
+      "meshes": [
+        "archives_metal_door_3.glb"
+      ],
+      "position": [
+        -5.1447,
+        1.0601,
+        -21.057
+      ],
+      "rotation": [
+        0,
+        -127.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_4_01",
+      "type": "metal_door_4",
+      "meshes": [
+        "archives_metal_door_4.glb"
+      ],
+      "position": [
+        -30.7304,
+        1.0601,
+        -33.2841
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_4_02",
+      "type": "metal_door_4",
+      "meshes": [
+        "archives_metal_door_4.glb"
+      ],
+      "position": [
+        -31.5209,
+        1.0601,
+        -34.2985
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_5_01",
+      "type": "metal_door_5",
+      "meshes": [
+        "archives_metal_door_5.glb"
+      ],
+      "position": [
+        -17.0844,
+        1.0601,
+        -30.698
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_safe_01",
+      "type": "metal_safe",
+      "meshes": [
+        "archives_metal_safe.glb"
+      ],
+      "position": [
+        -6.5031,
+        0.3532,
+        -14.846
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_safe_door_01",
+      "type": "metal_safe_door",
+      "meshes": [
+        "archives_metal_safe_door.glb"
+      ],
+      "position": [
+        -6.2541,
+        0.3124,
+        -14.4542
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_7_01",
+      "type": "cardboard_crate_7",
+      "meshes": [
+        "archives_cardboard_crate_7.glb"
+      ],
+      "position": [
+        -24.6381,
+        3.3361,
+        -52.6691
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_7_02",
+      "type": "cardboard_crate_7",
+      "meshes": [
+        "archives_cardboard_crate_7.glb"
+      ],
+      "position": [
+        -39.8945,
+        4.4298,
+        -17.7766
+      ],
+      "rotation": [
+        0,
+        106.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_7_03",
+      "type": "cardboard_crate_7",
+      "meshes": [
+        "archives_cardboard_crate_7.glb"
+      ],
+      "position": [
+        -18.7704,
+        3.3361,
+        13.4369
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_01",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -25.1291,
+        3.3361,
+        -49.6925
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_02",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -39.8056,
+        3.3361,
+        -17.8331
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_03",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -22.6984,
+        1.5731,
+        15.6129
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_04",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -17.0073,
+        3.3361,
+        13.4926
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_05",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -15.8691,
+        3.3361,
+        13.4926
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_06",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -15.8691,
+        4.4298,
+        13.4926
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_07",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -0.4027,
+        3.3361,
+        -6.3258
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_08",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -16.9073,
+        3.3361,
+        0.1106
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_09",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        -16.9073,
+        4.4298,
+        0.1106
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_8_10",
+      "type": "cardboard_crate_8",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ],
+      "position": [
+        0.2581,
+        3.3361,
+        11.584
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_3_01",
+      "type": "black_chair_3",
+      "meshes": [
+        "archives_black_chair_3.glb"
+      ],
+      "position": [
+        -39.3817,
+        3.2009,
+        -42.6755
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_2_01",
+      "type": "bookshelf_2",
+      "meshes": [
+        "archives_bookshelf_2.glb"
+      ],
+      "position": [
+        -0.6251,
+        4.1143,
+        -22.0604
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_2_02",
+      "type": "bookshelf_2",
+      "meshes": [
+        "archives_bookshelf_2.glb"
+      ],
+      "position": [
+        -3.3256,
+        4.1143,
+        -22.6404
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_3_01",
+      "type": "bookshelf_3",
+      "meshes": [
+        "archives_bookshelf_3.glb"
+      ],
+      "position": [
+        -1.696,
+        4.1143,
+        -31.1569
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_3_02",
+      "type": "bookshelf_3",
+      "meshes": [
+        "archives_bookshelf_3.glb"
+      ],
+      "position": [
+        -25.5429,
+        4.1143,
+        -36.8028
+      ],
+      "rotation": [
+        0,
+        12,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bookshelf_4_01",
+      "type": "bookshelf_4",
+      "meshes": [
+        "archives_bookshelf_4.glb"
+      ],
+      "position": [
+        -24.6048,
+        4.1143,
+        -27.8752
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_6_01",
+      "type": "metal_door_6",
+      "meshes": [
+        "archives_metal_door_6.glb"
+      ],
+      "position": [
+        -29.449,
+        4.2962,
+        -43.8883
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_7_01",
+      "type": "metal_door_7",
+      "meshes": [
+        "archives_metal_door_7.glb"
+      ],
+      "position": [
+        -31.0439,
+        4.2962,
+        -43.8883
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_8_01",
+      "type": "metal_door_8",
+      "meshes": [
+        "archives_metal_door_8.glb"
+      ],
+      "position": [
+        -30.7634,
+        4.2962,
+        -33.5126
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_8_02",
+      "type": "metal_door_8",
+      "meshes": [
+        "archives_metal_door_8.glb"
+      ],
+      "position": [
+        -31.5301,
+        4.2962,
+        -34.3832
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_9_01",
+      "type": "metal_door_9",
+      "meshes": [
+        "archives_metal_door_9.glb"
+      ],
+      "position": [
+        -17.0286,
+        4.2962,
+        -43.0176
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_9_02",
+      "type": "metal_door_9",
+      "meshes": [
+        "archives_metal_door_9.glb"
+      ],
+      "position": [
+        -17.0286,
+        4.2962,
+        -41.7015
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_10_01",
+      "type": "metal_door_10",
+      "meshes": [
+        "archives_metal_door_10.glb"
+      ],
+      "position": [
+        -17.0175,
+        4.2962,
+        -23.6344
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_10_02",
+      "type": "metal_door_10",
+      "meshes": [
+        "archives_metal_door_10.glb"
+      ],
+      "position": [
+        -17.0286,
+        4.2962,
+        -22.4299
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_9_01",
+      "type": "cardboard_crate_9",
+      "meshes": [
+        "archives_cardboard_crate_9.glb"
+      ],
+      "position": [
+        -6.5696,
+        0.3891,
+        12.3132
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_10_01",
+      "type": "cardboard_crate_10",
+      "meshes": [
+        "archives_cardboard_crate_10.glb"
+      ],
+      "position": [
+        -5.1524,
+        0.4915,
+        10.1485
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_11_01",
+      "type": "cardboard_crate_11",
+      "meshes": [
+        "archives_cardboard_crate_11.glb"
+      ],
+      "position": [
+        -5.146,
+        1.5731,
+        10.1492
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_12_01",
+      "type": "cardboard_crate_12",
+      "meshes": [
+        "archives_cardboard_crate_12.glb"
+      ],
+      "position": [
+        -5.0478,
+        0.3891,
+        4.1192
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_13_01",
+      "type": "cardboard_crate_13",
+      "meshes": [
+        "archives_cardboard_crate_13.glb"
+      ],
+      "position": [
+        -16.2068,
+        0.4915,
+        12.2428
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_13_02",
+      "type": "cardboard_crate_13",
+      "meshes": [
+        "archives_cardboard_crate_13.glb"
+      ],
+      "position": [
+        -21.4276,
+        1.5628,
+        11.24
+      ],
+      "rotation": [
+        0,
+        149.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_01",
+      "type": "body_armor_1",
+      "meshes": [
+        "archives_body_armor_1.glb"
+      ],
+      "position": [
+        -16.2055,
+        0.0901,
+        13.1341
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_14_01",
+      "type": "cardboard_crate_14",
+      "meshes": [
+        "archives_cardboard_crate_14.glb"
+      ],
+      "position": [
+        -20.1863,
+        1.5731,
+        12.431
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_01",
+      "type": "filing_cabinet",
+      "meshes": [
+        "archives_filing_cabinet.glb"
+      ],
+      "position": [
+        -3.2696,
+        0.9374,
+        12.5762
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_02",
+      "type": "filing_cabinet",
+      "meshes": [
+        "archives_filing_cabinet.glb"
+      ],
+      "position": [
+        -27.3732,
+        0.9374,
+        6.8405
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_03",
+      "type": "filing_cabinet",
+      "meshes": [
+        "archives_filing_cabinet.glb"
+      ],
+      "position": [
+        -18.5797,
+        3.7718,
+        8.7375
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_04",
+      "type": "filing_cabinet",
+      "meshes": [
+        "archives_filing_cabinet.glb"
+      ],
+      "position": [
+        -18.5574,
+        3.7718,
+        6.0593
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_01",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -3.2694,
+        0.9374,
+        11.8955
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_02",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -27.3732,
+        0.9374,
+        8.213
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_03",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -27.3732,
+        0.9374,
+        7.5212
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_04",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -22.0055,
+        3.7718,
+        14.1161
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_05",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -21.336,
+        3.7718,
+        14.1161
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_06",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -20.6441,
+        3.7718,
+        14.1161
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_07",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -21.8716,
+        3.7718,
+        8.6929
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_08",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -21.8493,
+        3.7718,
+        5.2559
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_1_09",
+      "type": "filing_cabinet_1",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ],
+      "position": [
+        -18.5797,
+        3.7718,
+        8.0568
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_4_01",
+      "type": "black_chair_4",
+      "meshes": [
+        "archives_black_chair_4.glb"
+      ],
+      "position": [
+        1.9577,
+        0.3665,
+        11.9637
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_4_02",
+      "type": "black_chair_4",
+      "meshes": [
+        "archives_black_chair_4.glb"
+      ],
+      "position": [
+        -20.6282,
+        3.2009,
+        11.6513
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_4_03",
+      "type": "black_chair_4",
+      "meshes": [
+        "archives_black_chair_4.glb"
+      ],
+      "position": [
+        -20.266,
+        3.2009,
+        6.5105
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_5_01",
+      "type": "black_chair_5",
+      "meshes": [
+        "archives_black_chair_5.glb"
+      ],
+      "position": [
+        2.3913,
+        0.3665,
+        14.8415
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "cardboard_crate_15_01",
+      "type": "cardboard_crate_15",
+      "meshes": [
+        "archives_cardboard_crate_15.glb"
+      ],
+      "position": [
+        -16.9372,
+        4.4298,
+        -7.9447
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_6_01",
+      "type": "black_chair_6",
+      "meshes": [
+        "archives_black_chair_6.glb"
+      ],
+      "position": [
+        -3.5114,
+        3.2009,
+        12.9016
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_7_01",
+      "type": "black_chair_7",
+      "meshes": [
+        "archives_black_chair_7.glb"
+      ],
+      "position": [
+        0.7013,
+        3.2009,
+        15.9386
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_8_01",
+      "type": "black_chair_8",
+      "meshes": [
+        "archives_black_chair_8.glb"
+      ],
+      "position": [
+        -3.6664,
+        3.2009,
+        16.3001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_9_01",
+      "type": "black_chair_9",
+      "meshes": [
+        "archives_black_chair_9.glb"
+      ],
+      "position": [
+        2.6959,
+        3.2009,
+        1.4309
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_10_01",
+      "type": "black_chair_10",
+      "meshes": [
+        "archives_black_chair_10.glb"
+      ],
+      "position": [
+        1.3048,
+        3.2009,
+        -2.039
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_11_01",
+      "type": "black_chair_11",
+      "meshes": [
+        "archives_black_chair_11.glb"
+      ],
+      "position": [
+        2.5938,
+        3.2009,
+        -6.7023
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_3_01",
+      "type": "wooden_table_3",
+      "meshes": [
+        "archives_wooden_table_3.glb"
+      ],
+      "position": [
+        -21.7611,
+        3.4621,
+        11.684
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_3_02",
+      "type": "wooden_table_3",
+      "meshes": [
+        "archives_wooden_table_3.glb"
+      ],
+      "position": [
+        1.0595,
+        3.4621,
+        -3.1033
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secret_door_01",
+      "type": "secret_door",
+      "meshes": [
+        "archives_secret_door.glb"
+      ],
+      "position": [
+        -4.14,
+        3.9199,
+        -14.9818
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secret_door_02",
+      "type": "secret_door",
+      "meshes": [
+        "archives_secret_door.glb"
+      ],
+      "position": [
+        -15.0535,
+        3.9199,
+        -14.9818
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secret_door_03",
+      "type": "secret_door",
+      "meshes": [
+        "archives_secret_door.glb"
+      ],
+      "position": [
+        -4.5417,
+        3.9199,
+        14.9467
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secret_door_1_01",
+      "type": "secret_door_1",
+      "meshes": [
+        "archives_secret_door_1.glb"
+      ],
+      "position": [
+        -16.6604,
+        3.877,
+        14.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_01",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -1.3168,
+        4.5529,
+        0.6137
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_02",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -1.3168,
+        4.5529,
+        2.6224
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_03",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -1.3168,
+        4.5529,
+        -4.0507
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_04",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -1.3168,
+        4.5529,
+        -2.0198
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_05",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -1.3168,
+        4.5529,
+        -6.6731
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_06",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -1.3168,
+        4.5529,
+        -8.6929
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_07",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -17.899,
+        4.5529,
+        6.0593
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_08",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -17.899,
+        4.5529,
+        12.7324
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_09",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -17.899,
+        4.5529,
+        10.7126
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_10",
+      "type": "window_glass",
+      "meshes": [
+        "archives_window_glass.glb"
+      ],
+      "position": [
+        -17.899,
+        4.5529,
+        8.0903
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_1_01",
+      "type": "window_glass_1",
+      "meshes": [
+        "archives_window_glass_1.glb"
+      ],
+      "position": [
+        0.2009,
+        4.5529,
+        -0.8034
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_1_02",
+      "type": "window_glass_1",
+      "meshes": [
+        "archives_window_glass_1.glb"
+      ],
+      "position": [
+        0.2009,
+        4.5529,
+        -5.4679
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_1_03",
+      "type": "window_glass_1",
+      "meshes": [
+        "archives_window_glass_1.glb"
+      ],
+      "position": [
+        -21.2244,
+        4.5529,
+        9.5075
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_2_01",
+      "type": "window_glass_2",
+      "meshes": [
+        "archives_window_glass_2.glb"
+      ],
+      "position": [
+        2.0198,
+        4.5529,
+        -0.8034
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_2_02",
+      "type": "window_glass_2",
+      "meshes": [
+        "archives_window_glass_2.glb"
+      ],
+      "position": [
+        2.0198,
+        4.5529,
+        -5.4679
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_2_03",
+      "type": "window_glass_2",
+      "meshes": [
+        "archives_window_glass_2.glb"
+      ],
+      "position": [
+        -19.4055,
+        4.5529,
+        9.5075
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

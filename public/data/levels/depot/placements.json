@@ -1,0 +1,3136 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        -11.9624,
+        1.3843,
+        -68.4299
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        21.3238,
+        0.4525,
+        -119.7828
+      ],
+      "rotation": [
+        0,
+        -0.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        28.0018,
+        0.4525,
+        -121.5428
+      ],
+      "rotation": [
+        0,
+        -0.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        36.022,
+        1.0737,
+        -99.7615
+      ],
+      "rotation": [
+        0,
+        164.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        -15.5343,
+        -1.6699,
+        -63.512
+      ],
+      "rotation": [
+        0,
+        -0.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        -8.8054,
+        -1.6699,
+        -63.3049
+      ],
+      "rotation": [
+        0,
+        0.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        47.4539,
+        -0.4275,
+        -30.0473
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        49.8223,
+        -0.4275,
+        -29.9378
+      ],
+      "rotation": [
+        0,
+        134.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        52.848,
+        -0.4275,
+        -40.6413
+      ],
+      "rotation": [
+        0,
+        -90.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_10",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        44.5257,
+        -0.4275,
+        -40.5811
+      ],
+      "rotation": [
+        0,
+        89.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_11",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        46.029,
+        -0.4275,
+        -22.4735
+      ],
+      "rotation": [
+        0,
+        -175.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_12",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        51.2018,
+        -0.4275,
+        -22.68
+      ],
+      "rotation": [
+        0,
+        179.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_13",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        -22.3381,
+        -1.3075,
+        -6.1978
+      ],
+      "rotation": [
+        0,
+        29.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_14",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
+      "position": [
+        -19.4686,
+        -1.3075,
+        -6.2578
+      ],
+      "rotation": [
+        0,
+        -0.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_01",
+      "type": "mainframe",
+      "meshes": [
+        "depot_mainframe.glb"
+      ],
+      "position": [
+        47.5158,
+        -0.351,
+        -32.1466
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_02",
+      "type": "mainframe",
+      "meshes": [
+        "depot_mainframe.glb"
+      ],
+      "position": [
+        50.2594,
+        -0.351,
+        -32.1466
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "key_01",
+      "type": "key",
+      "meshes": [
+        "depot_key.glb"
+      ],
+      "position": [
+        49.0764,
+        -0.4398,
+        -24.0459
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_01",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
+      "position": [
+        50.9387,
+        -1.1593,
+        -28.4316
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_02",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
+      "position": [
+        49.1575,
+        -1.1593,
+        -24.8
+      ],
+      "rotation": [
+        0,
+        -28.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_03",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
+      "position": [
+        47.892,
+        -1.1593,
+        -29.1042
+      ],
+      "rotation": [
+        0,
+        -6.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_04",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
+      "position": [
+        46.027,
+        -1.1593,
+        -25.2545
+      ],
+      "rotation": [
+        0,
+        46.06,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_01",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
+      "position": [
+        50.9318,
+        -0.223,
+        -27.4687
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_02",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
+      "position": [
+        48.6271,
+        -0.223,
+        -23.8923
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_03",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
+      "position": [
+        48.1364,
+        -0.223,
+        -28.1935
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_04",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
+      "position": [
+        46.6869,
+        -0.223,
+        -24.4145
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_01",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
+      "position": [
+        50.835,
+        -0.423,
+        -27.8177
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_02",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
+      "position": [
+        48.6893,
+        -0.423,
+        -24.2037
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_03",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
+      "position": [
+        48.0914,
+        -0.423,
+        -28.4906
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_04",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
+      "position": [
+        46.6419,
+        -0.423,
+        -24.7116
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_01",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        50.8352,
+        -0.4449,
+        -27.54
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_02",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        49.0233,
+        -0.4449,
+        -23.9681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_03",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        47.8327,
+        -0.4449,
+        -28.2648
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_04",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        46.5903,
+        -0.4449,
+        -24.4858
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_05",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        -9.5769,
+        -1.6873,
+        -64.5017
+      ],
+      "rotation": [
+        0,
+        120,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_06",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        -9.991,
+        -1.6873,
+        -58.0308
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_07",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        -14.7018,
+        -1.6873,
+        -64.7605
+      ],
+      "rotation": [
+        0,
+        -120,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_08",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
+      "position": [
+        -14.5465,
+        -1.6873,
+        -58.0308
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_01",
+      "type": "drone_gun",
+      "meshes": [
+        "depot_drone_gun_primary.glb",
+        "depot_drone_gun_secondary.glb"
+      ],
+      "position": [
+        54.2176,
+        4.7959,
+        -22.1253
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "dk5_01",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
+      "position": [
+        -9.8454,
+        -1.6669,
+        -58.0384
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "dk5_02",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
+      "position": [
+        -10.4666,
+        -1.6669,
+        -58.0384
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "dk5_03",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
+      "position": [
+        -10.0093,
+        -1.6669,
+        -64.9545
+      ],
+      "rotation": [
+        0,
+        105,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "dk5_04",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
+      "position": [
+        -9.8022,
+        -1.6669,
+        -64.4368
+      ],
+      "rotation": [
+        0,
+        105,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "dk5_05",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
+      "position": [
+        -9.3881,
+        -1.6669,
+        -64.2815
+      ],
+      "rotation": [
+        0,
+        105,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "dk5_06",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
+      "position": [
+        -9.4916,
+        -1.6669,
+        -63.7638
+      ],
+      "rotation": [
+        0,
+        105,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "kf7_01",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
+      "position": [
+        -9.4117,
+        -1.6654,
+        -57.9895
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "kf7_02",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
+      "position": [
+        -13.8637,
+        -1.6654,
+        -58.1448
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "kf7_03",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
+      "position": [
+        -14.0707,
+        -1.6654,
+        -57.8859
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "kf7_04",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
+      "position": [
+        -14.4849,
+        -1.6654,
+        -58.1965
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "kf7_05",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
+      "position": [
+        -14.7955,
+        -1.6654,
+        -57.8342
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "kf7_06",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
+      "position": [
+        -15.1578,
+        -1.6654,
+        -58.093
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "rocket_01",
+      "type": "rocket",
+      "meshes": [
+        "depot_rocket_primary.glb",
+        "depot_rocket_secondary.glb"
+      ],
+      "position": [
+        -15.059,
+        -1.6183,
+        -64.417
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "rocket_02",
+      "type": "rocket",
+      "meshes": [
+        "depot_rocket_primary.glb",
+        "depot_rocket_secondary.glb"
+      ],
+      "position": [
+        -14.5414,
+        -1.6183,
+        -64.6241
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "rocket_03",
+      "type": "rocket",
+      "meshes": [
+        "depot_rocket_primary.glb",
+        "depot_rocket_secondary.glb"
+      ],
+      "position": [
+        -14.7484,
+        -1.6183,
+        -65.0382
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_01",
+      "type": "ammo_crate",
+      "meshes": [
+        "depot_ammo_crate.glb"
+      ],
+      "position": [
+        -9.991,
+        -1.5719,
+        -64.9158
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_01",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -11.4405,
+        -2.5129,
+        -58.3414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_02",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -12.3723,
+        -2.5129,
+        -58.3414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_03",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -13.2524,
+        -2.5129,
+        -58.2896
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_04",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -12.4241,
+        -2.5129,
+        -64.7087
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_05",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -11.544,
+        -2.5129,
+        -64.7605
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_06",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -9.2145,
+        -2.5129,
+        -59.6873
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_07",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -10.1463,
+        -2.5129,
+        -59.6356
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_08",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -11.0264,
+        -2.5129,
+        -59.5838
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_09",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -15.323,
+        -2.5129,
+        -59.6356
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_10",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -14.443,
+        -2.5129,
+        -59.6873
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_11",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -13.5112,
+        -2.5129,
+        -59.6873
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_12",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -10.664,
+        -2.5129,
+        -63.0004
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_13",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -11.5958,
+        -2.5129,
+        -63.0004
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_14",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -12.4758,
+        -2.5129,
+        -62.9487
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_15",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -11.4923,
+        -2.5129,
+        -61.3957
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_16",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -9.9393,
+        -2.5129,
+        -61.8098
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_17",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
+      "position": [
+        -9.8875,
+        -2.5129,
+        -60.9298
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "rocket_launcher_01",
+      "type": "rocket_launcher",
+      "meshes": [
+        "depot_rocket_launcher_primary.glb",
+        "depot_rocket_launcher_secondary.glb"
+      ],
+      "position": [
+        -13.2292,
+        -2.6651,
+        -64.8332
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "helicopter_schematic_01",
+      "type": "helicopter_schematic",
+      "meshes": [
+        "depot_helicopter_schematic.glb"
+      ],
+      "position": [
+        3.0543,
+        1.6512,
+        11.8029
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
+      "position": [
+        13.5144,
+        -0.5262,
+        -128.6509
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_02",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
+      "position": [
+        -5.9404,
+        -0.5262,
+        -90.273
+      ],
+      "rotation": [
+        0,
+        -165,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_03",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
+      "position": [
+        52.0677,
+        0.095,
+        -99.6547
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_04",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
+      "position": [
+        17.2325,
+        -2.6486,
+        -5.7357
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_05",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
+      "position": [
+        7.5771,
+        -2.6486,
+        -37.4863
+      ],
+      "rotation": [
+        0,
+        -15,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_06",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
+      "position": [
+        -6.6294,
+        -2.6486,
+        2.65
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_01",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
+      "position": [
+        -6.4459,
+        -0.5311,
+        -107.2612
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_02",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
+      "position": [
+        50.0319,
+        -0.5311,
+        -90.644
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_03",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
+      "position": [
+        58.6252,
+        -0.5311,
+        -70.4549
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_04",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
+      "position": [
+        29.7419,
+        -2.6536,
+        -30.5361
+      ],
+      "rotation": [
+        0,
+        -165,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_05",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
+      "position": [
+        -34.4519,
+        -2.6536,
+        -23.7611
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_06",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
+      "position": [
+        -22.1831,
+        -2.6536,
+        -20.3444
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_01",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "depot_metal_crate_stack.glb"
+      ],
+      "position": [
+        37.3519,
+        3.7284,
+        -113.3389
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_02",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "depot_metal_crate_stack.glb"
+      ],
+      "position": [
+        31.9641,
+        3.7286,
+        -118.6813
+      ],
+      "rotation": [
+        0,
+        -171.65,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_1_01",
+      "type": "metal_crate_stack_1",
+      "meshes": [
+        "depot_metal_crate_stack_1.glb"
+      ],
+      "position": [
+        34.6299,
+        3.1407,
+        -96.2145
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_1_02",
+      "type": "metal_crate_stack_1",
+      "meshes": [
+        "depot_metal_crate_stack_1.glb"
+      ],
+      "position": [
+        -32.7707,
+        1.0182,
+        -59.5634
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_2_01",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
+      "position": [
+        48.2672,
+        3.1407,
+        -94.1363
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_2_02",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
+      "position": [
+        -32.5853,
+        1.0181,
+        -54.0657
+      ],
+      "rotation": [
+        0,
+        90.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_2_03",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
+      "position": [
+        -12.2409,
+        1.0176,
+        -55.4111
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_2_04",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
+      "position": [
+        2.5087,
+        1.0182,
+        -36.9413
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_3_01",
+      "type": "metal_crate_stack_3",
+      "meshes": [
+        "depot_metal_crate_stack_3.glb"
+      ],
+      "position": [
+        1.9136,
+        2.2272,
+        -55.6216
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_3_02",
+      "type": "metal_crate_stack_3",
+      "meshes": [
+        "depot_metal_crate_stack_3.glb"
+      ],
+      "position": [
+        49.0512,
+        2.2272,
+        -36.5975
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_4_01",
+      "type": "metal_crate_stack_4",
+      "meshes": [
+        "depot_metal_crate_stack_4.glb"
+      ],
+      "position": [
+        9.2978,
+        3.3257,
+        -55.1597
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_5_01",
+      "type": "metal_crate_stack_5",
+      "meshes": [
+        "depot_metal_crate_stack_5.glb"
+      ],
+      "position": [
+        54.7491,
+        2.7412,
+        -54.0209
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_5_02",
+      "type": "metal_crate_stack_5",
+      "meshes": [
+        "depot_metal_crate_stack_5.glb"
+      ],
+      "position": [
+        54.9009,
+        2.7411,
+        -70.5793
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_6_01",
+      "type": "metal_crate_stack_6",
+      "meshes": [
+        "depot_metal_crate_stack_6.glb"
+      ],
+      "position": [
+        42.9644,
+        2.7412,
+        -58.0621
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_7_01",
+      "type": "metal_crate_stack_7",
+      "meshes": [
+        "depot_metal_crate_stack_7.glb"
+      ],
+      "position": [
+        -2.7921,
+        1.0182,
+        -33.9353
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_8_01",
+      "type": "metal_crate_stack_8",
+      "meshes": [
+        "depot_metal_crate_stack_8.glb"
+      ],
+      "position": [
+        5.5215,
+        2.9207,
+        -107.5873
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_9_01",
+      "type": "metal_crate_stack_9",
+      "meshes": [
+        "depot_metal_crate_stack_9.glb"
+      ],
+      "position": [
+        37.8241,
+        3.2925,
+        -88.7441
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_9_02",
+      "type": "metal_crate_stack_9",
+      "meshes": [
+        "depot_metal_crate_stack_9.glb"
+      ],
+      "position": [
+        -27.92,
+        1.1701,
+        -65.3454
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_10_01",
+      "type": "metal_crate_stack_10",
+      "meshes": [
+        "depot_metal_crate_stack_10.glb"
+      ],
+      "position": [
+        5.6496,
+        2.3787,
+        -62.9641
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_11_01",
+      "type": "metal_crate_stack_11",
+      "meshes": [
+        "depot_metal_crate_stack_11.glb"
+      ],
+      "position": [
+        48.9268,
+        2.8876,
+        -64.4136
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_12_01",
+      "type": "metal_crate_stack_12",
+      "meshes": [
+        "depot_metal_crate_stack_12.glb"
+      ],
+      "position": [
+        -33.8401,
+        1.1701,
+        -28.9825
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_13_01",
+      "type": "metal_crate_stack_13",
+      "meshes": [
+        "depot_metal_crate_stack_13.glb"
+      ],
+      "position": [
+        -2.3806,
+        2.7829,
+        -107.8932
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_14_01",
+      "type": "metal_crate_stack_14",
+      "meshes": [
+        "depot_metal_crate_stack_14.glb"
+      ],
+      "position": [
+        25.0559,
+        0.6604,
+        -30.5016
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_15_01",
+      "type": "metal_crate_stack_15",
+      "meshes": [
+        "depot_metal_crate_stack_15.glb"
+      ],
+      "position": [
+        -32.9749,
+        0.6604,
+        -36.2224
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_01",
+      "type": "metal_door",
+      "meshes": [
+        "depot_metal_door.glb"
+      ],
+      "position": [
+        34.6486,
+        1.5445,
+        -109.6943
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_02",
+      "type": "metal_door",
+      "meshes": [
+        "depot_metal_door.glb"
+      ],
+      "position": [
+        5.7887,
+        0.0433,
+        -50.3175
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_01",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
+      "position": [
+        12.89,
+        0.9464,
+        -107.8471
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_02",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
+      "position": [
+        30.6978,
+        0.9464,
+        -92.4912
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_03",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
+      "position": [
+        -12.1488,
+        -1.1761,
+        -50.3175
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_04",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
+      "position": [
+        -30.0602,
+        -1.1761,
+        -50.3175
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_05",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
+      "position": [
+        -10.6122,
+        -1.1761,
+        -35.3922
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_06",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
+      "position": [
+        17.0313,
+        -1.1761,
+        -30.6814
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_01",
+      "type": "metal_door_2",
+      "meshes": [
+        "depot_metal_door_2.glb"
+      ],
+      "position": [
+        35.7192,
+        1.0155,
+        -67.9541
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_02",
+      "type": "metal_door_2",
+      "meshes": [
+        "depot_metal_door_2.glb"
+      ],
+      "position": [
+        35.7192,
+        1.0155,
+        -61.7164
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_03",
+      "type": "metal_door_2",
+      "meshes": [
+        "depot_metal_door_2.glb"
+      ],
+      "position": [
+        35.7192,
+        1.0155,
+        -55.5043
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_3_01",
+      "type": "metal_door_3",
+      "meshes": [
+        "depot_metal_door_3.glb"
+      ],
+      "position": [
+        48.7481,
+        0.0433,
+        -41.2842
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_4_01",
+      "type": "metal_door_4",
+      "meshes": [
+        "depot_metal_door_4.glb"
+      ],
+      "position": [
+        -33.7428,
+        -1.1761,
+        -41.4395
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_5_01",
+      "type": "metal_door_5",
+      "meshes": [
+        "depot_metal_door_5.glb"
+      ],
+      "position": [
+        -14.1449,
+        -1.1069,
+        0.0259
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_6_01",
+      "type": "metal_door_6",
+      "meshes": [
+        "depot_metal_door_6.glb"
+      ],
+      "position": [
+        -26.9575,
+        -1.1069,
+        0.0259
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_6_02",
+      "type": "metal_door_6",
+      "meshes": [
+        "depot_metal_door_6.glb"
+      ],
+      "position": [
+        -4.3484,
+        -1.1069,
+        5.7848
+      ],
+      "rotation": [
+        0,
+        90.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chain_link_fence_01",
+      "type": "chain_link_fence",
+      "meshes": [
+        "depot_chain_link_fence_primary.glb",
+        "depot_chain_link_fence_secondary.glb"
+      ],
+      "position": [
+        17.3937,
+        -0.0329,
+        -76.7187
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chain_link_fence_02",
+      "type": "chain_link_fence",
+      "meshes": [
+        "depot_chain_link_fence_primary.glb",
+        "depot_chain_link_fence_secondary.glb"
+      ],
+      "position": [
+        19.0503,
+        -0.0329,
+        -76.7187
+      ],
+      "rotation": [
+        0,
+        179.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_7_01",
+      "type": "metal_door_7",
+      "meshes": [
+        "depot_metal_door_7.glb"
+      ],
+      "position": [
+        -7.0403,
+        -1.3718,
+        15.3486
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_8_01",
+      "type": "metal_door_8",
+      "meshes": [
+        "depot_metal_door_8.glb"
+      ],
+      "position": [
+        -7.0921,
+        2.5625,
+        15.3486
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_8_02",
+      "type": "metal_door_8",
+      "meshes": [
+        "depot_metal_door_8.glb"
+      ],
+      "position": [
+        3.8308,
+        -1.3718,
+        10.9484
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_door_01",
+      "type": "train_door",
+      "meshes": [
+        "depot_train_door.glb"
+      ],
+      "position": [
+        -21.1262,
+        -1.1847,
+        -4.6323
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_door_02",
+      "type": "train_door",
+      "meshes": [
+        "depot_train_door.glb"
+      ],
+      "position": [
+        -18.6309,
+        -1.1847,
+        -4.6323
+      ],
+      "rotation": [
+        0,
+        178.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_01",
+      "type": "divider",
+      "meshes": [
+        "depot_divider.glb"
+      ],
+      "position": [
+        48.3576,
+        1.9002,
+        -21.6904
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_safe_01",
+      "type": "metal_safe",
+      "meshes": [
+        "depot_metal_safe.glb"
+      ],
+      "position": [
+        3.0033,
+        1.7114,
+        11.9307
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_safe_door_01",
+      "type": "metal_safe_door",
+      "meshes": [
+        "depot_metal_safe_door.glb"
+      ],
+      "position": [
+        2.7237,
+        1.7083,
+        12.1292
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,10000 @@
+{
+  "objects": [
+    {
+      "id": "tree_01",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        44.5212,
+        11.5835,
+        -58.6863
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_02",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        36.6382,
+        10.4074,
+        -52.5949
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_03",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        35.1949,
+        11.9784,
+        -59.2636
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_04",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        27.4413,
+        9.735,
+        -55.342
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_05",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        25.7691,
+        10.0757,
+        -50.9227
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_06",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        25.0525,
+        8.9202,
+        -59.4029
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_07",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        19.0805,
+        8.9502,
+        -51.6393
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_08",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        8.4503,
+        8.9786,
+        -61.7917
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_09",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        2.9636,
+        7.6972,
+        -63.7223
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_10",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -6.0019,
+        8.5274,
+        -62.8667
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_11",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -12.5711,
+        9.1494,
+        -63.7028
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_12",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -12.0934,
+        8.841,
+        -58.4474
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_13",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        10.0105,
+        7.3477,
+        -55.6004
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_14",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -7.5546,
+        9.405,
+        -51.5199
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_15",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        12.7502,
+        8.9937,
+        -49.1311
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_16",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        5.8127,
+        10.1706,
+        -48.1556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_17",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -8.2713,
+        8.7329,
+        -46.2645
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_18",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -3.6131,
+        8.8813,
+        -41.4869
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_19",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        2.8366,
+        7.8915,
+        -33.7233
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_20",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -2.787,
+        9.8698,
+        -28.8064
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_21",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        7.0245,
+        6.1261,
+        -28.4875
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_22",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        3.0755,
+        7.5763,
+        -24.0487
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_23",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -5.2853,
+        6.3428,
+        -16.4045
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_24",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        3.4338,
+        23.7116,
+        -13.8963
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_25",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -3.2548,
+        6.2122,
+        -9.9548
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_26",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        3.3144,
+        6.1112,
+        -7.3271
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_27",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -6.1214,
+        6.1826,
+        -5.7744
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_28",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        5.8226,
+        6.0943,
+        -2.0717
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_29",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -8.0324,
+        6.0821,
+        -0.519
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_30",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        1.172,
+        4.8992,
+        0.417
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_31",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        9.5253,
+        6.1963,
+        4.2586
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_32",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        1.8811,
+        6.5016,
+        5.3335
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_33",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -9.7046,
+        6.0377,
+        5.453
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_34",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        8.092,
+        6.0987,
+        8.9167
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_35",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -12.5811,
+        7.6814,
+        12.7588
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_36",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        -12.81,
+        5.6413,
+        17.9942
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_37",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        1.4034,
+        6.0967,
+        19.6663
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_38",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        7.6142,
+        6.0678,
+        15.6054
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_39",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        2.4783,
+        5.8289,
+        16.0831
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_40",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        2.5978,
+        5.6696,
+        10.4695
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_41",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        85.0114,
+        14.4772,
+        -122.8256
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_42",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        79.3977,
+        14.4893,
+        -118.6452
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_43",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        78.5691,
+        13.0438,
+        -125.3533
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_44",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        72.709,
+        14.8002,
+        -127.1254
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_45",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        67.4537,
+        14.391,
+        -131.0669
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_46",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        57.3013,
+        14.7407,
+        -127.006
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_47",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        63.7411,
+        15.594,
+        -126.2694
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_48",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        58.1374,
+        14.4653,
+        -121.5117
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_49",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        82.6226,
+        14.6487,
+        -112.3148
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_50",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        62.4447,
+        13.3595,
+        -114.9621
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_51",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        61.9594,
+        14.2913,
+        -109.4483
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_52",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        75.8145,
+        14.1632,
+        -111.3593
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_53",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        76.5212,
+        16.1229,
+        -105.0091
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_54",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        66.3787,
+        14.4949,
+        -104.7901
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_55",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        72.5896,
+        13.3053,
+        -96.9071
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_56",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        67.3417,
+        12.1818,
+        -92.149
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_57",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        76.8894,
+        13.2899,
+        -91.6517
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_58",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        72.9479,
+        13.0571,
+        -87.3519
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_59",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        74.0129,
+        14.4636,
+        -82.3155
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_60",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        68.5286,
+        12.721,
+        -83.7687
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_61",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        73.3062,
+        12.6298,
+        -77.08
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_62",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        66.9834,
+        10.2099,
+        -73.1581
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_63",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        64.2288,
+        11.644,
+        -69.9136
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_64",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        76.5311,
+        11.5045,
+        -66.4499
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_65",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        62.0689,
+        13.0821,
+        -63.5634
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_66",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        81.667,
+        11.6284,
+        -60.5973
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_67",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        78.8005,
+        12.2035,
+        -45.6673
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_68",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        72.2388,
+        10.0948,
+        -43.4175
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_69",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        73.9034,
+        11.1506,
+        -51.0421
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_70",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        64.816,
+        13.2805,
+        -55.2026
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_71",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        60.6456,
+        11.6564,
+        -48.5339
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_72",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        54.92,
+        10.1579,
+        -61.3335
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_73",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        53.7181,
+        11.6284,
+        -51.281
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_74",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        192.3879,
+        14.2428,
+        -127.006
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_75",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        196.098,
+        13.0119,
+        -120.4563
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_76",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        211.3789,
+        14.402,
+        -128.6781
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_77",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        210.8911,
+        16.2709,
+        -117.6697
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_78",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        164.3195,
+        14.7639,
+        -121.6312
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_79",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        121.4406,
+        14.6829,
+        -110.8816
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_80",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        156.9142,
+        14.6675,
+        -107.8956
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_81",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        154.0552,
+        13.1465,
+        -112.0955
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_82",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        157.2726,
+        16.7324,
+        -129.1559
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_83",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        180.0931,
+        12.7258,
+        -108.6318
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_84",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        173.8747,
+        14.3136,
+        -126.1699
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_85",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        169.2166,
+        14.4867,
+        -106.2234
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_86",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        168.4899,
+        15.5498,
+        -116.3559
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_87",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        162.6474,
+        14.5126,
+        -112.5537
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_88",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        152.7338,
+        14.4845,
+        -102.9985
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_89",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        177.6968,
+        13.8977,
+        -124.9755
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_90",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        178.0626,
+        12.7317,
+        -120.3369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_91",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        181.3994,
+        14.3801,
+        -125.4532
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_92",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        184.1466,
+        13.9928,
+        -109.09
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_93",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        102.0813,
+        16.0585,
+        -119.9391
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_94",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        121.6794,
+        14.7648,
+        -128.4392
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_95",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        119.0518,
+        14.4147,
+        -104.9096
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_96",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        110.5715,
+        13.8977,
+        -124.856
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_97",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        116.551,
+        13.0455,
+        -125.3533
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_98",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        123.7099,
+        14.4949,
+        -102.1624
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_99",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        123.7099,
+        14.4949,
+        -136.2028
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_100",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        115.4586,
+        15.5188,
+        -109.4284
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_101",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        110.3326,
+        14.9019,
+        -116.3758
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_102",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        107.8244,
+        14.5894,
+        -108.8511
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_103",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        105.7939,
+        14.4519,
+        -127.4837
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_104",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        104.9653,
+        12.9805,
+        -115.9176
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_105",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        95.5221,
+        14.3843,
+        -113.1509
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_106",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        97.0648,
+        16.1647,
+        -126.986
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_107",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        213.5288,
+        14.4949,
+        -109.09
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_108",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        193.4704,
+        13.0779,
+        -108.154
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_109",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        197.1655,
+        14.9196,
+        -109.8066
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_110",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        204.1005,
+        12.696,
+        -110.5428
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_111",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ],
+      "position": [
+        215.5593,
+        14.3401,
+        -110.2844
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_112",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_1.glb",
+        "jungle_tree_secondary_1.glb"
+      ],
+      "position": [
+        -6.8593,
+        16.4697,
+        -51.6444
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_113",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_1.glb",
+        "jungle_tree_secondary_1.glb"
+      ],
+      "position": [
+        -0.8054,
+        2.672,
+        -20.5807
+      ],
+      "rotation": [
+        0,
+        6.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_114",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_1.glb",
+        "jungle_tree_secondary_1.glb"
+      ],
+      "position": [
+        -3.7539,
+        1.4952,
+        4.9702
+      ],
+      "rotation": [
+        0,
+        6.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_115",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_1.glb",
+        "jungle_tree_secondary_1.glb"
+      ],
+      "position": [
+        -4.6275,
+        1.5947,
+        21.4622
+      ],
+      "rotation": [
+        0,
+        6.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_116",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        214.379,
+        11.7215,
+        -117.9099
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_117",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        209.3547,
+        13.2691,
+        -110.0979
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_118",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        176.0309,
+        12.654,
+        -121.5642
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_119",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        160.2569,
+        14.7371,
+        -120.9186
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_120",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        190.8415,
+        13.1762,
+        -110.6951
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_121",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        198.3662,
+        13.0346,
+        -115.3533
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_122",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        218.5594,
+        11.5843,
+        -118.0294
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_123",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        217.4766,
+        13.4858,
+        -127.8945
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_124",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        178.0535,
+        14.7752,
+        -109.3329
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_125",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        200.0383,
+        13.3974,
+        -125.0279
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_126",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        189.2887,
+        13.1364,
+        -121.5642
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_127",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        34.7413,
+        7.3549,
+        -52.3374
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_128",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        34.2556,
+        8.9008,
+        -60.7692
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_129",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        18.4895,
+        7.4852,
+        -63.2774
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_130",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -0.151,
+        9.1001,
+        -65.6178
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_131",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -8.9816,
+        7.9113,
+        -64.7107
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_132",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -12.2065,
+        7.5556,
+        -53.8417
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_133",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        9.3006,
+        6.3957,
+        -43.1405
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_134",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        5.8289,
+        7.5273,
+        -40.2255
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_135",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -2.293,
+        7.3083,
+        -35.6868
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_136",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        4.9849,
+        7.5113,
+        -15.2142
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_137",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -5.5179,
+        5.3183,
+        -18.6069
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_138",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -13.4009,
+        5.233,
+        -2.6019
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_139",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        6.6729,
+        3.1673,
+        -7.7862
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_140",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        10.8454,
+        4.2978,
+        -4.3935
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_141",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        11.1958,
+        6.0623,
+        0.4325
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_142",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        8.3371,
+        4.5013,
+        11.3726
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_143",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        6.1872,
+        4.7313,
+        8.2671
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_144",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -9.8177,
+        4.7888,
+        8.3866
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_145",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -13.9902,
+        3.0829,
+        14.0713
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_146",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        -8.6233,
+        4.3782,
+        20.5694
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_147",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        5.1123,
+        4.8077,
+        19.6139
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_148",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        60.4209,
+        11.894,
+        -128.0623
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_149",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        59.3301,
+        14.768,
+        -118.052
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_150",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        64.5934,
+        10.8936,
+        -82.2684
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_151",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        75.112,
+        9.5234,
+        -79.0919
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_152",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        76.6568,
+        10.246,
+        -71.1605
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_153",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        84.8982,
+        10.1344,
+        -51.6918
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_154",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        55.7548,
+        10.1698,
+        -48.4669
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_155",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        63.1522,
+        11.8249,
+        -43.9992
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_156",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        168.0205,
+        14.7857,
+        -128.5627
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_157",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        162.0564,
+        13.6141,
+        -106.873
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_158",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        112.6161,
+        11.6364,
+        -129.2567
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_159",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        100.6643,
+        13.4151,
+        -127.1778
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tree_160",
+      "type": "tree",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ],
+      "position": [
+        96.8343,
+        14.6928,
+        -111.005
+      ],
+      "rotation": [
+        0,
+        3.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_01",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        212.9663,
+        9.0938,
+        -88.0095
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_02",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        194.2142,
+        9.0317,
+        -94.5787
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_03",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        100.0971,
+        8.8174,
+        -114.2804
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_04",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        109.8896,
+        8.7751,
+        -126.7081
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_05",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        123.1458,
+        9.0566,
+        -129.8194
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_06",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        125.2974,
+        9.4069,
+        -110.4642
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_07",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        171.1639,
+        9.6718,
+        -124.3133
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_08",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        174.0289,
+        9.1923,
+        -107.2393
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_09",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        202.3378,
+        8.8174,
+        -113.086
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_10",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        207.9498,
+        9.1511,
+        -128.4997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_11",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        218.9399,
+        9.3309,
+        -112.8471
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_12",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        220.7299,
+        9.5502,
+        -128.1413
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_13",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        202.6961,
+        9.4299,
+        -108.0695
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_14",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        53.3945,
+        6.2932,
+        -60.8966
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_15",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        74.177,
+        6.8818,
+        -60.0606
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_16",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        65.3401,
+        6.0703,
+        -61.7268
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_17",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        57.336,
+        6.2846,
+        -50.5054
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_18",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        21.6251,
+        4.003,
+        -58.8602
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_19",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        14.9348,
+        3.5375,
+        -52.4164
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_20",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        9.3211,
+        4.0804,
+        -45.25
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_21",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush.glb"
+      ],
+      "position": [
+        -5.6105,
+        3.8712,
+        -50.2724
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_01",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        193.5614,
+        8.8275,
+        -89.3451
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_02",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        209.0886,
+        8.8059,
+        -85.6424
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_03",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        216.9089,
+        8.6211,
+        -90.3391
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_04",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        95.2623,
+        9.0359,
+        -122.4299
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_05",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        104.9369,
+        8.9254,
+        -119.0856
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_06",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        208.787,
+        8.7372,
+        -118.0492
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_07",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        208.1957,
+        9.0251,
+        -125.3774
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_08",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        211.4774,
+        8.5119,
+        -121.2355
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_09",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        63.7301,
+        9.0846,
+        -118.1301
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_10",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        62.7746,
+        6.2918,
+        -75.1317
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_11",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        -2.9174,
+        3.7983,
+        -50.2882
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_12",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        0.0686,
+        2.2313,
+        -26.9974
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_13",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        -3.2757,
+        -0.0326,
+        1.9071
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_14",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        -0.7675,
+        0.8041,
+        15.2844
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_15",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        2.5141,
+        -0.0939,
+        14.0515
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_16",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        -11.1588,
+        0.2317,
+        16.001
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_17",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        -7.4561,
+        0.7857,
+        9.1929
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_1_18",
+      "type": "bush_1",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ],
+      "position": [
+        -9.9644,
+        0.5301,
+        -8.0064
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_01",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        223.5976,
+        14.1131,
+        -79.8284
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_02",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        231.606,
+        14.4883,
+        -76.5265
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_03",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        217.4494,
+        13.594,
+        -74.7734
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_04",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        225.0309,
+        14.1554,
+        -70.1537
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_05",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        227.4823,
+        14.3002,
+        -80.3871
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_06",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        70.2425,
+        7.8882,
+        -90.2621
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_07",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        3.0546,
+        3.3163,
+        -42.8829
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_08",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        -7.3935,
+        0.8366,
+        -11.3123
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_09",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        5.8065,
+        1.427,
+        5.568
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_10",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        0.9673,
+        1.1814,
+        -16.0899
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_11",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        6.7572,
+        0.5999,
+        -0.6012
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_12",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        -1.0631,
+        0.8803,
+        -9.879
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_2_13",
+      "type": "bush_2",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ],
+      "position": [
+        -4.107,
+        1.1658,
+        9.2707
+      ],
+      "rotation": [
+        0,
+        1.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_01",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        210.208,
+        8.7876,
+        -103.4669
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_02",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        212.0562,
+        9.0598,
+        -93.211
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_03",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        203.0982,
+        9.2652,
+        -77.3255
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_04",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        196.4724,
+        8.7533,
+        -88.4175
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_05",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        93.5088,
+        9.3316,
+        -124.8786
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_06",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        94.6467,
+        9.0712,
+        -115.3074
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_07",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        109.8155,
+        9.088,
+        -106.4689
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_08",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        154.4296,
+        8.9164,
+        -108.7223
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_09",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        160.2192,
+        9.1951,
+        -114.2325
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_10",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        172.9993,
+        9.1287,
+        -117.4574
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_11",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        185.8359,
+        9.4422,
+        -123.9231
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_12",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        195.9318,
+        9.2066,
+        -106.9466
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_13",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        203.513,
+        9.8624,
+        -125.3563
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_14",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        74.7002,
+        9.6065,
+        -125.4598
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_15",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        55.4074,
+        9.3505,
+        -121.7732
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_16",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        81.3888,
+        9.5711,
+        -109.9326
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_17",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        65.2644,
+        8.0985,
+        -91.1806
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_18",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        76.1964,
+        7.67,
+        -95.345
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_19",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        78.0445,
+        7.9151,
+        -90.4639
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_20",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        75.0585,
+        7.4657,
+        -81.1476
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_21",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        74.8762,
+        7.3266,
+        -76.386
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_22",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        74.2224,
+        6.7178,
+        -63.1122
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_23",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        61.5618,
+        6.2621,
+        -57.1402
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_24",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        62.3979,
+        6.2023,
+        -46.9878
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_25",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        85.1544,
+        5.9283,
+        -49.2412
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_26",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        81.8666,
+        6.8593,
+        -46.1517
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_27",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        70.4003,
+        6.2621,
+        -46.1517
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_28",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        36.4165,
+        5.3104,
+        -54.8868
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_29",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        24.0576,
+        4.2868,
+        -50.8098
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_30",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        11.397,
+        3.1036,
+        -64.7843
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_31",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        24.0011,
+        3.4316,
+        -61.3046
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_32",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        1.6029,
+        3.5902,
+        -65.2621
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_33",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -14.7604,
+        3.6445,
+        -63.7094
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_34",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        6.2611,
+        3.4599,
+        -55.3486
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_35",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -12.0761,
+        3.771,
+        -55.7228
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_36",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -5.5635,
+        3.4771,
+        -44.3601
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_37",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -2.5775,
+        3.4575,
+        -38.8658
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_38",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        6.324,
+        2.1062,
+        -31.5641
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_39",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        8.2915,
+        2.3724,
+        -27.0413
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_40",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        5.1861,
+        1.9866,
+        -17.3666
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_41",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -5.0292,
+        3.1045,
+        -28.9683
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_42",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        4.8278,
+        1.5152,
+        -12.4696
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_43",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -8.6689,
+        1.1315,
+        -4.4671
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_44",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        12.1765,
+        0.0186,
+        -2.0624
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_45",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -11.416,
+        1.0063,
+        -0.0479
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_46",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        1.364,
+        0.9976,
+        3.0576
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_47",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -12.4345,
+        1.0403,
+        10.6858
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_48",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        7.2166,
+        0.3255,
+        13.21
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_49",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        10.3849,
+        0.8404,
+        18.123
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_50",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        2.0807,
+        0.1743,
+        -3.1533
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_51",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        -13.8048,
+        0.4705,
+        16.196
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_52",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        3.3945,
+        3.4806,
+        -39.5825
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_53",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        4.2935,
+        0.5378,
+        21.109
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_3_54",
+      "type": "bush_3",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ],
+      "position": [
+        0.0502,
+        0.7679,
+        20.6153
+      ],
+      "rotation": [
+        0,
+        -20.24,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_22",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        200.6954,
+        9.0758,
+        -94.3058
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_23",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        207.8425,
+        8.6297,
+        -90.8059
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_24",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        208.091,
+        8.789,
+        -87.9574
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_25",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        206.887,
+        8.6721,
+        -100.6
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_26",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        199.133,
+        8.7934,
+        -102.0513
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_27",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        198.1678,
+        8.643,
+        -104.661
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_28",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        96.6728,
+        8.9983,
+        -128.4836
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_29",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        104.3074,
+        9.1983,
+        -129.7795
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_30",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        112.4195,
+        8.8947,
+        -119.609
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_31",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        102.8741,
+        9.0886,
+        -107.8025
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_32",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        154.6012,
+        9.073,
+        -127.5281
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_33",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        155.4277,
+        9.2804,
+        -124.763
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_34",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        163.301,
+        8.9925,
+        -123.3116
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_35",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        169.641,
+        8.7641,
+        -111.1469
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_36",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        175.981,
+        9.3739,
+        -108.0594
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_37",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        185.4071,
+        9.1184,
+        -117.2383
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_38",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        114.6889,
+        8.9217,
+        -113.2786
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_39",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        118.879,
+        9.1092,
+        -116.9994
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_40",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        123.6662,
+        9.4716,
+        -126.0948
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_41",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        191.0208,
+        8.9476,
+        -126.6741
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_42",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        191.0304,
+        9.308,
+        -114.0314
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_43",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        200.2177,
+        8.8365,
+        -129.0629
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_44",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        213.4658,
+        8.8621,
+        -129.0447
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_45",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        213.5949,
+        9.5869,
+        -112.9385
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_46",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        86.8691,
+        9.1115,
+        -114.0134
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_47",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        86.8594,
+        8.7601,
+        -126.6559
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_48",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        77.5528,
+        8.8937,
+        -129.3017
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_49",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        64.3046,
+        9.2746,
+        -129.3197
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_50",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        64.6533,
+        9.5869,
+        -113.0579
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_51",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        73.9696,
+        8.9318,
+        -102.1889
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_52",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        66.5546,
+        7.8202,
+        -90.7045
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_53",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        69.5503,
+        7.6116,
+        -86.7811
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_54",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        63.9366,
+        6.3415,
+        -78.1814
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_55",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        75.7708,
+        6.7422,
+        -73.7801
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_56",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        66.206,
+        6.2603,
+        -67.1929
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_57",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        80.5388,
+        6.325,
+        -57.9961
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_58",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        82.4401,
+        6.3926,
+        -47.7061
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_59",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        78.2694,
+        6.6399,
+        -43.6633
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_60",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        63.4589,
+        5.82,
+        -58.5933
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_61",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        58.9202,
+        5.871,
+        -46.8881
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_62",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        25.477,
+        4.5174,
+        -53.099
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_63",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        17.8328,
+        3.4977,
+        -49.8741
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_64",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        17.8231,
+        3.2713,
+        -60.725
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_65",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        10.9053,
+        3.4609,
+        -51.6657
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_66",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -2.8207,
+        3.3537,
+        -62.7916
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_67",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -10.7134,
+        3.569,
+        -52.3824
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_68",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        11.6122,
+        3.7011,
+        -44.1229
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_69",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -0.6804,
+        3.0025,
+        -32.5553
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_70",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -3.547,
+        2.4986,
+        -26.7028
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_71",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -0.4319,
+        2.2875,
+        -23.1376
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_72",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -6.1746,
+        0.7484,
+        -14.4005
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_73",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        5.6402,
+        0.8882,
+        -10.2019
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_74",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        11.6219,
+        0.7185,
+        2.6795
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_75",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -3.3081,
+        0.7389,
+        -4.4869
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_76",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -11.9078,
+        1.2261,
+        -3.2925
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_77",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -10.3648,
+        0.4927,
+        3.6531
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_78",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        1.7084,
+        0.7484,
+        7.457
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_79",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -6.533,
+        1.2261,
+        14.2651
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_80",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        6.2471,
+        0.7851,
+        18.4455
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_81",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        -10.3648,
+        0.0532,
+        19.5386
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "bush_82",
+      "type": "bush",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ],
+      "position": [
+        3.7389,
+        0.7269,
+        -6.5174
+      ],
+      "rotation": [
+        0,
+        -173.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_01",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        -1.9423,
+        0.5033,
+        -6.2642
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_02",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        0.4465,
+        3.162,
+        -54.1597
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_03",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        240.8288,
+        22.4803,
+        -45.914
+      ],
+      "rotation": [
+        0,
+        -68,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_04",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        243.337,
+        22.4803,
+        -45.6751
+      ],
+      "rotation": [
+        0,
+        -68,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_05",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        250.0696,
+        22.4803,
+        -40.9189
+      ],
+      "rotation": [
+        0,
+        112,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_06",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        240.9677,
+        22.4803,
+        -44.4552
+      ],
+      "rotation": [
+        0,
+        -98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_07",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        252.4726,
+        22.4803,
+        -46.5194
+      ],
+      "rotation": [
+        0,
+        -8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_08",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        251.8418,
+        22.4803,
+        -44.9332
+      ],
+      "rotation": [
+        0,
+        37,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_09",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        253.667,
+        22.4803,
+        -41.7418
+      ],
+      "rotation": [
+        0,
+        -8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_10",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        253.7395,
+        23.43,
+        -41.5274
+      ],
+      "rotation": [
+        0,
+        -158,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_11",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        240.9595,
+        23.43,
+        -44.3939
+      ],
+      "rotation": [
+        0,
+        -158,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_12",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        -4.1192,
+        0.8971,
+        14.2158
+      ],
+      "rotation": [
+        0,
+        -178.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_13",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        -4.4178,
+        0.8971,
+        13.4992
+      ],
+      "rotation": [
+        0,
+        -178.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_14",
+      "type": "wooden_crate",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ],
+      "position": [
+        -3.4025,
+        1.3749,
+        15.4102
+      ],
+      "rotation": [
+        0,
+        -178.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        -5.3792,
+        1.1294,
+        -9.8399
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        0.4733,
+        3.8076,
+        -55.8243
+      ],
+      "rotation": [
+        0,
+        0.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        2.2641,
+        2.0204,
+        -14.498
+      ],
+      "rotation": [
+        0,
+        1.83,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        2.2641,
+        3.7191,
+        -46.5079
+      ],
+      "rotation": [
+        0,
+        1.83,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        72.6142,
+        9.3599,
+        -108.7362
+      ],
+      "rotation": [
+        0,
+        1.83,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        87.7831,
+        9.4213,
+        -120.6802
+      ],
+      "rotation": [
+        0,
+        1.83,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        1.5474,
+        2.7438,
+        -29.7863
+      ],
+      "rotation": [
+        0,
+        1.83,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        72.6142,
+        6.8334,
+        -73.7402
+      ],
+      "rotation": [
+        0,
+        1.83,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        67.7172,
+        6.7405,
+        -76.129
+      ],
+      "rotation": [
+        0,
+        1.83,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_10",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        -1.9155,
+        3.5422,
+        -60.6019
+      ],
+      "rotation": [
+        0,
+        0.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_11",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        5.5351,
+        3.5687,
+        -54.1276
+      ],
+      "rotation": [
+        0,
+        -67.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_12",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        19.9873,
+        3.8811,
+        -59.7413
+      ],
+      "rotation": [
+        0,
+        -67.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_13",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        32.6511,
+        5.0592,
+        -53.973
+      ],
+      "rotation": [
+        0,
+        -112.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_14",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        31.0953,
+        4.7498,
+        -61.294
+      ],
+      "rotation": [
+        0,
+        -67.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_15",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        72.6604,
+        6.307,
+        -54.1276
+      ],
+      "rotation": [
+        0,
+        -67.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_16",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        74.2131,
+        6.8533,
+        -57.3525
+      ],
+      "rotation": [
+        0,
+        -67.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_17",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        77.438,
+        6.2539,
+        -52.5749
+      ],
+      "rotation": [
+        0,
+        -67.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_18",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        69.1513,
+        6.4485,
+        -59.7659
+      ],
+      "rotation": [
+        0,
+        0.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_19",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        72.3762,
+        8.1517,
+        -90.9397
+      ],
+      "rotation": [
+        0,
+        0.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_20",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        75.0492,
+        9.4377,
+        -105.2479
+      ],
+      "rotation": [
+        0,
+        -67.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_21",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        69.1513,
+        9.5274,
+        -111.7222
+      ],
+      "rotation": [
+        0,
+        0.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_22",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        216.5889,
+        9.3189,
+        -89.4475
+      ],
+      "rotation": [
+        0,
+        -111.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_23",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        193.2134,
+        9.3198,
+        -93.9773
+      ],
+      "rotation": [
+        0,
+        113.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_24",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        197.0629,
+        9.3018,
+        -87.6248
+      ],
+      "rotation": [
+        0,
+        158.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_25",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        204.0352,
+        10.4422,
+        -74.9749
+      ],
+      "rotation": [
+        0,
+        -141.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_26",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        226.7288,
+        14.7961,
+        -67.0919
+      ],
+      "rotation": [
+        0,
+        -141.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_27",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        225.5361,
+        14.7961,
+        -80.6537
+      ],
+      "rotation": [
+        0,
+        -51.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_28",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        226.1859,
+        14.7961,
+        -54.7912
+      ],
+      "rotation": [
+        0,
+        128.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_29",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        218.9783,
+        20.6508,
+        -63.0751
+      ],
+      "rotation": [
+        0,
+        -81.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_30",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        227.1989,
+        22.8901,
+        -66.209
+      ],
+      "rotation": [
+        0,
+        -36.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_31",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        254.8957,
+        23.0374,
+        -39.4898
+      ],
+      "rotation": [
+        0,
+        -171.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_32",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        246.7738,
+        23.0374,
+        -38.8926
+      ],
+      "rotation": [
+        0,
+        -171.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_33",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        248.0899,
+        23.0374,
+        -63.2279
+      ],
+      "rotation": [
+        0,
+        -21.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_34",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        216.153,
+        14.7961,
+        -49.1776
+      ],
+      "rotation": [
+        0,
+        128.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_35",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        215.4363,
+        14.7961,
+        -50.4914
+      ],
+      "rotation": [
+        0,
+        128.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_36",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        215.6626,
+        14.7961,
+        -55.7801
+      ],
+      "rotation": [
+        0,
+        83.22,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_37",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        224.6218,
+        23.0374,
+        -32.9547
+      ],
+      "rotation": [
+        0,
+        98.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_38",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        242.9517,
+        23.0374,
+        -36.6233
+      ],
+      "rotation": [
+        0,
+        -171.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_39",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        240.5629,
+        23.0374,
+        -34.5928
+      ],
+      "rotation": [
+        0,
+        -171.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_40",
+      "type": "guard",
+      "meshes": [
+        "jungle_guard.glb"
+      ],
+      "position": [
+        253.8207,
+        23.0374,
+        -37.2205
+      ],
+      "rotation": [
+        0,
+        -171.25,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "natalia_01",
+      "type": "natalia",
+      "meshes": [
+        "jungle_natalia.glb"
+      ],
+      "position": [
+        -7.9766,
+        1.3074,
+        16.1557
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_01",
+      "type": "drone_gun",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ],
+      "position": [
+        253.1266,
+        22.9149,
+        -62.656
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_02",
+      "type": "drone_gun",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ],
+      "position": [
+        1.397,
+        3.4641,
+        -52.3155
+      ],
+      "rotation": [
+        0,
+        88.37,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_03",
+      "type": "drone_gun",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ],
+      "position": [
+        66.5288,
+        5.9573,
+        -60.745
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_04",
+      "type": "drone_gun",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ],
+      "position": [
+        68.1308,
+        9.2988,
+        -119.2344
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_05",
+      "type": "drone_gun",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ],
+      "position": [
+        159.8225,
+        11.6716,
+        -130.2485
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_06",
+      "type": "drone_gun",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ],
+      "position": [
+        243.8103,
+        22.9149,
+        -73.4056
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_07",
+      "type": "drone_gun",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ],
+      "position": [
+        207.895,
+        9.1793,
+        -83.3358
+      ],
+      "rotation": [
+        0,
+        -89.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "jungle_body_armor.glb"
+      ],
+      "position": [
+        -14.2385,
+        3.1029,
+        -64.2024
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_02",
+      "type": "body_armor",
+      "meshes": [
+        "jungle_body_armor.glb"
+      ],
+      "position": [
+        79.7607,
+        5.6306,
+        -56.7971
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_01",
+      "type": "body_armor_1",
+      "meshes": [
+        "jungle_body_armor_1.glb"
+      ],
+      "position": [
+        57.9374,
+        8.7476,
+        -130.0934
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_01",
+      "type": "explosive_barrel",
+      "meshes": [
+        "jungle_explosive_barrel.glb"
+      ],
+      "position": [
+        250.7045,
+        22.7245,
+        -57.4505
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_02",
+      "type": "explosive_barrel",
+      "meshes": [
+        "jungle_explosive_barrel.glb"
+      ],
+      "position": [
+        250.1074,
+        22.7245,
+        -56.1366
+      ],
+      "rotation": [
+        0,
+        30,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_03",
+      "type": "explosive_barrel",
+      "meshes": [
+        "jungle_explosive_barrel.glb"
+      ],
+      "position": [
+        250.1072,
+        22.7245,
+        -54.9423
+      ],
+      "rotation": [
+        0,
+        -60,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_04",
+      "type": "explosive_barrel",
+      "meshes": [
+        "jungle_explosive_barrel.glb"
+      ],
+      "position": [
+        249.8686,
+        22.7245,
+        -53.3896
+      ],
+      "rotation": [
+        0,
+        75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_01",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        217.3807,
+        14.3908,
+        -54.8226
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_02",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        213.5589,
+        14.3908,
+        -52.9116
+      ],
+      "rotation": [
+        0,
+        33.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_03",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        226.4582,
+        22.6321,
+        -33.2039
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_04",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        216.6641,
+        14.3908,
+        -51.5977
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_05",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        217.5002,
+        14.3908,
+        -49.8061
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_06",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        222.7559,
+        14.3908,
+        -52.6728
+      ],
+      "rotation": [
+        0,
+        60,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_07",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        218.695,
+        14.4112,
+        -51.1203
+      ],
+      "rotation": [
+        0,
+        89.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_08",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        220.1281,
+        14.4232,
+        -56.0177
+      ],
+      "rotation": [
+        0,
+        149.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_09",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        217.9782,
+        14.3908,
+        -56.376
+      ],
+      "rotation": [
+        0,
+        149.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_10",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        241.5075,
+        22.6321,
+        -37.7434
+      ],
+      "rotation": [
+        0,
+        -153.22,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_11",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        240.672,
+        22.6321,
+        -40.2514
+      ],
+      "rotation": [
+        0,
+        116.78,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_12",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        243.1802,
+        22.6321,
+        -37.9819
+      ],
+      "rotation": [
+        0,
+        86.78,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_13",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        246.6432,
+        22.6321,
+        -40.1319
+      ],
+      "rotation": [
+        0,
+        -93.22,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_14",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        249.8686,
+        22.6321,
+        -38.3406
+      ],
+      "rotation": [
+        0,
+        161.78,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_15",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        253.0937,
+        22.6321,
+        -38.9376
+      ],
+      "rotation": [
+        0,
+        116.78,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_16",
+      "type": "metal_crate",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ],
+      "position": [
+        248.3159,
+        22.6321,
+        -50.045
+      ],
+      "rotation": [
+        0,
+        26.78,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_01",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        254.8849,
+        22.2775,
+        -72.0223
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_02",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        253.0933,
+        22.2997,
+        -74.1722
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_03",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        250.5851,
+        22.2212,
+        -74.2917
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_04",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        251.6601,
+        22.3275,
+        -73.2167
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_05",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        253.0933,
+        22.3766,
+        -72.5001
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_06",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        254.5266,
+        22.2076,
+        -73.4556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_07",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        253.6905,
+        22.3617,
+        -71.0668
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_08",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        249.8685,
+        22.2564,
+        -72.2612
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_09",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        255.1238,
+        22.2782,
+        -70.4696
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_10",
+      "type": "ammo_crate",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ],
+      "position": [
+        253.6905,
+        22.3322,
+        -69.5141
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "xenia_01",
+      "type": "xenia",
+      "meshes": [
+        "jungle_xenia.glb"
+      ],
+      "position": [
+        181.338,
+        10.0748,
+        -115.4142
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "elevator_door_01",
+      "type": "elevator_door",
+      "meshes": [
+        "jungle_elevator_door.glb"
+      ],
+      "position": [
+        209.4977,
+        23.68,
+        -31.3151
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "elevator_door_02",
+      "type": "elevator_door",
+      "meshes": [
+        "jungle_elevator_door.glb"
+      ],
+      "position": [
+        209.4978,
+        23.68,
+        -33.1825
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

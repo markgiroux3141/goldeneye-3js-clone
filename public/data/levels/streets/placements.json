@@ -1,0 +1,3803 @@
+{
+  "objects": [
+    {
+      "id": "primary_000_01",
+      "type": "primary_000",
+      "meshes": [
+        "streets_primary_000.glb"
+      ],
+      "position": [
+        -37.3784,
+        0.3128,
+        166.9179
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_000_02",
+      "type": "primary_000",
+      "meshes": [
+        "streets_primary_000.glb"
+      ],
+      "position": [
+        -43.3333,
+        0.0812,
+        161.9885
+      ],
+      "rotation": [
+        0,
+        -1.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_000_03",
+      "type": "primary_000",
+      "meshes": [
+        "streets_primary_000.glb"
+      ],
+      "position": [
+        76.1712,
+        0.0812,
+        252.1863
+      ],
+      "rotation": [
+        0,
+        88.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_000_04",
+      "type": "primary_000",
+      "meshes": [
+        "streets_primary_000.glb"
+      ],
+      "position": [
+        51.7893,
+        0.3128,
+        369.1382
+      ],
+      "rotation": [
+        0,
+        84.54,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_000_05",
+      "type": "primary_000",
+      "meshes": [
+        "streets_primary_000.glb"
+      ],
+      "position": [
+        37.9937,
+        0.3128,
+        376.0856
+      ],
+      "rotation": [
+        0,
+        84.54,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_000_06",
+      "type": "primary_000",
+      "meshes": [
+        "streets_primary_000.glb"
+      ],
+      "position": [
+        41.5336,
+        0.0812,
+        365.6314
+      ],
+      "rotation": [
+        0,
+        84.54,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_01",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        -51.5398,
+        0.3128,
+        154.6672
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_02",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        54.0056,
+        0.3128,
+        285.9971
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_03",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        106.9715,
+        0.3128,
+        285.2693
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_04",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        107.1369,
+        0.0812,
+        280.3068
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_05",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        107.4016,
+        0.3128,
+        271.8045
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_06",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        38.2458,
+        0.3128,
+        146.6383
+      ],
+      "rotation": [
+        0,
+        40.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_07",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        53.3648,
+        0.3128,
+        146.539
+      ],
+      "rotation": [
+        0,
+        40.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_08",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        47.873,
+        0.0812,
+        147.5977
+      ],
+      "rotation": [
+        0,
+        40.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_09",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        -7.028,
+        0.0812,
+        129.985
+      ],
+      "rotation": [
+        0,
+        -49.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_10",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        6.7676,
+        0.3128,
+        123.0376
+      ],
+      "rotation": [
+        0,
+        -49.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_11",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        6.1721,
+        0.3128,
+        137.2963
+      ],
+      "rotation": [
+        0,
+        -49.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_12",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        1.739,
+        0.3128,
+        194.563
+      ],
+      "rotation": [
+        0,
+        -49.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_13",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        5.8082,
+        0.3128,
+        179.3117
+      ],
+      "rotation": [
+        0,
+        -49.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_14",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        1.1766,
+        0.0812,
+        185.2998
+      ],
+      "rotation": [
+        0,
+        -49.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_15",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        37.0841,
+        0.3128,
+        257.5698
+      ],
+      "rotation": [
+        0,
+        -139.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_16",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        52.3354,
+        0.3128,
+        261.639
+      ],
+      "rotation": [
+        0,
+        -139.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_17",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        46.3805,
+        0.0812,
+        256.9743
+      ],
+      "rotation": [
+        0,
+        -139.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_18",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        -1.3707,
+        0.3128,
+        -5.0903
+      ],
+      "rotation": [
+        0,
+        -46.14,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_19",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        0.6342,
+        0.3128,
+        -17.7602
+      ],
+      "rotation": [
+        0,
+        164.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_20",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        0.7086,
+        0.3128,
+        -10.7111
+      ],
+      "rotation": [
+        0,
+        119.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_21",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        64.542,
+        0.3128,
+        13.0972
+      ],
+      "rotation": [
+        0,
+        179.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_22",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        60.6458,
+        0.3128,
+        26.2491
+      ],
+      "rotation": [
+        0,
+        44.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_23",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        67.9892,
+        0.3128,
+        49.6878
+      ],
+      "rotation": [
+        0,
+        89.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_24",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        65.0127,
+        0.3128,
+        66.6103
+      ],
+      "rotation": [
+        0,
+        44.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_25",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        58.1976,
+        0.3128,
+        68.7276
+      ],
+      "rotation": [
+        0,
+        44.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_26",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        5.9172,
+        0.3128,
+        -30.0867
+      ],
+      "rotation": [
+        0,
+        -135.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_27",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        27.804,
+        0.3128,
+        -20.2183
+      ],
+      "rotation": [
+        0,
+        134.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_28",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        48.6018,
+        0.3128,
+        16.1482
+      ],
+      "rotation": [
+        0,
+        -0.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_29",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        53.5254,
+        0.3128,
+        3.437
+      ],
+      "rotation": [
+        0,
+        179.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_30",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        53.566,
+        0.3128,
+        17.052
+      ],
+      "rotation": [
+        0,
+        44.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_31",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        61.2991,
+        0.3128,
+        45.0288
+      ],
+      "rotation": [
+        0,
+        -90.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_32",
+      "type": "primary_002",
+      "meshes": [
+        "streets_primary_002.glb"
+      ],
+      "position": [
+        62.0343,
+        0.3128,
+        62.8217
+      ],
+      "rotation": [
+        0,
+        89.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_008_01",
+      "type": "primary_008",
+      "meshes": [
+        "streets_primary_008.glb"
+      ],
+      "position": [
+        22.1971,
+        0.8873,
+        -27.3463
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_008_01",
+      "type": "secondary_008",
+      "meshes": [
+        "streets_secondary_008.glb"
+      ],
+      "position": [
+        22.0448,
+        2.8186,
+        -28.3678
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_01",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        24.7468,
+        0.0562,
+        -17.488
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_02",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        42.9538,
+        -0.1754,
+        161.4463
+      ],
+      "rotation": [
+        0,
+        -24.64,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_03",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        -9.1402,
+        0.0562,
+        135.9413
+      ],
+      "rotation": [
+        0,
+        -96.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_04",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        -4.7672,
+        0.0562,
+        181.484
+      ],
+      "rotation": [
+        0,
+        173.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_05",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        43.4019,
+        -0.1754,
+        248.4153
+      ],
+      "rotation": [
+        0,
+        -53.59,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_06",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        58.5332,
+        0.0562,
+        332.4809
+      ],
+      "rotation": [
+        0,
+        83.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_07",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        114.5758,
+        -0.1754,
+        275.942
+      ],
+      "rotation": [
+        0,
+        83.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "military_jeep_08",
+      "type": "military_jeep",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ],
+      "position": [
+        126.1239,
+        -0.1754,
+        280.777
+      ],
+      "rotation": [
+        0,
+        -23.66,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_01",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        -47.0539,
+        -0.1237,
+        96.4901
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_02",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        -54.5774,
+        0.1038,
+        167.9984
+      ],
+      "rotation": [
+        0,
+        -81.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_03",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        48.993,
+        -0.1278,
+        175.1179
+      ],
+      "rotation": [
+        0,
+        -171.91,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_04",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        23.8293,
+        -0.1284,
+        365.4128
+      ],
+      "rotation": [
+        0,
+        -81.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_05",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        44.0927,
+        -0.1278,
+        42.5351
+      ],
+      "rotation": [
+        0,
+        6.63,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_06",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        25.6823,
+        0.1038,
+        137.3439
+      ],
+      "rotation": [
+        0,
+        -79.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_07",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        24.9674,
+        -0.1261,
+        281.3864
+      ],
+      "rotation": [
+        0,
+        94.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_08",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        -0.1525,
+        -0.1326,
+        104.2516
+      ],
+      "rotation": [
+        0,
+        -89.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_09",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        -1.7333,
+        0.099,
+        94.9742
+      ],
+      "rotation": [
+        0,
+        90.06,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_10",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        -41.8978,
+        -0.1278,
+        268.2393
+      ],
+      "rotation": [
+        0,
+        72.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_11",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ],
+      "position": [
+        -45.4516,
+        0.0511,
+        274.4383
+      ],
+      "rotation": [
+        0,
+        43.13,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_12",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ],
+      "position": [
+        35.2199,
+        0.1893,
+        105.2329
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_13",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ],
+      "position": [
+        -23.9405,
+        -0.0422,
+        186.8545
+      ],
+      "rotation": [
+        0,
+        -171.28,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_14",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ],
+      "position": [
+        44.5611,
+        -0.0422,
+        345.4973
+      ],
+      "rotation": [
+        0,
+        98.72,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_15",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ],
+      "position": [
+        -16.9832,
+        -0.0422,
+        45.3607
+      ],
+      "rotation": [
+        0,
+        7.27,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_16",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ],
+      "position": [
+        72.9872,
+        -0.0452,
+        294.0882
+      ],
+      "rotation": [
+        0,
+        90.71,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_17",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ],
+      "position": [
+        -3.5899,
+        -0.0422,
+        101.209
+      ],
+      "rotation": [
+        0,
+        42.65,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_18",
+      "type": "car",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ],
+      "position": [
+        61.2239,
+        -0.0422,
+        253.2942
+      ],
+      "rotation": [
+        0,
+        14.11,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_19",
+      "type": "car",
+      "meshes": [
+        "streets_car_secondary_2.glb"
+      ],
+      "position": [
+        44.5712,
+        -0.5676,
+        346.7024
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "car_20",
+      "type": "car",
+      "meshes": [
+        "streets_car_secondary_3.glb"
+      ],
+      "position": [
+        -18.1881,
+        -0.5676,
+        45.3402
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_01",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        52.205,
+        -0.2126,
+        148.8403
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_02",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        45.6876,
+        -0.4441,
+        148.8734
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_03",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        38.6078,
+        -0.2126,
+        148.9396
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_04",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -3.606,
+        -0.4441,
+        133.8868
+      ],
+      "rotation": [
+        0,
+        -30,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_05",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -0.6285,
+        -0.2126,
+        123.929
+      ],
+      "rotation": [
+        0,
+        -135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_06",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        1.9189,
+        -0.2126,
+        138.0222
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_07",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -6.2527,
+        -0.4441,
+        126.2779
+      ],
+      "rotation": [
+        0,
+        -165,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_08",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -53.1643,
+        -0.4441,
+        162.9338
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_09",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -53.0981,
+        -0.2126,
+        154.266
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_10",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -11.9429,
+        -0.4441,
+        189.8964
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_11",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        3.7054,
+        -0.2126,
+        181.2286
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_12",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        3.6061,
+        -0.4441,
+        189.9295
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_13",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -27.6242,
+        -0.4441,
+        187.0513
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_14",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -24.1174,
+        -0.2126,
+        313.7591
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_15",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -24.0843,
+        -0.4441,
+        308.2343
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_16",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -7.5098,
+        -0.4441,
+        312.7666
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_17",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        -7.4436,
+        -0.2126,
+        304.0658
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_18",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        50.4847,
+        -0.4441,
+        257.0881
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_19",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        41.6846,
+        -0.2126,
+        257.0219
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_20",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        48.3342,
+        -0.4441,
+        365.2694
+      ],
+      "rotation": [
+        0,
+        150,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_21",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        49.0289,
+        -0.2126,
+        376.6168
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "barricade_22",
+      "type": "barricade",
+      "meshes": [
+        "streets_barricade.glb"
+      ],
+      "position": [
+        42.1146,
+        -0.2126,
+        361.0017
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "grenade_01",
+      "type": "grenade",
+      "meshes": [
+        "streets_grenade.glb"
+      ],
+      "position": [
+        126.1512,
+        0.0766,
+        280.8115
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "streets_body_armor.glb"
+      ],
+      "position": [
+        63.461,
+        -0.699,
+        258.9786
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_02",
+      "type": "body_armor",
+      "meshes": [
+        "streets_body_armor.glb"
+      ],
+      "position": [
+        30.7088,
+        -0.699,
+        179.6787
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_03",
+      "type": "body_armor",
+      "meshes": [
+        "streets_body_armor.glb"
+      ],
+      "position": [
+        35.2412,
+        -0.699,
+        336.1612
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_04",
+      "type": "body_armor",
+      "meshes": [
+        "streets_body_armor.glb"
+      ],
+      "position": [
+        -44.2601,
+        -0.699,
+        117.4038
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_05",
+      "type": "body_armor",
+      "meshes": [
+        "streets_body_armor.glb"
+      ],
+      "position": [
+        58.9166,
+        -0.699,
+        69.3374
+      ],
+      "rotation": [
+        0,
+        -176.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "valentin_01",
+      "type": "valentin",
+      "meshes": [
+        "streets_valentin.glb"
+      ],
+      "position": [
+        71.0255,
+        0.2903,
+        35.9368
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "grenade_launcher_01",
+      "type": "grenade_launcher",
+      "meshes": [
+        "streets_grenade_launcher_primary.glb",
+        "streets_grenade_launcher_secondary.glb"
+      ],
+      "position": [
+        61.0616,
+        -0.7093,
+        69.0857
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_01",
+      "type": "ammo_crate",
+      "meshes": [
+        "streets_ammo_crate.glb"
+      ],
+      "position": [
+        65.1404,
+        -0.5633,
+        64.7765
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_01",
+      "type": "land_mine",
+      "meshes": [
+        "streets_land_mine.glb"
+      ],
+      "position": [
+        -63.8514,
+        -0.9521,
+        159.0945
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_02",
+      "type": "land_mine",
+      "meshes": [
+        "streets_land_mine.glb"
+      ],
+      "position": [
+        -59.0906,
+        -0.9521,
+        158.047
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_03",
+      "type": "land_mine",
+      "meshes": [
+        "streets_land_mine.glb"
+      ],
+      "position": [
+        -11.6133,
+        -0.9521,
+        307.0086
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_04",
+      "type": "land_mine",
+      "meshes": [
+        "streets_land_mine.glb"
+      ],
+      "position": [
+        70.0045,
+        -0.9521,
+        341.5744
+      ],
+      "rotation": [
+        0,
+        -45.06,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_01",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -56.9028,
+        -0.9521,
+        159.6585
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_02",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -57.399,
+        -0.7205,
+        154.9938
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_03",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -59.0831,
+        -0.9521,
+        161.3678
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_04",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -61.5643,
+        -0.9521,
+        161.9963
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_05",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -60.8065,
+        -0.7205,
+        164.6541
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_06",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -58.2261,
+        -0.9521,
+        163.8601
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_07",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -60.3402,
+        -0.7205,
+        153.494
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_08",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -16.6738,
+        -0.7205,
+        313.7591
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_09",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -18.2918,
+        -0.7205,
+        303.4923
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_10",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -19.2543,
+        -0.9521,
+        312.0057
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_1_11",
+      "type": "land_mine_1",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ],
+      "position": [
+        -21.4709,
+        -0.9521,
+        308.7636
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_2_01",
+      "type": "land_mine_2",
+      "meshes": [
+        "streets_land_mine_2.glb"
+      ],
+      "position": [
+        -61.187,
+        -0.9521,
+        156.7638
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_2_02",
+      "type": "land_mine_2",
+      "meshes": [
+        "streets_land_mine_2.glb"
+      ],
+      "position": [
+        -14.1761,
+        -0.9521,
+        311.7576
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_2_03",
+      "type": "land_mine_2",
+      "meshes": [
+        "streets_land_mine_2.glb"
+      ],
+      "position": [
+        -12.0918,
+        -0.7205,
+        316.4223
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_2_04",
+      "type": "land_mine_2",
+      "meshes": [
+        "streets_land_mine_2.glb"
+      ],
+      "position": [
+        -15.731,
+        -0.9521,
+        306.3651
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_3_01",
+      "type": "land_mine_3",
+      "meshes": [
+        "streets_land_mine_3.glb"
+      ],
+      "position": [
+        -20.8919,
+        -0.7205,
+        317.4644
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_3_02",
+      "type": "land_mine_3",
+      "meshes": [
+        "streets_land_mine_3.glb"
+      ],
+      "position": [
+        -17.8483,
+        -0.9521,
+        308.1019
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_4_01",
+      "type": "land_mine_4",
+      "meshes": [
+        "streets_land_mine_4.glb"
+      ],
+      "position": [
+        76.4528,
+        -0.9521,
+        342.5199
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_4_02",
+      "type": "land_mine_4",
+      "meshes": [
+        "streets_land_mine_4.glb"
+      ],
+      "position": [
+        60.9369,
+        -0.9521,
+        340.4688
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_5_01",
+      "type": "land_mine_5",
+      "meshes": [
+        "streets_land_mine_5.glb"
+      ],
+      "position": [
+        64.4642,
+        -0.7205,
+        333.3326
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_5_02",
+      "type": "land_mine_5",
+      "meshes": [
+        "streets_land_mine_5.glb"
+      ],
+      "position": [
+        64.5635,
+        -0.7205,
+        345.6395
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_6_01",
+      "type": "land_mine_6",
+      "meshes": [
+        "streets_land_mine_6.glb"
+      ],
+      "position": [
+        70.4833,
+        -0.7205,
+        346.1805
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_6_02",
+      "type": "land_mine_6",
+      "meshes": [
+        "streets_land_mine_6.glb"
+      ],
+      "position": [
+        66.0833,
+        -0.9521,
+        340.1263
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_7_01",
+      "type": "land_mine_7",
+      "meshes": [
+        "streets_land_mine_7.glb"
+      ],
+      "position": [
+        62.7254,
+        -0.9521,
+        337.0496
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_8_01",
+      "type": "land_mine_8",
+      "meshes": [
+        "streets_land_mine_8.glb"
+      ],
+      "position": [
+        68.763,
+        -0.7205,
+        332.4676
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "land_mine_9_01",
+      "type": "land_mine_9",
+      "meshes": [
+        "streets_land_mine_9.glb"
+      ],
+      "position": [
+        74.7676,
+        -0.9521,
+        335.3127
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_01",
+      "type": "buildings",
+      "meshes": [
+        "streets_buildings.glb"
+      ],
+      "position": [
+        -13.8108,
+        4.9023,
+        102.513
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_02",
+      "type": "buildings",
+      "meshes": [
+        "streets_buildings.glb"
+      ],
+      "position": [
+        17.8139,
+        4.9023,
+        127.2484
+      ],
+      "rotation": [
+        0,
+        -179.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_03",
+      "type": "buildings",
+      "meshes": [
+        "streets_buildings.glb"
+      ],
+      "position": [
+        -12.0601,
+        4.9023,
+        306.3929
+      ],
+      "rotation": [
+        0,
+        -179.97,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_1_01",
+      "type": "buildings_1",
+      "meshes": [
+        "streets_buildings_1.glb"
+      ],
+      "position": [
+        49.3345,
+        4.9023,
+        160.5339
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_1_02",
+      "type": "buildings_1",
+      "meshes": [
+        "streets_buildings_1.glb"
+      ],
+      "position": [
+        -13.8108,
+        4.9023,
+        192.0876
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_1_03",
+      "type": "buildings_1",
+      "meshes": [
+        "streets_buildings_1.glb"
+      ],
+      "position": [
+        -40.2212,
+        4.9023,
+        250.1052
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_1_04",
+      "type": "buildings_1",
+      "meshes": [
+        "streets_buildings_1.glb"
+      ],
+      "position": [
+        79.1895,
+        4.9023,
+        309.82
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_2_01",
+      "type": "buildings_2",
+      "meshes": [
+        "streets_buildings_2.glb"
+      ],
+      "position": [
+        -41.4901,
+        4.5634,
+        71.2384
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_2_02",
+      "type": "buildings_2",
+      "meshes": [
+        "streets_buildings_2.glb"
+      ],
+      "position": [
+        -14.071,
+        4.5634,
+        131.1039
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_2_03",
+      "type": "buildings_2",
+      "meshes": [
+        "streets_buildings_2.glb"
+      ],
+      "position": [
+        -41.4901,
+        4.5634,
+        220.5089
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_2_04",
+      "type": "buildings_2",
+      "meshes": [
+        "streets_buildings_2.glb"
+      ],
+      "position": [
+        -44.0956,
+        4.5634,
+        277.9527
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_2_05",
+      "type": "buildings_2",
+      "meshes": [
+        "streets_buildings_2.glb"
+      ],
+      "position": [
+        18.2247,
+        4.5634,
+        339.9385
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_2_06",
+      "type": "buildings_2",
+      "meshes": [
+        "streets_buildings_2.glb"
+      ],
+      "position": [
+        107.6297,
+        4.5634,
+        277.7866
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_3_01",
+      "type": "buildings_3",
+      "meshes": [
+        "streets_buildings_3.glb"
+      ],
+      "position": [
+        15.7877,
+        4.5634,
+        101.263
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_3_02",
+      "type": "buildings_3",
+      "meshes": [
+        "streets_buildings_3.glb"
+      ],
+      "position": [
+        15.7877,
+        4.5634,
+        190.8187
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_4_01",
+      "type": "buildings_4",
+      "meshes": [
+        "streets_buildings_4.glb"
+      ],
+      "position": [
+        45.92,
+        4.3725,
+        130.0414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_4_02",
+      "type": "buildings_4",
+      "meshes": [
+        "streets_buildings_4.glb"
+      ],
+      "position": [
+        -42.5526,
+        4.3725,
+        190.3918
+      ],
+      "rotation": [
+        0,
+        89.89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_4_03",
+      "type": "buildings_4",
+      "meshes": [
+        "streets_buildings_4.glb"
+      ],
+      "position": [
+        77.5127,
+        4.3725,
+        278.8645
+      ],
+      "rotation": [
+        0,
+        179.89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_5_01",
+      "type": "buildings_5",
+      "meshes": [
+        "streets_buildings_5.glb"
+      ],
+      "position": [
+        16.0791,
+        4.3725,
+        309.1691
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_6_01",
+      "type": "buildings_6",
+      "meshes": [
+        "streets_buildings_6.glb"
+      ],
+      "position": [
+        -44.4718,
+        4.3338,
+        98.9941
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_6_02",
+      "type": "buildings_6",
+      "meshes": [
+        "streets_buildings_6.glb"
+      ],
+      "position": [
+        -41.8267,
+        4.3338,
+        128.1222
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_7_01",
+      "type": "buildings_7",
+      "meshes": [
+        "streets_buildings_7.glb"
+      ],
+      "position": [
+        45.8297,
+        4.3338,
+        191.2097
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_7_02",
+      "type": "buildings_7",
+      "meshes": [
+        "streets_buildings_7.glb"
+      ],
+      "position": [
+        -71.7006,
+        4.3338,
+        157.9813
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_7_03",
+      "type": "buildings_7",
+      "meshes": [
+        "streets_buildings_7.glb"
+      ],
+      "position": [
+        17.8881,
+        4.3338,
+        277.4109
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_7_04",
+      "type": "buildings_7",
+      "meshes": [
+        "streets_buildings_7.glb"
+      ],
+      "position": [
+        47.729,
+        4.3338,
+        247.537
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_7_05",
+      "type": "buildings_7",
+      "meshes": [
+        "streets_buildings_7.glb"
+      ],
+      "position": [
+        45.8297,
+        4.3338,
+        370.3542
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_7_06",
+      "type": "buildings_7",
+      "meshes": [
+        "streets_buildings_7.glb"
+      ],
+      "position": [
+        75.7037,
+        4.3338,
+        340.4802
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_8_01",
+      "type": "buildings_8",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ],
+      "position": [
+        47.4769,
+        4.4476,
+        99.1675
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_8_02",
+      "type": "buildings_8",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ],
+      "position": [
+        -42.0001,
+        4.4476,
+        160.3561
+      ],
+      "rotation": [
+        0,
+        -90.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_8_03",
+      "type": "buildings_8",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ],
+      "position": [
+        -73.3478,
+        4.4476,
+        190.3087
+      ],
+      "rotation": [
+        0,
+        179.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_8_04",
+      "type": "buildings_8",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ],
+      "position": [
+        -43.4738,
+        4.4476,
+        309.7383
+      ],
+      "rotation": [
+        0,
+        179.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_8_05",
+      "type": "buildings_8",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ],
+      "position": [
+        47.5556,
+        4.4476,
+        279.7857
+      ],
+      "rotation": [
+        0,
+        -90.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_8_06",
+      "type": "buildings_8",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ],
+      "position": [
+        77.3508,
+        4.4476,
+        248.438
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_8_07",
+      "type": "buildings_8",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ],
+      "position": [
+        46.0032,
+        4.4476,
+        338.1054
+      ],
+      "rotation": [
+        0,
+        89.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "buildings_9_01",
+      "type": "buildings_9",
+      "meshes": [
+        "streets_buildings_9.glb"
+      ],
+      "position": [
+        16.2079,
+        4.4476,
+        369.4378
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

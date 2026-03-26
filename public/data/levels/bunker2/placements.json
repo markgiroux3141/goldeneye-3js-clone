@@ -1,0 +1,3913 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        5.6372,
+        2.7597,
+        -9.8403
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        12.4835,
+        2.7597,
+        25.2974
+      ],
+      "rotation": [
+        0,
+        179.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        17.055,
+        2.7597,
+        17.6128
+      ],
+      "rotation": [
+        0,
+        -90.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        8.6329,
+        2.7597,
+        16.2182
+      ],
+      "rotation": [
+        0,
+        32.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -10.3862,
+        3.0114,
+        19.3542
+      ],
+      "rotation": [
+        0,
+        -0.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -18.3978,
+        3.0114,
+        3.3727
+      ],
+      "rotation": [
+        0,
+        -0.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        2.0508,
+        1.0609,
+        -3.6113
+      ],
+      "rotation": [
+        0,
+        -0.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -1.8921,
+        1.0609,
+        -3.6113
+      ],
+      "rotation": [
+        0,
+        -0.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        7.4625,
+        1.0609,
+        36.5605
+      ],
+      "rotation": [
+        0,
+        89.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_10",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        13.9929,
+        1.0609,
+        52.8265
+      ],
+      "rotation": [
+        0,
+        -90.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_11",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -16.4893,
+        1.0609,
+        46.0318
+      ],
+      "rotation": [
+        0,
+        -0.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_12",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -10.8179,
+        1.0609,
+        47.733
+      ],
+      "rotation": [
+        0,
+        -93.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_13",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -9.2869,
+        1.0609,
+        51.9486
+      ],
+      "rotation": [
+        0,
+        -93.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_14",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -5.4359,
+        1.0609,
+        36.3927
+      ],
+      "rotation": [
+        0,
+        89.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_15",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -5.3101,
+        1.0609,
+        42.0134
+      ],
+      "rotation": [
+        0,
+        89.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_16",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        3.142,
+        1.0609,
+        38.5948
+      ],
+      "rotation": [
+        0,
+        89.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_17",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        18.2924,
+        1.0609,
+        49.3869
+      ],
+      "rotation": [
+        0,
+        -90.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_18",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        4.0858,
+        1.0609,
+        47.5084
+      ],
+      "rotation": [
+        0,
+        89.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_19",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        3.9809,
+        1.0609,
+        41.8876
+      ],
+      "rotation": [
+        0,
+        89.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_20",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -20.8727,
+        3.0114,
+        28.771
+      ],
+      "rotation": [
+        0,
+        -0.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_21",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -23.7579,
+        3.0114,
+        34.882
+      ],
+      "rotation": [
+        0,
+        179.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_22",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -30.0923,
+        3.0114,
+        24.0515
+      ],
+      "rotation": [
+        0,
+        -90.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_23",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -30.9306,
+        3.0114,
+        25.549
+      ],
+      "rotation": [
+        0,
+        179.74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_24",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        4.3571,
+        2.7597,
+        -3.9048
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_25",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -11.4566,
+        3.0114,
+        19.9415
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_26",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -27.2073,
+        3.0114,
+        19.9834
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_27",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -4.6613,
+        1.0609,
+        55.302
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_28",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        10.3554,
+        1.0609,
+        55.4488
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_29",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -15.6512,
+        3.0114,
+        29.7778
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_30",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -4.5355,
+        1.0609,
+        33.4271
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_31",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -20.5169,
+        1.0609,
+        55.4488
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_32",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -25.865,
+        1.0609,
+        55.6375
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_33",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -38.323,
+        3.0114,
+        23.7376
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_34",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -38.281,
+        3.0114,
+        35.6712
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_35",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -42.2449,
+        3.0114,
+        30.8265
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_36",
+      "type": "guard",
+      "meshes": [
+        "bunker2_guard.glb"
+      ],
+      "position": [
+        -27.1234,
+        3.0114,
+        32.6092
+      ],
+      "rotation": [
+        0,
+        0.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "monitor_support_01",
+      "type": "monitor_support",
+      "meshes": [
+        "bunker2_monitor_support_primary.glb",
+        "bunker2_monitor_support_secondary.glb"
+      ],
+      "position": [
+        -0.3516,
+        5.0082,
+        7.8863
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "monitor_support_02",
+      "type": "monitor_support",
+      "meshes": [
+        "bunker2_monitor_support_primary.glb",
+        "bunker2_monitor_support_secondary.glb"
+      ],
+      "position": [
+        -0.3516,
+        5.0082,
+        1.9929
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_01",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        16.9172,
+        0.4879,
+        45.8628
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_02",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        14.6678,
+        0.4879,
+        47.6256
+      ],
+      "rotation": [
+        0,
+        -86.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_03",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        14.773,
+        0.4879,
+        44.5518
+      ],
+      "rotation": [
+        0,
+        179.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_04",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        17.0015,
+        0.4879,
+        42.789
+      ],
+      "rotation": [
+        0,
+        93.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_05",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        15.8266,
+        0.4879,
+        41.3326
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_06",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        13.5981,
+        0.4879,
+        43.0954
+      ],
+      "rotation": [
+        0,
+        -86.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_07",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        13.6824,
+        0.4879,
+        40.0007
+      ],
+      "rotation": [
+        0,
+        179.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_08",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ],
+      "position": [
+        15.9109,
+        0.4879,
+        38.2379
+      ],
+      "rotation": [
+        0,
+        93.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_029_01",
+      "type": "primary_029",
+      "meshes": [
+        "bunker2_primary_029.glb"
+      ],
+      "position": [
+        16.9213,
+        1.0402,
+        42.8253
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_01",
+      "type": "drone_gun",
+      "meshes": [
+        "bunker2_drone_gun_primary.glb",
+        "bunker2_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -42.246,
+        7.1583,
+        35.1678
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_02",
+      "type": "drone_gun",
+      "meshes": [
+        "bunker2_drone_gun_primary.glb",
+        "bunker2_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -30.7738,
+        4.7255,
+        28.8549
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_03",
+      "type": "drone_gun",
+      "meshes": [
+        "bunker2_drone_gun_primary.glb",
+        "bunker2_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -34.683,
+        4.7255,
+        23.1162
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "silenced_pp7_01",
+      "type": "silenced_pp7",
+      "meshes": [
+        "bunker2_silenced_pp7_primary.glb",
+        "bunker2_silenced_pp7_secondary.glb"
+      ],
+      "position": [
+        -8.2684,
+        0.3078,
+        50.4142
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "silenced_pp7_02",
+      "type": "silenced_pp7",
+      "meshes": [
+        "bunker2_silenced_pp7_primary.glb",
+        "bunker2_silenced_pp7_secondary.glb"
+      ],
+      "position": [
+        -7.9857,
+        0.3078,
+        50.4659
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "book_01",
+      "type": "book",
+      "meshes": [
+        "bunker2_book.glb"
+      ],
+      "position": [
+        -8.078,
+        0.7499,
+        50.7937
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "VHS_01",
+      "type": "VHS",
+      "meshes": [
+        "bunker2_VHS.glb"
+      ],
+      "position": [
+        -16.9883,
+        3.0441,
+        31.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "checklist_01",
+      "type": "checklist",
+      "meshes": [
+        "bunker2_checklist.glb"
+      ],
+      "position": [
+        -21.5234,
+        3.0226,
+        30.9027
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "bunker2_body_armor.glb"
+      ],
+      "position": [
+        -30.6583,
+        2.0455,
+        23.9525
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "natalia_01",
+      "type": "natalia",
+      "meshes": [
+        "bunker2_natalia.glb"
+      ],
+      "position": [
+        -31.9374,
+        1.3645,
+        50.3199
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "glass_door_01",
+      "type": "glass_door",
+      "meshes": [
+        "bunker2_glass_door_primary.glb",
+        "bunker2_glass_door_secondary.glb"
+      ],
+      "position": [
+        1.1325,
+        1.2898,
+        -6.4807
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "glass_door_02",
+      "type": "glass_door",
+      "meshes": [
+        "bunker2_glass_door_primary.glb",
+        "bunker2_glass_door_secondary.glb"
+      ],
+      "position": [
+        -0.6921,
+        1.2898,
+        -6.3129
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "glass_door_03",
+      "type": "glass_door",
+      "meshes": [
+        "bunker2_glass_door_primary_1.glb",
+        "bunker2_glass_door_secondary_1.glb"
+      ],
+      "position": [
+        0.7026,
+        1.2898,
+        -6.3129
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "glass_door_04",
+      "type": "glass_door",
+      "meshes": [
+        "bunker2_glass_door_primary_1.glb",
+        "bunker2_glass_door_secondary_1.glb"
+      ],
+      "position": [
+        0.2622,
+        1.2898,
+        -6.1451
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "glass_door_05",
+      "type": "glass_door",
+      "meshes": [
+        "bunker2_glass_door_primary_1.glb",
+        "bunker2_glass_door_secondary_1.glb"
+      ],
+      "position": [
+        -1.1221,
+        1.2898,
+        -6.4807
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "glass_door_06",
+      "type": "glass_door",
+      "meshes": [
+        "bunker2_glass_door_primary_1.glb",
+        "bunker2_glass_door_secondary_1.glb"
+      ],
+      "position": [
+        -0.2622,
+        1.2898,
+        -6.1451
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_01",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door.glb"
+      ],
+      "position": [
+        -15.6983,
+        2.8977,
+        28.7435
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_02",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door.glb"
+      ],
+      "position": [
+        -15.6983,
+        2.8977,
+        23.689
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_01",
+      "type": "mainframe",
+      "meshes": [
+        "bunker2_mainframe.glb"
+      ],
+      "position": [
+        -8.3434,
+        1.1504,
+        44.5257
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_02",
+      "type": "mainframe",
+      "meshes": [
+        "bunker2_mainframe.glb"
+      ],
+      "position": [
+        -21.6022,
+        3.1009,
+        36.2033
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_03",
+      "type": "mainframe",
+      "meshes": [
+        "bunker2_mainframe.glb"
+      ],
+      "position": [
+        -19.4314,
+        2.8492,
+        7.0011
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_04",
+      "type": "mainframe",
+      "meshes": [
+        "bunker2_mainframe.glb"
+      ],
+      "position": [
+        -15.6353,
+        2.8492,
+        7.0011
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_05",
+      "type": "mainframe",
+      "meshes": [
+        "bunker2_mainframe.glb"
+      ],
+      "position": [
+        -17.5334,
+        2.8492,
+        9.5047
+      ],
+      "rotation": [
+        0,
+        -90.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_1_01",
+      "type": "mainframe_1",
+      "meshes": [
+        "bunker2_mainframe_1.glb"
+      ],
+      "position": [
+        -17.5334,
+        2.904,
+        6.9775
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_1_02",
+      "type": "mainframe_1",
+      "meshes": [
+        "bunker2_mainframe_1.glb"
+      ],
+      "position": [
+        -19.4314,
+        2.904,
+        9.5282
+      ],
+      "rotation": [
+        0,
+        179.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_1_03",
+      "type": "mainframe_1",
+      "meshes": [
+        "bunker2_mainframe_1.glb"
+      ],
+      "position": [
+        -15.6353,
+        2.904,
+        9.5282
+      ],
+      "rotation": [
+        0,
+        179.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_01",
+      "type": "keyboard",
+      "meshes": [
+        "bunker2_keyboard.glb"
+      ],
+      "position": [
+        -16.6017,
+        1.0984,
+        47.6541
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_1_01",
+      "type": "keyboard_1",
+      "meshes": [
+        "bunker2_keyboard_1.glb"
+      ],
+      "position": [
+        -12.4013,
+        1.0984,
+        44.1904
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_1_02",
+      "type": "keyboard_1",
+      "meshes": [
+        "bunker2_keyboard_1.glb"
+      ],
+      "position": [
+        -20.6587,
+        3.0489,
+        30.09
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_2_01",
+      "type": "keyboard_2",
+      "meshes": [
+        "bunker2_keyboard_2.glb"
+      ],
+      "position": [
+        9.4525,
+        2.7972,
+        -7.5185
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_01",
+      "type": "tv",
+      "meshes": [
+        "bunker2_tv.glb"
+      ],
+      "position": [
+        -16.5408,
+        1.387,
+        48.2436
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_1_01",
+      "type": "tv_1",
+      "meshes": [
+        "bunker2_tv_1.glb"
+      ],
+      "position": [
+        -11.8333,
+        1.387,
+        44.0031
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_2_01",
+      "type": "tv_2",
+      "meshes": [
+        "bunker2_tv_2.glb"
+      ],
+      "position": [
+        -20.4719,
+        3.3375,
+        30.6556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_3_01",
+      "type": "tv_3",
+      "meshes": [
+        "bunker2_tv_3.glb"
+      ],
+      "position": [
+        10.0203,
+        3.0858,
+        -7.5799
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_01",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ],
+      "position": [
+        -15.7193,
+        1.0565,
+        48.0387
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_02",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ],
+      "position": [
+        -12.1329,
+        1.0565,
+        44.3474
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_03",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ],
+      "position": [
+        -20.8157,
+        3.0069,
+        30.3584
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_04",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ],
+      "position": [
+        9.8678,
+        2.7553,
+        -7.4454
+      ],
+      "rotation": [
+        0,
+        89.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_05",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ],
+      "position": [
+        15.0691,
+        2.7553,
+        20.8367
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_06",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ],
+      "position": [
+        6.7428,
+        2.7553,
+        19.2427
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_07",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ],
+      "position": [
+        -17.5544,
+        3.0069,
+        31.9314
+      ],
+      "rotation": [
+        0,
+        -89.91,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_08",
+      "type": "metal_table",
+      "meshes": [
+        "bunker2_metal_table_secondary_1.glb"
+      ],
+      "position": [
+        -17.6834,
+        2.5268,
+        31.9314
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "security_camera_01",
+      "type": "security_camera",
+      "meshes": [
+        "bunker2_security_camera_primary.glb",
+        "bunker2_security_camera_secondary.glb"
+      ],
+      "position": [
+        -24.1182,
+        5.0527,
+        23.4374
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "security_camera_02",
+      "type": "security_camera",
+      "meshes": [
+        "bunker2_security_camera_primary.glb",
+        "bunker2_security_camera_secondary.glb"
+      ],
+      "position": [
+        -24.4328,
+        5.0527,
+        8.253
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "security_camera_03",
+      "type": "security_camera",
+      "meshes": [
+        "bunker2_security_camera_primary.glb",
+        "bunker2_security_camera_secondary.glb"
+      ],
+      "position": [
+        -11.3255,
+        4.7066,
+        18.2892
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "security_camera_04",
+      "type": "security_camera",
+      "meshes": [
+        "bunker2_security_camera_primary.glb",
+        "bunker2_security_camera_secondary.glb"
+      ],
+      "position": [
+        -15.6879,
+        7.4646,
+        23.7842
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "security_camera_05",
+      "type": "security_camera",
+      "meshes": [
+        "bunker2_security_camera_primary.glb",
+        "bunker2_security_camera_secondary.glb"
+      ],
+      "position": [
+        3.2306,
+        5.3358,
+        -9.8362
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "security_camera_06",
+      "type": "security_camera",
+      "meshes": [
+        "bunker2_security_camera_primary.glb",
+        "bunker2_security_camera_secondary.glb"
+      ],
+      "position": [
+        -4.6247,
+        2.3891,
+        31.5442
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_01",
+      "type": "console",
+      "meshes": [
+        "bunker2_console.glb"
+      ],
+      "position": [
+        -14.4611,
+        2.9628,
+        35.4705
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_02",
+      "type": "console",
+      "meshes": [
+        "bunker2_console.glb"
+      ],
+      "position": [
+        -17.3763,
+        2.9628,
+        35.4705
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_03",
+      "type": "console",
+      "meshes": [
+        "bunker2_console.glb"
+      ],
+      "position": [
+        10.1247,
+        1.4947,
+        6.5119
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_1_01",
+      "type": "console_1",
+      "meshes": [
+        "bunker2_console_1.glb"
+      ],
+      "position": [
+        -15.1847,
+        2.9305,
+        35.4345
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_2_01",
+      "type": "console_2",
+      "meshes": [
+        "bunker2_console_2.glb"
+      ],
+      "position": [
+        -15.9082,
+        2.9658,
+        35.4667
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_2_02",
+      "type": "console_2",
+      "meshes": [
+        "bunker2_console_2.glb"
+      ],
+      "position": [
+        10.1285,
+        1.4977,
+        3.5967
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_3_01",
+      "type": "console_3",
+      "meshes": [
+        "bunker2_console_3.glb"
+      ],
+      "position": [
+        -16.6424,
+        2.9305,
+        35.4345
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_4_01",
+      "type": "console_4",
+      "meshes": [
+        "bunker2_console_4.glb"
+      ],
+      "position": [
+        10.1607,
+        1.4624,
+        5.7778
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_4_02",
+      "type": "console_4",
+      "meshes": [
+        "bunker2_console_4.glb"
+      ],
+      "position": [
+        10.1607,
+        1.4624,
+        4.3306
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_5_01",
+      "type": "console_5",
+      "meshes": [
+        "bunker2_console_5.glb"
+      ],
+      "position": [
+        10.13,
+        1.4768,
+        5.0543
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_01",
+      "type": "divider",
+      "meshes": [
+        "bunker2_divider.glb"
+      ],
+      "position": [
+        -7.1728,
+        4.6875,
+        8.9764
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_02",
+      "type": "divider",
+      "meshes": [
+        "bunker2_divider.glb"
+      ],
+      "position": [
+        -7.1728,
+        3.5549,
+        8.9764
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_03",
+      "type": "divider",
+      "meshes": [
+        "bunker2_divider.glb"
+      ],
+      "position": [
+        -7.1728,
+        4.6875,
+        1.6988
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_04",
+      "type": "divider",
+      "meshes": [
+        "bunker2_divider.glb"
+      ],
+      "position": [
+        -7.1728,
+        3.5549,
+        1.6988
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_01",
+      "type": "divider_1",
+      "meshes": [
+        "bunker2_divider_1.glb"
+      ],
+      "position": [
+        -7.1728,
+        2.349,
+        8.9764
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_02",
+      "type": "divider_1",
+      "meshes": [
+        "bunker2_divider_1.glb"
+      ],
+      "position": [
+        -7.1728,
+        2.349,
+        1.6988
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_01",
+      "type": "divider_2",
+      "meshes": [
+        "bunker2_divider_2.glb"
+      ],
+      "position": [
+        -7.1728,
+        5.2957,
+        7.7285
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_02",
+      "type": "divider_2",
+      "meshes": [
+        "bunker2_divider_2.glb"
+      ],
+      "position": [
+        -7.1728,
+        5.2957,
+        6.6799
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_03",
+      "type": "divider_2",
+      "meshes": [
+        "bunker2_divider_2.glb"
+      ],
+      "position": [
+        -7.1728,
+        5.2957,
+        3.9954
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_04",
+      "type": "divider_2",
+      "meshes": [
+        "bunker2_divider_2.glb"
+      ],
+      "position": [
+        -7.1728,
+        5.2957,
+        2.9467
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_01",
+      "type": "divider_3",
+      "meshes": [
+        "bunker2_divider_3.glb"
+      ],
+      "position": [
+        -7.1728,
+        2.2231,
+        7.7705
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_02",
+      "type": "divider_3",
+      "meshes": [
+        "bunker2_divider_3.glb"
+      ],
+      "position": [
+        -7.1728,
+        2.2231,
+        6.5541
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_03",
+      "type": "divider_3",
+      "meshes": [
+        "bunker2_divider_3.glb"
+      ],
+      "position": [
+        -7.1728,
+        2.2231,
+        5.3376
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_04",
+      "type": "divider_3",
+      "meshes": [
+        "bunker2_divider_3.glb"
+      ],
+      "position": [
+        -7.1728,
+        1.8247,
+        7.7705
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_05",
+      "type": "divider_3",
+      "meshes": [
+        "bunker2_divider_3.glb"
+      ],
+      "position": [
+        -7.1728,
+        1.8247,
+        6.5541
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_06",
+      "type": "divider_3",
+      "meshes": [
+        "bunker2_divider_3.glb"
+      ],
+      "position": [
+        -7.1728,
+        1.8247,
+        5.3376
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_4_01",
+      "type": "divider_4",
+      "meshes": [
+        "bunker2_divider_4.glb"
+      ],
+      "position": [
+        -7.1728,
+        2.2231,
+        4.1317
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_4_02",
+      "type": "divider_4",
+      "meshes": [
+        "bunker2_divider_4.glb"
+      ],
+      "position": [
+        -7.1728,
+        2.2231,
+        2.9152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_4_03",
+      "type": "divider_4",
+      "meshes": [
+        "bunker2_divider_4.glb"
+      ],
+      "position": [
+        -7.1728,
+        1.8247,
+        4.1317
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_4_04",
+      "type": "divider_4",
+      "meshes": [
+        "bunker2_divider_4.glb"
+      ],
+      "position": [
+        -7.1728,
+        1.8247,
+        2.9152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_5_01",
+      "type": "divider_5",
+      "meshes": [
+        "bunker2_divider_5.glb"
+      ],
+      "position": [
+        -7.1728,
+        3.7122,
+        5.3271
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "knife_01",
+      "type": "knife",
+      "meshes": [
+        "bunker2_knife.glb"
+      ],
+      "position": [
+        -42.7702,
+        -3.2113,
+        54.2152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "knife_02",
+      "type": "knife",
+      "meshes": [
+        "bunker2_knife.glb"
+      ],
+      "position": [
+        -42.7702,
+        -3.2113,
+        54.2152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "knife_03",
+      "type": "knife",
+      "meshes": [
+        "bunker2_knife.glb"
+      ],
+      "position": [
+        -42.7702,
+        -3.2113,
+        54.2152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "knife_04",
+      "type": "knife",
+      "meshes": [
+        "bunker2_knife.glb"
+      ],
+      "position": [
+        -42.7702,
+        -3.2113,
+        54.2152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "knife_05",
+      "type": "knife",
+      "meshes": [
+        "bunker2_knife.glb"
+      ],
+      "position": [
+        -42.7702,
+        -3.2113,
+        54.2152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "knife_06",
+      "type": "knife",
+      "meshes": [
+        "bunker2_knife.glb"
+      ],
+      "position": [
+        -42.7702,
+        -3.2113,
+        54.2152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_safe_01",
+      "type": "metal_safe",
+      "meshes": [
+        "bunker2_metal_safe.glb"
+      ],
+      "position": [
+        -8.234,
+        0.9216,
+        50.5945
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_safe_door_01",
+      "type": "metal_safe_door",
+      "meshes": [
+        "bunker2_metal_safe_door.glb"
+      ],
+      "position": [
+        -8.7216,
+        0.8704,
+        50.911
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_133_01",
+      "type": "primary_133",
+      "meshes": [
+        "bunker2_primary_133.glb"
+      ],
+      "position": [
+        -37.062,
+        2.1127,
+        57.1035
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_134_01",
+      "type": "primary_134",
+      "meshes": [
+        "bunker2_primary_134.glb"
+      ],
+      "position": [
+        -37.1937,
+        1.9142,
+        57.0885
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_135_01",
+      "type": "primary_135",
+      "meshes": [
+        "bunker2_primary_135.glb"
+      ],
+      "position": [
+        16.5175,
+        2.9687,
+        26.5514
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_136_01",
+      "type": "primary_136",
+      "meshes": [
+        "bunker2_primary_136.glb"
+      ],
+      "position": [
+        12.9731,
+        2.9687,
+        26.5438
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_03",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -16.7625,
+        3.5496,
+        14.8291
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_04",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -16.7625,
+        3.5496,
+        18.1614
+      ],
+      "rotation": [
+        0,
+        -2.11,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_05",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -20.3279,
+        3.5496,
+        21.6959
+      ],
+      "rotation": [
+        0,
+        0.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_06",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -13.118,
+        3.5496,
+        31.4856
+      ],
+      "rotation": [
+        0,
+        87.67,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_07",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -25.4205,
+        3.5496,
+        31.4856
+      ],
+      "rotation": [
+        0,
+        87.89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_08",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -13.5327,
+        1.6107,
+        53.8179
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_09",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        5.9576,
+        1.6107,
+        33.9712
+      ],
+      "rotation": [
+        0,
+        -92.11,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_10",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        5.9576,
+        1.6107,
+        54.8705
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_11",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -24.9381,
+        1.6107,
+        56.3703
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_12",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -24.9381,
+        1.6107,
+        54.883
+      ],
+      "rotation": [
+        0,
+        87.87,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_13",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        -27.9814,
+        3.5496,
+        28.0212
+      ],
+      "rotation": [
+        0,
+        177.87,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_14",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        9.5603,
+        1.6107,
+        34.8559
+      ],
+      "rotation": [
+        0,
+        -179.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_15",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ],
+      "position": [
+        9.5603,
+        1.6107,
+        53.9857
+      ],
+      "rotation": [
+        0,
+        177.87,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_16",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary_1.glb",
+        "bunker2_metal_door_secondary_1.glb"
+      ],
+      "position": [
+        -18.2749,
+        3.5496,
+        14.8291
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_17",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary_1.glb",
+        "bunker2_metal_door_secondary_1.glb"
+      ],
+      "position": [
+        -18.2749,
+        3.5496,
+        18.1614
+      ],
+      "rotation": [
+        0,
+        2.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_18",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary_1.glb",
+        "bunker2_metal_door_secondary_1.glb"
+      ],
+      "position": [
+        -21.8403,
+        3.5496,
+        21.6959
+      ],
+      "rotation": [
+        0,
+        -0.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_19",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary_1.glb",
+        "bunker2_metal_door_secondary_1.glb"
+      ],
+      "position": [
+        -13.118,
+        3.5496,
+        32.9979
+      ],
+      "rotation": [
+        0,
+        92.29,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_20",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary_1.glb",
+        "bunker2_metal_door_secondary_1.glb"
+      ],
+      "position": [
+        -25.4205,
+        3.5496,
+        32.9979
+      ],
+      "rotation": [
+        0,
+        92.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_21",
+      "type": "metal_door",
+      "meshes": [
+        "bunker2_metal_door_primary_1.glb",
+        "bunker2_metal_door_secondary_1.glb"
+      ],
+      "position": [
+        -26.4815,
+        3.5496,
+        28.0212
+      ],
+      "rotation": [
+        0,
+        -177.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_01",
+      "type": "metal_door_1",
+      "meshes": [
+        "bunker2_metal_door_1.glb"
+      ],
+      "position": [
+        -15.045,
+        1.6107,
+        53.8179
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_02",
+      "type": "metal_door_1",
+      "meshes": [
+        "bunker2_metal_door_1.glb"
+      ],
+      "position": [
+        5.9576,
+        1.6107,
+        32.4588
+      ],
+      "rotation": [
+        0,
+        -87.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_03",
+      "type": "metal_door_1",
+      "meshes": [
+        "bunker2_metal_door_1.glb"
+      ],
+      "position": [
+        5.9576,
+        1.6107,
+        56.3828
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_04",
+      "type": "metal_door_1",
+      "meshes": [
+        "bunker2_metal_door_1.glb"
+      ],
+      "position": [
+        11.0602,
+        1.6107,
+        34.8559
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_05",
+      "type": "metal_door_1",
+      "meshes": [
+        "bunker2_metal_door_1.glb"
+      ],
+      "position": [
+        11.0602,
+        1.6107,
+        53.9857
+      ],
+      "rotation": [
+        0,
+        -177.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_01",
+      "type": "metal_door_2",
+      "meshes": [
+        "bunker2_metal_door_2.glb"
+      ],
+      "position": [
+        -12.3569,
+        1.4579,
+        56.4472
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_02",
+      "type": "metal_door_2",
+      "meshes": [
+        "bunker2_metal_door_2.glb"
+      ],
+      "position": [
+        -12.3569,
+        1.4579,
+        54.8074
+      ],
+      "rotation": [
+        0,
+        -178.54,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "jail_door_01",
+      "type": "jail_door",
+      "meshes": [
+        "bunker2_jail_door.glb"
+      ],
+      "position": [
+        -39.2824,
+        1.3737,
+        53.943
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "jail_door_02",
+      "type": "jail_door",
+      "meshes": [
+        "bunker2_jail_door.glb"
+      ],
+      "position": [
+        -34.5111,
+        1.3737,
+        53.943
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_01",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "bunker2_brown_sliding_door.glb"
+      ],
+      "position": [
+        0.0797,
+        5.2223,
+        -27.9151
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_01",
+      "type": "window_glass",
+      "meshes": [
+        "bunker2_window_glass.glb"
+      ],
+      "position": [
+        8.169,
+        3.7647,
+        -4.7818
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

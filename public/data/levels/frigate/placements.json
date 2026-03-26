@@ -1,0 +1,3321 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -3.1435,
+        10.0446,
+        -3.9462
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        0.3697,
+        10.0446,
+        -0.6898
+      ],
+      "rotation": [
+        0,
+        149.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        2.3624,
+        10.0446,
+        -4.196
+      ],
+      "rotation": [
+        0,
+        -105.64,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        2.4554,
+        10.0446,
+        -8.4197
+      ],
+      "rotation": [
+        0,
+        134.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -1.7394,
+        10.0446,
+        -7.131
+      ],
+      "rotation": [
+        0,
+        134.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -2.7502,
+        10.0446,
+        -8.0912
+      ],
+      "rotation": [
+        0,
+        134.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -6.5997,
+        10.0446,
+        -38.0518
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -3.7487,
+        10.0446,
+        -27.3498
+      ],
+      "rotation": [
+        0,
+        150.26,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        3.8615,
+        10.0446,
+        -28.0033
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_10",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        6.726,
+        10.0446,
+        -25.0727
+      ],
+      "rotation": [
+        0,
+        134.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_11",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        6.1364,
+        10.0446,
+        -38.9362
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_12",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -2.5481,
+        10.0446,
+        -15.2932
+      ],
+      "rotation": [
+        0,
+        134.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_13",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        0.8521,
+        10.0446,
+        -17.2952
+      ],
+      "rotation": [
+        0,
+        -159.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_14",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        2.4799,
+        10.0446,
+        -37.7432
+      ],
+      "rotation": [
+        0,
+        -22.4,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_15",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        3.5062,
+        10.0446,
+        -35.0875
+      ],
+      "rotation": [
+        0,
+        -156.63,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_16",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        3.0276,
+        1.9329,
+        -38.3388
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_17",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -0.071,
+        1.9329,
+        -39.7708
+      ],
+      "rotation": [
+        0,
+        44.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_18",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -6.8939,
+        1.9329,
+        -40.074
+      ],
+      "rotation": [
+        0,
+        44.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_19",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -4.1491,
+        1.9329,
+        -30.3282
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_20",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -3.8711,
+        1.9329,
+        -32.6025
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_21",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        5.6958,
+        1.9329,
+        -25.0132
+      ],
+      "rotation": [
+        0,
+        179.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_22",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        6.8939,
+        1.9329,
+        -37.6059
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_23",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        4.755,
+        1.9329,
+        -37.0506
+      ],
+      "rotation": [
+        0,
+        134.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_24",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        2.228,
+        -1.7059,
+        -41.8772
+      ],
+      "rotation": [
+        0,
+        134.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_25",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -0.3379,
+        1.9329,
+        -47.6037
+      ],
+      "rotation": [
+        0,
+        -114.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_26",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -3.3405,
+        1.9329,
+        -41.6239
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_27",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -4.8217,
+        -1.7059,
+        -58.6475
+      ],
+      "rotation": [
+        0,
+        44.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_28",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        4.9188,
+        -1.7059,
+        -56.2571
+      ],
+      "rotation": [
+        0,
+        -165.54,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_29",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -4.2658,
+        5.6476,
+        -24.7857
+      ],
+      "rotation": [
+        0,
+        44.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_30",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -5.6647,
+        5.6476,
+        -28.803
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_31",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        2.4969,
+        5.6476,
+        -30.1008
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_32",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        1.8106,
+        5.6476,
+        -27.4745
+      ],
+      "rotation": [
+        0,
+        -165.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_33",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -3.9433,
+        5.6476,
+        -34.1267
+      ],
+      "rotation": [
+        0,
+        -15.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_34",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        1.7647,
+        5.6476,
+        -40.2755
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_35",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        -6.7928,
+        5.6476,
+        -39.4675
+      ],
+      "rotation": [
+        0,
+        44.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_36",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        6.7675,
+        5.6476,
+        -35.6096
+      ],
+      "rotation": [
+        0,
+        -135.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_37",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        6.844,
+        5.6476,
+        -40.0734
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_38",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        4.7971,
+        5.6476,
+        -38.8099
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_39",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        3.66,
+        5.6476,
+        -44.066
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_40",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        5.0245,
+        5.6476,
+        -47.2248
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_41",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
+      "position": [
+        4.0895,
+        5.6476,
+        -51.8239
+      ],
+      "rotation": [
+        0,
+        -45.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_01",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
+      "position": [
+        -0.3436,
+        10.0292,
+        -1.4364
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_02",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
+      "position": [
+        -4.2906,
+        10.0292,
+        -28.8379
+      ],
+      "rotation": [
+        0,
+        -44.52,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_03",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
+      "position": [
+        3.2044,
+        10.0292,
+        -36.5205
+      ],
+      "rotation": [
+        0,
+        45.61,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_04",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
+      "position": [
+        4.3937,
+        1.9176,
+        -25.7646
+      ],
+      "rotation": [
+        0,
+        -89.52,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_05",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
+      "position": [
+        -6.7422,
+        1.9176,
+        -30.6472
+      ],
+      "rotation": [
+        0,
+        -134.52,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_06",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
+      "position": [
+        -1.7009,
+        -1.7213,
+        -59.8563
+      ],
+      "rotation": [
+        0,
+        60.49,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "helicopter_01",
+      "type": "helicopter",
+      "meshes": [
+        "frigate_helicopter_primary.glb",
+        "frigate_helicopter_secondary.glb"
+      ],
+      "position": [
+        -1.3093,
+        4.9805,
+        -72.1561
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "c4_explosive_01",
+      "type": "c4_explosive",
+      "meshes": [
+        "frigate_c4_explosive.glb"
+      ],
+      "position": [
+        1.5669,
+        9.0527,
+        -0.3537
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "c4_explosive_02",
+      "type": "c4_explosive",
+      "meshes": [
+        "frigate_c4_explosive.glb"
+      ],
+      "position": [
+        4.1694,
+        2.7213,
+        -53.244
+      ],
+      "rotation": [
+        0,
+        165,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ship_gun_01",
+      "type": "ship_gun",
+      "meshes": [
+        "frigate_ship_gun_primary.glb",
+        "frigate_ship_gun_secondary.glb"
+      ],
+      "position": [
+        0.0316,
+        5.3065,
+        12.3409
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ship_turret_1_01",
+      "type": "ship_turret_1",
+      "meshes": [
+        "frigate_ship_turret_1.glb"
+      ],
+      "position": [
+        -0.0446,
+        5.9011,
+        3.7716
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ship_turret_1_02",
+      "type": "ship_turret_1",
+      "meshes": [
+        "frigate_ship_turret_1.glb"
+      ],
+      "position": [
+        -0.0312,
+        3.4246,
+        -85.04
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ship_turret_01",
+      "type": "ship_turret",
+      "meshes": [
+        "frigate_ship_turret.glb"
+      ],
+      "position": [
+        -0.0496,
+        11.5365,
+        -61.1697
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_01",
+      "type": "console",
+      "meshes": [
+        "frigate_console.glb"
+      ],
+      "position": [
+        -4.9566,
+        9.8336,
+        -1.0423
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_02",
+      "type": "console",
+      "meshes": [
+        "frigate_console.glb"
+      ],
+      "position": [
+        -2.7844,
+        9.8336,
+        -0.7897
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_1_01",
+      "type": "console_1",
+      "meshes": [
+        "frigate_console_1.glb"
+      ],
+      "position": [
+        -3.8719,
+        9.8391,
+        -0.9067
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_1_02",
+      "type": "console_1",
+      "meshes": [
+        "frigate_console_1.glb"
+      ],
+      "position": [
+        -1.6987,
+        9.8391,
+        -0.654
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_2_01",
+      "type": "console_2",
+      "meshes": [
+        "frigate_console_2.glb"
+      ],
+      "position": [
+        2.6903,
+        9.8336,
+        -0.7787
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_2_02",
+      "type": "console_2",
+      "meshes": [
+        "frigate_console_2.glb"
+      ],
+      "position": [
+        3.7769,
+        9.8336,
+        -0.905
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_3_01",
+      "type": "console_3",
+      "meshes": [
+        "frigate_console_3.glb"
+      ],
+      "position": [
+        1.6812,
+        9.858,
+        -0.6345
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_4_01",
+      "type": "console_4",
+      "meshes": [
+        "frigate_console_4.glb"
+      ],
+      "position": [
+        -4.6569,
+        9.85,
+        -5.7807
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_4_02",
+      "type": "console_4",
+      "meshes": [
+        "frigate_console_4.glb"
+      ],
+      "position": [
+        -4.6569,
+        9.85,
+        -4.6941
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_5_01",
+      "type": "console_5",
+      "meshes": [
+        "frigate_console_5.glb"
+      ],
+      "position": [
+        4.6364,
+        9.8396,
+        -5.8369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_5_02",
+      "type": "console_5",
+      "meshes": [
+        "frigate_console_5.glb"
+      ],
+      "position": [
+        4.6364,
+        9.8396,
+        -4.7503
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_6_01",
+      "type": "console_6",
+      "meshes": [
+        "frigate_console_6.glb"
+      ],
+      "position": [
+        4.94,
+        9.858,
+        -1.0135
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_7_01",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
+      "position": [
+        0.4296,
+        9.9834,
+        -29.5916
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_7_02",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
+      "position": [
+        3.0071,
+        9.9834,
+        -33.559
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_7_03",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
+      "position": [
+        1.2635,
+        9.9834,
+        -33.559
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_7_04",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
+      "position": [
+        -1.314,
+        9.9834,
+        -28.6305
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_7_05",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
+      "position": [
+        -0.4801,
+        9.9834,
+        -33.559
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_8_01",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
+      "position": [
+        1.3013,
+        9.9461,
+        -29.5955
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_8_02",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
+      "position": [
+        2.1352,
+        9.9461,
+        -33.5629
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_8_03",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
+      "position": [
+        0.3918,
+        9.9461,
+        -40.3266
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_8_04",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
+      "position": [
+        3.6011,
+        1.8344,
+        -52.9363
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_9_01",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
+      "position": [
+        0.4296,
+        9.9861,
+        -28.6586
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_9_02",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
+      "position": [
+        3.0071,
+        9.9861,
+        -40.3586
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_9_03",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
+      "position": [
+        4.4728,
+        1.8745,
+        -52.9683
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_9_04",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
+      "position": [
+        -0.4801,
+        9.9861,
+        -40.3586
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_10_01",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
+      "position": [
+        1.3014,
+        9.9847,
+        -28.6626
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_10_02",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
+      "position": [
+        2.1353,
+        9.9847,
+        -40.3626
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_10_03",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
+      "position": [
+        -0.4422,
+        9.9847,
+        -28.6626
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_10_04",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
+      "position": [
+        0.3917,
+        9.9847,
+        -33.5269
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_10_05",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
+      "position": [
+        -1.3519,
+        9.9847,
+        -33.5269
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_11_01",
+      "type": "console_11",
+      "meshes": [
+        "frigate_console_11.glb"
+      ],
+      "position": [
+        1.2636,
+        9.9461,
+        -40.3266
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_12_01",
+      "type": "console_12",
+      "meshes": [
+        "frigate_console_12.glb"
+      ],
+      "position": [
+        -0.4423,
+        9.9461,
+        -29.6065
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_13_01",
+      "type": "console_13",
+      "meshes": [
+        "frigate_console_13.glb"
+      ],
+      "position": [
+        -1.314,
+        9.9861,
+        -29.5738
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_14_01",
+      "type": "console_14",
+      "meshes": [
+        "frigate_console_14.glb"
+      ],
+      "position": [
+        -1.3519,
+        9.9834,
+        -40.3305
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_01",
+      "type": "metal_table",
+      "meshes": [
+        "frigate_metal_table_primary.glb",
+        "frigate_metal_table_secondary.glb"
+      ],
+      "position": [
+        -0.2906,
+        10.0272,
+        -7.5936
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_02",
+      "type": "metal_table",
+      "meshes": [
+        "frigate_metal_table_primary.glb",
+        "frigate_metal_table_secondary.glb"
+      ],
+      "position": [
+        -0.2906,
+        10.0272,
+        -12.1549
+      ],
+      "rotation": [
+        0,
+        0.09,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_03",
+      "type": "metal_table",
+      "meshes": [
+        "frigate_metal_table_primary_1.glb",
+        "frigate_metal_table_secondary_1.glb"
+      ],
+      "position": [
+        -0.2906,
+        10.0272,
+        -9.8806
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "radio_01",
+      "type": "radio",
+      "meshes": [
+        "frigate_radio.glb"
+      ],
+      "position": [
+        -0.4404,
+        10.4189,
+        -6.8608
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "radio_02",
+      "type": "radio",
+      "meshes": [
+        "frigate_radio.glb"
+      ],
+      "position": [
+        -0.4404,
+        10.4189,
+        -12.1928
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "radio_1_01",
+      "type": "radio_1",
+      "meshes": [
+        "frigate_radio_1.glb"
+      ],
+      "position": [
+        -0.4404,
+        10.4189,
+        -8.3391
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "radio_1_02",
+      "type": "radio_1",
+      "meshes": [
+        "frigate_radio_1.glb"
+      ],
+      "position": [
+        -0.4404,
+        10.4189,
+        -12.8877
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "radio_2_01",
+      "type": "radio_2",
+      "meshes": [
+        "frigate_radio_2.glb"
+      ],
+      "position": [
+        -0.4404,
+        10.4189,
+        -9.4257
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "radio_3_01",
+      "type": "radio_3",
+      "meshes": [
+        "frigate_radio_3.glb"
+      ],
+      "position": [
+        -0.4404,
+        10.4189,
+        -10.5249
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_01",
+      "type": "black_chair",
+      "meshes": [
+        "frigate_black_chair.glb"
+      ],
+      "position": [
+        1.0432,
+        9.4454,
+        -8.1854
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_1_01",
+      "type": "black_chair_1",
+      "meshes": [
+        "frigate_black_chair_1.glb"
+      ],
+      "position": [
+        0.9563,
+        9.4454,
+        -9.7771
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "frigate_body_armor.glb"
+      ],
+      "position": [
+        1.1249,
+        9.0609,
+        -12.1554
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_2_01",
+      "type": "black_chair_2",
+      "meshes": [
+        "frigate_black_chair_2.glb"
+      ],
+      "position": [
+        -1.3372,
+        9.4454,
+        -27.0591
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_3_01",
+      "type": "black_chair_3",
+      "meshes": [
+        "frigate_black_chair_3.glb"
+      ],
+      "position": [
+        1.3195,
+        9.4454,
+        -31.1619
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_4_01",
+      "type": "black_chair_4",
+      "meshes": [
+        "frigate_black_chair_4.glb"
+      ],
+      "position": [
+        -0.7311,
+        9.4454,
+        -35.1337
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_5_01",
+      "type": "black_chair_5",
+      "meshes": [
+        "frigate_black_chair_5.glb"
+      ],
+      "position": [
+        -0.4305,
+        9.4454,
+        -38.6568
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_01",
+      "type": "metal_crate",
+      "meshes": [
+        "frigate_metal_crate.glb"
+      ],
+      "position": [
+        -0.8974,
+        5.0385,
+        -30.2608
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_01",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
+      "position": [
+        -1.9598,
+        5.0694,
+        -30.3431
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_02",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
+      "position": [
+        -0.8199,
+        5.0694,
+        -29.0413
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_03",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
+      "position": [
+        -1.9823,
+        5.0694,
+        -27.9295
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_04",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
+      "position": [
+        -1.9014,
+        5.0694,
+        -29.0493
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_01",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "frigate_wooden_crate_1.glb"
+      ],
+      "position": [
+        -3.1391,
+        5.0694,
+        -28.0609
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_01",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "frigate_wooden_crate_2.glb"
+      ],
+      "position": [
+        -1.968,
+        5.991,
+        -30.2658
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_1_01",
+      "type": "metal_crate_1",
+      "meshes": [
+        "frigate_metal_crate_1.glb"
+      ],
+      "position": [
+        -3.1208,
+        5.0385,
+        -29.1613
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_3_01",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "frigate_wooden_crate_3.glb"
+      ],
+      "position": [
+        -3.0231,
+        5.991,
+        -29.0899
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_01",
+      "type": "body_armor_1",
+      "meshes": [
+        "frigate_body_armor_1.glb"
+      ],
+      "position": [
+        -3.0529,
+        5.6039,
+        -29.0683
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ship_engine_01",
+      "type": "ship_engine",
+      "meshes": [
+        "frigate_ship_engine.glb"
+      ],
+      "position": [
+        0.0445,
+        -1.4747,
+        -50.2098
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_01",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
+      "position": [
+        -6.0395,
+        10.2842,
+        -23.4506
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_02",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
+      "position": [
+        -6.0395,
+        10.2842,
+        -6.4186
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_03",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
+      "position": [
+        6.0395,
+        10.2842,
+        -6.4186
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_04",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
+      "position": [
+        6.0395,
+        10.2842,
+        -23.4506
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_01",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -4.9529,
+        10.2969,
+        -25.2321
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_02",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -6.0395,
+        10.2969,
+        -32.9015
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_03",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -4.9529,
+        10.2969,
+        -39.5602
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_04",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -3.323,
+        10.2969,
+        -32.9015
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_05",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -2.3248,
+        10.2969,
+        -23.4506
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_06",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -0.935,
+        10.2969,
+        -18.8893
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_07",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -2.3248,
+        10.2969,
+        -13.3173
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_08",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        2.3248,
+        10.2969,
+        -13.3173
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_09",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -2.3248,
+        10.2969,
+        -6.4186
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_10",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        2.3248,
+        10.2969,
+        -6.4186
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_11",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        6.0395,
+        10.2969,
+        -32.9015
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_12",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        4.9529,
+        10.2969,
+        -31.7518
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_13",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -4.9529,
+        5.8872,
+        -32.2824
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_14",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        3.0956,
+        5.8872,
+        -35.2264
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_15",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        4.5612,
+        5.8872,
+        -40.9627
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_16",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        4.5612,
+        5.8872,
+        -53.6482
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_17",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
+      "position": [
+        -6.8103,
+        2.1726,
+        -34.2914
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_01",
+      "type": "metal_door_2",
+      "meshes": [
+        "frigate_metal_door_2.glb"
+      ],
+      "position": [
+        -6.8103,
+        10.2842,
+        -40.9627
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_02",
+      "type": "metal_door_2",
+      "meshes": [
+        "frigate_metal_door_2.glb"
+      ],
+      "position": [
+        6.8103,
+        10.2842,
+        -40.9627
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_3_01",
+      "type": "metal_door_3",
+      "meshes": [
+        "frigate_metal_door_3.glb"
+      ],
+      "position": [
+        -6.7345,
+        10.2969,
+        -1.7815
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_3_02",
+      "type": "metal_door_3",
+      "meshes": [
+        "frigate_metal_door_3.glb"
+      ],
+      "position": [
+        6.7345,
+        10.2969,
+        -1.7815
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_4_01",
+      "type": "metal_door_4",
+      "meshes": [
+        "frigate_metal_door_4.glb"
+      ],
+      "position": [
+        4.9529,
+        2.1726,
+        -28.6562
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_4_02",
+      "type": "metal_door_4",
+      "meshes": [
+        "frigate_metal_door_4.glb"
+      ],
+      "position": [
+        4.9529,
+        2.1726,
+        -40.9627
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_4_03",
+      "type": "metal_door_4",
+      "meshes": [
+        "frigate_metal_door_4.glb"
+      ],
+      "position": [
+        -4.9529,
+        2.1726,
+        -40.9627
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_01",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "frigate_wooden_segment_door.glb"
+      ],
+      "position": [
+        0,
+        5.5762,
+        -63.8826
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

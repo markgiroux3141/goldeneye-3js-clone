@@ -97,7 +97,12 @@ const params = new URLSearchParams(window.location.search);
 const rawLevel = params.get('level');
 const rawMode = params.get('mode');
 
-if (rawMode === 'object-viewer') {
+if (rawMode === 'level-viewer') {
+  const level = params.get('level') ?? 'frigate';
+  import('./viewer/LevelViewer').then(({ launchLevelViewer }) => {
+    launchLevelViewer(level);
+  });
+} else if (rawMode === 'object-viewer') {
   const basePath = params.get('path') ?? 'test_facility_objects';
   import('./viewer/ObjectViewer').then(({ launchObjectViewer }) => {
     launchObjectViewer(basePath);

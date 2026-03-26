@@ -1,0 +1,3454 @@
+{
+  "objects": [
+    {
+      "id": "primary_000_01",
+      "type": "primary_000",
+      "meshes": [
+        "surface2_primary_000.glb"
+      ],
+      "position": [
+        -75.6885,
+        1.5337,
+        -89.8245
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_001_01",
+      "type": "primary_001",
+      "meshes": [
+        "surface2_primary_001.glb"
+      ],
+      "position": [
+        -1.7551,
+        3.1589,
+        25.6362
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_001_02",
+      "type": "primary_001",
+      "meshes": [
+        "surface2_primary_001.glb"
+      ],
+      "position": [
+        108.561,
+        1.7755,
+        -169.0848
+      ],
+      "rotation": [
+        0,
+        84.63,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_001_01",
+      "type": "secondary_001",
+      "meshes": [
+        "surface2_secondary_001.glb"
+      ],
+      "position": [
+        -2.0496,
+        3.6691,
+        25.3358
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_001_02",
+      "type": "secondary_001",
+      "meshes": [
+        "surface2_secondary_001.glb"
+      ],
+      "position": [
+        108.5388,
+        1.8131,
+        -169.0633
+      ],
+      "rotation": [
+        0,
+        89.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_01",
+      "type": "primary_002",
+      "meshes": [
+        "surface2_primary_002.glb"
+      ],
+      "position": [
+        -4.0566,
+        2.3394,
+        23.3191
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_02",
+      "type": "primary_002",
+      "meshes": [
+        "surface2_primary_002.glb"
+      ],
+      "position": [
+        -4.5045,
+        2.3394,
+        21.2535
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_03",
+      "type": "primary_002",
+      "meshes": [
+        "surface2_primary_002.glb"
+      ],
+      "position": [
+        -6.2466,
+        2.3394,
+        22.9458
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_04",
+      "type": "primary_002",
+      "meshes": [
+        "surface2_primary_002.glb"
+      ],
+      "position": [
+        -6.0973,
+        2.3394,
+        21.353
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_05",
+      "type": "primary_002",
+      "meshes": [
+        "surface2_primary_002.glb"
+      ],
+      "position": [
+        -4.8281,
+        2.3394,
+        22.5227
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_002_06",
+      "type": "primary_002",
+      "meshes": [
+        "surface2_primary_002.glb"
+      ],
+      "position": [
+        -7.043,
+        2.3394,
+        20.3576
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_009_01",
+      "type": "primary_009",
+      "meshes": [
+        "surface2_primary_009.glb"
+      ],
+      "position": [
+        108.9432,
+        0.9474,
+        -170.2503
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_009_02",
+      "type": "primary_009",
+      "meshes": [
+        "surface2_primary_009.glb"
+      ],
+      "position": [
+        91.2871,
+        0.9474,
+        -173.6744
+      ],
+      "rotation": [
+        0,
+        89.91,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_010_01",
+      "type": "primary_010",
+      "meshes": [
+        "surface2_primary_010.glb"
+      ],
+      "position": [
+        93.0031,
+        1.9411,
+        -174.4633
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_010_01",
+      "type": "secondary_010",
+      "meshes": [
+        "surface2_secondary_010.glb"
+      ],
+      "position": [
+        93.0021,
+        2.0271,
+        -174.1739
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_012_01",
+      "type": "primary_012",
+      "meshes": [
+        "surface2_primary_012.glb"
+      ],
+      "position": [
+        92.6543,
+        1.553,
+        -169.4556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_012_02",
+      "type": "primary_012",
+      "meshes": [
+        "surface2_primary_012.glb"
+      ],
+      "position": [
+        91.7086,
+        1.553,
+        -169.4307
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_012_03",
+      "type": "primary_012",
+      "meshes": [
+        "surface2_primary_012.glb"
+      ],
+      "position": [
+        90.7878,
+        1.553,
+        -169.4556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_015_01",
+      "type": "primary_015",
+      "meshes": [
+        "surface2_primary_015.glb"
+      ],
+      "position": [
+        -226.553,
+        4.8822,
+        -194.6646
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_015_02",
+      "type": "primary_015",
+      "meshes": [
+        "surface2_primary_015.glb"
+      ],
+      "position": [
+        -154.3558,
+        4.892,
+        -218.6059
+      ],
+      "rotation": [
+        0,
+        -3.47,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_015_03",
+      "type": "primary_015",
+      "meshes": [
+        "surface2_primary_015.glb"
+      ],
+      "position": [
+        -196.5144,
+        3.1002,
+        -205.0424
+      ],
+      "rotation": [
+        0,
+        -3.47,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_015_04",
+      "type": "primary_015",
+      "meshes": [
+        "surface2_primary_015.glb"
+      ],
+      "position": [
+        -63.4436,
+        6.8581,
+        -233.762
+      ],
+      "rotation": [
+        0,
+        -3.47,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_015_05",
+      "type": "primary_015",
+      "meshes": [
+        "surface2_primary_015.glb"
+      ],
+      "position": [
+        -3.544,
+        2.3536,
+        -167.968
+      ],
+      "rotation": [
+        0,
+        -161.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_015_06",
+      "type": "primary_015",
+      "meshes": [
+        "surface2_primary_015.glb"
+      ],
+      "position": [
+        20.7733,
+        14.1749,
+        -126.011
+      ],
+      "rotation": [
+        0,
+        -153.06,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_021_01",
+      "type": "primary_021",
+      "meshes": [
+        "surface2_primary_021.glb"
+      ],
+      "position": [
+        -0.0946,
+        1.2692,
+        -0.0995
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_022_01",
+      "type": "primary_022",
+      "meshes": [
+        "surface2_primary_022.glb"
+      ],
+      "position": [
+        -1.319,
+        -3.2851,
+        -24.9368
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_022_02",
+      "type": "primary_022",
+      "meshes": [
+        "surface2_primary_022.glb"
+      ],
+      "position": [
+        -0.2986,
+        -3.2851,
+        -25.3101
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_022_03",
+      "type": "primary_022",
+      "meshes": [
+        "surface2_primary_022.glb"
+      ],
+      "position": [
+        0.7964,
+        -3.2851,
+        -25.1234
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_022_04",
+      "type": "primary_022",
+      "meshes": [
+        "surface2_primary_022.glb"
+      ],
+      "position": [
+        0.2986,
+        -3.2851,
+        -25.3101
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_022_01",
+      "type": "secondary_022",
+      "meshes": [
+        "surface2_secondary_022.glb"
+      ],
+      "position": [
+        -1.319,
+        -3.2851,
+        -24.9368
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_022_02",
+      "type": "secondary_022",
+      "meshes": [
+        "surface2_secondary_022.glb"
+      ],
+      "position": [
+        -0.8088,
+        -3.2851,
+        -25.1234
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_022_03",
+      "type": "secondary_022",
+      "meshes": [
+        "surface2_secondary_022.glb"
+      ],
+      "position": [
+        -0.2986,
+        -3.2851,
+        -25.3101
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_022_04",
+      "type": "secondary_022",
+      "meshes": [
+        "surface2_secondary_022.glb"
+      ],
+      "position": [
+        1.3066,
+        -3.2851,
+        -24.9368
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_022_05",
+      "type": "secondary_022",
+      "meshes": [
+        "surface2_secondary_022.glb"
+      ],
+      "position": [
+        0.7964,
+        -3.2851,
+        -25.1234
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_022_06",
+      "type": "secondary_022",
+      "meshes": [
+        "surface2_secondary_022.glb"
+      ],
+      "position": [
+        0.2986,
+        -3.2851,
+        -25.3101
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_023_01",
+      "type": "primary_023",
+      "meshes": [
+        "surface2_primary_023.glb"
+      ],
+      "position": [
+        -0.8088,
+        -3.2851,
+        -25.1234
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_023_02",
+      "type": "primary_023",
+      "meshes": [
+        "surface2_primary_023.glb"
+      ],
+      "position": [
+        1.3066,
+        -3.2851,
+        -24.9368
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_028_01",
+      "type": "primary_028",
+      "meshes": [
+        "surface2_primary_028.glb"
+      ],
+      "position": [
+        68.1423,
+        1.0255,
+        -221.725
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_028_02",
+      "type": "primary_028",
+      "meshes": [
+        "surface2_primary_028.glb"
+      ],
+      "position": [
+        29.2317,
+        7.8203,
+        -124.0863
+      ],
+      "rotation": [
+        0,
+        176.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_029_01",
+      "type": "primary_029",
+      "meshes": [
+        "surface2_primary_029.glb"
+      ],
+      "position": [
+        67.9995,
+        1.6057,
+        -221.7495
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_030_01",
+      "type": "primary_030",
+      "meshes": [
+        "surface2_primary_030.glb"
+      ],
+      "position": [
+        62.6155,
+        0.834,
+        -220.5611
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_030_02",
+      "type": "primary_030",
+      "meshes": [
+        "surface2_primary_030.glb"
+      ],
+      "position": [
+        73.2608,
+        0.8465,
+        -207.6892
+      ],
+      "rotation": [
+        0,
+        -31.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_030_03",
+      "type": "primary_030",
+      "meshes": [
+        "surface2_primary_030.glb"
+      ],
+      "position": [
+        71.7615,
+        0.7605,
+        -207.5079
+      ],
+      "rotation": [
+        0,
+        13.15,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_031_01",
+      "type": "primary_031",
+      "meshes": [
+        "surface2_primary_031.glb"
+      ],
+      "position": [
+        61.3587,
+        0.7493,
+        -220.5611
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_032_01",
+      "type": "primary_032",
+      "meshes": [
+        "surface2_primary_032.glb"
+      ],
+      "position": [
+        72.8067,
+        0.8464,
+        -206.4625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_035_01",
+      "type": "primary_035",
+      "meshes": [
+        "surface2_primary_035.glb"
+      ],
+      "position": [
+        74.549,
+        1.5292,
+        -220.3247
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_035_02",
+      "type": "primary_035",
+      "meshes": [
+        "surface2_primary_035.glb"
+      ],
+      "position": [
+        58.9833,
+        1.5292,
+        -210.9707
+      ],
+      "rotation": [
+        0,
+        72.34,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_035_03",
+      "type": "primary_035",
+      "meshes": [
+        "surface2_primary_035.glb"
+      ],
+      "position": [
+        109.2664,
+        1.5432,
+        -168.9951
+      ],
+      "rotation": [
+        0,
+        -179.75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_035_04",
+      "type": "primary_035",
+      "meshes": [
+        "surface2_primary_035.glb"
+      ],
+      "position": [
+        92.6171,
+        1.5432,
+        -174.3502
+      ],
+      "rotation": [
+        0,
+        -89.72,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_035_01",
+      "type": "secondary_035",
+      "meshes": [
+        "surface2_secondary_035.glb"
+      ],
+      "position": [
+        74.549,
+        1.0491,
+        -220.4581
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_035_02",
+      "type": "secondary_035",
+      "meshes": [
+        "surface2_secondary_035.glb"
+      ],
+      "position": [
+        58.8556,
+        1.0491,
+        -211.0113
+      ],
+      "rotation": [
+        0,
+        72.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_037_01",
+      "type": "primary_037",
+      "meshes": [
+        "surface2_primary_037.glb"
+      ],
+      "position": [
+        -77.7374,
+        0.5679,
+        -96.4845
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_038_01",
+      "type": "primary_038",
+      "meshes": [
+        "surface2_primary_038.glb"
+      ],
+      "position": [
+        71.8237,
+        2.1744,
+        -217.7737
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_038_02",
+      "type": "primary_038",
+      "meshes": [
+        "surface2_primary_038.glb"
+      ],
+      "position": [
+        62.205,
+        2.1744,
+        -205.4171
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_038_03",
+      "type": "primary_038",
+      "meshes": [
+        "surface2_primary_038.glb"
+      ],
+      "position": [
+        106.1803,
+        2.1744,
+        -175.9758
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_038_04",
+      "type": "primary_038",
+      "meshes": [
+        "surface2_primary_038.glb"
+      ],
+      "position": [
+        -79.1532,
+        2.1744,
+        -90.1032
+      ],
+      "rotation": [
+        0,
+        106.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_038_05",
+      "type": "primary_038",
+      "meshes": [
+        "surface2_primary_038.glb"
+      ],
+      "position": [
+        -87.5025,
+        2.6473,
+        -154.0132
+      ],
+      "rotation": [
+        0,
+        -133.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_038_06",
+      "type": "primary_038",
+      "meshes": [
+        "surface2_primary_038.glb"
+      ],
+      "position": [
+        -123.2651,
+        2.6473,
+        -212.8709
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_038_01",
+      "type": "secondary_038",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ],
+      "position": [
+        71.8231,
+        2.4155,
+        -217.7738
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_038_02",
+      "type": "secondary_038",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ],
+      "position": [
+        62.2049,
+        2.4155,
+        -205.4165
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_038_03",
+      "type": "secondary_038",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ],
+      "position": [
+        93.6994,
+        2.4155,
+        -177.0205
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_038_04",
+      "type": "secondary_038",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ],
+      "position": [
+        106.1803,
+        2.4155,
+        -175.9752
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_038_05",
+      "type": "secondary_038",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ],
+      "position": [
+        -79.1531,
+        2.4155,
+        -90.1026
+      ],
+      "rotation": [
+        0,
+        106.05,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_038_06",
+      "type": "secondary_038",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ],
+      "position": [
+        -87.502,
+        2.8883,
+        -154.0136
+      ],
+      "rotation": [
+        0,
+        -133.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_038_07",
+      "type": "secondary_038",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ],
+      "position": [
+        -123.2646,
+        2.8883,
+        -212.8708
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_040_01",
+      "type": "primary_040",
+      "meshes": [
+        "surface2_primary_040.glb"
+      ],
+      "position": [
+        93.6995,
+        2.1744,
+        -177.0211
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_044_01",
+      "type": "primary_044",
+      "meshes": [
+        "surface2_primary_044.glb"
+      ],
+      "position": [
+        -130.7007,
+        2.5728,
+        -168.85
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_044_01",
+      "type": "secondary_044",
+      "meshes": [
+        "surface2_secondary_044.glb"
+      ],
+      "position": [
+        -130.7021,
+        2.814,
+        -168.848
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_046_01",
+      "type": "primary_046",
+      "meshes": [
+        "surface2_primary_046.glb"
+      ],
+      "position": [
+        27.4731,
+        2.887,
+        -122.4315
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_01",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        27.5134,
+        3.1418,
+        -122.4314
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_02",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        28.5446,
+        3.1418,
+        -122.4314
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_03",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -119.1465,
+        2.8122,
+        -212.9083
+      ],
+      "rotation": [
+        0,
+        0.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_04",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -116.7076,
+        2.8122,
+        -212.9083
+      ],
+      "rotation": [
+        0,
+        0.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_05",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -123.2777,
+        2.8122,
+        -218.7069
+      ],
+      "rotation": [
+        0,
+        -179.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_06",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -134.4634,
+        2.7375,
+        -170.5283
+      ],
+      "rotation": [
+        0,
+        155.6,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_07",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -133.1216,
+        2.7998,
+        -163.5297
+      ],
+      "rotation": [
+        0,
+        -24.4,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_08",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -137.7346,
+        2.7998,
+        -165.6288
+      ],
+      "rotation": [
+        0,
+        -24.4,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_09",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -90.3896,
+        2.8122,
+        -151.0641
+      ],
+      "rotation": [
+        0,
+        46.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_10",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -92.0819,
+        2.8122,
+        -149.322
+      ],
+      "rotation": [
+        0,
+        46.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_11",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -86.3579,
+        2.8122,
+        -155.2451
+      ],
+      "rotation": [
+        0,
+        46.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_12",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -91.7086,
+        2.8122,
+        -158.0822
+      ],
+      "rotation": [
+        0,
+        -133.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_13",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -95.2177,
+        2.8122,
+        -154.4238
+      ],
+      "rotation": [
+        0,
+        -133.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_14",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -80.2606,
+        2.3394,
+        -94.0729
+      ],
+      "rotation": [
+        0,
+        -73.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_15",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -78.6554,
+        2.3394,
+        -88.4982
+      ],
+      "rotation": [
+        0,
+        -73.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_16",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -73.5411,
+        2.3394,
+        -91.7086
+      ],
+      "rotation": [
+        0,
+        106.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_17",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        -74.9348,
+        2.3394,
+        -96.5864
+      ],
+      "rotation": [
+        0,
+        106.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_18",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        56.3442,
+        2.3394,
+        -210.4818
+      ],
+      "rotation": [
+        0,
+        -89.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_19",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        56.3442,
+        2.3394,
+        -205.4297
+      ],
+      "rotation": [
+        0,
+        -89.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_20",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        62.1677,
+        2.3394,
+        -203.7374
+      ],
+      "rotation": [
+        0,
+        90.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_21",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        106.2177,
+        2.3394,
+        -171.8572
+      ],
+      "rotation": [
+        0,
+        -89.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_22",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        106.2177,
+        2.3394,
+        -169.4182
+      ],
+      "rotation": [
+        0,
+        -89.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_23",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        112.0413,
+        2.3394,
+        -175.9884
+      ],
+      "rotation": [
+        0,
+        90.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_24",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        87.8511,
+        2.3394,
+        -171.9567
+      ],
+      "rotation": [
+        0,
+        -89.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_25",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        87.8511,
+        2.3394,
+        -177.0088
+      ],
+      "rotation": [
+        0,
+        -89.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_26",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        93.6747,
+        2.3394,
+        -178.7011
+      ],
+      "rotation": [
+        0,
+        90.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_27",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        74.3499,
+        2.3394,
+        -223.6097
+      ],
+      "rotation": [
+        0,
+        -179.93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_28",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        67.6055,
+        2.3394,
+        -217.811
+      ],
+      "rotation": [
+        0,
+        0.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_29",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        75.8431,
+        2.3394,
+        -217.811
+      ],
+      "rotation": [
+        0,
+        0.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_046_30",
+      "type": "secondary_046",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ],
+      "position": [
+        70.2187,
+        2.3394,
+        -217.811
+      ],
+      "rotation": [
+        0,
+        0.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_047_01",
+      "type": "primary_047",
+      "meshes": [
+        "surface2_primary_047.glb"
+      ],
+      "position": [
+        28.5858,
+        2.887,
+        -122.4314
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_048_01",
+      "type": "primary_048",
+      "meshes": [
+        "surface2_primary_048.glb"
+      ],
+      "position": [
+        27.5623,
+        8.586,
+        -122.4689
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_048_02",
+      "type": "primary_048",
+      "meshes": [
+        "surface2_primary_048.glb"
+      ],
+      "position": [
+        19.3994,
+        8.586,
+        -125.2811
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_048_03",
+      "type": "primary_048",
+      "meshes": [
+        "surface2_primary_048.glb"
+      ],
+      "position": [
+        24.5386,
+        8.586,
+        -126.4882
+      ],
+      "rotation": [
+        0,
+        90.07,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_051_01",
+      "type": "primary_051",
+      "meshes": [
+        "surface2_primary_051.glb"
+      ],
+      "position": [
+        77.1621,
+        3.0113,
+        -61.5331
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_051_01",
+      "type": "secondary_051",
+      "meshes": [
+        "surface2_secondary_051.glb"
+      ],
+      "position": [
+        77.1621,
+        3.0113,
+        -61.5331
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_052_01",
+      "type": "primary_052",
+      "meshes": [
+        "surface2_primary_052.glb"
+      ],
+      "position": [
+        70.4441,
+        1.8616,
+        -221.3574
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_052_02",
+      "type": "primary_052",
+      "meshes": [
+        "surface2_primary_052.glb"
+      ],
+      "position": [
+        67.0068,
+        1.8616,
+        -219.578
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_052_03",
+      "type": "primary_052",
+      "meshes": [
+        "surface2_primary_052.glb"
+      ],
+      "position": [
+        110.2135,
+        1.8616,
+        -175.6773
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_052_04",
+      "type": "primary_052",
+      "meshes": [
+        "surface2_primary_052.glb"
+      ],
+      "position": [
+        107.6472,
+        1.8616,
+        -173.2633
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_054_01",
+      "type": "primary_054",
+      "meshes": [
+        "surface2_primary_054.glb"
+      ],
+      "position": [
+        29.4165,
+        8.3731,
+        -126.5255
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_054_01",
+      "type": "secondary_054",
+      "meshes": [
+        "surface2_secondary_054.glb"
+      ],
+      "position": [
+        29.5226,
+        7.893,
+        -126.5256
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_055_01",
+      "type": "primary_055",
+      "meshes": [
+        "surface2_primary_055.glb"
+      ],
+      "position": [
+        29.6795,
+        8.6594,
+        -127.4463
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_056_01",
+      "type": "primary_056",
+      "meshes": [
+        "surface2_primary_056.glb"
+      ],
+      "position": [
+        29.6219,
+        8.6594,
+        -125.9141
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_057_01",
+      "type": "primary_057",
+      "meshes": [
+        "surface2_primary_057.glb"
+      ],
+      "position": [
+        29.5516,
+        8.5951,
+        -126.6871
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_059_01",
+      "type": "primary_059",
+      "meshes": [
+        "surface2_primary_059.glb"
+      ],
+      "position": [
+        93.6662,
+        2.2014,
+        -171.2473
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_059_02",
+      "type": "primary_059",
+      "meshes": [
+        "surface2_primary_059.glb"
+      ],
+      "position": [
+        59.5796,
+        2.2014,
+        -213.7709
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_059_03",
+      "type": "primary_059",
+      "meshes": [
+        "surface2_primary_059.glb"
+      ],
+      "position": [
+        -79.7576,
+        2.2014,
+        -92.2791
+      ],
+      "rotation": [
+        0,
+        -164,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_059_04",
+      "type": "primary_059",
+      "meshes": [
+        "surface2_primary_059.glb"
+      ],
+      "position": [
+        15.4301,
+        7.8258,
+        -125.8451
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_059_01",
+      "type": "secondary_059",
+      "meshes": [
+        "surface2_secondary_059.glb"
+      ],
+      "position": [
+        93.7635,
+        2.1544,
+        -171.2472
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_059_02",
+      "type": "secondary_059",
+      "meshes": [
+        "surface2_secondary_059.glb"
+      ],
+      "position": [
+        59.5797,
+        2.1544,
+        -213.8681
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_059_03",
+      "type": "secondary_059",
+      "meshes": [
+        "surface2_secondary_059.glb"
+      ],
+      "position": [
+        -79.8511,
+        2.1544,
+        -92.2524
+      ],
+      "rotation": [
+        0,
+        -164,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_059_04",
+      "type": "secondary_059",
+      "meshes": [
+        "surface2_secondary_059.glb"
+      ],
+      "position": [
+        15.4301,
+        7.7788,
+        -125.9424
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_063_01",
+      "type": "primary_063",
+      "meshes": [
+        "surface2_primary_063.glb"
+      ],
+      "position": [
+        22.4988,
+        11.8601,
+        -130.1313
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_063_01",
+      "type": "secondary_063",
+      "meshes": [
+        "surface2_secondary_063.glb"
+      ],
+      "position": [
+        22.5264,
+        12.9413,
+        -130.1151
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_01",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        -124.9576,
+        2.8122,
+        -212.9083
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_02",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        -118.2132,
+        2.8122,
+        -218.7069
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_03",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        -129.176,
+        2.75,
+        -168.1241
+      ],
+      "rotation": [
+        0,
+        155.52,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_04",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        -80.9325,
+        2.3394,
+        -96.4247
+      ],
+      "rotation": [
+        0,
+        -74,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_05",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        62.1677,
+        2.3394,
+        -211.9874
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_06",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        62.1677,
+        2.3394,
+        -209.5485
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_07",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        106.2177,
+        2.3394,
+        -177.6683
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_08",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        112.0413,
+        2.3394,
+        -170.9239
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_09",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        93.6747,
+        2.3394,
+        -170.4511
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_10",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        93.6747,
+        2.3394,
+        -172.89
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_11",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        69.2854,
+        2.3394,
+        -223.6097
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_066_12",
+      "type": "secondary_066",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ],
+      "position": [
+        73.4166,
+        2.3394,
+        -217.811
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_070_01",
+      "type": "secondary_070",
+      "meshes": [
+        "surface2_secondary_070.glb"
+      ],
+      "position": [
+        -136.6943,
+        2.7376,
+        -171.5402
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_105_01",
+      "type": "secondary_105",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ],
+      "position": [
+        25.4594,
+        3.3722,
+        -122.8173
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_105_02",
+      "type": "secondary_105",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ],
+      "position": [
+        25.4594,
+        9.5691,
+        -122.8173
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_105_03",
+      "type": "secondary_105",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ],
+      "position": [
+        14.6336,
+        3.3722,
+        -129.4373
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_105_04",
+      "type": "secondary_105",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ],
+      "position": [
+        14.6336,
+        3.3722,
+        -133.8423
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_105_05",
+      "type": "secondary_105",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ],
+      "position": [
+        14.6336,
+        9.5691,
+        -127.745
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_105_06",
+      "type": "secondary_105",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ],
+      "position": [
+        30.387,
+        9.5691,
+        -133.3694
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_105_07",
+      "type": "secondary_105",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ],
+      "position": [
+        30.387,
+        3.3722,
+        -130.2834
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_107_01",
+      "type": "secondary_107",
+      "meshes": [
+        "surface2_secondary_107.glb"
+      ],
+      "position": [
+        21.5148,
+        9.5691,
+        -122.8173
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_107_02",
+      "type": "secondary_107",
+      "meshes": [
+        "surface2_secondary_107.glb"
+      ],
+      "position": [
+        21.5148,
+        6.7568,
+        -137.1771
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_107_03",
+      "type": "secondary_107",
+      "meshes": [
+        "surface2_secondary_107.glb"
+      ],
+      "position": [
+        30.387,
+        3.3722,
+        -134.7755
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_107_04",
+      "type": "secondary_107",
+      "meshes": [
+        "surface2_secondary_107.glb"
+      ],
+      "position": [
+        30.387,
+        9.5691,
+        -124.3728
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_116_01",
+      "type": "secondary_116",
+      "meshes": [
+        "surface2_secondary_116.glb"
+      ],
+      "position": [
+        109.267,
+        1.0567,
+        -168.8886
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "secondary_116_02",
+      "type": "secondary_116",
+      "meshes": [
+        "surface2_secondary_116.glb"
+      ],
+      "position": [
+        92.7236,
+        1.0567,
+        -174.3508
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

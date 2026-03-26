@@ -1,0 +1,4584 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -8.781,
+        2.9565,
+        -1.3497
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -11.9439,
+        2.9565,
+        -2.2534
+      ],
+      "rotation": [
+        0,
+        -0.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -5.9194,
+        2.9565,
+        -0.7473
+      ],
+      "rotation": [
+        0,
+        -0.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -9.0823,
+        2.9565,
+        -3.6842
+      ],
+      "rotation": [
+        0,
+        -0.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -47.6287,
+        2.9565,
+        -3.7194
+      ],
+      "rotation": [
+        0,
+        -47.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -48.766,
+        2.9565,
+        -1.1137
+      ],
+      "rotation": [
+        0,
+        12.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -42.5178,
+        2.9565,
+        -3.5471
+      ],
+      "rotation": [
+        0,
+        -17.5,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -42.6688,
+        2.9565,
+        -1.9528
+      ],
+      "rotation": [
+        0,
+        -1.28,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -26.8547,
+        2.9565,
+        -3.5352
+      ],
+      "rotation": [
+        0,
+        -2.62,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_10",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -24.2943,
+        2.9565,
+        -3.5359
+      ],
+      "rotation": [
+        0,
+        -3.38,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_11",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -23.6162,
+        2.9565,
+        -2.4166
+      ],
+      "rotation": [
+        0,
+        -16.31,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_12",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -21.0526,
+        2.9565,
+        -0.7349
+      ],
+      "rotation": [
+        0,
+        15.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_13",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -81.586,
+        2.9565,
+        -0.7573
+      ],
+      "rotation": [
+        0,
+        177.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_14",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -79.4436,
+        2.9565,
+        -0.7073
+      ],
+      "rotation": [
+        0,
+        87.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_15",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -72.3395,
+        2.9565,
+        -3.6105
+      ],
+      "rotation": [
+        0,
+        -2.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_16",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -61.7201,
+        2.9565,
+        -0.7191
+      ],
+      "rotation": [
+        0,
+        124.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_17",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -60.8177,
+        2.9565,
+        -3.5352
+      ],
+      "rotation": [
+        0,
+        -2.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_18",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -62.3015,
+        2.9565,
+        -1.6173
+      ],
+      "rotation": [
+        0,
+        51.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_19",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -55.9365,
+        2.9565,
+        -1.463
+      ],
+      "rotation": [
+        0,
+        102.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_20",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -53.6475,
+        2.9565,
+        -0.8326
+      ],
+      "rotation": [
+        0,
+        177.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_21",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -114.8458,
+        2.9565,
+        -2.6814
+      ],
+      "rotation": [
+        0,
+        -92.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_22",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -111.683,
+        2.9565,
+        -2.6814
+      ],
+      "rotation": [
+        0,
+        -92.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_23",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -99.8599,
+        2.9565,
+        -3.6604
+      ],
+      "rotation": [
+        0,
+        -92.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_24",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -95.609,
+        2.9565,
+        -0.6736
+      ],
+      "rotation": [
+        0,
+        -2.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_25",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -94.0494,
+        2.9565,
+        -2.681
+      ],
+      "rotation": [
+        0,
+        -107.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_26",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -93.9924,
+        2.9565,
+        -3.7347
+      ],
+      "rotation": [
+        0,
+        -84.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_27",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -97.2995,
+        2.9565,
+        -3.058
+      ],
+      "rotation": [
+        0,
+        -92.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_28",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -92.2956,
+        2.9565,
+        -0.6736
+      ],
+      "rotation": [
+        0,
+        -2.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_29",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -162.2548,
+        2.9565,
+        -3.5352
+      ],
+      "rotation": [
+        0,
+        -2.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_30",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -158.8499,
+        0.3207,
+        4.5898
+      ],
+      "rotation": [
+        0,
+        177.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_31",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -156.4401,
+        0.3207,
+        3.3096
+      ],
+      "rotation": [
+        0,
+        177.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_32",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -154.5575,
+        0.3207,
+        1.3516
+      ],
+      "rotation": [
+        0,
+        177.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_33",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
+      "position": [
+        -118.7118,
+        2.9565,
+        -2.1128
+      ],
+      "rotation": [
+        0,
+        177.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_01",
+      "type": "guard_1",
+      "meshes": [
+        "train_guard_1.glb"
+      ],
+      "position": [
+        -116.9962,
+        2.9565,
+        -3.2734
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "trevelyn_01",
+      "type": "trevelyn",
+      "meshes": [
+        "train_trevelyn.glb"
+      ],
+      "position": [
+        -181.2848,
+        3.215,
+        -1.3438
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "xenia_01",
+      "type": "xenia",
+      "meshes": [
+        "train_xenia.glb"
+      ],
+      "position": [
+        -181.3686,
+        3.3399,
+        -2.152
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "orumov_01",
+      "type": "orumov",
+      "meshes": [
+        "train_orumov.glb"
+      ],
+      "position": [
+        -177.1508,
+        3.2053,
+        -3.0996
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "natalia_01",
+      "type": "natalia",
+      "meshes": [
+        "train_natalia.glb"
+      ],
+      "position": [
+        -176.107,
+        3.2471,
+        -2.2744
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_01",
+      "type": "guard_2",
+      "meshes": [
+        "train_guard_2.glb"
+      ],
+      "position": [
+        -174.7556,
+        2.9565,
+        -2.255
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_02",
+      "type": "guard_2",
+      "meshes": [
+        "train_guard_2.glb"
+      ],
+      "position": [
+        -172.5717,
+        2.9565,
+        -2.255
+      ],
+      "rotation": [
+        0,
+        0.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_01",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -177.0444,
+        2.1839,
+        -2.1086
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_02",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -171.2458,
+        2.1839,
+        -0.6024
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_03",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -166.9534,
+        2.1839,
+        -2.1839
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_04",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.7187,
+        2.1839,
+        -2.8616
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_05",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -175.0864,
+        2.1839,
+        -1.958
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_06",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -167.5558,
+        2.1839,
+        -2.5604
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_07",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -173.7309,
+        2.1839,
+        -2.9369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_08",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -168.836,
+        2.1839,
+        1.3555
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_09",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -183.8219,
+        4.3677,
+        1.1296
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_10",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -206.715,
+        1.1296,
+        1.8826
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_11",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -161.2301,
+        2.1839,
+        -0.979
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_12",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -159.3475,
+        2.1839,
+        -3.3888
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_13",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -163.1128,
+        2.1839,
+        -3.2382
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_14",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.3422,
+        1.958,
+        -0.2636
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_15",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.3045,
+        1.958,
+        -1.0919
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_16",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.1539,
+        1.958,
+        -1.0919
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_17",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.9656,
+        1.958,
+        -1.0919
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_18",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.7774,
+        1.958,
+        -1.0919
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_19",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.6267,
+        1.958,
+        -1.0919
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_20",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.3422,
+        1.958,
+        -0.9037
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_21",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.3422,
+        1.958,
+        -0.7531
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_22",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.3422,
+        1.958,
+        -0.5648
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_23",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.3422,
+        1.958,
+        -0.4142
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_24",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.4761,
+        1.958,
+        -0.979
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_25",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.4761,
+        1.958,
+        -0.1883
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_26",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.7021,
+        1.958,
+        -0.1883
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_27",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.8527,
+        1.958,
+        -0.1883
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_28",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.0033,
+        1.958,
+        -0.1883
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_29",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -170.1915,
+        1.958,
+        -0.1883
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_30",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.4761,
+        1.958,
+        -0.3389
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_31",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.4761,
+        1.958,
+        -0.4895
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_32",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.4761,
+        1.958,
+        -0.6778
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_33",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -169.4761,
+        1.958,
+        -0.8284
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_34",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -196.5863,
+        1.2802,
+        0.5271
+      ],
+      "rotation": [
+        0,
+        89.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_35",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -229.4574,
+        3.0875,
+        2.0333
+      ],
+      "rotation": [
+        0,
+        89.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_36",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -226.4451,
+        5.648,
+        -2.0333
+      ],
+      "rotation": [
+        0,
+        89.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_37",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
+      "position": [
+        -243.8785,
+        0.6024,
+        -1.2802
+      ],
+      "rotation": [
+        0,
+        89.7,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_brake_01",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
+      "position": [
+        -15.4529,
+        2.3108,
+        -3.5298
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_brake_02",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
+      "position": [
+        -49.0394,
+        2.3108,
+        -3.5298
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_brake_03",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
+      "position": [
+        -83.2326,
+        2.3108,
+        -3.636
+      ],
+      "rotation": [
+        0,
+        -19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_brake_04",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
+      "position": [
+        -87.6367,
+        2.3108,
+        -0.7694
+      ],
+      "rotation": [
+        0,
+        161,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_brake_05",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
+      "position": [
+        -153.5693,
+        2.3108,
+        -0.9586
+      ],
+      "rotation": [
+        0,
+        68,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_brake_06",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
+      "position": [
+        -156.9619,
+        2.3108,
+        -3.4607
+      ],
+      "rotation": [
+        0,
+        -149,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_01",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
+      "position": [
+        -4.6397,
+        2.5611,
+        -2.2595
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_02",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
+      "position": [
+        2.7403,
+        2.5611,
+        -2.2595
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_03",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
+      "position": [
+        4.1711,
+        2.5611,
+        -0.904
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_04",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
+      "position": [
+        -44.7611,
+        2.5611,
+        -3.2378
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_05",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
+      "position": [
+        -47.3968,
+        2.5611,
+        -0.8281
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_01",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
+      "position": [
+        4.2229,
+        2.5611,
+        -2.1082
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_02",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
+      "position": [
+        14.3777,
+        2.5611,
+        -0.8287
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_03",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
+      "position": [
+        -22.2848,
+        2.5611,
+        -2.1082
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_04",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
+      "position": [
+        -41.036,
+        2.5611,
+        -2.1083
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_05",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
+      "position": [
+        -46.2321,
+        2.5611,
+        -3.539
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_06",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
+      "position": [
+        -162.5106,
+        2.5611,
+        -1.8769
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_01",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -0.6485,
+        2.5611,
+        -3.1966
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_02",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -7.1248,
+        2.5611,
+        -1.1634
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_03",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -4.2631,
+        2.5611,
+        -0.8622
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_04",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -25.4119,
+        2.5611,
+        -3.4934
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_05",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -24.805,
+        2.5611,
+        -0.9452
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_06",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -26.1605,
+        2.5611,
+        -0.9452
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_07",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -28.9468,
+        2.5611,
+        -2.1501
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_08",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -30.3943,
+        2.5611,
+        -2.293
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_09",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -33.5405,
+        2.5611,
+        -2.6019
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_10",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -46.0399,
+        2.5611,
+        -0.7193
+      ],
+      "rotation": [
+        0,
+        -179.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_11",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -19.7595,
+        2.5611,
+        -3.5056
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_12",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -22.6964,
+        2.5611,
+        -3.5056
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_13",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -159.8331,
+        2.5611,
+        -0.933
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_14",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -166.2463,
+        2.5611,
+        -3.4979
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_15",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
+      "position": [
+        -160.7307,
+        -0.0442,
+        3.8416
+      ],
+      "rotation": [
+        0,
+        48.71,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_3_01",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "train_wooden_crate_3.glb"
+      ],
+      "position": [
+        11.177,
+        2.5611,
+        -3.4526
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_3_02",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "train_wooden_crate_3.glb"
+      ],
+      "position": [
+        -37.8044,
+        2.5611,
+        -0.8569
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_4_01",
+      "type": "wooden_crate_4",
+      "meshes": [
+        "train_wooden_crate_4.glb"
+      ],
+      "position": [
+        12.5813,
+        2.5611,
+        -1.0706
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_01",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        14.3776,
+        2.5611,
+        -2.2176
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_02",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        4.1711,
+        3.8813,
+        -0.904
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_03",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        -13.2246,
+        3.8813,
+        -0.904
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_04",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        -13.1843,
+        2.5611,
+        -0.7868
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_05",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        -30.3425,
+        2.5611,
+        -3.5056
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_06",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        -41.036,
+        2.5611,
+        -3.5056
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_07",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        -156.3812,
+        -0.0347,
+        1.807
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_08",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
+      "position": [
+        -145.7513,
+        -0.0183,
+        2.4848
+      ],
+      "rotation": [
+        0,
+        0.03,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_6_01",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
+      "position": [
+        4.1711,
+        3.8813,
+        -2.2177
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_6_02",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
+      "position": [
+        -26.1605,
+        3.8813,
+        -0.9452
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_6_03",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
+      "position": [
+        -30.3776,
+        3.8813,
+        -3.5056
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_6_04",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
+      "position": [
+        -162.481,
+        3.8813,
+        -1.9917
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_7_01",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "train_wooden_crate_7.glb"
+      ],
+      "position": [
+        11.1055,
+        3.8813,
+        -3.371
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_7_02",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "train_wooden_crate_7.glb"
+      ],
+      "position": [
+        -162.3564,
+        -0.0347,
+        4.4718
+      ],
+      "rotation": [
+        0,
+        -128.42,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_8_01",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "train_wooden_crate_8.glb"
+      ],
+      "position": [
+        -0.6293,
+        3.8813,
+        -3.3089
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_8_02",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "train_wooden_crate_8.glb"
+      ],
+      "position": [
+        -37.7578,
+        3.8813,
+        -0.9434
+      ],
+      "rotation": [
+        0,
+        -9.27,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_9_01",
+      "type": "wooden_crate_9",
+      "meshes": [
+        "train_wooden_crate_9.glb"
+      ],
+      "position": [
+        -7.2188,
+        2.5611,
+        -3.4192
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_10_01",
+      "type": "wooden_crate_10",
+      "meshes": [
+        "train_wooden_crate_10.glb"
+      ],
+      "position": [
+        -10.2381,
+        2.5611,
+        -1.978
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_01",
+      "type": "wooden_door",
+      "meshes": [
+        "train_wooden_door.glb"
+      ],
+      "position": [
+        -16.1155,
+        3.1873,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_02",
+      "type": "wooden_door",
+      "meshes": [
+        "train_wooden_door.glb"
+      ],
+      "position": [
+        -17.471,
+        3.1873,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_03",
+      "type": "wooden_door",
+      "meshes": [
+        "train_wooden_door.glb"
+      ],
+      "position": [
+        -49.702,
+        3.1873,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_01",
+      "type": "metal_crate",
+      "meshes": [
+        "train_metal_crate.glb"
+      ],
+      "position": [
+        -34.1893,
+        2.5189,
+        -1.2049
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_11_01",
+      "type": "wooden_crate_11",
+      "meshes": [
+        "train_wooden_crate_11.glb"
+      ],
+      "position": [
+        -39.2076,
+        2.5611,
+        -3.245
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_12_01",
+      "type": "wooden_crate_12",
+      "meshes": [
+        "train_wooden_crate_12.glb"
+      ],
+      "position": [
+        -30.3425,
+        3.8813,
+        -2.1836
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_1_01",
+      "type": "metal_crate_1",
+      "meshes": [
+        "train_metal_crate_1.glb"
+      ],
+      "position": [
+        -34.0604,
+        3.8366,
+        -0.79
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_13_01",
+      "type": "wooden_crate_13",
+      "meshes": [
+        "train_wooden_crate_13.glb"
+      ],
+      "position": [
+        -33.4151,
+        3.8813,
+        -2.6781
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_14_01",
+      "type": "wooden_crate_14",
+      "meshes": [
+        "train_wooden_crate_14.glb"
+      ],
+      "position": [
+        -19.6983,
+        2.5611,
+        -0.9464
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_14_01",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
+      "position": [
+        -53.2495,
+        3.2235,
+        -2.1544
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_14_02",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
+      "position": [
+        -88.3044,
+        3.2235,
+        -2.251
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_14_03",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
+      "position": [
+        -139.3537,
+        3.2235,
+        -2.2637
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_14_04",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
+      "position": [
+        -152.5995,
+        3.2235,
+        -2.251
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_14_05",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
+      "position": [
+        -137.5133,
+        3.2235,
+        -3.0499
+      ],
+      "rotation": [
+        0,
+        -135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_14_06",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
+      "position": [
+        -137.5133,
+        3.2235,
+        -1.3179
+      ],
+      "rotation": [
+        0,
+        -135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_15_01",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
+      "position": [
+        -56.1041,
+        3.296,
+        -2.9369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_15_02",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
+      "position": [
+        -59.041,
+        3.296,
+        -2.9369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_15_03",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
+      "position": [
+        -61.978,
+        3.296,
+        -2.9369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_15_04",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
+      "position": [
+        -73.7257,
+        3.296,
+        -2.9369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_15_05",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
+      "position": [
+        -76.6626,
+        3.296,
+        -2.9369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_15_06",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
+      "position": [
+        -79.5996,
+        3.296,
+        -2.9369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_16_01",
+      "type": "wooden_door_16",
+      "meshes": [
+        "train_wooden_door_16.glb",
+        "train_window_glass_1.glb"
+      ],
+      "position": [
+        -64.9273,
+        3.6969,
+        -2.9414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_16_02",
+      "type": "wooden_door_16",
+      "meshes": [
+        "train_wooden_door_16.glb",
+        "train_window_glass_1.glb"
+      ],
+      "position": [
+        -67.8642,
+        3.6969,
+        -2.9414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_16_03",
+      "type": "wooden_door_16",
+      "meshes": [
+        "train_wooden_door_16.glb",
+        "train_window_glass_1.glb"
+      ],
+      "position": [
+        -70.8012,
+        3.6969,
+        -2.9414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_1_01",
+      "type": "wooden_door_1",
+      "meshes": [
+        "train_wooden_door_1.glb"
+      ],
+      "position": [
+        -82.5635,
+        3.2235,
+        -2.1558
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_2_01",
+      "type": "wooden_door_2",
+      "meshes": [
+        "train_wooden_door_2.glb"
+      ],
+      "position": [
+        -51.0575,
+        3.296,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_2_02",
+      "type": "wooden_door_2",
+      "meshes": [
+        "train_wooden_door_2.glb"
+      ],
+      "position": [
+        -119.8118,
+        3.296,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_2_03",
+      "type": "wooden_door_2",
+      "meshes": [
+        "train_wooden_door_2.glb"
+      ],
+      "position": [
+        -121.1673,
+        3.296,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_3_01",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
+      "position": [
+        -84.7569,
+        3.296,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_3_02",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
+      "position": [
+        -86.1124,
+        3.296,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_3_03",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
+      "position": [
+        -154.8668,
+        3.296,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_3_04",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
+      "position": [
+        -156.2223,
+        3.296,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_4_01",
+      "type": "wooden_door_4",
+      "meshes": [
+        "train_wooden_door_4.glb"
+      ],
+      "position": [
+        -91.2349,
+        3.296,
+        -1.4685
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_4_02",
+      "type": "wooden_door_4",
+      "meshes": [
+        "train_wooden_door_4.glb"
+      ],
+      "position": [
+        -94.1718,
+        3.296,
+        -1.4685
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_5_01",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
+      "position": [
+        -97.1436,
+        3.296,
+        -1.4685
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_5_02",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
+      "position": [
+        -108.8913,
+        3.296,
+        -1.4685
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_5_03",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
+      "position": [
+        -111.8283,
+        3.296,
+        -1.4685
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_5_04",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
+      "position": [
+        -114.7652,
+        3.296,
+        -1.4685
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_6_01",
+      "type": "wooden_door_6",
+      "meshes": [
+        "train_wooden_door_6.glb"
+      ],
+      "position": [
+        -100.0681,
+        3.6969,
+        -1.4663
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_6_02",
+      "type": "wooden_door_6",
+      "meshes": [
+        "train_wooden_door_6.glb"
+      ],
+      "position": [
+        -103.0051,
+        3.6969,
+        -1.4663
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_6_03",
+      "type": "wooden_door_6",
+      "meshes": [
+        "train_wooden_door_6.glb"
+      ],
+      "position": [
+        -105.942,
+        3.6969,
+        -1.4663
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_7_01",
+      "type": "wooden_door_7",
+      "meshes": [
+        "train_wooden_door_7.glb"
+      ],
+      "position": [
+        -117.6184,
+        3.2235,
+        -2.2496
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_01",
+      "type": "window_glass",
+      "meshes": [
+        "train_window_glass.glb"
+      ],
+      "position": [
+        -103.847,
+        3.803,
+        -1.5814
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_01",
+      "type": "wooden_table",
+      "meshes": [
+        "train_wooden_table.glb"
+      ],
+      "position": [
+        -131.9333,
+        2.6769,
+        -2.2972
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_02",
+      "type": "wooden_table",
+      "meshes": [
+        "train_wooden_table.glb"
+      ],
+      "position": [
+        -144.2082,
+        2.6769,
+        -1.996
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_8_01",
+      "type": "wooden_door_8",
+      "meshes": [
+        "train_wooden_door_8.glb"
+      ],
+      "position": [
+        -123.4172,
+        3.2235,
+        -2.1369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_10_01",
+      "type": "wooden_door_10",
+      "meshes": [
+        "train_wooden_door_10.glb"
+      ],
+      "position": [
+        -127.1165,
+        3.2235,
+        -3.3843
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_10_02",
+      "type": "wooden_door_10",
+      "meshes": [
+        "train_wooden_door_10.glb"
+      ],
+      "position": [
+        -136.6804,
+        3.2235,
+        -2.2637
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_9_01",
+      "type": "wooden_door_9",
+      "meshes": [
+        "train_wooden_door_9.glb"
+      ],
+      "position": [
+        -148.9176,
+        3.2235,
+        -1.0183
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_15_01",
+      "type": "wooden_crate_15",
+      "meshes": [
+        "train_wooden_crate_15.glb"
+      ],
+      "position": [
+        -147.4286,
+        -0.0347,
+        3.0786
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_15_02",
+      "type": "wooden_crate_15",
+      "meshes": [
+        "train_wooden_crate_15.glb"
+      ],
+      "position": [
+        -154.7505,
+        -0.0368,
+        2.4847
+      ],
+      "rotation": [
+        0,
+        29.88,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_2_01",
+      "type": "metal_crate_2",
+      "meshes": [
+        "train_metal_crate_2.glb"
+      ],
+      "position": [
+        -150.4616,
+        -0.0794,
+        3.2378
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_3_01",
+      "type": "metal_crate_3",
+      "meshes": [
+        "train_metal_crate_3.glb"
+      ],
+      "position": [
+        -151.63,
+        -0.0784,
+        1.8927
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_4_01",
+      "type": "metal_crate_4",
+      "meshes": [
+        "train_metal_crate_4.glb"
+      ],
+      "position": [
+        -151.6282,
+        -0.0794,
+        4.5938
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_01",
+      "type": "tv",
+      "meshes": [
+        "train_tv.glb"
+      ],
+      "position": [
+        -174.3929,
+        3.3548,
+        -0.8882
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_01",
+      "type": "keyboard",
+      "meshes": [
+        "train_keyboard.glb"
+      ],
+      "position": [
+        -175.1551,
+        3.0766,
+        -0.7207
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_11_01",
+      "type": "wooden_door_11",
+      "meshes": [
+        "train_wooden_door_11.glb"
+      ],
+      "position": [
+        -169.2126,
+        3.1873,
+        -2.1389
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_12_01",
+      "type": "wooden_door_12",
+      "meshes": [
+        "train_wooden_door_12.glb"
+      ],
+      "position": [
+        -183.1818,
+        3.1873,
+        -2.1389
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_door_13_01",
+      "type": "wooden_door_13",
+      "meshes": [
+        "train_wooden_door_13.glb"
+      ],
+      "position": [
+        -188.4156,
+        3.2235,
+        -2.1681
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_01",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "train_wooden_segment_door.glb"
+      ],
+      "position": [
+        -178.4752,
+        2.9871,
+        -2.2215
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_02",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "train_wooden_segment_door.glb"
+      ],
+      "position": [
+        -158.2179,
+        2.9871,
+        -2.2215
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_1_01",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
+      "position": [
+        -171.547,
+        3.5394,
+        -0.0753
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_1_02",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
+      "position": [
+        -176.0654,
+        3.5394,
+        -0.0753
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_1_03",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
+      "position": [
+        -176.0654,
+        3.5394,
+        -4.3677
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_1_04",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
+      "position": [
+        -171.547,
+        3.5394,
+        -4.3677
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_1_05",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
+      "position": [
+        -166.8781,
+        3.5394,
+        -4.3677
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_1_06",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
+      "position": [
+        -166.8781,
+        3.5394,
+        -0.0753
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_1_07",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
+      "position": [
+        -162.5103,
+        3.5394,
+        -0.0753
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "train_escape_hatch_01",
+      "type": "train_escape_hatch",
+      "meshes": [
+        "train_train_escape_hatch.glb"
+      ],
+      "position": [
+        -169.8903,
+        1.845,
+        -0.6401
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

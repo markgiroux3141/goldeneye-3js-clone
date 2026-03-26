@@ -1,0 +1,4430 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        33.528,
+        0.6533,
+        -6.1147
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        32.7912,
+        0.6533,
+        7.7249
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -41.4199,
+        -8.9254,
+        49.5629
+      ],
+      "rotation": [
+        0,
+        46.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -16.0788,
+        -8.9254,
+        49.557
+      ],
+      "rotation": [
+        0,
+        136.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        46.7043,
+        0.6533,
+        -7.1577
+      ],
+      "rotation": [
+        0,
+        -88.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        46.9369,
+        0.6533,
+        7.0936
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -41.7141,
+        -8.9254,
+        43.9561
+      ],
+      "rotation": [
+        0,
+        -43.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -15.8285,
+        -8.9254,
+        43.9822
+      ],
+      "rotation": [
+        0,
+        -133.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -14.2977,
+        2.7357,
+        -6.5225
+      ],
+      "rotation": [
+        0,
+        -28.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_10",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        71.1561,
+        0.6533,
+        7.5101
+      ],
+      "rotation": [
+        0,
+        91.44,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_11",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -13.6025,
+        2.7357,
+        6.6091
+      ],
+      "rotation": [
+        0,
+        61.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_12",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        6.6357,
+        2.7357,
+        7.6703
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_13",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -6.6036,
+        2.7357,
+        -7.7984
+      ],
+      "rotation": [
+        0,
+        -88.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_14",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -12.2241,
+        2.7357,
+        11.3686
+      ],
+      "rotation": [
+        0,
+        -178.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_15",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        23.9813,
+        2.3192,
+        1.8303
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_16",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -18.1602,
+        2.7357,
+        27.1802
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_17",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -24.8878,
+        2.7357,
+        27.1161
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_18",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -31.5192,
+        2.7357,
+        27.1161
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_19",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -29.3408,
+        2.7357,
+        21.5098
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_20",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -33.4734,
+        2.7357,
+        21.5098
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_21",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -7.7485,
+        -8.9254,
+        47.8434
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_22",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -3.6479,
+        -8.9254,
+        47.8434
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_23",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -8.5353,
+        -10.6233,
+        33.3857
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_24",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -8.5353,
+        -10.6233,
+        29.2531
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_25",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        50.5665,
+        -8.9254,
+        34.9791
+      ],
+      "rotation": [
+        0,
+        -178.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_26",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        50.5665,
+        -8.9254,
+        30.8785
+      ],
+      "rotation": [
+        0,
+        -178.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_27",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -80.6803,
+        2.7357,
+        7.5647
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_28",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -79.527,
+        2.7357,
+        11.8255
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_29",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -80.5522,
+        2.7357,
+        22.4614
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_30",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -80.0396,
+        2.7357,
+        27.0105
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_31",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        6.6272,
+        2.7357,
+        -7.7023
+      ],
+      "rotation": [
+        0,
+        -88.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_32",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        72.758,
+        0.6533,
+        7.2538
+      ],
+      "rotation": [
+        0,
+        91.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_33",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        72.5253,
+        0.6533,
+        -6.9975
+      ],
+      "rotation": [
+        0,
+        -88.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_34",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        52.7496,
+        0.6533,
+        0.1003
+      ],
+      "rotation": [
+        0,
+        1.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_35",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -49.2106,
+        -5.5937,
+        33.7366
+      ],
+      "rotation": [
+        0,
+        -43.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_36",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -49.0498,
+        -3.3832,
+        25.8498
+      ],
+      "rotation": [
+        0,
+        -133.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_37",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -62.7238,
+        1.0698,
+        31.0141
+      ],
+      "rotation": [
+        0,
+        46.45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_38",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -38.3833,
+        12.7629,
+        4.4393
+      ],
+      "rotation": [
+        0,
+        -88.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_39",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
+      "position": [
+        -39.1343,
+        2.7357,
+        17.2952
+      ],
+      "rotation": [
+        0,
+        -178.55,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "jaws_01",
+      "type": "jaws",
+      "meshes": [
+        "aztec_jaws.glb"
+      ],
+      "position": [
+        -37.5737,
+        -8.5829,
+        45.9444
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_01",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -29.5692,
+        5.6063,
+        12.3979
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_02",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -29.6653,
+        5.6063,
+        21.0156
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_03",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -29.5692,
+        4.3569,
+        12.3979
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_04",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -29.6653,
+        4.3569,
+        21.0156
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_05",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -29.5692,
+        3.0114,
+        12.3979
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_06",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -29.6653,
+        3.0114,
+        21.0156
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_07",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -32.2282,
+        3.0114,
+        21.0156
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_08",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
+      "position": [
+        -32.2282,
+        3.0114,
+        12.3018
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_01",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
+      "position": [
+        -18.9333,
+        2.8253,
+        1.794
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_02",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
+      "position": [
+        -18.9333,
+        2.8253,
+        -1.6659
+      ],
+      "rotation": [
+        0,
+        -30,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_03",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
+      "position": [
+        -73.3624,
+        2.7221,
+        24.6998
+      ],
+      "rotation": [
+        0,
+        165,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_04",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
+      "position": [
+        -74.2915,
+        2.7221,
+        7.0159
+      ],
+      "rotation": [
+        0,
+        -105,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_01",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
+      "position": [
+        -18.9962,
+        3.0914,
+        -2.0609
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_02",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
+      "position": [
+        -73.1384,
+        2.944,
+        24.3863
+      ],
+      "rotation": [
+        0,
+        -135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_03",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
+      "position": [
+        -74.6049,
+        2.944,
+        6.8238
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_04",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
+      "position": [
+        -12.3989,
+        3.3514,
+        9.5631
+      ],
+      "rotation": [
+        0,
+        -146.5,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "audio_tape_01",
+      "type": "audio_tape",
+      "meshes": [
+        "aztec_audio_tape.glb"
+      ],
+      "position": [
+        -19.0294,
+        2.8439,
+        -1.0892
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_01",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
+      "position": [
+        -18.6041,
+        2.8471,
+        -1.9776
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_02",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
+      "position": [
+        -73.4896,
+        2.744,
+        24.6038
+      ],
+      "rotation": [
+        0,
+        -135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_03",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
+      "position": [
+        -74.3874,
+        2.744,
+        7.1431
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_04",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
+      "position": [
+        -12.9409,
+        3.0571,
+        9.5927
+      ],
+      "rotation": [
+        0,
+        -135.5,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_01",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -78.8723,
+        2.2546,
+        24.6036
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_02",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -78.8726,
+        2.2546,
+        22.1052
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_03",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -79.4173,
+        2.2546,
+        8.0094
+      ],
+      "rotation": [
+        0,
+        -105,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_04",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -79.1606,
+        2.2546,
+        13.5193
+      ],
+      "rotation": [
+        0,
+        -30,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_05",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -78.6162,
+        2.2546,
+        26.2699
+      ],
+      "rotation": [
+        0,
+        -75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_06",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -77.6551,
+        2.2546,
+        12.0459
+      ],
+      "rotation": [
+        0,
+        -75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_07",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -58.1773,
+        2.2546,
+        12.2061
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_08",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -55.102,
+        2.2546,
+        14.0962
+      ],
+      "rotation": [
+        0,
+        -105,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_09",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -60.164,
+        2.2546,
+        13.1027
+      ],
+      "rotation": [
+        0,
+        165,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_10",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -54.1088,
+        2.2546,
+        12.5585
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_11",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        -58.1137,
+        3.4393,
+        12.2057
+      ],
+      "rotation": [
+        0,
+        165,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_12",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        35.7842,
+        0.1723,
+        -6.792
+      ],
+      "rotation": [
+        0,
+        84.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_13",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        35.2398,
+        0.1723,
+        -5.03
+      ],
+      "rotation": [
+        0,
+        54.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_14",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        35.2719,
+        0.1723,
+        7.6248
+      ],
+      "rotation": [
+        0,
+        -50.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_15",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        34.4068,
+        0.1723,
+        5.9911
+      ],
+      "rotation": [
+        0,
+        -80.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_16",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        25.4367,
+        1.8381,
+        0.577
+      ],
+      "rotation": [
+        0,
+        -80.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_17",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
+      "position": [
+        26.3018,
+        1.8381,
+        2.2107
+      ],
+      "rotation": [
+        0,
+        -50.92,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "aztec_body_armor.glb"
+      ],
+      "position": [
+        -19.9618,
+        2.0492,
+        1.4072
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_01",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -61.6768,
+        6.0462,
+        21.6157
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_02",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -61.7899,
+        6.0462,
+        12.4386
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_03",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -77.3419,
+        11.0758,
+        22.1277
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_04",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -77.4219,
+        11.0758,
+        12.7433
+      ],
+      "rotation": [
+        0,
+        -135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_05",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -36.3994,
+        3.9179,
+        -2.0607
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_06",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
+      "position": [
+        -30.9403,
+        3.9179,
+        -1.9759
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_01",
+      "type": "console",
+      "meshes": [
+        "aztec_console.glb"
+      ],
+      "position": [
+        -6.2475,
+        2.6817,
+        7.388
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_1_01",
+      "type": "console_1",
+      "meshes": [
+        "aztec_console_1.glb"
+      ],
+      "position": [
+        -33.7174,
+        2.6457,
+        11.5656
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_1_02",
+      "type": "console_1",
+      "meshes": [
+        "aztec_console_1.glb"
+      ],
+      "position": [
+        -29.1363,
+        2.6457,
+        11.5656
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "floor_hatch_01",
+      "type": "floor_hatch",
+      "meshes": [
+        "aztec_floor_hatch.glb"
+      ],
+      "position": [
+        -34.9814,
+        5.4564,
+        16.5234
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "floor_hatch_1_01",
+      "type": "floor_hatch_1",
+      "meshes": [
+        "aztec_floor_hatch_1.glb"
+      ],
+      "position": [
+        -27.8976,
+        5.4568,
+        16.6581
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "stone_door_01",
+      "type": "stone_door",
+      "meshes": [
+        "aztec_stone_door.glb"
+      ],
+      "position": [
+        61.5251,
+        1.8901,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "stone_door_1_01",
+      "type": "stone_door_1",
+      "meshes": [
+        "aztec_stone_door_1.glb"
+      ],
+      "position": [
+        11.1966,
+        2.4027,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wood_segment_door_01",
+      "type": "wood_segment_door",
+      "meshes": [
+        "aztec_wood_segment_door.glb"
+      ],
+      "position": [
+        -31.4273,
+        2.5949,
+        23.2742
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_01",
+      "type": "unknown",
+      "meshes": [
+        "aztec_unknown.glb"
+      ],
+      "position": [
+        -31.4311,
+        2.1743,
+        16.5412
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_1_01",
+      "type": "unknown_1",
+      "meshes": [
+        "aztec_unknown_1.glb"
+      ],
+      "position": [
+        -31.4263,
+        2.963,
+        16.5414
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_2_01",
+      "type": "unknown_2",
+      "meshes": [
+        "aztec_unknown_2.glb"
+      ],
+      "position": [
+        -29.5087,
+        1.6018,
+        18.7731
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_3_01",
+      "type": "unknown_3",
+      "meshes": [
+        "aztec_unknown_3.glb"
+      ],
+      "position": [
+        -29.5087,
+        1.6018,
+        17.2514
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_3_02",
+      "type": "unknown_3",
+      "meshes": [
+        "aztec_unknown_3.glb"
+      ],
+      "position": [
+        -29.5087,
+        1.6018,
+        15.7137
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_3_03",
+      "type": "unknown_3",
+      "meshes": [
+        "aztec_unknown_3.glb"
+      ],
+      "position": [
+        -29.5087,
+        1.6018,
+        14.1759
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_4_01",
+      "type": "unknown_4",
+      "meshes": [
+        "aztec_unknown_4.glb"
+      ],
+      "position": [
+        -33.3286,
+        1.6018,
+        14.1759
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_4_02",
+      "type": "unknown_4",
+      "meshes": [
+        "aztec_unknown_4.glb"
+      ],
+      "position": [
+        -33.3286,
+        1.6018,
+        15.7137
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_4_03",
+      "type": "unknown_4",
+      "meshes": [
+        "aztec_unknown_4.glb"
+      ],
+      "position": [
+        -33.3286,
+        1.6018,
+        17.2514
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_5_01",
+      "type": "unknown_5",
+      "meshes": [
+        "aztec_unknown_5.glb"
+      ],
+      "position": [
+        -33.3286,
+        1.6018,
+        18.7731
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "rocket_ship_01",
+      "type": "rocket_ship",
+      "meshes": [
+        "aztec_rocket_ship.glb"
+      ],
+      "position": [
+        -32.7471,
+        18.6868,
+        16.5771
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_01",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -14.4002,
+        8.7939,
+        -1.8421
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_02",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -12.3178,
+        6.7756,
+        -2.3386
+      ],
+      "rotation": [
+        0,
+        -0.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_03",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        4.2448,
+        9.4026,
+        1.6819
+      ],
+      "rotation": [
+        0,
+        179.91,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_04",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -15.7617,
+        4.6292,
+        -5.0136
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_05",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -15.7617,
+        4.6292,
+        -4.1807
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_06",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -15.6976,
+        8.4895,
+        -0.913
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_07",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        5.6063,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_08",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        3.9084,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_09",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        2.2105,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_10",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        0.5126,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_11",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -1.1853,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_12",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -2.8832,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_13",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -4.5811,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_14",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -6.2791,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_15",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -7.977,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_16",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -9.6589,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        179.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_17",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -11.3568,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        179.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_18",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -13.0547,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        179.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_19",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
+      "position": [
+        -14.7526,
+        4.8695,
+        5.2859
+      ],
+      "rotation": [
+        0,
+        179.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_01",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
+      "position": [
+        -12.1096,
+        8.7939,
+        -1.8421
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_02",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
+      "position": [
+        -1.746,
+        8.0731,
+        -2.0183
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_03",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
+      "position": [
+        -1.746,
+        6.4553,
+        -2.4187
+      ],
+      "rotation": [
+        0,
+        -0.06,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_04",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
+      "position": [
+        6.9999,
+        6.8557,
+        -2.3226
+      ],
+      "rotation": [
+        0,
+        -0.06,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_05",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
+      "position": [
+        -4.0846,
+        8.3133,
+        1.9542
+      ],
+      "rotation": [
+        0,
+        179.95,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_1_06",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
+      "position": [
+        -4.0846,
+        6.5353,
+        2.4027
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_01",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
+      "position": [
+        -8.9541,
+        9.0021,
+        -1.778
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_02",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
+      "position": [
+        -8.5376,
+        6.9678,
+        -2.2906
+      ],
+      "rotation": [
+        0,
+        -0.01,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_03",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
+      "position": [
+        -6.4553,
+        6.9838,
+        -2.2906
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_04",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
+      "position": [
+        0.6567,
+        6.215,
+        -2.4828
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_05",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
+      "position": [
+        -2.0823,
+        6.8557,
+        2.3226
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_06",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
+      "position": [
+        -8.7618,
+        6.9678,
+        2.2906
+      ],
+      "rotation": [
+        0,
+        179.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_2_07",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
+      "position": [
+        -15.6976,
+        6.8076,
+        -1.1052
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_01",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -7.08,
+        9.0021,
+        -1.778
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_02",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -14.6084,
+        6.5674,
+        -2.3867
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_03",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -6.9999,
+        9.0021,
+        1.778
+      ],
+      "rotation": [
+        0,
+        179.96,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_04",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -6.7916,
+        6.5674,
+        2.3867
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_05",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -14.6084,
+        6.5674,
+        2.3867
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_06",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -14.6084,
+        8.2012,
+        1.9862
+      ],
+      "rotation": [
+        0,
+        -179.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_07",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -19.9264,
+        4.3729,
+        1.6018
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_08",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -19.9264,
+        4.3729,
+        0
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_09",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -19.9264,
+        4.3729,
+        -1.6178
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_10",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -15.7617,
+        4.5811,
+        5.0136
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_3_11",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
+      "position": [
+        -15.6976,
+        6.6154,
+        0.9771
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_4_01",
+      "type": "divider_4",
+      "meshes": [
+        "aztec_divider_4.glb"
+      ],
+      "position": [
+        -3.7482,
+        8.7939,
+        -1.8421
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_4_02",
+      "type": "divider_4",
+      "meshes": [
+        "aztec_divider_4.glb"
+      ],
+      "position": [
+        -3.7482,
+        6.6955,
+        -2.3546
+      ],
+      "rotation": [
+        0,
+        -0.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_5_01",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
+      "position": [
+        1.8261,
+        8.3934,
+        -1.9222
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_5_02",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
+      "position": [
+        2.1784,
+        6.4553,
+        -2.4187
+      ],
+      "rotation": [
+        0,
+        -0.51,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_5_03",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
+      "position": [
+        1.8421,
+        9.1142,
+        1.762
+      ],
+      "rotation": [
+        0,
+        179.52,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_5_04",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
+      "position": [
+        -2.3386,
+        8.7939,
+        1.8421
+      ],
+      "rotation": [
+        0,
+        179.49,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_6_01",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
+      "position": [
+        4.2608,
+        8.7138,
+        -1.8581
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_6_02",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
+      "position": [
+        1.5858,
+        6.8557,
+        2.3226
+      ],
+      "rotation": [
+        0,
+        179.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_6_03",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
+      "position": [
+        6.8397,
+        6.5353,
+        2.4027
+      ],
+      "rotation": [
+        0,
+        -179.33,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_6_04",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
+      "position": [
+        -10.6199,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_6_05",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
+      "position": [
+        -3.5079,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_6_06",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
+      "position": [
+        3.7002,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_01",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        4.421,
+        6.6154,
+        -2.3707
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_02",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        -14.256,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_03",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        -12.3979,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_04",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        -8.8419,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_05",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        -7.08,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_06",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        -5.318,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_07",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        -1.6979,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_08",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        0.0961,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_7_09",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
+      "position": [
+        1.8901,
+        4.8695,
+        -5.318
+      ],
+      "rotation": [
+        0,
+        0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_8_01",
+      "type": "divider_8",
+      "meshes": [
+        "aztec_divider_8.glb"
+      ],
+      "position": [
+        6.7596,
+        8.874,
+        -1.81
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_9_01",
+      "type": "divider_9",
+      "meshes": [
+        "aztec_divider_9.glb"
+      ],
+      "position": [
+        4.5011,
+        8.2058,
+        3.5294
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_10_01",
+      "type": "divider_10",
+      "meshes": [
+        "aztec_divider_10.glb"
+      ],
+      "position": [
+        -15.7617,
+        4.5811,
+        4.1647
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "divider_11_01",
+      "type": "divider_11",
+      "meshes": [
+        "aztec_divider_11.glb"
+      ],
+      "position": [
+        -15.6976,
+        8.0731,
+        0.7528
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_01",
+      "type": "mainframe",
+      "meshes": [
+        "aztec_mainframe.glb"
+      ],
+      "position": [
+        -14.1599,
+        3.0715,
+        7.6916
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_1_01",
+      "type": "mainframe_1",
+      "meshes": [
+        "aztec_mainframe_1.glb"
+      ],
+      "position": [
+        -12.5101,
+        3.0715,
+        7.6916
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_6_01",
+      "type": "unknown_6",
+      "meshes": [
+        "aztec_unknown_6.glb"
+      ],
+      "position": [
+        -16.2903,
+        3.6361,
+        -2.1624
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_6_02",
+      "type": "unknown_6",
+      "meshes": [
+        "aztec_unknown_6.glb"
+      ],
+      "position": [
+        -16.2903,
+        3.6361,
+        2.1784
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "unknown_7_01",
+      "type": "unknown_7",
+      "meshes": [
+        "aztec_unknown_7.glb"
+      ],
+      "position": [
+        -16.2903,
+        3.6361,
+        0.016
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "rack_device_01",
+      "type": "rack_device",
+      "meshes": [
+        "aztec_rack_device.glb"
+      ],
+      "position": [
+        -18.732,
+        2.9039,
+        2.3871
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "rack_device_1_01",
+      "type": "rack_device_1",
+      "meshes": [
+        "aztec_rack_device_1.glb"
+      ],
+      "position": [
+        -18.915,
+        2.8849,
+        1.7703
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_2_01",
+      "type": "console_2",
+      "meshes": [
+        "aztec_console_2.glb"
+      ],
+      "position": [
+        -38.3788,
+        12.6314,
+        3.2222
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_1_01",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
+      "position": [
+        -72.7905,
+        4.1489,
+        7.2888
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_1_02",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
+      "position": [
+        -72.7905,
+        4.1489,
+        8.1217
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_1_03",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
+      "position": [
+        -72.7904,
+        4.1489,
+        8.9203
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_1_04",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
+      "position": [
+        -72.7904,
+        4.1489,
+        9.7532
+      ],
+      "rotation": [
+        0,
+        -0.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_2_01",
+      "type": "tv_2",
+      "meshes": [
+        "aztec_tv_2.glb"
+      ],
+      "position": [
+        -72.7985,
+        4.1442,
+        23.4509
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_2_02",
+      "type": "tv_2",
+      "meshes": [
+        "aztec_tv_2.glb"
+      ],
+      "position": [
+        -72.7985,
+        4.1442,
+        24.2838
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_3_01",
+      "type": "tv_3",
+      "meshes": [
+        "aztec_tv_3.glb"
+      ],
+      "position": [
+        -72.7984,
+        4.1443,
+        25.0687
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_3_02",
+      "type": "tv_3",
+      "meshes": [
+        "aztec_tv_3.glb"
+      ],
+      "position": [
+        -72.7984,
+        4.1443,
+        25.9016
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_2_01",
+      "type": "mainframe_2",
+      "meshes": [
+        "aztec_mainframe_2.glb"
+      ],
+      "position": [
+        -76.7422,
+        3.0715,
+        7.5375
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_01",
+      "type": "window_glass",
+      "meshes": [
+        "aztec_window_glass.glb"
+      ],
+      "position": [
+        -72.5936,
+        8.6337,
+        16.9716
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_1_01",
+      "type": "window_glass_1",
+      "meshes": [
+        "aztec_window_glass_1.glb"
+      ],
+      "position": [
+        -72.5936,
+        3.6201,
+        13.2148
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_1_02",
+      "type": "window_glass_1",
+      "meshes": [
+        "aztec_window_glass_1.glb"
+      ],
+      "position": [
+        -72.5936,
+        3.6201,
+        20.7113
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

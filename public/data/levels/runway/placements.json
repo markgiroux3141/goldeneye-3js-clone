@@ -1,0 +1,926 @@
+{
+  "objects": [
+    {
+      "id": "ammo_crate_01",
+      "type": "ammo_crate",
+      "meshes": [
+        "runway_ammo_crate.glb"
+      ],
+      "position": [
+        81.325,
+        -4.9468,
+        -60.9937
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_02",
+      "type": "ammo_crate",
+      "meshes": [
+        "runway_ammo_crate.glb"
+      ],
+      "position": [
+        64.9084,
+        -7.2198,
+        -72.6116
+      ],
+      "rotation": [
+        0,
+        -134,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        69.7586,
+        -6.4538,
+        -82.5912
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        69.7574,
+        -6.4538,
+        -85.2511
+      ],
+      "rotation": [
+        0,
+        7.43,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        128.2181,
+        -6.4538,
+        -154.4702
+      ],
+      "rotation": [
+        0,
+        28.29,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        131.2354,
+        -6.4616,
+        -231.5154
+      ],
+      "rotation": [
+        0,
+        49.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        79.6318,
+        -6.4538,
+        -190.681
+      ],
+      "rotation": [
+        0,
+        178.29,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        81.2735,
+        -6.4538,
+        -142.8205
+      ],
+      "rotation": [
+        0,
+        178.29,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_07",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        79.6356,
+        -6.4538,
+        -171.5092
+      ],
+      "rotation": [
+        0,
+        152.29,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_08",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        86.4992,
+        -4.1807,
+        -57.0042
+      ],
+      "rotation": [
+        0,
+        88.29,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_09",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
+      "position": [
+        106.8304,
+        -6.4538,
+        -71.7791
+      ],
+      "rotation": [
+        0,
+        88.29,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "ammo_crate_1_01",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "runway_ammo_crate_1.glb"
+      ],
+      "position": [
+        86.2499,
+        -5.0621,
+        -58.9732
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_01",
+      "type": "guard_1",
+      "meshes": [
+        "runway_guard_1.glb"
+      ],
+      "position": [
+        129.8683,
+        -6.4538,
+        -202.1792
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "trash_cans_01",
+      "type": "trash_cans",
+      "meshes": [
+        "runway_trash_cans.glb"
+      ],
+      "position": [
+        84.8544,
+        -4.5816,
+        -64.4073
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "trash_cans_02",
+      "type": "trash_cans",
+      "meshes": [
+        "runway_trash_cans.glb"
+      ],
+      "position": [
+        88.6429,
+        -4.5816,
+        -61.124
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "trash_cans_03",
+      "type": "trash_cans",
+      "meshes": [
+        "runway_trash_cans.glb"
+      ],
+      "position": [
+        102.9126,
+        -4.5816,
+        -62.7656
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tank_01",
+      "type": "tank",
+      "meshes": [
+        "runway_tank_primary.glb",
+        "runway_tank_secondary.glb"
+      ],
+      "position": [
+        160.2188,
+        -5.7691,
+        -50.506
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_01",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
+      "position": [
+        127.6702,
+        -6.7028,
+        -219.6027
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_02",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
+      "position": [
+        83.8507,
+        -6.7028,
+        -144.7181
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_03",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
+      "position": [
+        82.5878,
+        -6.7028,
+        -141.182
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_04",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
+      "position": [
+        126.4072,
+        -6.7028,
+        -156.7146
+      ],
+      "rotation": [
+        0,
+        -134.59,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_01",
+      "type": "tv",
+      "meshes": [
+        "runway_tv.glb"
+      ],
+      "position": [
+        66.7086,
+        -6.061,
+        -84.3626
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_01",
+      "type": "keyboard",
+      "meshes": [
+        "runway_keyboard.glb"
+      ],
+      "position": [
+        67.0222,
+        -6.261,
+        -84.4821
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_table_01",
+      "type": "wooden_table",
+      "meshes": [
+        "runway_wooden_table.glb"
+      ],
+      "position": [
+        66.9276,
+        -6.6296,
+        -84.4812
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "key_01",
+      "type": "key",
+      "meshes": [
+        "runway_key.glb"
+      ],
+      "position": [
+        66.9292,
+        -6.2778,
+        -85.0566
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "black_chair_01",
+      "type": "black_chair",
+      "meshes": [
+        "runway_black_chair.glb"
+      ],
+      "position": [
+        68.2179,
+        -6.976,
+        -84.7356
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_01",
+      "type": "filing_cabinet",
+      "meshes": [
+        "runway_filing_cabinet.glb"
+      ],
+      "position": [
+        63.6456,
+        -6.3704,
+        -85.4922
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_02",
+      "type": "filing_cabinet",
+      "meshes": [
+        "runway_filing_cabinet.glb"
+      ],
+      "position": [
+        63.0142,
+        -6.3704,
+        -85.4922
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "filing_cabinet_03",
+      "type": "filing_cabinet",
+      "meshes": [
+        "runway_filing_cabinet.glb"
+      ],
+      "position": [
+        62.3828,
+        -6.3704,
+        -85.4922
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "missile_turret_01",
+      "type": "missile_turret",
+      "meshes": [
+        "runway_missile_turret.glb"
+      ],
+      "position": [
+        127.8378,
+        -0.8986,
+        -224.8071
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "plane_01",
+      "type": "plane",
+      "meshes": [
+        "runway_plane_primary.glb",
+        "runway_plane_secondary.glb"
+      ],
+      "position": [
+        116.4049,
+        -5.5006,
+        -238.4527
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "gun_turret_01",
+      "type": "gun_turret",
+      "meshes": [
+        "runway_gun_turret.glb"
+      ],
+      "position": [
+        78.8741,
+        -4.6075,
+        -185.8331
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "gun_turret_1_01",
+      "type": "gun_turret_1",
+      "meshes": [
+        "runway_gun_turret_1.glb"
+      ],
+      "position": [
+        70.2373,
+        3.6008,
+        -280.5325
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "gun_turret_1_02",
+      "type": "gun_turret_1",
+      "meshes": [
+        "runway_gun_turret_1.glb"
+      ],
+      "position": [
+        133.075,
+        1.2014,
+        -286.0903
+      ],
+      "rotation": [
+        0,
+        -180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "grey_door_01",
+      "type": "grey_door",
+      "meshes": [
+        "runway_grey_door.glb"
+      ],
+      "position": [
+        86.8996,
+        -3.8067,
+        -56.2582
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "grey_door_02",
+      "type": "grey_door",
+      "meshes": [
+        "runway_grey_door.glb"
+      ],
+      "position": [
+        85.6002,
+        -3.8067,
+        -56.2582
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "grey_door_03",
+      "type": "grey_door",
+      "meshes": [
+        "runway_grey_door.glb"
+      ],
+      "position": [
+        64.0876,
+        -6.0797,
+        -78.5285
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_01",
+      "type": "metal_door",
+      "meshes": [
+        "runway_metal_door.glb"
+      ],
+      "position": [
+        91.501,
+        -3.3792,
+        -65.8511
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_1_01",
+      "type": "metal_door_1",
+      "meshes": [
+        "runway_metal_door_1.glb"
+      ],
+      "position": [
+        82.2292,
+        -3.3792,
+        -65.8551
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_door_2_01",
+      "type": "metal_door_2",
+      "meshes": [
+        "runway_metal_door_2.glb"
+      ],
+      "position": [
+        73.7544,
+        -3.3099,
+        -60.2992
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

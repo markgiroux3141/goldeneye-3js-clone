@@ -85,6 +85,21 @@ export async function launchObjectViewer(basePath: string): Promise<void> {
   title.style.cssText = 'font-size: 15px; font-weight: bold; color: #d4af37;';
   ui.appendChild(title);
 
+  // "View in Level" link — extract level slug from basePath (e.g. "models/objects/frigate" → "frigate")
+  const levelSlug = basePath.split('/').pop() || '';
+  if (levelSlug) {
+    const levelLink = document.createElement('a');
+    levelLink.textContent = 'View in Level →';
+    levelLink.href = `?mode=level-viewer&level=${levelSlug}`;
+    levelLink.style.cssText = `
+      color: #88aaff; font-size: 12px; text-decoration: none;
+      font-family: monospace;
+    `;
+    levelLink.addEventListener('mouseenter', () => { levelLink.style.color = '#bbddff'; });
+    levelLink.addEventListener('mouseleave', () => { levelLink.style.color = '#88aaff'; });
+    ui.appendChild(levelLink);
+  }
+
   // Group navigation (only shown when groups exist)
   const groupNav = document.createElement('div');
   groupNav.style.cssText = 'display: flex; align-items: center; gap: 8px;';

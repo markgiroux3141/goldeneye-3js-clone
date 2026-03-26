@@ -307,7 +307,7 @@ async function buildSingleObjectGlb(parsed, matMap, isSecondary, modelScale, png
     }
   }
 
-  if (allPositions.length === 0) return false;
+  if (allPositions.length === 0) return { wrote: false, centroid: null };
 
   // Compute centroid
   let cx = 0, cy = 0, cz = 0;
@@ -317,6 +317,8 @@ async function buildSingleObjectGlb(parsed, matMap, isSecondary, modelScale, png
   cx /= allPositions.length;
   cy /= allPositions.length;
   cz /= allPositions.length;
+
+  const centroid = [cx * modelScale, cy * modelScale, cz * modelScale];
 
   const mesh = doc.createMesh('mesh');
   let totalVerts = 0;
@@ -458,7 +460,7 @@ async function buildSingleObjectGlb(parsed, matMap, isSecondary, modelScale, png
     mesh.addPrimitive(prim);
   }
 
-  if (totalVerts === 0) return false;
+  if (totalVerts === 0) return { wrote: false, centroid: null };
 
   rootNode.setMesh(mesh);
 
@@ -467,7 +469,217 @@ async function buildSingleObjectGlb(parsed, matMap, isSecondary, modelScale, png
   const glb = await io.writeBinary(doc);
   fs.writeFileSync(outputPath, Buffer.from(glb));
 
-  return true;
+  return { wrote: true, centroid };
+}
+
+// ─── Centroid-only computation (for --placements-only) ────────────────────────
+
+function computeCentroidOnly(parsed, matMap, modelScale) {
+  const allPositions = [];
+  for (const [matName, faces] of matMap) {
+    for (const face of faces) {
+      for (const v of face.verts) {
+        if (v.pos >= 0 && v.pos < parsed.positions.length) {
+          allPositions.push(parsed.positions[v.pos]);
+        }
+      }
+    }
+  }
+  if (allPositions.length === 0) return null;
+
+  let cx = 0, cy = 0, cz = 0;
+  for (const p of allPositions) {
+    cx += p[0]; cy += p[1]; cz += p[2];
+  }
+  cx /= allPositions.length;
+  cy /= allPositions.length;
+  cz /= allPositions.length;
+
+  return [cx * modelScale, cy * modelScale, cz * modelScale];
+}
+
+// ─── 3x3 SVD via Jacobi (ported from src/editor/ObjectReplaceSystem.ts) ──────
+
+function mat3Multiply(a, b) {
+  return [
+    a[0]*b[0]+a[1]*b[3]+a[2]*b[6], a[0]*b[1]+a[1]*b[4]+a[2]*b[7], a[0]*b[2]+a[1]*b[5]+a[2]*b[8],
+    a[3]*b[0]+a[4]*b[3]+a[5]*b[6], a[3]*b[1]+a[4]*b[4]+a[5]*b[7], a[3]*b[2]+a[4]*b[5]+a[5]*b[8],
+    a[6]*b[0]+a[7]*b[3]+a[8]*b[6], a[6]*b[1]+a[7]*b[4]+a[8]*b[7], a[6]*b[2]+a[7]*b[5]+a[8]*b[8],
+  ];
+}
+
+function mat3Transpose(m) {
+  return [m[0], m[3], m[6], m[1], m[4], m[7], m[2], m[5], m[8]];
+}
+
+function mat3Det(m) {
+  return m[0]*(m[4]*m[8]-m[5]*m[7]) - m[1]*(m[3]*m[8]-m[5]*m[6]) + m[2]*(m[3]*m[7]-m[4]*m[6]);
+}
+
+function mat3Identity() {
+  return [1,0,0, 0,1,0, 0,0,1];
+}
+
+function jacobiRotate(s, v, p, q) {
+  const pi = p * 3, qi = q * 3;
+  if (Math.abs(s[pi + q]) < 1e-12) return;
+  const tau = (s[qi + q] - s[pi + p]) / (2 * s[pi + q]);
+  const t = Math.sign(tau) / (Math.abs(tau) + Math.sqrt(1 + tau * tau));
+  const c = 1 / Math.sqrt(1 + t * t);
+  const sn = t * c;
+
+  const sCopy = [...s];
+  for (let i = 0; i < 3; i++) {
+    s[i * 3 + p] = c * sCopy[i * 3 + p] - sn * sCopy[i * 3 + q];
+    s[i * 3 + q] = sn * sCopy[i * 3 + p] + c * sCopy[i * 3 + q];
+  }
+  const sCopy2 = [...s];
+  for (let j = 0; j < 3; j++) {
+    s[p * 3 + j] = c * sCopy2[p * 3 + j] - sn * sCopy2[q * 3 + j];
+    s[q * 3 + j] = sn * sCopy2[p * 3 + j] + c * sCopy2[q * 3 + j];
+  }
+
+  const vCopy = [...v];
+  for (let i = 0; i < 3; i++) {
+    v[i * 3 + p] = c * vCopy[i * 3 + p] - sn * vCopy[i * 3 + q];
+    v[i * 3 + q] = sn * vCopy[i * 3 + p] + c * vCopy[i * 3 + q];
+  }
+}
+
+function svd3x3(H) {
+  const HtH = mat3Multiply(mat3Transpose(H), H);
+  const s = [...HtH];
+  const V = mat3Identity();
+  for (let iter = 0; iter < 30; iter++) {
+    jacobiRotate(s, V, 0, 1);
+    jacobiRotate(s, V, 0, 2);
+    jacobiRotate(s, V, 1, 2);
+  }
+  const sig = [Math.sqrt(Math.max(0, s[0])), Math.sqrt(Math.max(0, s[4])), Math.sqrt(Math.max(0, s[8]))];
+  const HV = mat3Multiply(H, V);
+  const U = [...HV];
+  for (let col = 0; col < 3; col++) {
+    const sv = sig[col] > 1e-10 ? sig[col] : 1;
+    U[0 * 3 + col] = HV[0 * 3 + col] / sv;
+    U[1 * 3 + col] = HV[1 * 3 + col] / sv;
+    U[2 * 3 + col] = HV[2 * 3 + col] / sv;
+  }
+  return { U, V };
+}
+
+function computeOptimalRotation(H) {
+  const { U, V } = svd3x3(H);
+  let R = mat3Multiply(V, mat3Transpose(U));
+  if (mat3Det(R) < 0) {
+    const Vfix = [...V];
+    Vfix[0 * 3 + 2] *= -1;
+    Vfix[1 * 3 + 2] *= -1;
+    Vfix[2 * 3 + 2] *= -1;
+    R = mat3Multiply(Vfix, mat3Transpose(U));
+  }
+  return R;
+}
+
+// ─── Vertex Collection + Rotation Computation ─────────────────────────────────
+
+/**
+ * Collect all triangle vertex positions and flat normals from a matMap in
+ * deterministic order (same iteration order as computeFingerprint/buildSingleObjectGlb).
+ */
+function collectVerticesAndNormals(parsed, matMap) {
+  const positions = [];
+  const normals = [];
+
+  for (const [matName, faces] of matMap) {
+    for (const face of faces) {
+      for (let i = 1; i < face.verts.length - 1; i++) {
+        const tri = [face.verts[0], face.verts[i], face.verts[i + 1]];
+        const triPos = tri.map(v =>
+          v.pos >= 0 && v.pos < parsed.positions.length
+            ? parsed.positions[v.pos]
+            : [0, 0, 0]
+        );
+        const normal = computeFlatNormal(triPos[0], triPos[1], triPos[2]);
+
+        for (let j = 0; j < 3; j++) {
+          positions.push(triPos[j]);
+          normals.push(normal);
+        }
+      }
+    }
+  }
+
+  return { positions, normals };
+}
+
+/**
+ * Compute the Y-axis rotation (in degrees) that best aligns the prototype's
+ * centered vertices to the instance's centered vertices using SVD.
+ * protoVerts/instVerts: arrays of [x,y,z], same length and order.
+ * protoNormals/instNormals: flat normals per vertex.
+ */
+function computeAlignmentRotation(protoVerts, protoNormals, instVerts, instNormals) {
+  const n = protoVerts.length;
+  if (n === 0 || instVerts.length !== n) return 0;
+
+  // Compute centroids
+  let pcx = 0, pcy = 0, pcz = 0;
+  let icx = 0, icy = 0, icz = 0;
+  for (let i = 0; i < n; i++) {
+    pcx += protoVerts[i][0]; pcy += protoVerts[i][1]; pcz += protoVerts[i][2];
+    icx += instVerts[i][0]; icy += instVerts[i][1]; icz += instVerts[i][2];
+  }
+  pcx /= n; pcy /= n; pcz /= n;
+  icx /= n; icy /= n; icz /= n;
+
+  // Compute RMS of centered positions
+  let rmsP = 0, rmsI = 0;
+  for (let i = 0; i < n; i++) {
+    const px = protoVerts[i][0] - pcx, py = protoVerts[i][1] - pcy, pz = protoVerts[i][2] - pcz;
+    rmsP += px * px + py * py + pz * pz;
+    const ix = instVerts[i][0] - icx, iy = instVerts[i][1] - icy, iz = instVerts[i][2] - icz;
+    rmsI += ix * ix + iy * iy + iz * iz;
+  }
+  rmsP = Math.sqrt(rmsP / n);
+  rmsI = Math.sqrt(rmsI / n);
+
+  const invP = rmsP > 1e-10 ? 1 / rmsP : 1;
+  const invI = rmsI > 1e-10 ? 1 / rmsI : 1;
+  const normalWeight = rmsP > 1e-10 ? 0.1 * rmsP : 0.1;
+  const nw = normalWeight * invP;
+
+  // Build cross-covariance H
+  const H = [0,0,0, 0,0,0, 0,0,0];
+  for (let i = 0; i < n; i++) {
+    // Normalized centered positions
+    const px = (protoVerts[i][0] - pcx) * invP;
+    const py = (protoVerts[i][1] - pcy) * invP;
+    const pz = (protoVerts[i][2] - pcz) * invP;
+    const qx = (instVerts[i][0] - icx) * invI;
+    const qy = (instVerts[i][1] - icy) * invI;
+    const qz = (instVerts[i][2] - icz) * invI;
+
+    H[0] += px * qx; H[1] += px * qy; H[2] += px * qz;
+    H[3] += py * qx; H[4] += py * qy; H[5] += py * qz;
+    H[6] += pz * qx; H[7] += pz * qy; H[8] += pz * qz;
+
+    // Normal contribution (weighted)
+    const pnx = protoNormals[i][0] * nw;
+    const pny = protoNormals[i][1] * nw;
+    const pnz = protoNormals[i][2] * nw;
+    const qnx = instNormals[i][0] * nw;
+    const qny = instNormals[i][1] * nw;
+    const qnz = instNormals[i][2] * nw;
+
+    H[0] += pnx * qnx; H[1] += pnx * qny; H[2] += pnx * qnz;
+    H[3] += pny * qnx; H[4] += pny * qny; H[5] += pny * qnz;
+    H[6] += pnz * qnx; H[7] += pnz * qny; H[8] += pnz * qnz;
+  }
+
+  const R = computeOptimalRotation(H);
+  // Extract Y-axis rotation: atan2(R[0][2], R[0][0]) = atan2(R[2], R[0])
+  const rotRad = Math.atan2(R[2], R[0]);
+  return parseFloat((rotRad * 180 / Math.PI).toFixed(2));
 }
 
 // ─── Rotation-Invariant Fingerprinting ────────────────────────────────────────
@@ -534,7 +746,7 @@ function objectsSlug(dirName) {
   return dirName.replace(/\s*objects?\s*/i, '').toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
 }
 
-async function splitSingle(inputDir, outputDir, dedup = false) {
+async function splitSingle(inputDir, outputDir, dedup = false, placementsOnly = false) {
   const dirName = path.basename(inputDir);
   const slug = objectsSlug(dirName);
   const modelScale = MODEL_SCALES[slug];
@@ -544,9 +756,110 @@ async function splitSingle(inputDir, outputDir, dedup = false) {
   }
   const scale = modelScale || 1.0;
 
-  console.log(`Splitting: ${dirName} (scale: ${scale}${dedup ? ', dedup ON' : ''})`);
+  if (placementsOnly) {
+    console.log(`Placements only: ${dirName} (scale: ${scale})`);
+  } else {
+    console.log(`Splitting: ${dirName} (scale: ${scale}${dedup ? ', dedup ON' : ''})`);
+  }
 
   const parsed = parseObjectsObj(inputDir);
+  const placements = {}; // filename → [x, y, z] centroid in scaled world space
+
+  if (placementsOnly) {
+    // Compute centroids and match deduplicated objects to surviving GLBs via fingerprinting.
+    // Output format: { "primary_005.glb": [[x,y,z], [x,y,z], ...], ... }
+    // Each key is a GLB that exists in the manifest; each value is all instance positions.
+    fs.mkdirSync(outputDir, { recursive: true });
+    const pad = String(parsed.objects.length).length;
+
+    // Read existing manifest to know which GLBs survived dedup
+    let existingManifest = [];
+    const manifestPath = path.join(outputDir, 'manifest.json');
+    if (fs.existsSync(manifestPath)) {
+      existingManifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
+    }
+    const existingSet = new Set(existingManifest);
+
+    // Read existing renames to resolve current filenames back to original IDs
+    let existingRenames = {};
+    const renamesPath = path.join(outputDir, 'renames.json');
+    if (fs.existsSync(renamesPath)) {
+      existingRenames = JSON.parse(fs.readFileSync(renamesPath, 'utf-8'));
+    }
+    // Build reverse map: original_name → current_name
+    const originalToCurrentName = {};
+    for (const [currentName, origName] of Object.entries(existingRenames)) {
+      originalToCurrentName[origName] = currentName;
+    }
+
+    // First pass: compute fingerprint for each OBJ object and build fingerprint → GLB filename map
+    // Also store the prototype's vertices+normals for rotation computation
+    const fingerprintToGlb = { primary: new Map(), secondary: new Map() };
+    // fingerprint → { positions: [x,y,z][], normals: [x,y,z][] } (prototype's raw vertices)
+    const protoVertices = { primary: new Map(), secondary: new Map() };
+
+    for (let i = 0; i < parsed.objects.length; i++) {
+      const obj = parsed.objects[i];
+      const idx = String(i).padStart(pad, '0');
+
+      if (obj.primary.size > 0) {
+        const origName = `primary_${idx}.glb`;
+        const currentName = originalToCurrentName[origName] || origName;
+        if (existingSet.has(currentName)) {
+          const fp = computeFingerprint(parsed, obj.primary);
+          if (!fingerprintToGlb.primary.has(fp)) {
+            fingerprintToGlb.primary.set(fp, origName);
+            protoVertices.primary.set(fp, collectVerticesAndNormals(parsed, obj.primary));
+          }
+        }
+      }
+      if (obj.secondary.size > 0) {
+        const origName = `secondary_${idx}.glb`;
+        const currentName = originalToCurrentName[origName] || origName;
+        if (existingSet.has(currentName)) {
+          const fp = computeFingerprint(parsed, obj.secondary);
+          if (!fingerprintToGlb.secondary.has(fp)) {
+            fingerprintToGlb.secondary.set(fp, origName);
+            protoVertices.secondary.set(fp, collectVerticesAndNormals(parsed, obj.secondary));
+          }
+        }
+      }
+    }
+
+    // Second pass: for every OBJ object, compute centroid + fingerprint + rotation, map to surviving GLB
+    // Output format: [x, y, z, rotDeg] per placement
+    let totalPlacements = 0;
+
+    function processObject(matMap, type) {
+      const centroid = computeCentroidOnly(parsed, matMap, scale);
+      if (!centroid) return;
+      const fp = computeFingerprint(parsed, matMap);
+      const fpMap = type === 'primary' ? fingerprintToGlb.primary : fingerprintToGlb.secondary;
+      const glbOrigName = fpMap.get(fp);
+      if (!glbOrigName) return;
+
+      // Compute rotation relative to prototype
+      const protoMap = type === 'primary' ? protoVertices.primary : protoVertices.secondary;
+      const proto = protoMap.get(fp);
+      const inst = collectVerticesAndNormals(parsed, matMap);
+      const rotDeg = computeAlignmentRotation(proto.positions, proto.normals, inst.positions, inst.normals);
+
+      if (!placements[glbOrigName]) placements[glbOrigName] = [];
+      placements[glbOrigName].push([centroid[0], centroid[1], centroid[2], rotDeg]);
+      totalPlacements++;
+    }
+
+    for (let i = 0; i < parsed.objects.length; i++) {
+      const obj = parsed.objects[i];
+      if (obj.primary.size > 0) processObject(obj.primary, 'primary');
+      if (obj.secondary.size > 0) processObject(obj.secondary, 'secondary');
+    }
+
+    fs.writeFileSync(path.join(outputDir, 'placements.json'), JSON.stringify(placements, null, 2));
+    console.log(`  ${parsed.objects.length} objects → ${Object.keys(placements).length} unique GLBs, ${totalPlacements} total placements`);
+    return;
+  }
+
   const pngCache = new PngCache();
 
   // Clean output directory (remove old GLBs and manifest)
@@ -587,8 +900,12 @@ async function splitSingle(inputDir, outputDir, dedup = false) {
       }
       if (!dominated) {
         const outPath = path.join(outputDir, `primary_${idx}.glb`);
-        const wrote = await buildSingleObjectGlb(parsed, obj.primary, false, scale, pngCache, outPath);
-        if (wrote) { primaryCount++; obj_primary_written.add(i); }
+        const result = await buildSingleObjectGlb(parsed, obj.primary, false, scale, pngCache, outPath);
+        if (result.wrote) {
+          primaryCount++;
+          obj_primary_written.add(i);
+          if (result.centroid) placements[`primary_${idx}.glb`] = [result.centroid];
+        }
       }
     }
 
@@ -606,8 +923,12 @@ async function splitSingle(inputDir, outputDir, dedup = false) {
       }
       if (!dominated) {
         const outPath = path.join(outputDir, `secondary_${idx}.glb`);
-        const wrote = await buildSingleObjectGlb(parsed, obj.secondary, true, scale, pngCache, outPath);
-        if (wrote) { secondaryCount++; obj_secondary_written.add(i); }
+        const result = await buildSingleObjectGlb(parsed, obj.secondary, true, scale, pngCache, outPath);
+        if (result.wrote) {
+          secondaryCount++;
+          obj_secondary_written.add(i);
+          if (result.centroid) placements[`secondary_${idx}.glb`] = [result.centroid];
+        }
       }
     }
   }
@@ -621,16 +942,19 @@ async function splitSingle(inputDir, outputDir, dedup = false) {
   }
   fs.writeFileSync(path.join(outputDir, 'manifest.json'), JSON.stringify(manifest, null, 2));
 
+  // Write placements.json with centroid positions
+  fs.writeFileSync(path.join(outputDir, 'placements.json'), JSON.stringify(placements, null, 2));
+
   const totalUnique = primaryCount + secondaryCount;
   const totalSkipped = primarySkipped + secondarySkipped;
   if (dedup) {
-    console.log(`  ${parsed.objects.length} objects → ${primaryCount} primary + ${secondaryCount} secondary unique GLBs (${totalSkipped} duplicates removed)`);
+    console.log(`  ${parsed.objects.length} objects → ${primaryCount} primary + ${secondaryCount} secondary unique GLBs (${totalSkipped} duplicates removed), ${Object.keys(placements).length} placements`);
   } else {
-    console.log(`  ${parsed.objects.length} objects → ${primaryCount} primary + ${secondaryCount} secondary GLBs`);
+    console.log(`  ${parsed.objects.length} objects → ${primaryCount} primary + ${secondaryCount} secondary GLBs, ${Object.keys(placements).length} placements`);
   }
 }
 
-async function splitBatch(levelsDir, outputDir, dedup = false) {
+async function splitBatch(levelsDir, outputDir, dedup = false, placementsOnly = false) {
   const dirs = fs.readdirSync(levelsDir, { withFileTypes: true })
     .filter(d => d.isDirectory())
     .filter(d => {
@@ -640,31 +964,32 @@ async function splitBatch(levelsDir, outputDir, dedup = false) {
     .map(d => d.name)
     .sort();
 
-  console.log(`Found ${dirs.length} level object folders${dedup ? ' (dedup ON)' : ''}\n`);
+  console.log(`Found ${dirs.length} level object folders${placementsOnly ? ' (placements only)' : dedup ? ' (dedup ON)' : ''}\n`);
 
   for (const dir of dirs) {
     const slug = objectsSlug(dir);
     const inputDir = path.join(levelsDir, dir);
     const outDir = path.join(outputDir, slug);
-    await splitSingle(inputDir, outDir, dedup);
+    await splitSingle(inputDir, outDir, dedup, placementsOnly);
   }
 
-  console.log(`\nAll done! Split ${dirs.length} levels.`);
+  console.log(`\nAll done! Processed ${dirs.length} levels.`);
 }
 
 async function main() {
   const args = process.argv.slice(2);
   const dedup = args.includes('--dedup');
-  const filteredArgs = args.filter(a => a !== '--dedup');
+  const placementsOnly = args.includes('--placements-only');
+  const filteredArgs = args.filter(a => a !== '--dedup' && a !== '--placements-only');
 
   if (filteredArgs[0] === '--batch' && filteredArgs.length === 3) {
-    await splitBatch(filteredArgs[1], filteredArgs[2], dedup);
+    await splitBatch(filteredArgs[1], filteredArgs[2], dedup, placementsOnly);
   } else if (filteredArgs.length === 2) {
-    await splitSingle(filteredArgs[0], filteredArgs[1], dedup);
+    await splitSingle(filteredArgs[0], filteredArgs[1], dedup, placementsOnly);
   } else {
     console.log('Usage:');
-    console.log('  node tools/split-level-objects.cjs [--dedup] <input-dir> <output-dir>');
-    console.log('  node tools/split-level-objects.cjs [--dedup] --batch <level-objects-dir> <output-dir>');
+    console.log('  node tools/split-level-objects.cjs [--dedup] [--placements-only] <input-dir> <output-dir>');
+    console.log('  node tools/split-level-objects.cjs [--dedup] [--placements-only] --batch <level-objects-dir> <output-dir>');
     process.exit(1);
   }
 }

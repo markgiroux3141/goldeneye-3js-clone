@@ -1,0 +1,444 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
+      "position": [
+        -13.7271,
+        15.0387,
+        -24.9105
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
+      "position": [
+        -39.1613,
+        -5.1167,
+        1.7714
+      ],
+      "rotation": [
+        0,
+        0.38,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
+      "position": [
+        39.3487,
+        -5.1167,
+        -1.7798
+      ],
+      "rotation": [
+        0,
+        0.38,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
+      "position": [
+        -6.9366,
+        5.2017,
+        65.7072
+      ],
+      "rotation": [
+        0,
+        119.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
+      "position": [
+        60.207,
+        5.223,
+        -27.264
+      ],
+      "rotation": [
+        0,
+        -119.62,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "trevelyn_01",
+      "type": "trevelyn",
+      "meshes": [
+        "cradle_trevelyn.glb"
+      ],
+      "position": [
+        -56.9858,
+        4.6585,
+        -44.2048
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
+      "position": [
+        -80.3679,
+        2.0146,
+        -91.3198
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_02",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
+      "position": [
+        -39.7146,
+        2.0146,
+        114.9744
+      ],
+      "rotation": [
+        0,
+        119.6,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_03",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
+      "position": [
+        119.267,
+        2.0146,
+        -23.9427
+      ],
+      "rotation": [
+        0,
+        -120,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_04",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
+      "position": [
+        -15.3053,
+        0.287,
+        2.6257
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_01",
+      "type": "drone_gun",
+      "meshes": [
+        "cradle_drone_gun_primary.glb",
+        "cradle_drone_gun_secondary.glb"
+      ],
+      "position": [
+        16.7079,
+        3.894,
+        3.8785
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "drone_gun_02",
+      "type": "drone_gun",
+      "meshes": [
+        "cradle_drone_gun_primary.glb",
+        "cradle_drone_gun_secondary.glb"
+      ],
+      "position": [
+        22.0827,
+        3.894,
+        -3.7997
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "helicopter_01",
+      "type": "helicopter",
+      "meshes": [
+        "cradle_helicopter_primary.glb",
+        "cradle_helicopter_secondary.glb"
+      ],
+      "position": [
+        8.5814,
+        -28.0704,
+        4.3011
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "console_01",
+      "type": "console",
+      "meshes": [
+        "cradle_console.glb"
+      ],
+      "position": [
+        13.2926,
+        1.172,
+        -3.4709
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_01",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "cradle_brown_sliding_door.glb"
+      ],
+      "position": [
+        9.5978,
+        1.7516,
+        3.9159
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_02",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "cradle_brown_sliding_door.glb"
+      ],
+      "position": [
+        -9.5978,
+        1.7516,
+        -3.9159
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_1_01",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "cradle_brown_sliding_door_1.glb"
+      ],
+      "position": [
+        23.1547,
+        1.7516,
+        -0.0384
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_1_02",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "cradle_brown_sliding_door_1.glb"
+      ],
+      "position": [
+        -23.1547,
+        1.7516,
+        0.0384
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_2_01",
+      "type": "brown_sliding_door_2",
+      "meshes": [
+        "cradle_brown_sliding_door_2.glb"
+      ],
+      "position": [
+        -2.9753,
+        -11.3494,
+        -2.2555
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,4456 @@
+{
+  "objects": [
+    {
+      "id": "guard_01",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
+      "position": [
+        203.0621,
+        -1.1817,
+        115.4647
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_02",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
+      "position": [
+        203.3972,
+        -1.1817,
+        116.8177
+      ],
+      "rotation": [
+        0,
+        3.43,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_03",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
+      "position": [
+        191.0721,
+        -0.2135,
+        93.1791
+      ],
+      "rotation": [
+        0,
+        113.43,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_04",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
+      "position": [
+        155.5457,
+        -0.2135,
+        197.3891
+      ],
+      "rotation": [
+        0,
+        93.43,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_05",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
+      "position": [
+        150.8499,
+        -0.2135,
+        203.5856
+      ],
+      "rotation": [
+        0,
+        93.43,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_06",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
+      "position": [
+        183.4727,
+        -0.2135,
+        229.757
+      ],
+      "rotation": [
+        0,
+        -146.57,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_01",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        197.5161,
+        -0.2135,
+        100.7443
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_02",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        213.6549,
+        -0.2135,
+        199.7837
+      ],
+      "rotation": [
+        0,
+        -35,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_03",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        188.6507,
+        4.6275,
+        142.5223
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_04",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        199.3183,
+        4.6275,
+        64.6177
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_05",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        67.4373,
+        3.8045,
+        -36.2005
+      ],
+      "rotation": [
+        0,
+        75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_06",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        -68.0649,
+        3.8045,
+        -36.4846
+      ],
+      "rotation": [
+        0,
+        -75,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_07",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        1.8426,
+        3.8045,
+        -50.6402
+      ],
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_1_08",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
+      "position": [
+        194.7586,
+        2.0133,
+        221.2055
+      ],
+      "rotation": [
+        0,
+        -126.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_01",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        153.8227,
+        -6.1547,
+        23.8735
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_02",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        161.2392,
+        -6.1547,
+        22.1868
+      ],
+      "rotation": [
+        0,
+        -16.21,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_03",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        176.7699,
+        -0.1035,
+        26.2937
+      ],
+      "rotation": [
+        0,
+        58.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_04",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        127.8883,
+        -6.217,
+        7.9201
+      ],
+      "rotation": [
+        0,
+        -98.66,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_05",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        125.4235,
+        -6.2273,
+        4.4283
+      ],
+      "rotation": [
+        0,
+        -89.66,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_06",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        89.9435,
+        -6.2338,
+        -16.3511
+      ],
+      "rotation": [
+        0,
+        -74.67,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_07",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        85.3413,
+        -6.1547,
+        -20.6432
+      ],
+      "rotation": [
+        0,
+        -35.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_08",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        79.9788,
+        -6.1547,
+        -18.0848
+      ],
+      "rotation": [
+        0,
+        144.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_09",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        65.7837,
+        -6.1547,
+        -29.4054
+      ],
+      "rotation": [
+        0,
+        -35.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_10",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        58.388,
+        -6.1547,
+        -27.5732
+      ],
+      "rotation": [
+        0,
+        144.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_11",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        46.7212,
+        -6.1547,
+        -32.0269
+      ],
+      "rotation": [
+        0,
+        144.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_12",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        52.0352,
+        -6.1547,
+        -34.5853
+      ],
+      "rotation": [
+        0,
+        -35.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_13",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        19.3263,
+        -6.1547,
+        -37.7792
+      ],
+      "rotation": [
+        0,
+        156.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_14",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        24.0006,
+        -6.1547,
+        -41.3711
+      ],
+      "rotation": [
+        0,
+        -23.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_2_15",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
+      "position": [
+        2.5984,
+        -6.1547,
+        -43.6519
+      ],
+      "rotation": [
+        0,
+        -14.19,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_3_01",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
+      "position": [
+        160.6608,
+        -6.1547,
+        15.3483
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_3_02",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
+      "position": [
+        177.8671,
+        -0.1035,
+        57.4849
+      ],
+      "rotation": [
+        0,
+        42,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_3_03",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
+      "position": [
+        95.4174,
+        -6.2284,
+        -12.6416
+      ],
+      "rotation": [
+        0,
+        67.53,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_3_04",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
+      "position": [
+        111.0505,
+        -6.1547,
+        -7.6107
+      ],
+      "rotation": [
+        0,
+        -91.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_3_05",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
+      "position": [
+        105.2937,
+        -6.1547,
+        -6.3314
+      ],
+      "rotation": [
+        0,
+        88.02,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_3_06",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
+      "position": [
+        163.5762,
+        -6.1547,
+        17.4222
+      ],
+      "rotation": [
+        0,
+        -98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "guard_4_01",
+      "type": "guard_4",
+      "meshes": [
+        "dam_guard_4.glb"
+      ],
+      "position": [
+        167.1837,
+        -0.1032,
+        21.5017
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_01",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        11.4047,
+        -6.6085,
+        -52.5798
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_02",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        13.8252,
+        -6.6085,
+        -52.5798
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_03",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        11.4047,
+        -6.6085,
+        -50.1593
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_04",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        13.8252,
+        -6.6085,
+        -50.1593
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_05",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        16.2941,
+        -6.6085,
+        -52.5798
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_06",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        18.7146,
+        -6.6085,
+        -52.5798
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_07",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        16.2941,
+        -6.6085,
+        -50.1593
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_08",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        18.7146,
+        -6.6085,
+        -50.1593
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_09",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        8.1612,
+        -6.6085,
+        -76.3007
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_10",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        8.6938,
+        -6.6085,
+        -61.342
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_11",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        8.6938,
+        -6.6085,
+        -63.7625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_12",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        15.568,
+        -6.6085,
+        -71.4597
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_13",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        15.568,
+        -6.6085,
+        -69.0392
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_14",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        -95.0005,
+        -6.6085,
+        -38.0568
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_15",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        -95.1457,
+        -6.6085,
+        -27.7455
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_16",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        163.1099,
+        -0.6704,
+        20.4269
+      ],
+      "rotation": [
+        0,
+        -33,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_17",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        161.2737,
+        -0.6006,
+        21.3424
+      ],
+      "rotation": [
+        0,
+        117,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_18",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        159.8719,
+        -0.6477,
+        20.3908
+      ],
+      "rotation": [
+        0,
+        177,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_19",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        163.3169,
+        0.5544,
+        20.433
+      ],
+      "rotation": [
+        0,
+        -65.11,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_20",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        159.93,
+        0.581,
+        20.3828
+      ],
+      "rotation": [
+        0,
+        147,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_21",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        161.1106,
+        0.6228,
+        21.0749
+      ],
+      "rotation": [
+        0,
+        -123,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_22",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        201.6375,
+        -0.5573,
+        110.5132
+      ],
+      "rotation": [
+        0,
+        -168,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_23",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        201.6077,
+        -0.5573,
+        112.4793
+      ],
+      "rotation": [
+        0,
+        132,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_24",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        199.5688,
+        -0.5573,
+        106.1346
+      ],
+      "rotation": [
+        0,
+        -138,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_25",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        200.3461,
+        -0.5573,
+        107.5471
+      ],
+      "rotation": [
+        0,
+        42,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_26",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        201.4055,
+        -0.5573,
+        108.4155
+      ],
+      "rotation": [
+        0,
+        -48,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_27",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        197.711,
+        -0.5573,
+        107.2884
+      ],
+      "rotation": [
+        0,
+        99.89,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_28",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        201.3559,
+        0.6749,
+        108.4571
+      ],
+      "rotation": [
+        0,
+        -18,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_29",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        199.394,
+        0.6749,
+        106.0565
+      ],
+      "rotation": [
+        0,
+        -78,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_30",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        197.9286,
+        0.6749,
+        107.3962
+      ],
+      "rotation": [
+        0,
+        132,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_31",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        184.8395,
+        -0.5573,
+        122.3583
+      ],
+      "rotation": [
+        0,
+        -93,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_32",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        184.8842,
+        0.6749,
+        121.9164
+      ],
+      "rotation": [
+        0,
+        27,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_33",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        184.4841,
+        0.6749,
+        120.1336
+      ],
+      "rotation": [
+        0,
+        -153,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_34",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        183.6413,
+        -0.5573,
+        124.4723
+      ],
+      "rotation": [
+        0,
+        177,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_35",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        184.3168,
+        -0.5573,
+        119.7115
+      ],
+      "rotation": [
+        0,
+        117,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_36",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        185.1134,
+        -0.5573,
+        120.8114
+      ],
+      "rotation": [
+        0,
+        -153,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_37",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        176.8735,
+        -0.5573,
+        138.2611
+      ],
+      "rotation": [
+        0,
+        147,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_38",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
+      "position": [
+        90.8706,
+        -6.7891,
+        -15.9314
+      ],
+      "rotation": [
+        0,
+        -112.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_01",
+      "type": "metal_crate",
+      "meshes": [
+        "dam_metal_crate.glb"
+      ],
+      "position": [
+        -95.8518,
+        -6.4115,
+        -47.0066
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_02",
+      "type": "metal_crate",
+      "meshes": [
+        "dam_metal_crate.glb"
+      ],
+      "position": [
+        -101.5158,
+        -6.4115,
+        -37.6151
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_01",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
+      "position": [
+        164.2736,
+        -5.9832,
+        20.2699
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_02",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
+      "position": [
+        162.1621,
+        -5.9832,
+        23.109
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_03",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
+      "position": [
+        161.3206,
+        -5.9832,
+        24.1427
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "tv_04",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
+      "position": [
+        159.6263,
+        -5.9832,
+        26.4664
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_01",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
+      "position": [
+        163.9425,
+        -6.1832,
+        20.1585
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_02",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
+      "position": [
+        161.9843,
+        -6.1832,
+        22.7854
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_03",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
+      "position": [
+        160.9895,
+        -6.1832,
+        24.0798
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "keyboard_04",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
+      "position": [
+        159.2467,
+        -6.1832,
+        26.355
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_top_01",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
+      "position": [
+        164.0131,
+        -6.2051,
+        20.3806
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_top_02",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
+      "position": [
+        162.464,
+        -6.2051,
+        22.4138
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_top_03",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
+      "position": [
+        160.9149,
+        -6.2051,
+        24.4955
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_table_top_04",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
+      "position": [
+        159.3657,
+        -6.2051,
+        26.5771
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_01",
+      "type": "mainframe",
+      "meshes": [
+        "dam_mainframe.glb"
+      ],
+      "position": [
+        159.22,
+        -6.1112,
+        17.6946
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "mainframe_02",
+      "type": "mainframe",
+      "meshes": [
+        "dam_mainframe.glb"
+      ],
+      "position": [
+        160.1398,
+        -6.1112,
+        16.4843
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_01",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
+      "position": [
+        162.9943,
+        -6.9195,
+        19.3259
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_02",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
+      "position": [
+        161.4215,
+        -6.9195,
+        21.4362
+      ],
+      "rotation": [
+        0,
+        -28.94,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_03",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
+      "position": [
+        159.8041,
+        -6.9195,
+        23.6286
+      ],
+      "rotation": [
+        0,
+        -6.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blue_chair_04",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
+      "position": [
+        157.7056,
+        -6.9195,
+        26.4902
+      ],
+      "rotation": [
+        0,
+        46.06,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "sniper_rifle_01",
+      "type": "sniper_rifle",
+      "meshes": [
+        "dam_sniper_rifle.glb"
+      ],
+      "position": [
+        192.9882,
+        3.8344,
+        221.4405
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "dam_body_armor.glb"
+      ],
+      "position": [
+        189.9211,
+        3.7258,
+        141.6465
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_1_01",
+      "type": "body_armor_1",
+      "meshes": [
+        "dam_body_armor_1.glb"
+      ],
+      "position": [
+        -63.983,
+        2.8979,
+        -38.167
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "green_truck_01",
+      "type": "green_truck",
+      "meshes": [
+        "dam_green_truck_primary.glb",
+        "dam_green_truck_secondary.glb"
+      ],
+      "position": [
+        203.4611,
+        0.383,
+        186.714
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_01",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
+      "position": [
+        211.0675,
+        0.2853,
+        123.9777
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_02",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
+      "position": [
+        210.5348,
+        0.2853,
+        125.3818
+      ],
+      "rotation": [
+        0,
+        59.98,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_03",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
+      "position": [
+        210.0025,
+        0.2853,
+        126.8823
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_04",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
+      "position": [
+        210.7769,
+        3.2758,
+        124.2687
+      ],
+      "rotation": [
+        0,
+        135,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_05",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
+      "position": [
+        209.9543,
+        3.2758,
+        126.4472
+      ],
+      "rotation": [
+        0,
+        -150,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_01",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "dam_metal_crate_stack.glb"
+      ],
+      "position": [
+        202.1693,
+        2.3532,
+        134.3749
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_02",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "dam_metal_crate_stack.glb"
+      ],
+      "position": [
+        176.7043,
+        2.3532,
+        134.0125
+      ],
+      "rotation": [
+        0,
+        -51.08,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_crate_stack_03",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "dam_metal_crate_stack.glb"
+      ],
+      "position": [
+        208.1957,
+        2.3532,
+        120.0546
+      ],
+      "rotation": [
+        0,
+        -178.6,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_01",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
+      "position": [
+        157.8932,
+        -6.1965,
+        27.54
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_02",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
+      "position": [
+        159.6843,
+        -6.1964,
+        25.1921
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_03",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
+      "position": [
+        158.8553,
+        -6.1964,
+        18.1566
+      ],
+      "rotation": [
+        0,
+        -179.99,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_04",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
+      "position": [
+        161.1367,
+        -6.1966,
+        23.2073
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_05",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
+      "position": [
+        162.7825,
+        -6.1963,
+        21.053
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "big_metal_door_01",
+      "type": "big_metal_door",
+      "meshes": [
+        "dam_big_metal_door.glb"
+      ],
+      "position": [
+        193.1317,
+        1.3271,
+        98.6596
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "big_metal_door_1_01",
+      "type": "big_metal_door_1",
+      "meshes": [
+        "dam_big_metal_door_1.glb"
+      ],
+      "position": [
+        192.9622,
+        1.3271,
+        88.4693
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_01",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary.glb",
+        "dam_chainlink_fence_secondary.glb"
+      ],
+      "position": [
+        144.8974,
+        0.7702,
+        19.1625
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_02",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary.glb",
+        "dam_chainlink_fence_secondary.glb"
+      ],
+      "position": [
+        143.0999,
+        0.7702,
+        21.5909
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_03",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_1.glb",
+        "dam_chainlink_fence_secondary_1.glb"
+      ],
+      "position": [
+        61.7258,
+        -6.0997,
+        -34.0466
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_04",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_1.glb",
+        "dam_chainlink_fence_secondary_1.glb"
+      ],
+      "position": [
+        62.8865,
+        -6.0997,
+        -33.6086
+      ],
+      "rotation": [
+        0,
+        179.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_05",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_1.glb",
+        "dam_chainlink_fence_secondary_1.glb"
+      ],
+      "position": [
+        -61.7258,
+        -6.0997,
+        -34.0466
+      ],
+      "rotation": [
+        0,
+        -140.04,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_06",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_2.glb"
+      ],
+      "position": [
+        -2.7352,
+        -6.0997,
+        -46.1347
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_07",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_2.glb"
+      ],
+      "position": [
+        -1.5249,
+        -6.0997,
+        -46.1347
+      ],
+      "rotation": [
+        0,
+        179.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_08",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_2a.glb",
+        "dam_chainlink_fence_secondary_2.glb"
+      ],
+      "position": [
+        -62.8604,
+        -6.0997,
+        -33.6207
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_segment_door_01",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "dam_wooden_segment_door.glb"
+      ],
+      "position": [
+        176.8088,
+        -0.4034,
+        28.3131
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "big_metal_door_2_01",
+      "type": "big_metal_door_2",
+      "meshes": [
+        "dam_big_metal_door_2.glb"
+      ],
+      "position": [
+        228.2722,
+        1.2743,
+        194.7609
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "chainlink_fence_09",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_3.glb",
+        "dam_chainlink_fence_secondary_3.glb"
+      ],
+      "position": [
+        165.4073,
+        0.7702,
+        26.5341
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "blast_door_01",
+      "type": "blast_door",
+      "meshes": [
+        "dam_blast_door.glb"
+      ],
+      "position": [
+        137.6494,
+        -6.0321,
+        16.1508
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_01",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "dam_wooden_crate_1.glb"
+      ],
+      "position": [
+        125.2202,
+        -6.8187,
+        5.9277
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_1_02",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "dam_wooden_crate_1.glb"
+      ],
+      "position": [
+        97.0507,
+        -6.8621,
+        -12.3541
+      ],
+      "rotation": [
+        0,
+        -53.15,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_01",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "dam_wooden_crate_2.glb"
+      ],
+      "position": [
+        127.1925,
+        -6.7921,
+        6.884
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_2_02",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "dam_wooden_crate_2.glb"
+      ],
+      "position": [
+        -13.7843,
+        -6.9159,
+        -41.4494
+      ],
+      "rotation": [
+        0,
+        -128.33,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_3_01",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "dam_wooden_crate_3.glb"
+      ],
+      "position": [
+        124.1615,
+        -6.8407,
+        3.9409
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_4_01",
+      "type": "wooden_crate_4",
+      "meshes": [
+        "dam_wooden_crate_4.glb"
+      ],
+      "position": [
+        88.4848,
+        -6.8244,
+        -16.6432
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_4_02",
+      "type": "wooden_crate_4",
+      "meshes": [
+        "dam_wooden_crate_4.glb"
+      ],
+      "position": [
+        29.4991,
+        -6.8091,
+        -38.1634
+      ],
+      "rotation": [
+        0,
+        -15.81,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_01",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "dam_wooden_crate_5.glb"
+      ],
+      "position": [
+        90.8439,
+        -5.8001,
+        -15.8772
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_02",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "dam_wooden_crate_5.glb"
+      ],
+      "position": [
+        50.3515,
+        -6.7484,
+        -34.2628
+      ],
+      "rotation": [
+        0,
+        -177.52,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_5_03",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "dam_wooden_crate_5.glb"
+      ],
+      "position": [
+        36.0601,
+        -6.8083,
+        -37.242
+      ],
+      "rotation": [
+        0,
+        18.86,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_6_01",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "dam_wooden_crate_6.glb"
+      ],
+      "position": [
+        94.2708,
+        -6.8407,
+        -13.2702
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_6_02",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "dam_wooden_crate_6.glb"
+      ],
+      "position": [
+        10.6611,
+        -6.807,
+        -41.4669
+      ],
+      "rotation": [
+        0,
+        17.54,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_7_01",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "dam_wooden_crate_7.glb"
+      ],
+      "position": [
+        65.3461,
+        -6.7484,
+        -28.0709
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_7_02",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "dam_wooden_crate_7.glb"
+      ],
+      "position": [
+        65.3909,
+        -5.7802,
+        -28.1526
+      ],
+      "rotation": [
+        0,
+        112,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_7_03",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "dam_wooden_crate_7.glb"
+      ],
+      "position": [
+        29.4991,
+        -5.8147,
+        -38.1625
+      ],
+      "rotation": [
+        0,
+        -163.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_8_01",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "dam_wooden_crate_8.glb"
+      ],
+      "position": [
+        50.424,
+        -5.7802,
+        -34.3683
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_8_02",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "dam_wooden_crate_8.glb"
+      ],
+      "position": [
+        49.5454,
+        -6.7484,
+        -35.5168
+      ],
+      "rotation": [
+        0,
+        84.65,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_8_03",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "dam_wooden_crate_8.glb"
+      ],
+      "position": [
+        10.6611,
+        -5.8126,
+        -41.466
+      ],
+      "rotation": [
+        0,
+        84.56,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_9_01",
+      "type": "wooden_crate_9",
+      "meshes": [
+        "dam_wooden_crate_9.glb"
+      ],
+      "position": [
+        32.5856,
+        -6.7924,
+        -36.4722
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_10_01",
+      "type": "wooden_crate_10",
+      "meshes": [
+        "dam_wooden_crate_10.glb"
+      ],
+      "position": [
+        -12.6837,
+        -6.8936,
+        -41.107
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wooden_crate_11_01",
+      "type": "wooden_crate_11",
+      "meshes": [
+        "dam_wooden_crate_11.glb"
+      ],
+      "position": [
+        -12.564,
+        -5.9511,
+        -41.134
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_1_01",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
+      "position": [
+        2.3722,
+        -6.7531,
+        -42.2134
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_1_02",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
+      "position": [
+        -2.4688,
+        -6.7531,
+        -52.2827
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_1_03",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
+      "position": [
+        -64.4821,
+        -6.7531,
+        -29.0459
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_1_04",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
+      "position": [
+        -63.6348,
+        -6.7531,
+        -28.925
+      ],
+      "rotation": [
+        0,
+        60,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_1_05",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
+      "position": [
+        -60.4156,
+        -6.7531,
+        -30.0141
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_1_06",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
+      "position": [
+        -60.3913,
+        -5.7365,
+        -30.0384
+      ],
+      "rotation": [
+        0,
+        60,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_1_07",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
+      "position": [
+        -65.7407,
+        -5.7365,
+        -38.5342
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_2_01",
+      "type": "explosive_barrel_2",
+      "meshes": [
+        "dam_explosive_barrel_2.glb"
+      ],
+      "position": [
+        1.5735,
+        -6.7531,
+        -42.4556
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_3_01",
+      "type": "explosive_barrel_3",
+      "meshes": [
+        "dam_explosive_barrel_3.glb"
+      ],
+      "position": [
+        -64.482,
+        -5.7365,
+        -29.0702
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_4_01",
+      "type": "explosive_barrel_4",
+      "meshes": [
+        "dam_explosive_barrel_4.glb"
+      ],
+      "position": [
+        -63.6591,
+        -5.7365,
+        -28.9248
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_4_02",
+      "type": "explosive_barrel_4",
+      "meshes": [
+        "dam_explosive_barrel_4.glb"
+      ],
+      "position": [
+        -62.4488,
+        -6.7531,
+        -29.7962
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "explosive_barrel_5_01",
+      "type": "explosive_barrel_5",
+      "meshes": [
+        "dam_explosive_barrel_5.glb"
+      ],
+      "position": [
+        -65.7406,
+        -6.7531,
+        -38.5343
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wall_display_01",
+      "type": "wall_display",
+      "meshes": [
+        "dam_wall_display.glb"
+      ],
+      "position": [
+        165.3645,
+        0.6535,
+        19.8287
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "satelite_dish_01",
+      "type": "satelite_dish",
+      "meshes": [
+        "dam_satelite_dish_primary.glb",
+        "dam_satelite_dish_secondary.glb"
+      ],
+      "position": [
+        165.8284,
+        4.3665,
+        22.7123
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_1_01",
+      "type": "window_glass_1",
+      "meshes": [
+        "dam_window_glass_1.glb"
+      ],
+      "position": [
+        172.0489,
+        0.7504,
+        28.1261
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_1_02",
+      "type": "window_glass_1",
+      "meshes": [
+        "dam_window_glass_1.glb"
+      ],
+      "position": [
+        168.1761,
+        0.7504,
+        25.2215
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_01",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "dam_brown_sliding_door.glb"
+      ],
+      "position": [
+        165.3928,
+        -0.0006,
+        22.8979
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_2_01",
+      "type": "window_glass_2",
+      "meshes": [
+        "dam_window_glass_2.glb"
+      ],
+      "position": [
+        65.5955,
+        0.6293,
+        -34.831
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_2_02",
+      "type": "window_glass_2",
+      "meshes": [
+        "dam_window_glass_2.glb"
+      ],
+      "position": [
+        0.6535,
+        0.6293,
+        -48.6036
+      ],
+      "rotation": [
+        0,
+        20.1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_2_03",
+      "type": "window_glass_2",
+      "meshes": [
+        "dam_window_glass_2.glb"
+      ],
+      "position": [
+        -65.5955,
+        0.6293,
+        -34.831
+      ],
+      "rotation": [
+        0,
+        40.2,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_1_01",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "dam_brown_sliding_door_1.glb"
+      ],
+      "position": [
+        62.7394,
+        0.0236,
+        -35.9202
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_1_02",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "dam_brown_sliding_door_1.glb"
+      ],
+      "position": [
+        -62.7394,
+        0.0236,
+        -35.9202
+      ],
+      "rotation": [
+        0,
+        -139.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "brown_sliding_door_2_01",
+      "type": "brown_sliding_door_2",
+      "meshes": [
+        "dam_brown_sliding_door_2.glb"
+      ],
+      "position": [
+        -2.3963,
+        0.0236,
+        -48.6036
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "alarm_01",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
+      "position": [
+        61.7469,
+        0.944,
+        -37.6146
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "alarm_02",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
+      "position": [
+        -3.9212,
+        0.944,
+        -49.8381
+      ],
+      "rotation": [
+        0,
+        20.1,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "alarm_03",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
+      "position": [
+        -62.4247,
+        1.0408,
+        -39.3573
+      ],
+      "rotation": [
+        0,
+        -139.8,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "alarm_04",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
+      "position": [
+        169.8223,
+        0.7504,
+        26.8433
+      ],
+      "rotation": [
+        0,
+        -106.66,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "padlock_01",
+      "type": "padlock",
+      "meshes": [
+        "dam_padlock.glb"
+      ],
+      "position": [
+        144.087,
+        1.0817,
+        20.4666
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_01",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        190.0092,
+        4.841,
+        143.4388
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_02",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        190.0092,
+        4.841,
+        139.8081
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_03",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        188.2181,
+        4.841,
+        141.5992
+      ],
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_04",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        200.9741,
+        4.841,
+        64.2643
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_05",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        198.4084,
+        4.841,
+        61.6501
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_06",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        198.4084,
+        4.841,
+        64.2401
+      ],
+      "rotation": [
+        0,
+        -45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_07",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        191.631,
+        5.0346,
+        222.8796
+      ],
+      "rotation": [
+        0,
+        -36.36,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_08",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        193.8578,
+        5.0346,
+        219.8782
+      ],
+      "rotation": [
+        0,
+        -36.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_3_09",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
+      "position": [
+        191.2195,
+        5.0346,
+        220.2413
+      ],
+      "rotation": [
+        0,
+        -126.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_4_01",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
+      "position": [
+        191.8488,
+        4.841,
+        142.7369
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_4_02",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
+      "position": [
+        191.8488,
+        4.841,
+        140.4616
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_4_03",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
+      "position": [
+        201.7729,
+        4.841,
+        62.4973
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_4_04",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
+      "position": [
+        200.1753,
+        4.841,
+        60.8514
+      ],
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_4_05",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
+      "position": [
+        193.5432,
+        5.0346,
+        223.4121
+      ],
+      "rotation": [
+        0,
+        -36.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "window_glass_4_06",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
+      "position": [
+        194.9229,
+        5.0346,
+        221.5725
+      ],
+      "rotation": [
+        0,
+        -36.76,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wall_display_1_01",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
+      "position": [
+        197.5388,
+        0.4115,
+        99.7104
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wall_display_1_02",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
+      "position": [
+        197.5352,
+        0.4115,
+        98.4317
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wall_display_1_03",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
+      "position": [
+        197.3451,
+        0.4115,
+        89.4959
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "wall_display_1_04",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
+      "position": [
+        197.3416,
+        0.4115,
+        88.2172
+      ],
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

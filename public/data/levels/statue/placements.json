@@ -1,0 +1,373 @@
+{
+  "objects": [
+    {
+      "id": "valentin_01",
+      "type": "valentin",
+      "meshes": [
+        "statue_valentin.glb"
+      ],
+      "position": [
+        -50.17,
+        -1.8427,
+        54.9529
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "helicopter_blackbox_01",
+      "type": "helicopter_blackbox",
+      "meshes": [
+        "statue_helicopter_blackbox.glb"
+      ],
+      "position": [
+        -259.8785,
+        10.0405,
+        49.4856
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "body_armor_01",
+      "type": "body_armor",
+      "meshes": [
+        "statue_body_armor.glb"
+      ],
+      "position": [
+        -10.2315,
+        0.095,
+        -2.6995
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "helicopter_01",
+      "type": "helicopter",
+      "meshes": [
+        "statue_helicopter_primary.glb",
+        "statue_helicopter_secondary.glb"
+      ],
+      "position": [
+        -183.1441,
+        11.3062,
+        53.9306
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_01",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
+      "position": [
+        -182.1154,
+        11.3954,
+        53.073
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_02",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
+      "position": [
+        -184.2257,
+        11.3954,
+        53.7061
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_03",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
+      "position": [
+        -182.9595,
+        11.3954,
+        54.9723
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_04",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
+      "position": [
+        -184.6477,
+        11.3954,
+        55.4998
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_05",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
+      "position": [
+        -182.854,
+        11.3954,
+        53.6006
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_bracket_06",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
+      "position": [
+        -185.3863,
+        11.3954,
+        56.0274
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_10_01",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
+      "position": [
+        -92.4713,
+        -0.0878,
+        35.1136
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_10_02",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
+      "position": [
+        -72.6349,
+        -4.8961,
+        29.838
+      ],
+      "rotation": [
+        0,
+        -0.13,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_10_03",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
+      "position": [
+        -107.2431,
+        1.029,
+        -12.4728
+      ],
+      "rotation": [
+        0,
+        -0.13,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "primary_10_04",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
+      "position": [
+        -123.4921,
+        2.3506,
+        -8.9908
+      ],
+      "rotation": [
+        0,
+        -0.13,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_gate_01",
+      "type": "metal_gate",
+      "meshes": [
+        "statue_metal_gate.glb"
+      ],
+      "position": [
+        -220.8578,
+        12.9648,
+        56.2295
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    },
+    {
+      "id": "metal_gate_1_01",
+      "type": "metal_gate_1",
+      "meshes": [
+        "statue_metal_gate_1.glb"
+      ],
+      "position": [
+        -219.3953,
+        12.965,
+        60.3646
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "properties": {}
+    }
+  ]
+}

@@ -276,7 +276,8 @@ http://localhost:5173/?level=<level>&mode=<mode>
 | Parameter | Values | Default | Description |
 |-----------|--------|---------|-------------|
 | `level` | `procedural`, `sandbox`, `facility`, `dam`, `bunker`, `aztec`, `caverns`, `complex` | `procedural` | Level to load |
-| `mode` | `editor`, `object-replace`, `weapon-editor` | *(none)* | Enables the level editor, GLB object replace editor, or weapon positioning editor |
+| `mode` | `editor`, `object-replace`, `weapon-editor`, `level-viewer`, `object-viewer` | *(none)* | Enables the level editor, GLB object replace editor, weapon positioning editor, level viewer, or object viewer |
+| `path` | folder path | `test_facility_objects` | (object-viewer only) Path to the objects folder to browse |
 
 **Examples:**
 ```
@@ -290,7 +291,72 @@ localhost:5173/?mode=object-replace       # GLB object replace editor
 localhost:5173/?mode=weapon-editor        # Weapon positioning/zoom editor
 localhost:5173/?mode=object-viewer&path=test_facility_objects  # Browse split level objects
 localhost:5173/?mode=object-viewer&path=dedup_preview          # Browse dedup preview groups (arrow keys to navigate groups)
+localhost:5173/?mode=object-viewer&path=models/objects/dam     # Browse Dam level objects
+localhost:5173/?mode=level-viewer&level=facility               # View Facility with placed objects
+localhost:5173/?mode=level-viewer&level=dam                    # View Dam with placed objects
 ```
+
+## Level Viewer
+
+View GoldenEye level geometry with all extracted objects placed at their original positions. Includes search, selection, renaming, and full transform controls for repositioning objects.
+
+```
+localhost:5173/?mode=level-viewer&level=dam
+```
+
+### Navigation
+
+| Control | Action |
+|---------|--------|
+| Right-click + drag | Look around |
+| WASD | Move |
+| Space / Shift | Up / down |
+| Scroll wheel | Adjust fly speed |
+
+### Object Interaction
+
+Click any object to select it (cyan wireframe highlight). Use the search bar to find objects by name (green highlights on matches).
+
+### Transform Controls (dev server only)
+
+When an object is selected, a 3D gizmo appears for direct manipulation. Drag the gizmo arrows/rings/handles to transform the object.
+
+| Control | Action |
+|---------|--------|
+| Q | Switch to **Move** mode |
+| R | Switch to **Rotate** mode |
+| F | Switch to **Scale** mode |
+| `[` / `]` | Rotate by current step (Y-axis) |
+| Arrow keys | Nudge position X / Z |
+| PageUp / PageDown | Nudge position Y |
+| Alt + Scroll | Cycle step size |
+| Escape | Deselect |
+
+Step sizes match the level editor: position snaps from 0.001 to 2.0, rotation from 0.1° to 90°, scale from 0.001 to 1.0.
+
+### Renaming (dev server only)
+
+Click **Rename** when an object is selected to change its GLB filename. The rename updates `manifest.json` and `renames.json` on disk.
+
+### Data Format
+
+Transforms are saved to `public/models/objects/{level}/placements.json`. Each entry is a 9-element array:
+
+```
+[posX, posY, posZ, rotXDeg, rotYDeg, rotZDeg, scaleX, scaleY, scaleZ]
+```
+
+The old 4-element format `[x, y, z, rotYDeg]` is still loaded correctly (backward compatible). The first time you edit and save, the file is upgraded to the 9-element format.
+
+## Object Viewer
+
+Browse individual GLB objects extracted from a level. Orbit around each object to inspect geometry and textures. Supports renaming.
+
+```
+localhost:5173/?mode=object-viewer&path=models/objects/facility
+```
+
+> **Note:** Use `path=models/objects/{level}`, not `level={level}`. The `path` parameter points to the folder containing the GLB files.
 
 ## Level Object Tools
 
