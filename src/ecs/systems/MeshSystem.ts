@@ -32,10 +32,28 @@ export class MeshSystem implements ECSSystem {
     const group = new THREE.Group();
     group.name = entityId;
 
-    for (const meshPath of mesh.meshPaths) {
+    for (let i = 0; i < mesh.meshPaths.length; i++) {
+      const meshPath = mesh.meshPaths[i];
       try {
         const loaded = await this.loadGLB(meshPath);
         const clone = loaded.clone(true);
+
+        // Apply per-mesh offset if present
+        const offset = mesh.meshOffsets?.[i];
+        if (offset) {
+          if (offset.position) clone.position.set(offset.position[0], offset.position[1], offset.position[2]);
+          if (offset.rotation) clone.rotation.set(
+            offset.rotation[0] * DEG2RAD,
+            offset.rotation[1] * DEG2RAD,
+            offset.rotation[2] * DEG2RAD
+          );
+          if (offset.scale) clone.scale.set(offset.scale[0], offset.scale[1], offset.scale[2]);
+        }
+
+        // Tag for sub-mesh selection in LevelViewer
+        clone.userData.meshIndex = i;
+        clone.userData.meshPath = meshPath;
+
         group.add(clone);
       } catch (err) {
         console.warn(`[MeshSystem] Failed to load ${meshPath}:`, err);

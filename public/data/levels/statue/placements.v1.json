@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "valentin_01",
-      "prefab": "statue_valentin",
+      "type": "valentin",
+      "meshes": [
+        "statue_valentin.glb"
+      ],
       "position": [
         -50.17,
         -1.8427,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "helicopter_blackbox_01",
-      "prefab": "statue_helicopter_blackbox",
+      "type": "helicopter_blackbox",
+      "meshes": [
+        "statue_helicopter_blackbox.glb"
+      ],
       "position": [
         -259.8785,
         10.0405,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "statue_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "statue_body_armor.glb"
+      ],
       "position": [
         -10.2315,
         0.095,
@@ -56,11 +66,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "helicopter_01",
-      "prefab": "statue_helicopter",
+      "type": "helicopter",
+      "meshes": [
+        "statue_helicopter_primary.glb",
+        "statue_helicopter_secondary.glb"
+      ],
       "position": [
         -183.1441,
         11.3062,
@@ -75,11 +90,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_01",
-      "prefab": "statue_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
       "position": [
         -182.1154,
         11.3954,
@@ -94,11 +113,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_02",
-      "prefab": "statue_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
       "position": [
         -184.2257,
         11.3954,
@@ -113,11 +136,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_03",
-      "prefab": "statue_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
       "position": [
         -182.9595,
         11.3954,
@@ -132,11 +159,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_04",
-      "prefab": "statue_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
       "position": [
         -184.6477,
         11.3954,
@@ -151,11 +182,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_05",
-      "prefab": "statue_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
       "position": [
         -182.854,
         11.3954,
@@ -170,11 +205,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_06",
-      "prefab": "statue_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ],
       "position": [
         -185.3863,
         11.3954,
@@ -189,11 +228,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_10_01",
-      "prefab": "statue_primary_10",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
       "position": [
         -92.4713,
         -0.0878,
@@ -208,11 +251,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_10_02",
-      "prefab": "statue_primary_10",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
       "position": [
         -72.6349,
         -4.8961,
@@ -227,11 +274,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_10_03",
-      "prefab": "statue_primary_10",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
       "position": [
         -107.2431,
         1.029,
@@ -246,11 +297,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_10_04",
-      "prefab": "statue_primary_10",
+      "type": "primary_10",
+      "meshes": [
+        "statue_primary_10.glb"
+      ],
       "position": [
         -123.4921,
         2.3506,
@@ -265,11 +320,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_gate_01",
-      "prefab": "statue_metal_gate",
+      "type": "metal_gate",
+      "meshes": [
+        "statue_metal_gate.glb"
+      ],
       "position": [
         -220.8578,
         12.9648,
@@ -284,11 +343,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_gate_1_01",
-      "prefab": "statue_metal_gate_1",
+      "type": "metal_gate_1",
+      "meshes": [
+        "statue_metal_gate_1.glb"
+      ],
       "position": [
         -219.3953,
         12.965,
@@ -303,7 +366,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

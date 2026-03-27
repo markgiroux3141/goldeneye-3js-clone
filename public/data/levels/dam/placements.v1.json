@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "dam_guard",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
       "position": [
         203.0621,
         -1.1817,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "dam_guard",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
       "position": [
         203.3972,
         -1.1817,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "dam_guard",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
       "position": [
         191.0721,
         -0.2135,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "dam_guard",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
       "position": [
         155.5457,
         -0.2135,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "dam_guard",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
       "position": [
         150.8499,
         -0.2135,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "dam_guard",
+      "type": "guard",
+      "meshes": [
+        "dam_guard.glb"
+      ],
       "position": [
         183.4727,
         -0.2135,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_01",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         197.5161,
         -0.2135,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_02",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         213.6549,
         -0.2135,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_03",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         188.6507,
         4.6275,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_04",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         199.3183,
         4.6275,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_05",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         67.4373,
         3.8045,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_06",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         -68.0649,
         3.8045,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_07",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         1.8426,
         3.8045,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_08",
-      "prefab": "dam_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "dam_guard_1.glb"
+      ],
       "position": [
         194.7586,
         2.0133,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_01",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         153.8227,
         -6.1547,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_02",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         161.2392,
         -6.1547,
@@ -303,11 +365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_03",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         176.7699,
         -0.1035,
@@ -322,11 +388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_04",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         127.8883,
         -6.217,
@@ -341,11 +411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_05",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         125.4235,
         -6.2273,
@@ -360,11 +434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_06",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         89.9435,
         -6.2338,
@@ -379,11 +457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_07",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         85.3413,
         -6.1547,
@@ -398,11 +480,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_08",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         79.9788,
         -6.1547,
@@ -417,11 +503,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_09",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         65.7837,
         -6.1547,
@@ -436,11 +526,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_10",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         58.388,
         -6.1547,
@@ -455,11 +549,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_11",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         46.7212,
         -6.1547,
@@ -474,11 +572,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_12",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         52.0352,
         -6.1547,
@@ -493,11 +595,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_13",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         19.3263,
         -6.1547,
@@ -512,11 +618,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_14",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         24.0006,
         -6.1547,
@@ -531,11 +641,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_15",
-      "prefab": "dam_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "dam_guard_2.glb"
+      ],
       "position": [
         2.5984,
         -6.1547,
@@ -550,11 +664,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_3_01",
-      "prefab": "dam_guard_3",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
       "position": [
         160.6608,
         -6.1547,
@@ -569,11 +687,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_3_02",
-      "prefab": "dam_guard_3",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
       "position": [
         177.8671,
         -0.1035,
@@ -588,11 +710,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_3_03",
-      "prefab": "dam_guard_3",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
       "position": [
         95.4174,
         -6.2284,
@@ -607,11 +733,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_3_04",
-      "prefab": "dam_guard_3",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
       "position": [
         111.0505,
         -6.1547,
@@ -626,11 +756,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_3_05",
-      "prefab": "dam_guard_3",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
       "position": [
         105.2937,
         -6.1547,
@@ -645,11 +779,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_3_06",
-      "prefab": "dam_guard_3",
+      "type": "guard_3",
+      "meshes": [
+        "dam_guard_3.glb"
+      ],
       "position": [
         163.5762,
         -6.1547,
@@ -664,11 +802,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_4_01",
-      "prefab": "dam_guard_4",
+      "type": "guard_4",
+      "meshes": [
+        "dam_guard_4.glb"
+      ],
       "position": [
         167.1837,
         -0.1032,
@@ -683,11 +825,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_01",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         11.4047,
         -6.6085,
@@ -702,11 +848,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_02",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         13.8252,
         -6.6085,
@@ -721,11 +871,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_03",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         11.4047,
         -6.6085,
@@ -740,11 +894,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_04",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         13.8252,
         -6.6085,
@@ -759,11 +917,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_05",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         16.2941,
         -6.6085,
@@ -778,11 +940,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_06",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         18.7146,
         -6.6085,
@@ -797,11 +963,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_07",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         16.2941,
         -6.6085,
@@ -816,11 +986,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_08",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         18.7146,
         -6.6085,
@@ -835,11 +1009,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_09",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         8.1612,
         -6.6085,
@@ -854,11 +1032,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_10",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         8.6938,
         -6.6085,
@@ -873,11 +1055,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_11",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         8.6938,
         -6.6085,
@@ -892,11 +1078,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_12",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         15.568,
         -6.6085,
@@ -911,11 +1101,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_13",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         15.568,
         -6.6085,
@@ -930,11 +1124,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_14",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         -95.0005,
         -6.6085,
@@ -949,11 +1147,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_15",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         -95.1457,
         -6.6085,
@@ -968,11 +1170,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_16",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         163.1099,
         -0.6704,
@@ -987,11 +1193,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_17",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         161.2737,
         -0.6006,
@@ -1006,11 +1216,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_18",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         159.8719,
         -0.6477,
@@ -1025,11 +1239,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_19",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         163.3169,
         0.5544,
@@ -1044,11 +1262,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_20",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         159.93,
         0.581,
@@ -1063,11 +1285,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_21",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         161.1106,
         0.6228,
@@ -1082,11 +1308,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_22",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         201.6375,
         -0.5573,
@@ -1101,11 +1331,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_23",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         201.6077,
         -0.5573,
@@ -1120,11 +1354,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_24",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         199.5688,
         -0.5573,
@@ -1139,11 +1377,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_25",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         200.3461,
         -0.5573,
@@ -1158,11 +1400,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_26",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         201.4055,
         -0.5573,
@@ -1177,11 +1423,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_27",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         197.711,
         -0.5573,
@@ -1196,11 +1446,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_28",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         201.3559,
         0.6749,
@@ -1215,11 +1469,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_29",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         199.394,
         0.6749,
@@ -1234,11 +1492,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_30",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         197.9286,
         0.6749,
@@ -1253,11 +1515,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_31",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         184.8395,
         -0.5573,
@@ -1272,11 +1538,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_32",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         184.8842,
         0.6749,
@@ -1291,11 +1561,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_33",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         184.4841,
         0.6749,
@@ -1310,11 +1584,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_34",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         183.6413,
         -0.5573,
@@ -1329,11 +1607,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_35",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         184.3168,
         -0.5573,
@@ -1348,11 +1630,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_36",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         185.1134,
         -0.5573,
@@ -1367,11 +1653,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_37",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         176.8735,
         -0.5573,
@@ -1386,11 +1676,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_38",
-      "prefab": "dam_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ],
       "position": [
         90.8706,
         -6.7891,
@@ -1405,11 +1699,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_01",
-      "prefab": "dam_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "dam_metal_crate.glb"
+      ],
       "position": [
         -95.8518,
         -6.4115,
@@ -1424,11 +1722,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_02",
-      "prefab": "dam_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "dam_metal_crate.glb"
+      ],
       "position": [
         -101.5158,
         -6.4115,
@@ -1443,11 +1745,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_01",
-      "prefab": "dam_tv",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
       "position": [
         164.2736,
         -5.9832,
@@ -1462,11 +1768,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_02",
-      "prefab": "dam_tv",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
       "position": [
         162.1621,
         -5.9832,
@@ -1481,11 +1791,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_03",
-      "prefab": "dam_tv",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
       "position": [
         161.3206,
         -5.9832,
@@ -1500,11 +1814,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_04",
-      "prefab": "dam_tv",
+      "type": "tv",
+      "meshes": [
+        "dam_tv.glb"
+      ],
       "position": [
         159.6263,
         -5.9832,
@@ -1519,11 +1837,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_01",
-      "prefab": "dam_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
       "position": [
         163.9425,
         -6.1832,
@@ -1538,11 +1860,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_02",
-      "prefab": "dam_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
       "position": [
         161.9843,
         -6.1832,
@@ -1557,11 +1883,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_03",
-      "prefab": "dam_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
       "position": [
         160.9895,
         -6.1832,
@@ -1576,11 +1906,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_04",
-      "prefab": "dam_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "dam_keyboard.glb"
+      ],
       "position": [
         159.2467,
         -6.1832,
@@ -1595,11 +1929,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_top_01",
-      "prefab": "dam_metal_table_top",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
       "position": [
         164.0131,
         -6.2051,
@@ -1614,11 +1953,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_top_02",
-      "prefab": "dam_metal_table_top",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
       "position": [
         162.464,
         -6.2051,
@@ -1633,11 +1977,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_top_03",
-      "prefab": "dam_metal_table_top",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
       "position": [
         160.9149,
         -6.2051,
@@ -1652,11 +2001,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_top_04",
-      "prefab": "dam_metal_table_top",
+      "type": "metal_table_top",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ],
       "position": [
         159.3657,
         -6.2051,
@@ -1671,11 +2025,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_01",
-      "prefab": "dam_mainframe",
+      "type": "mainframe",
+      "meshes": [
+        "dam_mainframe.glb"
+      ],
       "position": [
         159.22,
         -6.1112,
@@ -1690,11 +2048,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_02",
-      "prefab": "dam_mainframe",
+      "type": "mainframe",
+      "meshes": [
+        "dam_mainframe.glb"
+      ],
       "position": [
         160.1398,
         -6.1112,
@@ -1709,11 +2071,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_01",
-      "prefab": "dam_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
       "position": [
         162.9943,
         -6.9195,
@@ -1728,11 +2094,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_02",
-      "prefab": "dam_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
       "position": [
         161.4215,
         -6.9195,
@@ -1747,11 +2117,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_03",
-      "prefab": "dam_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
       "position": [
         159.8041,
         -6.9195,
@@ -1766,11 +2140,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_04",
-      "prefab": "dam_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ],
       "position": [
         157.7056,
         -6.9195,
@@ -1785,11 +2163,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "sniper_rifle_01",
-      "prefab": "dam_sniper_rifle",
+      "type": "sniper_rifle",
+      "meshes": [
+        "dam_sniper_rifle.glb"
+      ],
       "position": [
         192.9882,
         3.8344,
@@ -1804,11 +2186,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "dam_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "dam_body_armor.glb"
+      ],
       "position": [
         189.9211,
         3.7258,
@@ -1823,11 +2209,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_01",
-      "prefab": "dam_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "dam_body_armor_1.glb"
+      ],
       "position": [
         -63.983,
         2.8979,
@@ -1842,11 +2232,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "green_truck_01",
-      "prefab": "dam_green_truck",
+      "type": "green_truck",
+      "meshes": [
+        "dam_green_truck_primary.glb",
+        "dam_green_truck_secondary.glb"
+      ],
       "position": [
         203.4611,
         0.383,
@@ -1861,11 +2256,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_01",
-      "prefab": "dam_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
       "position": [
         211.0675,
         0.2853,
@@ -1880,11 +2279,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_02",
-      "prefab": "dam_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
       "position": [
         210.5348,
         0.2853,
@@ -1899,11 +2302,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_03",
-      "prefab": "dam_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
       "position": [
         210.0025,
         0.2853,
@@ -1918,11 +2325,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_04",
-      "prefab": "dam_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
       "position": [
         210.7769,
         3.2758,
@@ -1937,11 +2348,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_05",
-      "prefab": "dam_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ],
       "position": [
         209.9543,
         3.2758,
@@ -1956,11 +2371,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_01",
-      "prefab": "dam_metal_crate_stack",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "dam_metal_crate_stack.glb"
+      ],
       "position": [
         202.1693,
         2.3532,
@@ -1975,11 +2394,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_02",
-      "prefab": "dam_metal_crate_stack",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "dam_metal_crate_stack.glb"
+      ],
       "position": [
         176.7043,
         2.3532,
@@ -1994,11 +2417,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_03",
-      "prefab": "dam_metal_crate_stack",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "dam_metal_crate_stack.glb"
+      ],
       "position": [
         208.1957,
         2.3532,
@@ -2013,11 +2440,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_01",
-      "prefab": "dam_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
       "position": [
         157.8932,
         -6.1965,
@@ -2032,11 +2463,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_02",
-      "prefab": "dam_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
       "position": [
         159.6843,
         -6.1964,
@@ -2051,11 +2486,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_03",
-      "prefab": "dam_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
       "position": [
         158.8553,
         -6.1964,
@@ -2070,11 +2509,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_04",
-      "prefab": "dam_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
       "position": [
         161.1367,
         -6.1966,
@@ -2089,11 +2532,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_05",
-      "prefab": "dam_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "dam_window_glass.glb"
+      ],
       "position": [
         162.7825,
         -6.1963,
@@ -2108,11 +2555,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "big_metal_door_01",
-      "prefab": "dam_big_metal_door",
+      "type": "big_metal_door",
+      "meshes": [
+        "dam_big_metal_door.glb"
+      ],
       "position": [
         193.1317,
         1.3271,
@@ -2127,11 +2578,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "big_metal_door_1_01",
-      "prefab": "dam_big_metal_door_1",
+      "type": "big_metal_door_1",
+      "meshes": [
+        "dam_big_metal_door_1.glb"
+      ],
       "position": [
         192.9622,
         1.3271,
@@ -2146,11 +2601,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_01",
-      "prefab": "dam_chainlink_fence",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary.glb",
+        "dam_chainlink_fence_secondary.glb"
+      ],
       "position": [
         144.8974,
         0.7702,
@@ -2165,11 +2625,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_02",
-      "prefab": "dam_chainlink_fence",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary.glb",
+        "dam_chainlink_fence_secondary.glb"
+      ],
       "position": [
         143.0999,
         0.7702,
@@ -2184,11 +2649,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_03",
-      "prefab": "dam_chainlink_fence_v2",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_1.glb",
+        "dam_chainlink_fence_secondary_1.glb"
+      ],
       "position": [
         61.7258,
         -6.0997,
@@ -2203,11 +2673,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_04",
-      "prefab": "dam_chainlink_fence_v2",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_1.glb",
+        "dam_chainlink_fence_secondary_1.glb"
+      ],
       "position": [
         62.8865,
         -6.0997,
@@ -2222,11 +2697,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_05",
-      "prefab": "dam_chainlink_fence_v2",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_1.glb",
+        "dam_chainlink_fence_secondary_1.glb"
+      ],
       "position": [
         -61.7258,
         -6.0997,
@@ -2241,11 +2721,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_06",
-      "prefab": "dam_chainlink_fence_primary_2",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_2.glb"
+      ],
       "position": [
         -2.7352,
         -6.0997,
@@ -2260,11 +2744,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_07",
-      "prefab": "dam_chainlink_fence_primary_2",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_2.glb"
+      ],
       "position": [
         -1.5249,
         -6.0997,
@@ -2279,11 +2767,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_08",
-      "prefab": "dam_chainlink_fence_primary_2a",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_2a.glb",
+        "dam_chainlink_fence_secondary_2.glb"
+      ],
       "position": [
         -62.8604,
         -6.0997,
@@ -2298,11 +2791,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_01",
-      "prefab": "dam_wooden_segment_door",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "dam_wooden_segment_door.glb"
+      ],
       "position": [
         176.8088,
         -0.4034,
@@ -2317,11 +2814,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "big_metal_door_2_01",
-      "prefab": "dam_big_metal_door_2",
+      "type": "big_metal_door_2",
+      "meshes": [
+        "dam_big_metal_door_2.glb"
+      ],
       "position": [
         228.2722,
         1.2743,
@@ -2336,11 +2837,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chainlink_fence_09",
-      "prefab": "dam_chainlink_fence_v3",
+      "type": "chainlink_fence",
+      "meshes": [
+        "dam_chainlink_fence_primary_3.glb",
+        "dam_chainlink_fence_secondary_3.glb"
+      ],
       "position": [
         165.4073,
         0.7702,
@@ -2355,11 +2861,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blast_door_01",
-      "prefab": "dam_blast_door",
+      "type": "blast_door",
+      "meshes": [
+        "dam_blast_door.glb"
+      ],
       "position": [
         137.6494,
         -6.0321,
@@ -2374,11 +2884,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_01",
-      "prefab": "dam_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "dam_wooden_crate_1.glb"
+      ],
       "position": [
         125.2202,
         -6.8187,
@@ -2393,11 +2907,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_02",
-      "prefab": "dam_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "dam_wooden_crate_1.glb"
+      ],
       "position": [
         97.0507,
         -6.8621,
@@ -2412,11 +2930,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_01",
-      "prefab": "dam_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "dam_wooden_crate_2.glb"
+      ],
       "position": [
         127.1925,
         -6.7921,
@@ -2431,11 +2953,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_02",
-      "prefab": "dam_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "dam_wooden_crate_2.glb"
+      ],
       "position": [
         -13.7843,
         -6.9159,
@@ -2450,11 +2976,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_3_01",
-      "prefab": "dam_wooden_crate_3",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "dam_wooden_crate_3.glb"
+      ],
       "position": [
         124.1615,
         -6.8407,
@@ -2469,11 +2999,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_4_01",
-      "prefab": "dam_wooden_crate_4",
+      "type": "wooden_crate_4",
+      "meshes": [
+        "dam_wooden_crate_4.glb"
+      ],
       "position": [
         88.4848,
         -6.8244,
@@ -2488,11 +3022,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_4_02",
-      "prefab": "dam_wooden_crate_4",
+      "type": "wooden_crate_4",
+      "meshes": [
+        "dam_wooden_crate_4.glb"
+      ],
       "position": [
         29.4991,
         -6.8091,
@@ -2507,11 +3045,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_01",
-      "prefab": "dam_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "dam_wooden_crate_5.glb"
+      ],
       "position": [
         90.8439,
         -5.8001,
@@ -2526,11 +3068,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_02",
-      "prefab": "dam_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "dam_wooden_crate_5.glb"
+      ],
       "position": [
         50.3515,
         -6.7484,
@@ -2545,11 +3091,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_03",
-      "prefab": "dam_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "dam_wooden_crate_5.glb"
+      ],
       "position": [
         36.0601,
         -6.8083,
@@ -2564,11 +3114,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_6_01",
-      "prefab": "dam_wooden_crate_6",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "dam_wooden_crate_6.glb"
+      ],
       "position": [
         94.2708,
         -6.8407,
@@ -2583,11 +3137,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_6_02",
-      "prefab": "dam_wooden_crate_6",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "dam_wooden_crate_6.glb"
+      ],
       "position": [
         10.6611,
         -6.807,
@@ -2602,11 +3160,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_7_01",
-      "prefab": "dam_wooden_crate_7",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "dam_wooden_crate_7.glb"
+      ],
       "position": [
         65.3461,
         -6.7484,
@@ -2621,11 +3183,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_7_02",
-      "prefab": "dam_wooden_crate_7",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "dam_wooden_crate_7.glb"
+      ],
       "position": [
         65.3909,
         -5.7802,
@@ -2640,11 +3206,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_7_03",
-      "prefab": "dam_wooden_crate_7",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "dam_wooden_crate_7.glb"
+      ],
       "position": [
         29.4991,
         -5.8147,
@@ -2659,11 +3229,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_8_01",
-      "prefab": "dam_wooden_crate_8",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "dam_wooden_crate_8.glb"
+      ],
       "position": [
         50.424,
         -5.7802,
@@ -2678,11 +3252,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_8_02",
-      "prefab": "dam_wooden_crate_8",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "dam_wooden_crate_8.glb"
+      ],
       "position": [
         49.5454,
         -6.7484,
@@ -2697,11 +3275,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_8_03",
-      "prefab": "dam_wooden_crate_8",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "dam_wooden_crate_8.glb"
+      ],
       "position": [
         10.6611,
         -5.8126,
@@ -2716,11 +3298,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_9_01",
-      "prefab": "dam_wooden_crate_9",
+      "type": "wooden_crate_9",
+      "meshes": [
+        "dam_wooden_crate_9.glb"
+      ],
       "position": [
         32.5856,
         -6.7924,
@@ -2735,11 +3321,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_10_01",
-      "prefab": "dam_wooden_crate_10",
+      "type": "wooden_crate_10",
+      "meshes": [
+        "dam_wooden_crate_10.glb"
+      ],
       "position": [
         -12.6837,
         -6.8936,
@@ -2754,11 +3344,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_11_01",
-      "prefab": "dam_wooden_crate_11",
+      "type": "wooden_crate_11",
+      "meshes": [
+        "dam_wooden_crate_11.glb"
+      ],
       "position": [
         -12.564,
         -5.9511,
@@ -2773,11 +3367,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_1_01",
-      "prefab": "dam_explosive_barrel_1",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
       "position": [
         2.3722,
         -6.7531,
@@ -2792,11 +3390,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_1_02",
-      "prefab": "dam_explosive_barrel_1",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
       "position": [
         -2.4688,
         -6.7531,
@@ -2811,11 +3413,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_1_03",
-      "prefab": "dam_explosive_barrel_1",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
       "position": [
         -64.4821,
         -6.7531,
@@ -2830,11 +3436,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_1_04",
-      "prefab": "dam_explosive_barrel_1",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
       "position": [
         -63.6348,
         -6.7531,
@@ -2849,11 +3459,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_1_05",
-      "prefab": "dam_explosive_barrel_1",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
       "position": [
         -60.4156,
         -6.7531,
@@ -2868,11 +3482,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_1_06",
-      "prefab": "dam_explosive_barrel_1",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
       "position": [
         -60.3913,
         -5.7365,
@@ -2887,11 +3505,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_1_07",
-      "prefab": "dam_explosive_barrel_1",
+      "type": "explosive_barrel_1",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ],
       "position": [
         -65.7407,
         -5.7365,
@@ -2906,11 +3528,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_2_01",
-      "prefab": "dam_explosive_barrel_2",
+      "type": "explosive_barrel_2",
+      "meshes": [
+        "dam_explosive_barrel_2.glb"
+      ],
       "position": [
         1.5735,
         -6.7531,
@@ -2925,11 +3551,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_3_01",
-      "prefab": "dam_explosive_barrel_3",
+      "type": "explosive_barrel_3",
+      "meshes": [
+        "dam_explosive_barrel_3.glb"
+      ],
       "position": [
         -64.482,
         -5.7365,
@@ -2944,11 +3574,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_4_01",
-      "prefab": "dam_explosive_barrel_4",
+      "type": "explosive_barrel_4",
+      "meshes": [
+        "dam_explosive_barrel_4.glb"
+      ],
       "position": [
         -63.6591,
         -5.7365,
@@ -2963,11 +3597,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_4_02",
-      "prefab": "dam_explosive_barrel_4",
+      "type": "explosive_barrel_4",
+      "meshes": [
+        "dam_explosive_barrel_4.glb"
+      ],
       "position": [
         -62.4488,
         -6.7531,
@@ -2982,11 +3620,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_5_01",
-      "prefab": "dam_explosive_barrel_5",
+      "type": "explosive_barrel_5",
+      "meshes": [
+        "dam_explosive_barrel_5.glb"
+      ],
       "position": [
         -65.7406,
         -6.7531,
@@ -3001,11 +3643,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wall_display_01",
-      "prefab": "dam_wall_display",
+      "type": "wall_display",
+      "meshes": [
+        "dam_wall_display.glb"
+      ],
       "position": [
         165.3645,
         0.6535,
@@ -3020,11 +3666,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "satelite_dish_01",
-      "prefab": "dam_satelite_dish",
+      "type": "satelite_dish",
+      "meshes": [
+        "dam_satelite_dish_primary.glb",
+        "dam_satelite_dish_secondary.glb"
+      ],
       "position": [
         165.8284,
         4.3665,
@@ -3039,11 +3690,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_1_01",
-      "prefab": "dam_window_glass_1",
+      "type": "window_glass_1",
+      "meshes": [
+        "dam_window_glass_1.glb"
+      ],
       "position": [
         172.0489,
         0.7504,
@@ -3058,11 +3713,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_1_02",
-      "prefab": "dam_window_glass_1",
+      "type": "window_glass_1",
+      "meshes": [
+        "dam_window_glass_1.glb"
+      ],
       "position": [
         168.1761,
         0.7504,
@@ -3077,11 +3736,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_01",
-      "prefab": "dam_brown_sliding_door",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "dam_brown_sliding_door.glb"
+      ],
       "position": [
         165.3928,
         -0.0006,
@@ -3096,11 +3759,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_2_01",
-      "prefab": "dam_window_glass_2",
+      "type": "window_glass_2",
+      "meshes": [
+        "dam_window_glass_2.glb"
+      ],
       "position": [
         65.5955,
         0.6293,
@@ -3115,11 +3782,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_2_02",
-      "prefab": "dam_window_glass_2",
+      "type": "window_glass_2",
+      "meshes": [
+        "dam_window_glass_2.glb"
+      ],
       "position": [
         0.6535,
         0.6293,
@@ -3134,11 +3805,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_2_03",
-      "prefab": "dam_window_glass_2",
+      "type": "window_glass_2",
+      "meshes": [
+        "dam_window_glass_2.glb"
+      ],
       "position": [
         -65.5955,
         0.6293,
@@ -3153,11 +3828,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_1_01",
-      "prefab": "dam_brown_sliding_door_1",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "dam_brown_sliding_door_1.glb"
+      ],
       "position": [
         62.7394,
         0.0236,
@@ -3172,11 +3851,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_1_02",
-      "prefab": "dam_brown_sliding_door_1",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "dam_brown_sliding_door_1.glb"
+      ],
       "position": [
         -62.7394,
         0.0236,
@@ -3191,11 +3874,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_2_01",
-      "prefab": "dam_brown_sliding_door_2",
+      "type": "brown_sliding_door_2",
+      "meshes": [
+        "dam_brown_sliding_door_2.glb"
+      ],
       "position": [
         -2.3963,
         0.0236,
@@ -3210,11 +3897,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "alarm_01",
-      "prefab": "dam_alarm",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
       "position": [
         61.7469,
         0.944,
@@ -3229,11 +3920,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "alarm_02",
-      "prefab": "dam_alarm",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
       "position": [
         -3.9212,
         0.944,
@@ -3248,11 +3943,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "alarm_03",
-      "prefab": "dam_alarm",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
       "position": [
         -62.4247,
         1.0408,
@@ -3267,11 +3966,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "alarm_04",
-      "prefab": "dam_alarm",
+      "type": "alarm",
+      "meshes": [
+        "dam_alarm.glb"
+      ],
       "position": [
         169.8223,
         0.7504,
@@ -3286,11 +3989,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "padlock_01",
-      "prefab": "dam_padlock",
+      "type": "padlock",
+      "meshes": [
+        "dam_padlock.glb"
+      ],
       "position": [
         144.087,
         1.0817,
@@ -3305,11 +4012,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_01",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         190.0092,
         4.841,
@@ -3324,11 +4035,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_02",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         190.0092,
         4.841,
@@ -3343,11 +4058,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_03",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         188.2181,
         4.841,
@@ -3362,11 +4081,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_04",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         200.9741,
         4.841,
@@ -3381,11 +4104,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_05",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         198.4084,
         4.841,
@@ -3400,11 +4127,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_06",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         198.4084,
         4.841,
@@ -3419,11 +4150,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_07",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         191.631,
         5.0346,
@@ -3438,11 +4173,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_08",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         193.8578,
         5.0346,
@@ -3457,11 +4196,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_09",
-      "prefab": "dam_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ],
       "position": [
         191.2195,
         5.0346,
@@ -3476,11 +4219,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_4_01",
-      "prefab": "dam_window_glass_4",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
       "position": [
         191.8488,
         4.841,
@@ -3495,11 +4242,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_4_02",
-      "prefab": "dam_window_glass_4",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
       "position": [
         191.8488,
         4.841,
@@ -3514,11 +4265,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_4_03",
-      "prefab": "dam_window_glass_4",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
       "position": [
         201.7729,
         4.841,
@@ -3533,11 +4288,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_4_04",
-      "prefab": "dam_window_glass_4",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
       "position": [
         200.1753,
         4.841,
@@ -3552,11 +4311,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_4_05",
-      "prefab": "dam_window_glass_4",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
       "position": [
         193.5432,
         5.0346,
@@ -3571,11 +4334,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_4_06",
-      "prefab": "dam_window_glass_4",
+      "type": "window_glass_4",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ],
       "position": [
         194.9229,
         5.0346,
@@ -3590,11 +4357,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wall_display_1_01",
-      "prefab": "dam_wall_display_1",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
       "position": [
         197.5388,
         0.4115,
@@ -3609,11 +4380,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wall_display_1_02",
-      "prefab": "dam_wall_display_1",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
       "position": [
         197.5352,
         0.4115,
@@ -3628,11 +4403,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wall_display_1_03",
-      "prefab": "dam_wall_display_1",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
       "position": [
         197.3451,
         0.4115,
@@ -3647,11 +4426,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wall_display_1_04",
-      "prefab": "dam_wall_display_1",
+      "type": "wall_display_1",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ],
       "position": [
         197.3416,
         0.4115,
@@ -3666,7 +4449,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -8.781,
         2.9565,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -11.9439,
         2.9565,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -5.9194,
         2.9565,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -9.0823,
         2.9565,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -47.6287,
         2.9565,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -48.766,
         2.9565,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_07",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -42.5178,
         2.9565,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_08",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -42.6688,
         2.9565,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_09",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -26.8547,
         2.9565,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_10",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -24.2943,
         2.9565,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_11",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -23.6162,
         2.9565,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_12",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -21.0526,
         2.9565,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_13",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -81.586,
         2.9565,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_14",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -79.4436,
         2.9565,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_15",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -72.3395,
         2.9565,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_16",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -61.7201,
         2.9565,
@@ -303,11 +365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_17",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -60.8177,
         2.9565,
@@ -322,11 +388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_18",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -62.3015,
         2.9565,
@@ -341,11 +411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_19",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -55.9365,
         2.9565,
@@ -360,11 +434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_20",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -53.6475,
         2.9565,
@@ -379,11 +457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_21",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -114.8458,
         2.9565,
@@ -398,11 +480,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_22",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -111.683,
         2.9565,
@@ -417,11 +503,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_23",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -99.8599,
         2.9565,
@@ -436,11 +526,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_24",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -95.609,
         2.9565,
@@ -455,11 +549,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_25",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -94.0494,
         2.9565,
@@ -474,11 +572,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_26",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -93.9924,
         2.9565,
@@ -493,11 +595,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_27",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -97.2995,
         2.9565,
@@ -512,11 +618,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_28",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -92.2956,
         2.9565,
@@ -531,11 +641,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_29",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -162.2548,
         2.9565,
@@ -550,11 +664,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_30",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -158.8499,
         0.3207,
@@ -569,11 +687,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_31",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -156.4401,
         0.3207,
@@ -588,11 +710,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_32",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -154.5575,
         0.3207,
@@ -607,11 +733,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_33",
-      "prefab": "train_guard",
+      "type": "guard",
+      "meshes": [
+        "train_guard.glb"
+      ],
       "position": [
         -118.7118,
         2.9565,
@@ -626,11 +756,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_01",
-      "prefab": "train_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "train_guard_1.glb"
+      ],
       "position": [
         -116.9962,
         2.9565,
@@ -645,11 +779,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "trevelyn_01",
-      "prefab": "train_trevelyn",
+      "type": "trevelyn",
+      "meshes": [
+        "train_trevelyn.glb"
+      ],
       "position": [
         -181.2848,
         3.215,
@@ -664,11 +802,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "xenia_01",
-      "prefab": "train_xenia",
+      "type": "xenia",
+      "meshes": [
+        "train_xenia.glb"
+      ],
       "position": [
         -181.3686,
         3.3399,
@@ -683,11 +825,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "orumov_01",
-      "prefab": "train_orumov",
+      "type": "orumov",
+      "meshes": [
+        "train_orumov.glb"
+      ],
       "position": [
         -177.1508,
         3.2053,
@@ -702,11 +848,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "natalia_01",
-      "prefab": "train_natalia",
+      "type": "natalia",
+      "meshes": [
+        "train_natalia.glb"
+      ],
       "position": [
         -176.107,
         3.2471,
@@ -721,11 +871,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_01",
-      "prefab": "train_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "train_guard_2.glb"
+      ],
       "position": [
         -174.7556,
         2.9565,
@@ -740,11 +894,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_02",
-      "prefab": "train_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "train_guard_2.glb"
+      ],
       "position": [
         -172.5717,
         2.9565,
@@ -759,11 +917,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_01",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -177.0444,
         2.1839,
@@ -778,11 +940,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_02",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -171.2458,
         2.1839,
@@ -797,11 +963,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_03",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -166.9534,
         2.1839,
@@ -816,11 +986,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_04",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.7187,
         2.1839,
@@ -835,11 +1009,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_05",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -175.0864,
         2.1839,
@@ -854,11 +1032,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_06",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -167.5558,
         2.1839,
@@ -873,11 +1055,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_07",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -173.7309,
         2.1839,
@@ -892,11 +1078,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_08",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -168.836,
         2.1839,
@@ -911,11 +1101,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_09",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -183.8219,
         4.3677,
@@ -930,11 +1124,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_10",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -206.715,
         1.1296,
@@ -949,11 +1147,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_11",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -161.2301,
         2.1839,
@@ -968,11 +1170,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_12",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -159.3475,
         2.1839,
@@ -987,11 +1193,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_13",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -163.1128,
         2.1839,
@@ -1006,11 +1216,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_14",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.3422,
         1.958,
@@ -1025,11 +1239,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_15",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.3045,
         1.958,
@@ -1044,11 +1262,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_16",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.1539,
         1.958,
@@ -1063,11 +1285,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_17",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.9656,
         1.958,
@@ -1082,11 +1308,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_18",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.7774,
         1.958,
@@ -1101,11 +1331,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_19",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.6267,
         1.958,
@@ -1120,11 +1354,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_20",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.3422,
         1.958,
@@ -1139,11 +1377,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_21",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.3422,
         1.958,
@@ -1158,11 +1400,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_22",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.3422,
         1.958,
@@ -1177,11 +1423,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_23",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.3422,
         1.958,
@@ -1196,11 +1446,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_24",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.4761,
         1.958,
@@ -1215,11 +1469,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_25",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.4761,
         1.958,
@@ -1234,11 +1492,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_26",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.7021,
         1.958,
@@ -1253,11 +1515,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_27",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.8527,
         1.958,
@@ -1272,11 +1538,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_28",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.0033,
         1.958,
@@ -1291,11 +1561,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_29",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -170.1915,
         1.958,
@@ -1310,11 +1584,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_30",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.4761,
         1.958,
@@ -1329,11 +1607,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_31",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.4761,
         1.958,
@@ -1348,11 +1630,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_32",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.4761,
         1.958,
@@ -1367,11 +1653,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_33",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -169.4761,
         1.958,
@@ -1386,11 +1676,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_34",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -196.5863,
         1.2802,
@@ -1405,11 +1699,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_35",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -229.4574,
         3.0875,
@@ -1424,11 +1722,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_36",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -226.4451,
         5.648,
@@ -1443,11 +1745,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_37",
-      "prefab": "train_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ],
       "position": [
         -243.8785,
         0.6024,
@@ -1462,11 +1768,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_brake_01",
-      "prefab": "train_train_brake",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
       "position": [
         -15.4529,
         2.3108,
@@ -1481,11 +1791,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_brake_02",
-      "prefab": "train_train_brake",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
       "position": [
         -49.0394,
         2.3108,
@@ -1500,11 +1814,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_brake_03",
-      "prefab": "train_train_brake",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
       "position": [
         -83.2326,
         2.3108,
@@ -1519,11 +1837,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_brake_04",
-      "prefab": "train_train_brake",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
       "position": [
         -87.6367,
         2.3108,
@@ -1538,11 +1860,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_brake_05",
-      "prefab": "train_train_brake",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
       "position": [
         -153.5693,
         2.3108,
@@ -1557,11 +1883,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_brake_06",
-      "prefab": "train_train_brake",
+      "type": "train_brake",
+      "meshes": [
+        "train_train_brake.glb"
+      ],
       "position": [
         -156.9619,
         2.3108,
@@ -1576,11 +1906,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_01",
-      "prefab": "train_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
       "position": [
         -4.6397,
         2.5611,
@@ -1595,11 +1929,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_02",
-      "prefab": "train_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
       "position": [
         2.7403,
         2.5611,
@@ -1614,11 +1952,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_03",
-      "prefab": "train_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
       "position": [
         4.1711,
         2.5611,
@@ -1633,11 +1975,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_04",
-      "prefab": "train_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
       "position": [
         -44.7611,
         2.5611,
@@ -1652,11 +1998,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_05",
-      "prefab": "train_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ],
       "position": [
         -47.3968,
         2.5611,
@@ -1671,11 +2021,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_01",
-      "prefab": "train_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
       "position": [
         4.2229,
         2.5611,
@@ -1690,11 +2044,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_02",
-      "prefab": "train_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
       "position": [
         14.3777,
         2.5611,
@@ -1709,11 +2067,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_03",
-      "prefab": "train_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
       "position": [
         -22.2848,
         2.5611,
@@ -1728,11 +2090,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_04",
-      "prefab": "train_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
       "position": [
         -41.036,
         2.5611,
@@ -1747,11 +2113,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_05",
-      "prefab": "train_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
       "position": [
         -46.2321,
         2.5611,
@@ -1766,11 +2136,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_06",
-      "prefab": "train_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ],
       "position": [
         -162.5106,
         2.5611,
@@ -1785,11 +2159,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_01",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -0.6485,
         2.5611,
@@ -1804,11 +2182,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_02",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -7.1248,
         2.5611,
@@ -1823,11 +2205,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_03",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -4.2631,
         2.5611,
@@ -1842,11 +2228,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_04",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -25.4119,
         2.5611,
@@ -1861,11 +2251,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_05",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -24.805,
         2.5611,
@@ -1880,11 +2274,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_06",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -26.1605,
         2.5611,
@@ -1899,11 +2297,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_07",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -28.9468,
         2.5611,
@@ -1918,11 +2320,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_08",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -30.3943,
         2.5611,
@@ -1937,11 +2343,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_09",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -33.5405,
         2.5611,
@@ -1956,11 +2366,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_10",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -46.0399,
         2.5611,
@@ -1975,11 +2389,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_11",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -19.7595,
         2.5611,
@@ -1994,11 +2412,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_12",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -22.6964,
         2.5611,
@@ -2013,11 +2435,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_13",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -159.8331,
         2.5611,
@@ -2032,11 +2458,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_14",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -166.2463,
         2.5611,
@@ -2051,11 +2481,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_15",
-      "prefab": "train_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ],
       "position": [
         -160.7307,
         -0.0442,
@@ -2070,11 +2504,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_3_01",
-      "prefab": "train_wooden_crate_3",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "train_wooden_crate_3.glb"
+      ],
       "position": [
         11.177,
         2.5611,
@@ -2089,11 +2527,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_3_02",
-      "prefab": "train_wooden_crate_3",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "train_wooden_crate_3.glb"
+      ],
       "position": [
         -37.8044,
         2.5611,
@@ -2108,11 +2550,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_4_01",
-      "prefab": "train_wooden_crate_4",
+      "type": "wooden_crate_4",
+      "meshes": [
+        "train_wooden_crate_4.glb"
+      ],
       "position": [
         12.5813,
         2.5611,
@@ -2127,11 +2573,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_01",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         14.3776,
         2.5611,
@@ -2146,11 +2596,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_02",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         4.1711,
         3.8813,
@@ -2165,11 +2619,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_03",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         -13.2246,
         3.8813,
@@ -2184,11 +2642,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_04",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         -13.1843,
         2.5611,
@@ -2203,11 +2665,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_05",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         -30.3425,
         2.5611,
@@ -2222,11 +2688,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_06",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         -41.036,
         2.5611,
@@ -2241,11 +2711,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_07",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         -156.3812,
         -0.0347,
@@ -2260,11 +2734,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_5_08",
-      "prefab": "train_wooden_crate_5",
+      "type": "wooden_crate_5",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ],
       "position": [
         -145.7513,
         -0.0183,
@@ -2279,11 +2757,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_6_01",
-      "prefab": "train_wooden_crate_6",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
       "position": [
         4.1711,
         3.8813,
@@ -2298,11 +2780,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_6_02",
-      "prefab": "train_wooden_crate_6",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
       "position": [
         -26.1605,
         3.8813,
@@ -2317,11 +2803,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_6_03",
-      "prefab": "train_wooden_crate_6",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
       "position": [
         -30.3776,
         3.8813,
@@ -2336,11 +2826,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_6_04",
-      "prefab": "train_wooden_crate_6",
+      "type": "wooden_crate_6",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ],
       "position": [
         -162.481,
         3.8813,
@@ -2355,11 +2849,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_7_01",
-      "prefab": "train_wooden_crate_7",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "train_wooden_crate_7.glb"
+      ],
       "position": [
         11.1055,
         3.8813,
@@ -2374,11 +2872,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_7_02",
-      "prefab": "train_wooden_crate_7",
+      "type": "wooden_crate_7",
+      "meshes": [
+        "train_wooden_crate_7.glb"
+      ],
       "position": [
         -162.3564,
         -0.0347,
@@ -2393,11 +2895,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_8_01",
-      "prefab": "train_wooden_crate_8",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "train_wooden_crate_8.glb"
+      ],
       "position": [
         -0.6293,
         3.8813,
@@ -2412,11 +2918,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_8_02",
-      "prefab": "train_wooden_crate_8",
+      "type": "wooden_crate_8",
+      "meshes": [
+        "train_wooden_crate_8.glb"
+      ],
       "position": [
         -37.7578,
         3.8813,
@@ -2431,11 +2941,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_9_01",
-      "prefab": "train_wooden_crate_9",
+      "type": "wooden_crate_9",
+      "meshes": [
+        "train_wooden_crate_9.glb"
+      ],
       "position": [
         -7.2188,
         2.5611,
@@ -2450,11 +2964,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_10_01",
-      "prefab": "train_wooden_crate_10",
+      "type": "wooden_crate_10",
+      "meshes": [
+        "train_wooden_crate_10.glb"
+      ],
       "position": [
         -10.2381,
         2.5611,
@@ -2469,11 +2987,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_01",
-      "prefab": "train_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "train_wooden_door.glb"
+      ],
       "position": [
         -16.1155,
         3.1873,
@@ -2488,11 +3010,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_02",
-      "prefab": "train_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "train_wooden_door.glb"
+      ],
       "position": [
         -17.471,
         3.1873,
@@ -2507,11 +3033,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_03",
-      "prefab": "train_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "train_wooden_door.glb"
+      ],
       "position": [
         -49.702,
         3.1873,
@@ -2526,11 +3056,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_01",
-      "prefab": "train_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "train_metal_crate.glb"
+      ],
       "position": [
         -34.1893,
         2.5189,
@@ -2545,11 +3079,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_11_01",
-      "prefab": "train_wooden_crate_11",
+      "type": "wooden_crate_11",
+      "meshes": [
+        "train_wooden_crate_11.glb"
+      ],
       "position": [
         -39.2076,
         2.5611,
@@ -2564,11 +3102,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_12_01",
-      "prefab": "train_wooden_crate_12",
+      "type": "wooden_crate_12",
+      "meshes": [
+        "train_wooden_crate_12.glb"
+      ],
       "position": [
         -30.3425,
         3.8813,
@@ -2583,11 +3125,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_1_01",
-      "prefab": "train_metal_crate_1",
+      "type": "metal_crate_1",
+      "meshes": [
+        "train_metal_crate_1.glb"
+      ],
       "position": [
         -34.0604,
         3.8366,
@@ -2602,11 +3148,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_13_01",
-      "prefab": "train_wooden_crate_13",
+      "type": "wooden_crate_13",
+      "meshes": [
+        "train_wooden_crate_13.glb"
+      ],
       "position": [
         -33.4151,
         3.8813,
@@ -2621,11 +3171,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_14_01",
-      "prefab": "train_wooden_crate_14",
+      "type": "wooden_crate_14",
+      "meshes": [
+        "train_wooden_crate_14.glb"
+      ],
       "position": [
         -19.6983,
         2.5611,
@@ -2640,11 +3194,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_14_01",
-      "prefab": "train_wooden_door_14",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
       "position": [
         -53.2495,
         3.2235,
@@ -2659,11 +3217,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_14_02",
-      "prefab": "train_wooden_door_14",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
       "position": [
         -88.3044,
         3.2235,
@@ -2678,11 +3240,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_14_03",
-      "prefab": "train_wooden_door_14",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
       "position": [
         -139.3537,
         3.2235,
@@ -2697,11 +3263,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_14_04",
-      "prefab": "train_wooden_door_14",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
       "position": [
         -152.5995,
         3.2235,
@@ -2716,11 +3286,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_14_05",
-      "prefab": "train_wooden_door_14",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
       "position": [
         -137.5133,
         3.2235,
@@ -2735,11 +3309,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_14_06",
-      "prefab": "train_wooden_door_14",
+      "type": "wooden_door_14",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ],
       "position": [
         -137.5133,
         3.2235,
@@ -2754,11 +3332,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_15_01",
-      "prefab": "train_wooden_door_15",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
       "position": [
         -56.1041,
         3.296,
@@ -2773,11 +3355,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_15_02",
-      "prefab": "train_wooden_door_15",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
       "position": [
         -59.041,
         3.296,
@@ -2792,11 +3378,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_15_03",
-      "prefab": "train_wooden_door_15",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
       "position": [
         -61.978,
         3.296,
@@ -2811,11 +3401,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_15_04",
-      "prefab": "train_wooden_door_15",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
       "position": [
         -73.7257,
         3.296,
@@ -2830,11 +3424,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_15_05",
-      "prefab": "train_wooden_door_15",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
       "position": [
         -76.6626,
         3.296,
@@ -2849,11 +3447,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_15_06",
-      "prefab": "train_wooden_door_15",
+      "type": "wooden_door_15",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ],
       "position": [
         -79.5996,
         3.296,
@@ -2868,11 +3470,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_16_01",
-      "prefab": "train_wooden_door_16",
+      "type": "wooden_door_16",
+      "meshes": [
+        "train_wooden_door_16.glb",
+        "train_window_glass_1.glb"
+      ],
       "position": [
         -64.9273,
         3.6969,
@@ -2887,11 +3494,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_16_02",
-      "prefab": "train_wooden_door_16",
+      "type": "wooden_door_16",
+      "meshes": [
+        "train_wooden_door_16.glb",
+        "train_window_glass_1.glb"
+      ],
       "position": [
         -67.8642,
         3.6969,
@@ -2906,11 +3518,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_16_03",
-      "prefab": "train_wooden_door_16",
+      "type": "wooden_door_16",
+      "meshes": [
+        "train_wooden_door_16.glb",
+        "train_window_glass_1.glb"
+      ],
       "position": [
         -70.8012,
         3.6969,
@@ -2925,11 +3542,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_1_01",
-      "prefab": "train_wooden_door_1",
+      "type": "wooden_door_1",
+      "meshes": [
+        "train_wooden_door_1.glb"
+      ],
       "position": [
         -82.5635,
         3.2235,
@@ -2944,11 +3565,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_2_01",
-      "prefab": "train_wooden_door_2",
+      "type": "wooden_door_2",
+      "meshes": [
+        "train_wooden_door_2.glb"
+      ],
       "position": [
         -51.0575,
         3.296,
@@ -2963,11 +3588,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_2_02",
-      "prefab": "train_wooden_door_2",
+      "type": "wooden_door_2",
+      "meshes": [
+        "train_wooden_door_2.glb"
+      ],
       "position": [
         -119.8118,
         3.296,
@@ -2982,11 +3611,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_2_03",
-      "prefab": "train_wooden_door_2",
+      "type": "wooden_door_2",
+      "meshes": [
+        "train_wooden_door_2.glb"
+      ],
       "position": [
         -121.1673,
         3.296,
@@ -3001,11 +3634,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_3_01",
-      "prefab": "train_wooden_door_3",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
       "position": [
         -84.7569,
         3.296,
@@ -3020,11 +3657,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_3_02",
-      "prefab": "train_wooden_door_3",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
       "position": [
         -86.1124,
         3.296,
@@ -3039,11 +3680,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_3_03",
-      "prefab": "train_wooden_door_3",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
       "position": [
         -154.8668,
         3.296,
@@ -3058,11 +3703,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_3_04",
-      "prefab": "train_wooden_door_3",
+      "type": "wooden_door_3",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ],
       "position": [
         -156.2223,
         3.296,
@@ -3077,11 +3726,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_4_01",
-      "prefab": "train_wooden_door_4",
+      "type": "wooden_door_4",
+      "meshes": [
+        "train_wooden_door_4.glb"
+      ],
       "position": [
         -91.2349,
         3.296,
@@ -3096,11 +3749,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_4_02",
-      "prefab": "train_wooden_door_4",
+      "type": "wooden_door_4",
+      "meshes": [
+        "train_wooden_door_4.glb"
+      ],
       "position": [
         -94.1718,
         3.296,
@@ -3115,11 +3772,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_5_01",
-      "prefab": "train_wooden_door_5",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
       "position": [
         -97.1436,
         3.296,
@@ -3134,11 +3795,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_5_02",
-      "prefab": "train_wooden_door_5",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
       "position": [
         -108.8913,
         3.296,
@@ -3153,11 +3818,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_5_03",
-      "prefab": "train_wooden_door_5",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
       "position": [
         -111.8283,
         3.296,
@@ -3172,11 +3841,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_5_04",
-      "prefab": "train_wooden_door_5",
+      "type": "wooden_door_5",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ],
       "position": [
         -114.7652,
         3.296,
@@ -3191,11 +3864,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_6_01",
-      "prefab": "train_wooden_door_6",
+      "type": "wooden_door_6",
+      "meshes": [
+        "train_wooden_door_6.glb"
+      ],
       "position": [
         -100.0681,
         3.6969,
@@ -3210,11 +3887,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_6_02",
-      "prefab": "train_wooden_door_6",
+      "type": "wooden_door_6",
+      "meshes": [
+        "train_wooden_door_6.glb"
+      ],
       "position": [
         -103.0051,
         3.6969,
@@ -3229,11 +3910,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_6_03",
-      "prefab": "train_wooden_door_6",
+      "type": "wooden_door_6",
+      "meshes": [
+        "train_wooden_door_6.glb"
+      ],
       "position": [
         -105.942,
         3.6969,
@@ -3248,11 +3933,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_7_01",
-      "prefab": "train_wooden_door_7",
+      "type": "wooden_door_7",
+      "meshes": [
+        "train_wooden_door_7.glb"
+      ],
       "position": [
         -117.6184,
         3.2235,
@@ -3267,11 +3956,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_01",
-      "prefab": "train_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "train_window_glass.glb"
+      ],
       "position": [
         -103.847,
         3.803,
@@ -3286,11 +3979,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_01",
-      "prefab": "train_wooden_table",
+      "type": "wooden_table",
+      "meshes": [
+        "train_wooden_table.glb"
+      ],
       "position": [
         -131.9333,
         2.6769,
@@ -3305,11 +4002,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_02",
-      "prefab": "train_wooden_table",
+      "type": "wooden_table",
+      "meshes": [
+        "train_wooden_table.glb"
+      ],
       "position": [
         -144.2082,
         2.6769,
@@ -3324,11 +4025,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_8_01",
-      "prefab": "train_wooden_door_8",
+      "type": "wooden_door_8",
+      "meshes": [
+        "train_wooden_door_8.glb"
+      ],
       "position": [
         -123.4172,
         3.2235,
@@ -3343,11 +4048,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_10_01",
-      "prefab": "train_wooden_door_10",
+      "type": "wooden_door_10",
+      "meshes": [
+        "train_wooden_door_10.glb"
+      ],
       "position": [
         -127.1165,
         3.2235,
@@ -3362,11 +4071,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_10_02",
-      "prefab": "train_wooden_door_10",
+      "type": "wooden_door_10",
+      "meshes": [
+        "train_wooden_door_10.glb"
+      ],
       "position": [
         -136.6804,
         3.2235,
@@ -3381,11 +4094,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_9_01",
-      "prefab": "train_wooden_door_9",
+      "type": "wooden_door_9",
+      "meshes": [
+        "train_wooden_door_9.glb"
+      ],
       "position": [
         -148.9176,
         3.2235,
@@ -3400,11 +4117,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_15_01",
-      "prefab": "train_wooden_crate_15",
+      "type": "wooden_crate_15",
+      "meshes": [
+        "train_wooden_crate_15.glb"
+      ],
       "position": [
         -147.4286,
         -0.0347,
@@ -3419,11 +4140,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_15_02",
-      "prefab": "train_wooden_crate_15",
+      "type": "wooden_crate_15",
+      "meshes": [
+        "train_wooden_crate_15.glb"
+      ],
       "position": [
         -154.7505,
         -0.0368,
@@ -3438,11 +4163,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_2_01",
-      "prefab": "train_metal_crate_2",
+      "type": "metal_crate_2",
+      "meshes": [
+        "train_metal_crate_2.glb"
+      ],
       "position": [
         -150.4616,
         -0.0794,
@@ -3457,11 +4186,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_3_01",
-      "prefab": "train_metal_crate_3",
+      "type": "metal_crate_3",
+      "meshes": [
+        "train_metal_crate_3.glb"
+      ],
       "position": [
         -151.63,
         -0.0784,
@@ -3476,11 +4209,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_4_01",
-      "prefab": "train_metal_crate_4",
+      "type": "metal_crate_4",
+      "meshes": [
+        "train_metal_crate_4.glb"
+      ],
       "position": [
         -151.6282,
         -0.0794,
@@ -3495,11 +4232,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_01",
-      "prefab": "train_tv",
+      "type": "tv",
+      "meshes": [
+        "train_tv.glb"
+      ],
       "position": [
         -174.3929,
         3.3548,
@@ -3514,11 +4255,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_01",
-      "prefab": "train_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "train_keyboard.glb"
+      ],
       "position": [
         -175.1551,
         3.0766,
@@ -3533,11 +4278,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_11_01",
-      "prefab": "train_wooden_door_11",
+      "type": "wooden_door_11",
+      "meshes": [
+        "train_wooden_door_11.glb"
+      ],
       "position": [
         -169.2126,
         3.1873,
@@ -3552,11 +4301,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_12_01",
-      "prefab": "train_wooden_door_12",
+      "type": "wooden_door_12",
+      "meshes": [
+        "train_wooden_door_12.glb"
+      ],
       "position": [
         -183.1818,
         3.1873,
@@ -3571,11 +4324,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_13_01",
-      "prefab": "train_wooden_door_13",
+      "type": "wooden_door_13",
+      "meshes": [
+        "train_wooden_door_13.glb"
+      ],
       "position": [
         -188.4156,
         3.2235,
@@ -3590,11 +4347,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_01",
-      "prefab": "train_wooden_segment_door",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "train_wooden_segment_door.glb"
+      ],
       "position": [
         -178.4752,
         2.9871,
@@ -3609,11 +4370,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_02",
-      "prefab": "train_wooden_segment_door",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "train_wooden_segment_door.glb"
+      ],
       "position": [
         -158.2179,
         2.9871,
@@ -3628,11 +4393,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_1_01",
-      "prefab": "train_wooden_segment_door_1",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
       "position": [
         -171.547,
         3.5394,
@@ -3647,11 +4416,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_1_02",
-      "prefab": "train_wooden_segment_door_1",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
       "position": [
         -176.0654,
         3.5394,
@@ -3666,11 +4439,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_1_03",
-      "prefab": "train_wooden_segment_door_1",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
       "position": [
         -176.0654,
         3.5394,
@@ -3685,11 +4462,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_1_04",
-      "prefab": "train_wooden_segment_door_1",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
       "position": [
         -171.547,
         3.5394,
@@ -3704,11 +4485,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_1_05",
-      "prefab": "train_wooden_segment_door_1",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
       "position": [
         -166.8781,
         3.5394,
@@ -3723,11 +4508,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_1_06",
-      "prefab": "train_wooden_segment_door_1",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
       "position": [
         -166.8781,
         3.5394,
@@ -3742,11 +4531,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_1_07",
-      "prefab": "train_wooden_segment_door_1",
+      "type": "wooden_segment_door_1",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ],
       "position": [
         -162.5103,
         3.5394,
@@ -3761,11 +4554,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_escape_hatch_01",
-      "prefab": "train_train_escape_hatch",
+      "type": "train_escape_hatch",
+      "meshes": [
+        "train_train_escape_hatch.glb"
+      ],
       "position": [
         -169.8903,
         1.845,
@@ -3780,7 +4577,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

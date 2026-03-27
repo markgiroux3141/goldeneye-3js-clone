@@ -12,11 +12,13 @@ export async function saveToProject(filePath: string, content: string): Promise<
   if (!import.meta.env.DEV) {
     return { ok: false, error: 'Direct save only available in dev mode' };
   }
+  // Strip leading slash — paths must be relative to public/ for the Vite plugin
+  const relativePath = filePath.replace(/^\/+/, '');
   try {
     const res = await fetch('/__editor-api/save', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ filePath, content }),
+      body: JSON.stringify({ filePath: relativePath, content }),
     });
     return await res.json();
   } catch {
@@ -32,11 +34,13 @@ export async function renameFile(oldPath: string, newPath: string): Promise<Save
   if (!import.meta.env.DEV) {
     return { ok: false, error: 'Rename only available in dev mode' };
   }
+  const relOld = oldPath.replace(/^\/+/, '');
+  const relNew = newPath.replace(/^\/+/, '');
   try {
     const res = await fetch('/__editor-api/rename', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ oldPath, newPath }),
+      body: JSON.stringify({ oldPath: relOld, newPath: relNew }),
     });
     return await res.json();
   } catch {

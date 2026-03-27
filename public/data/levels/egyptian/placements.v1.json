@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "primary_00_01",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -32.0173,
         1.1069,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_02",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -32.0173,
         1.1069,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_03",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -35.5047,
         1.1069,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_04",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -41.6438,
         1.1069,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_05",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -19.8353,
         1.1069,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_06",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -15.6837,
         1.1069,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_07",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -14.5276,
         1.1069,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_08",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -14.5276,
         1.1069,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_09",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -11.5225,
         1.1069,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_10",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         -24.0215,
         1.1069,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_11",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         12.0084,
         1.1069,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_12",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         35.7697,
         1.1069,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_13",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         35.9117,
         1.1069,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "primary_00_14",
-      "prefab": "egyptian_primary_00",
+      "type": "primary_00",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ],
       "position": [
         12.1504,
         1.1069,
@@ -265,11 +319,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_01",
-      "prefab": "egyptian_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "egyptian_drone_gun_primary.glb",
+        "egyptian_drone_gun_secondary.glb"
+      ],
       "position": [
         11.0009,
         6.5565,
@@ -284,11 +343,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_02",
-      "prefab": "egyptian_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "egyptian_drone_gun_primary.glb",
+        "egyptian_drone_gun_secondary.glb"
+      ],
       "position": [
         11.0009,
         6.5565,
@@ -303,11 +367,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_03",
-      "prefab": "egyptian_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "egyptian_drone_gun_primary.glb",
+        "egyptian_drone_gun_secondary.glb"
+      ],
       "position": [
         11.0009,
         6.5565,
@@ -322,11 +391,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_01",
-      "prefab": "egyptian_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "egyptian_metal_bracket.glb"
+      ],
       "position": [
         -15.7231,
         1.06,
@@ -341,11 +414,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_02",
-      "prefab": "egyptian_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "egyptian_metal_bracket.glb"
+      ],
       "position": [
         -46.021,
         0,
@@ -360,11 +437,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_03",
-      "prefab": "egyptian_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "egyptian_metal_bracket.glb"
+      ],
       "position": [
         -31.3579,
         0,
@@ -379,11 +460,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_04",
-      "prefab": "egyptian_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "egyptian_metal_bracket.glb"
+      ],
       "position": [
         -38.3803,
         0,
@@ -398,11 +483,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_05",
-      "prefab": "egyptian_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "egyptian_metal_bracket.glb"
+      ],
       "position": [
         -38.3803,
         0,
@@ -417,11 +506,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "golden_gun_01",
-      "prefab": "egyptian_golden_gun",
+      "type": "golden_gun",
+      "meshes": [
+        "egyptian_golden_gun.glb"
+      ],
       "position": [
         29.2851,
         4.1686,
@@ -436,11 +529,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_box_01",
-      "prefab": "egyptian_ammo_box",
+      "type": "ammo_box",
+      "meshes": [
+        "egyptian_ammo_box.glb"
+      ],
       "position": [
         29.2828,
         4.2237,
@@ -455,11 +552,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "baron_samedi_01",
-      "prefab": "egyptian_baron_samedi",
+      "type": "baron_samedi",
+      "meshes": [
+        "egyptian_baron_samedi.glb"
+      ],
       "position": [
         24.2903,
         1.3899,
@@ -474,11 +575,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_04",
-      "prefab": "egyptian_drone_gun_v2",
+      "type": "drone_gun",
+      "meshes": [
+        "egyptian_drone_gun.glb"
+      ],
       "position": [
         22.7838,
         5.0927,
@@ -493,11 +598,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_05",
-      "prefab": "egyptian_drone_gun_v2",
+      "type": "drone_gun",
+      "meshes": [
+        "egyptian_drone_gun.glb"
+      ],
       "position": [
         35.3711,
         5.0927,
@@ -512,11 +621,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_06",
-      "prefab": "egyptian_drone_gun_v2",
+      "type": "drone_gun",
+      "meshes": [
+        "egyptian_drone_gun.glb"
+      ],
       "position": [
         22.7838,
         5.0927,
@@ -531,11 +644,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_07",
-      "prefab": "egyptian_drone_gun_v2",
+      "type": "drone_gun",
+      "meshes": [
+        "egyptian_drone_gun.glb"
+      ],
       "position": [
         35.3711,
         5.0927,
@@ -550,11 +667,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "egyptian_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "egyptian_body_armor.glb"
+      ],
       "position": [
         -15.5507,
         0.095,
@@ -569,11 +690,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_02",
-      "prefab": "egyptian_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "egyptian_body_armor.glb"
+      ],
       "position": [
         29.7195,
         4.2466,
@@ -588,11 +713,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_03",
-      "prefab": "egyptian_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "egyptian_body_armor.glb"
+      ],
       "position": [
         -17.7505,
         0.095,
@@ -607,11 +736,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_01",
-      "prefab": "egyptian_stone_door",
+      "type": "stone_door",
+      "meshes": [
+        "egyptian_stone_door.glb"
+      ],
       "position": [
         29.7016,
         6.2495,
@@ -626,11 +759,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_1_01",
-      "prefab": "egyptian_stone_door_1",
+      "type": "stone_door_1",
+      "meshes": [
+        "egyptian_stone_door_1.glb"
+      ],
       "position": [
         29.7016,
         4.6816,
@@ -645,11 +782,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_2_01",
-      "prefab": "egyptian_stone_door_2",
+      "type": "stone_door_2",
+      "meshes": [
+        "egyptian_stone_door_2.glb"
+      ],
       "position": [
         29.7016,
         6.2495,
@@ -664,11 +805,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_3_01",
-      "prefab": "egyptian_stone_door_3",
+      "type": "stone_door_3",
+      "meshes": [
+        "egyptian_stone_door_3.glb"
+      ],
       "position": [
         29.7016,
         4.6816,
@@ -683,11 +828,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_4_01",
-      "prefab": "egyptian_stone_door_4",
+      "type": "stone_door_4",
+      "meshes": [
+        "egyptian_stone_door_4.glb"
+      ],
       "position": [
         10.9311,
         2.0758,
@@ -702,11 +851,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_5_01",
-      "prefab": "egyptian_stone_door_5",
+      "type": "stone_door_5",
+      "meshes": [
+        "egyptian_stone_door_5.glb"
+      ],
       "position": [
         18.2185,
         6.2495,
@@ -721,11 +874,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_6_01",
-      "prefab": "egyptian_stone_door_6",
+      "type": "stone_door_6",
+      "meshes": [
+        "egyptian_stone_door_6.glb"
+      ],
       "position": [
         1.1704,
         4.6816,
@@ -740,11 +897,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_6_02",
-      "prefab": "egyptian_stone_door_6",
+      "type": "stone_door_6",
+      "meshes": [
+        "egyptian_stone_door_6.glb"
+      ],
       "position": [
         1.1704,
         7.8174,
@@ -759,11 +920,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_7_01",
-      "prefab": "egyptian_stone_door_7",
+      "type": "stone_door_7",
+      "meshes": [
+        "egyptian_stone_door_7.glb"
+      ],
       "position": [
         1.4133,
         4.6816,
@@ -778,11 +943,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_7_02",
-      "prefab": "egyptian_stone_door_7",
+      "type": "stone_door_7",
+      "meshes": [
+        "egyptian_stone_door_7.glb"
+      ],
       "position": [
         1.4133,
         7.8174,
@@ -797,11 +966,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_8_01",
-      "prefab": "egyptian_stone_door_8",
+      "type": "stone_door_8",
+      "meshes": [
+        "egyptian_stone_door_8.glb"
+      ],
       "position": [
         1.3029,
         6.2495,
@@ -816,11 +989,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_platform_01",
-      "prefab": "egyptian_stone_platform",
+      "type": "stone_platform",
+      "meshes": [
+        "egyptian_stone_platform.glb"
+      ],
       "position": [
         29.1275,
         4.6376,
@@ -835,11 +1012,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_9_01",
-      "prefab": "egyptian_stone_door_9",
+      "type": "stone_door_9",
+      "meshes": [
+        "egyptian_stone_door_9.glb"
+      ],
       "position": [
         34.1182,
         5.7195,
@@ -854,11 +1035,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_9_02",
-      "prefab": "egyptian_stone_door_9",
+      "type": "stone_door_9",
+      "meshes": [
+        "egyptian_stone_door_9.glb"
+      ],
       "position": [
         34.1182,
         5.7195,
@@ -873,11 +1058,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_9_03",
-      "prefab": "egyptian_stone_door_9",
+      "type": "stone_door_9",
+      "meshes": [
+        "egyptian_stone_door_9.glb"
+      ],
       "position": [
         21.553,
         5.7195,
@@ -892,11 +1081,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_9_04",
-      "prefab": "egyptian_stone_door_9",
+      "type": "stone_door_9",
+      "meshes": [
+        "egyptian_stone_door_9.glb"
+      ],
       "position": [
         21.553,
         5.7195,
@@ -911,11 +1104,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_9_05",
-      "prefab": "egyptian_stone_door_9",
+      "type": "stone_door_9",
+      "meshes": [
+        "egyptian_stone_door_9.glb"
+      ],
       "position": [
         24.1588,
         5.7195,
@@ -930,11 +1127,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_9_06",
-      "prefab": "egyptian_stone_door_9",
+      "type": "stone_door_9",
+      "meshes": [
+        "egyptian_stone_door_9.glb"
+      ],
       "position": [
         24.1588,
         5.7195,
@@ -949,11 +1150,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_10_01",
-      "prefab": "egyptian_stone_door_10",
+      "type": "stone_door_10",
+      "meshes": [
+        "egyptian_stone_door_10.glb"
+      ],
       "position": [
         35.399,
         5.7195,
@@ -968,11 +1173,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_10_02",
-      "prefab": "egyptian_stone_door_10",
+      "type": "stone_door_10",
+      "meshes": [
+        "egyptian_stone_door_10.glb"
+      ],
       "position": [
         35.399,
         5.7195,
@@ -987,11 +1196,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_11_01",
-      "prefab": "egyptian_stone_door_11",
+      "type": "stone_door_11",
+      "meshes": [
+        "egyptian_stone_door_11.glb"
+      ],
       "position": [
         22.8559,
         5.7195,
@@ -1006,11 +1219,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_11_02",
-      "prefab": "egyptian_stone_door_11",
+      "type": "stone_door_11",
+      "meshes": [
+        "egyptian_stone_door_11.glb"
+      ],
       "position": [
         22.8559,
         5.7195,
@@ -1025,11 +1242,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_barrier_01",
-      "prefab": "egyptian_black_barrier",
+      "type": "black_barrier",
+      "meshes": [
+        "egyptian_black_barrier.glb"
+      ],
       "position": [
         29.1496,
         5.8078,
@@ -1044,11 +1265,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_barrier_02",
-      "prefab": "egyptian_black_barrier",
+      "type": "black_barrier",
+      "meshes": [
+        "egyptian_black_barrier.glb"
+      ],
       "position": [
         28.2883,
         5.8078,
@@ -1063,11 +1288,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blck_barrier_01",
-      "prefab": "egyptian_blck_barrier",
+      "type": "blck_barrier",
+      "meshes": [
+        "egyptian_blck_barrier.glb"
+      ],
       "position": [
         29.1496,
         5.8078,
@@ -1082,11 +1311,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blck_barrier_02",
-      "prefab": "egyptian_blck_barrier",
+      "type": "blck_barrier",
+      "meshes": [
+        "egyptian_blck_barrier.glb"
+      ],
       "position": [
         29.9887,
         5.8078,
@@ -1101,7 +1334,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

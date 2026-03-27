@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         33.528,
         0.6533,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         32.7912,
         0.6533,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -41.4199,
         -8.9254,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -16.0788,
         -8.9254,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         46.7043,
         0.6533,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         46.9369,
         0.6533,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_07",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -41.7141,
         -8.9254,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_08",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -15.8285,
         -8.9254,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_09",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -14.2977,
         2.7357,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_10",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         71.1561,
         0.6533,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_11",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -13.6025,
         2.7357,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_12",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         6.6357,
         2.7357,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_13",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -6.6036,
         2.7357,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_14",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -12.2241,
         2.7357,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_15",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         23.9813,
         2.3192,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_16",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -18.1602,
         2.7357,
@@ -303,11 +365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_17",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -24.8878,
         2.7357,
@@ -322,11 +388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_18",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -31.5192,
         2.7357,
@@ -341,11 +411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_19",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -29.3408,
         2.7357,
@@ -360,11 +434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_20",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -33.4734,
         2.7357,
@@ -379,11 +457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_21",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -7.7485,
         -8.9254,
@@ -398,11 +480,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_22",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -3.6479,
         -8.9254,
@@ -417,11 +503,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_23",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -8.5353,
         -10.6233,
@@ -436,11 +526,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_24",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -8.5353,
         -10.6233,
@@ -455,11 +549,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_25",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         50.5665,
         -8.9254,
@@ -474,11 +572,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_26",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         50.5665,
         -8.9254,
@@ -493,11 +595,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_27",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -80.6803,
         2.7357,
@@ -512,11 +618,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_28",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -79.527,
         2.7357,
@@ -531,11 +641,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_29",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -80.5522,
         2.7357,
@@ -550,11 +664,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_30",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -80.0396,
         2.7357,
@@ -569,11 +687,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_31",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         6.6272,
         2.7357,
@@ -588,11 +710,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_32",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         72.758,
         0.6533,
@@ -607,11 +733,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_33",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         72.5253,
         0.6533,
@@ -626,11 +756,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_34",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         52.7496,
         0.6533,
@@ -645,11 +779,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_35",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -49.2106,
         -5.5937,
@@ -664,11 +802,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_36",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -49.0498,
         -3.3832,
@@ -683,11 +825,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_37",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -62.7238,
         1.0698,
@@ -702,11 +848,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_38",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -38.3833,
         12.7629,
@@ -721,11 +871,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_39",
-      "prefab": "aztec_guard",
+      "type": "guard",
+      "meshes": [
+        "aztec_guard.glb"
+      ],
       "position": [
         -39.1343,
         2.7357,
@@ -740,11 +894,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "jaws_01",
-      "prefab": "aztec_jaws",
+      "type": "jaws",
+      "meshes": [
+        "aztec_jaws.glb"
+      ],
       "position": [
         -37.5737,
         -8.5829,
@@ -759,11 +917,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_01",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -29.5692,
         5.6063,
@@ -778,11 +940,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_02",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -29.6653,
         5.6063,
@@ -797,11 +963,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_03",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -29.5692,
         4.3569,
@@ -816,11 +986,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_04",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -29.6653,
         4.3569,
@@ -835,11 +1009,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_05",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -29.5692,
         3.0114,
@@ -854,11 +1032,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_06",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -29.6653,
         3.0114,
@@ -873,11 +1055,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_07",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -32.2282,
         3.0114,
@@ -892,11 +1078,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_bracket_08",
-      "prefab": "aztec_metal_bracket",
+      "type": "metal_bracket",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ],
       "position": [
         -32.2282,
         3.0114,
@@ -911,11 +1101,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_01",
-      "prefab": "aztec_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
       "position": [
         -18.9333,
         2.8253,
@@ -930,11 +1125,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_02",
-      "prefab": "aztec_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
       "position": [
         -18.9333,
         2.8253,
@@ -949,11 +1149,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_03",
-      "prefab": "aztec_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
       "position": [
         -73.3624,
         2.7221,
@@ -968,11 +1173,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_04",
-      "prefab": "aztec_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ],
       "position": [
         -74.2915,
         2.7221,
@@ -987,11 +1197,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_01",
-      "prefab": "aztec_tv",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
       "position": [
         -18.9962,
         3.0914,
@@ -1006,11 +1220,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_02",
-      "prefab": "aztec_tv",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
       "position": [
         -73.1384,
         2.944,
@@ -1025,11 +1243,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_03",
-      "prefab": "aztec_tv",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
       "position": [
         -74.6049,
         2.944,
@@ -1044,11 +1266,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_04",
-      "prefab": "aztec_tv",
+      "type": "tv",
+      "meshes": [
+        "aztec_tv.glb"
+      ],
       "position": [
         -12.3989,
         3.3514,
@@ -1063,11 +1289,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "audio_tape_01",
-      "prefab": "aztec_audio_tape",
+      "type": "audio_tape",
+      "meshes": [
+        "aztec_audio_tape.glb"
+      ],
       "position": [
         -19.0294,
         2.8439,
@@ -1082,11 +1312,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_01",
-      "prefab": "aztec_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
       "position": [
         -18.6041,
         2.8471,
@@ -1101,11 +1335,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_02",
-      "prefab": "aztec_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
       "position": [
         -73.4896,
         2.744,
@@ -1120,11 +1358,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_03",
-      "prefab": "aztec_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
       "position": [
         -74.3874,
         2.744,
@@ -1139,11 +1381,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_04",
-      "prefab": "aztec_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ],
       "position": [
         -12.9409,
         3.0571,
@@ -1158,11 +1404,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_01",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -78.8723,
         2.2546,
@@ -1177,11 +1427,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_02",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -78.8726,
         2.2546,
@@ -1196,11 +1450,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_03",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -79.4173,
         2.2546,
@@ -1215,11 +1473,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_04",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -79.1606,
         2.2546,
@@ -1234,11 +1496,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_05",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -78.6162,
         2.2546,
@@ -1253,11 +1519,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_06",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -77.6551,
         2.2546,
@@ -1272,11 +1542,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_07",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -58.1773,
         2.2546,
@@ -1291,11 +1565,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_08",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -55.102,
         2.2546,
@@ -1310,11 +1588,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_09",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -60.164,
         2.2546,
@@ -1329,11 +1611,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_10",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -54.1088,
         2.2546,
@@ -1348,11 +1634,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_11",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         -58.1137,
         3.4393,
@@ -1367,11 +1657,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_12",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         35.7842,
         0.1723,
@@ -1386,11 +1680,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_13",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         35.2398,
         0.1723,
@@ -1405,11 +1703,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_14",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         35.2719,
         0.1723,
@@ -1424,11 +1726,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_15",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         34.4068,
         0.1723,
@@ -1443,11 +1749,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_16",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         25.4367,
         1.8381,
@@ -1462,11 +1772,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_17",
-      "prefab": "aztec_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ],
       "position": [
         26.3018,
         1.8381,
@@ -1481,11 +1795,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "aztec_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "aztec_body_armor.glb"
+      ],
       "position": [
         -19.9618,
         2.0492,
@@ -1500,11 +1818,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_01",
-      "prefab": "aztec_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
       "position": [
         -61.6768,
         6.0462,
@@ -1519,11 +1842,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_02",
-      "prefab": "aztec_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
       "position": [
         -61.7899,
         6.0462,
@@ -1538,11 +1866,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_03",
-      "prefab": "aztec_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
       "position": [
         -77.3419,
         11.0758,
@@ -1557,11 +1890,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_04",
-      "prefab": "aztec_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
       "position": [
         -77.4219,
         11.0758,
@@ -1576,11 +1914,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_05",
-      "prefab": "aztec_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
       "position": [
         -36.3994,
         3.9179,
@@ -1595,11 +1938,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_06",
-      "prefab": "aztec_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ],
       "position": [
         -30.9403,
         3.9179,
@@ -1614,11 +1962,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_01",
-      "prefab": "aztec_console",
+      "type": "console",
+      "meshes": [
+        "aztec_console.glb"
+      ],
       "position": [
         -6.2475,
         2.6817,
@@ -1633,11 +1985,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_01",
-      "prefab": "aztec_console_1",
+      "type": "console_1",
+      "meshes": [
+        "aztec_console_1.glb"
+      ],
       "position": [
         -33.7174,
         2.6457,
@@ -1652,11 +2008,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_02",
-      "prefab": "aztec_console_1",
+      "type": "console_1",
+      "meshes": [
+        "aztec_console_1.glb"
+      ],
       "position": [
         -29.1363,
         2.6457,
@@ -1671,11 +2031,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "floor_hatch_01",
-      "prefab": "aztec_floor_hatch",
+      "type": "floor_hatch",
+      "meshes": [
+        "aztec_floor_hatch.glb"
+      ],
       "position": [
         -34.9814,
         5.4564,
@@ -1690,11 +2054,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "floor_hatch_1_01",
-      "prefab": "aztec_floor_hatch_1",
+      "type": "floor_hatch_1",
+      "meshes": [
+        "aztec_floor_hatch_1.glb"
+      ],
       "position": [
         -27.8976,
         5.4568,
@@ -1709,11 +2077,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_01",
-      "prefab": "aztec_stone_door",
+      "type": "stone_door",
+      "meshes": [
+        "aztec_stone_door.glb"
+      ],
       "position": [
         61.5251,
         1.8901,
@@ -1728,11 +2100,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "stone_door_1_01",
-      "prefab": "aztec_stone_door_1",
+      "type": "stone_door_1",
+      "meshes": [
+        "aztec_stone_door_1.glb"
+      ],
       "position": [
         11.1966,
         2.4027,
@@ -1747,11 +2123,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wood_segment_door_01",
-      "prefab": "aztec_wood_segment_door",
+      "type": "wood_segment_door",
+      "meshes": [
+        "aztec_wood_segment_door.glb"
+      ],
       "position": [
         -31.4273,
         2.5949,
@@ -1766,11 +2146,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_01",
-      "prefab": "aztec_unknown",
+      "type": "unknown",
+      "meshes": [
+        "aztec_unknown.glb"
+      ],
       "position": [
         -31.4311,
         2.1743,
@@ -1785,11 +2169,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_1_01",
-      "prefab": "aztec_unknown_1",
+      "type": "unknown_1",
+      "meshes": [
+        "aztec_unknown_1.glb"
+      ],
       "position": [
         -31.4263,
         2.963,
@@ -1804,11 +2192,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_2_01",
-      "prefab": "aztec_unknown_2",
+      "type": "unknown_2",
+      "meshes": [
+        "aztec_unknown_2.glb"
+      ],
       "position": [
         -29.5087,
         1.6018,
@@ -1823,11 +2215,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_3_01",
-      "prefab": "aztec_unknown_3",
+      "type": "unknown_3",
+      "meshes": [
+        "aztec_unknown_3.glb"
+      ],
       "position": [
         -29.5087,
         1.6018,
@@ -1842,11 +2238,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_3_02",
-      "prefab": "aztec_unknown_3",
+      "type": "unknown_3",
+      "meshes": [
+        "aztec_unknown_3.glb"
+      ],
       "position": [
         -29.5087,
         1.6018,
@@ -1861,11 +2261,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_3_03",
-      "prefab": "aztec_unknown_3",
+      "type": "unknown_3",
+      "meshes": [
+        "aztec_unknown_3.glb"
+      ],
       "position": [
         -29.5087,
         1.6018,
@@ -1880,11 +2284,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_4_01",
-      "prefab": "aztec_unknown_4",
+      "type": "unknown_4",
+      "meshes": [
+        "aztec_unknown_4.glb"
+      ],
       "position": [
         -33.3286,
         1.6018,
@@ -1899,11 +2307,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_4_02",
-      "prefab": "aztec_unknown_4",
+      "type": "unknown_4",
+      "meshes": [
+        "aztec_unknown_4.glb"
+      ],
       "position": [
         -33.3286,
         1.6018,
@@ -1918,11 +2330,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_4_03",
-      "prefab": "aztec_unknown_4",
+      "type": "unknown_4",
+      "meshes": [
+        "aztec_unknown_4.glb"
+      ],
       "position": [
         -33.3286,
         1.6018,
@@ -1937,11 +2353,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_5_01",
-      "prefab": "aztec_unknown_5",
+      "type": "unknown_5",
+      "meshes": [
+        "aztec_unknown_5.glb"
+      ],
       "position": [
         -33.3286,
         1.6018,
@@ -1956,11 +2376,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rocket_ship_01",
-      "prefab": "aztec_rocket_ship",
+      "type": "rocket_ship",
+      "meshes": [
+        "aztec_rocket_ship.glb"
+      ],
       "position": [
         -32.7471,
         18.6868,
@@ -1975,11 +2399,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_01",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -14.4002,
         8.7939,
@@ -1994,11 +2422,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_02",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -12.3178,
         6.7756,
@@ -2013,11 +2445,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_03",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         4.2448,
         9.4026,
@@ -2032,11 +2468,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_04",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -15.7617,
         4.6292,
@@ -2051,11 +2491,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_05",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -15.7617,
         4.6292,
@@ -2070,11 +2514,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_06",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -15.6976,
         8.4895,
@@ -2089,11 +2537,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_07",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         5.6063,
         4.8695,
@@ -2108,11 +2560,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_08",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         3.9084,
         4.8695,
@@ -2127,11 +2583,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_09",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         2.2105,
         4.8695,
@@ -2146,11 +2606,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_10",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         0.5126,
         4.8695,
@@ -2165,11 +2629,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_11",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -1.1853,
         4.8695,
@@ -2184,11 +2652,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_12",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -2.8832,
         4.8695,
@@ -2203,11 +2675,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_13",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -4.5811,
         4.8695,
@@ -2222,11 +2698,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_14",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -6.2791,
         4.8695,
@@ -2241,11 +2721,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_15",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -7.977,
         4.8695,
@@ -2260,11 +2744,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_16",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -9.6589,
         4.8695,
@@ -2279,11 +2767,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_17",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -11.3568,
         4.8695,
@@ -2298,11 +2790,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_18",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -13.0547,
         4.8695,
@@ -2317,11 +2813,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_19",
-      "prefab": "aztec_divider",
+      "type": "divider",
+      "meshes": [
+        "aztec_divider.glb"
+      ],
       "position": [
         -14.7526,
         4.8695,
@@ -2336,11 +2836,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_01",
-      "prefab": "aztec_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
       "position": [
         -12.1096,
         8.7939,
@@ -2355,11 +2859,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_02",
-      "prefab": "aztec_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
       "position": [
         -1.746,
         8.0731,
@@ -2374,11 +2882,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_03",
-      "prefab": "aztec_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
       "position": [
         -1.746,
         6.4553,
@@ -2393,11 +2905,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_04",
-      "prefab": "aztec_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
       "position": [
         6.9999,
         6.8557,
@@ -2412,11 +2928,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_05",
-      "prefab": "aztec_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
       "position": [
         -4.0846,
         8.3133,
@@ -2431,11 +2951,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_06",
-      "prefab": "aztec_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ],
       "position": [
         -4.0846,
         6.5353,
@@ -2450,11 +2974,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_01",
-      "prefab": "aztec_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
       "position": [
         -8.9541,
         9.0021,
@@ -2469,11 +2997,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_02",
-      "prefab": "aztec_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
       "position": [
         -8.5376,
         6.9678,
@@ -2488,11 +3020,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_03",
-      "prefab": "aztec_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
       "position": [
         -6.4553,
         6.9838,
@@ -2507,11 +3043,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_04",
-      "prefab": "aztec_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
       "position": [
         0.6567,
         6.215,
@@ -2526,11 +3066,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_05",
-      "prefab": "aztec_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
       "position": [
         -2.0823,
         6.8557,
@@ -2545,11 +3089,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_06",
-      "prefab": "aztec_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
       "position": [
         -8.7618,
         6.9678,
@@ -2564,11 +3112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_07",
-      "prefab": "aztec_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ],
       "position": [
         -15.6976,
         6.8076,
@@ -2583,11 +3135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_01",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -7.08,
         9.0021,
@@ -2602,11 +3158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_02",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -14.6084,
         6.5674,
@@ -2621,11 +3181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_03",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -6.9999,
         9.0021,
@@ -2640,11 +3204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_04",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -6.7916,
         6.5674,
@@ -2659,11 +3227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_05",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -14.6084,
         6.5674,
@@ -2678,11 +3250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_06",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -14.6084,
         8.2012,
@@ -2697,11 +3273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_07",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -19.9264,
         4.3729,
@@ -2716,11 +3296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_08",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -19.9264,
         4.3729,
@@ -2735,11 +3319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_09",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -19.9264,
         4.3729,
@@ -2754,11 +3342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_10",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -15.7617,
         4.5811,
@@ -2773,11 +3365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_11",
-      "prefab": "aztec_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ],
       "position": [
         -15.6976,
         6.6154,
@@ -2792,11 +3388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_01",
-      "prefab": "aztec_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "aztec_divider_4.glb"
+      ],
       "position": [
         -3.7482,
         8.7939,
@@ -2811,11 +3411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_02",
-      "prefab": "aztec_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "aztec_divider_4.glb"
+      ],
       "position": [
         -3.7482,
         6.6955,
@@ -2830,11 +3434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_5_01",
-      "prefab": "aztec_divider_5",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
       "position": [
         1.8261,
         8.3934,
@@ -2849,11 +3457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_5_02",
-      "prefab": "aztec_divider_5",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
       "position": [
         2.1784,
         6.4553,
@@ -2868,11 +3480,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_5_03",
-      "prefab": "aztec_divider_5",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
       "position": [
         1.8421,
         9.1142,
@@ -2887,11 +3503,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_5_04",
-      "prefab": "aztec_divider_5",
+      "type": "divider_5",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ],
       "position": [
         -2.3386,
         8.7939,
@@ -2906,11 +3526,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_6_01",
-      "prefab": "aztec_divider_6",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
       "position": [
         4.2608,
         8.7138,
@@ -2925,11 +3549,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_6_02",
-      "prefab": "aztec_divider_6",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
       "position": [
         1.5858,
         6.8557,
@@ -2944,11 +3572,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_6_03",
-      "prefab": "aztec_divider_6",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
       "position": [
         6.8397,
         6.5353,
@@ -2963,11 +3595,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_6_04",
-      "prefab": "aztec_divider_6",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
       "position": [
         -10.6199,
         4.8695,
@@ -2982,11 +3618,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_6_05",
-      "prefab": "aztec_divider_6",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
       "position": [
         -3.5079,
         4.8695,
@@ -3001,11 +3641,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_6_06",
-      "prefab": "aztec_divider_6",
+      "type": "divider_6",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ],
       "position": [
         3.7002,
         4.8695,
@@ -3020,11 +3664,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_01",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         4.421,
         6.6154,
@@ -3039,11 +3687,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_02",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         -14.256,
         4.8695,
@@ -3058,11 +3710,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_03",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         -12.3979,
         4.8695,
@@ -3077,11 +3733,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_04",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         -8.8419,
         4.8695,
@@ -3096,11 +3756,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_05",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         -7.08,
         4.8695,
@@ -3115,11 +3779,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_06",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         -5.318,
         4.8695,
@@ -3134,11 +3802,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_07",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         -1.6979,
         4.8695,
@@ -3153,11 +3825,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_08",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         0.0961,
         4.8695,
@@ -3172,11 +3848,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_7_09",
-      "prefab": "aztec_divider_7",
+      "type": "divider_7",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ],
       "position": [
         1.8901,
         4.8695,
@@ -3191,11 +3871,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_8_01",
-      "prefab": "aztec_divider_8",
+      "type": "divider_8",
+      "meshes": [
+        "aztec_divider_8.glb"
+      ],
       "position": [
         6.7596,
         8.874,
@@ -3210,11 +3894,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_9_01",
-      "prefab": "aztec_divider_9",
+      "type": "divider_9",
+      "meshes": [
+        "aztec_divider_9.glb"
+      ],
       "position": [
         4.5011,
         8.2058,
@@ -3229,11 +3917,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_10_01",
-      "prefab": "aztec_divider_10",
+      "type": "divider_10",
+      "meshes": [
+        "aztec_divider_10.glb"
+      ],
       "position": [
         -15.7617,
         4.5811,
@@ -3248,11 +3940,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_11_01",
-      "prefab": "aztec_divider_11",
+      "type": "divider_11",
+      "meshes": [
+        "aztec_divider_11.glb"
+      ],
       "position": [
         -15.6976,
         8.0731,
@@ -3267,11 +3963,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_01",
-      "prefab": "aztec_mainframe",
+      "type": "mainframe",
+      "meshes": [
+        "aztec_mainframe.glb"
+      ],
       "position": [
         -14.1599,
         3.0715,
@@ -3286,11 +3986,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_1_01",
-      "prefab": "aztec_mainframe_1",
+      "type": "mainframe_1",
+      "meshes": [
+        "aztec_mainframe_1.glb"
+      ],
       "position": [
         -12.5101,
         3.0715,
@@ -3305,11 +4009,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_6_01",
-      "prefab": "aztec_unknown_6",
+      "type": "unknown_6",
+      "meshes": [
+        "aztec_unknown_6.glb"
+      ],
       "position": [
         -16.2903,
         3.6361,
@@ -3324,11 +4032,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_6_02",
-      "prefab": "aztec_unknown_6",
+      "type": "unknown_6",
+      "meshes": [
+        "aztec_unknown_6.glb"
+      ],
       "position": [
         -16.2903,
         3.6361,
@@ -3343,11 +4055,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "unknown_7_01",
-      "prefab": "aztec_unknown_7",
+      "type": "unknown_7",
+      "meshes": [
+        "aztec_unknown_7.glb"
+      ],
       "position": [
         -16.2903,
         3.6361,
@@ -3362,11 +4078,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rack_device_01",
-      "prefab": "aztec_rack_device",
+      "type": "rack_device",
+      "meshes": [
+        "aztec_rack_device.glb"
+      ],
       "position": [
         -18.732,
         2.9039,
@@ -3381,11 +4101,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rack_device_1_01",
-      "prefab": "aztec_rack_device_1",
+      "type": "rack_device_1",
+      "meshes": [
+        "aztec_rack_device_1.glb"
+      ],
       "position": [
         -18.915,
         2.8849,
@@ -3400,11 +4124,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_2_01",
-      "prefab": "aztec_console_2",
+      "type": "console_2",
+      "meshes": [
+        "aztec_console_2.glb"
+      ],
       "position": [
         -38.3788,
         12.6314,
@@ -3419,11 +4147,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_1_01",
-      "prefab": "aztec_tv_1",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
       "position": [
         -72.7905,
         4.1489,
@@ -3438,11 +4170,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_1_02",
-      "prefab": "aztec_tv_1",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
       "position": [
         -72.7905,
         4.1489,
@@ -3457,11 +4193,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_1_03",
-      "prefab": "aztec_tv_1",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
       "position": [
         -72.7904,
         4.1489,
@@ -3476,11 +4216,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_1_04",
-      "prefab": "aztec_tv_1",
+      "type": "tv_1",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ],
       "position": [
         -72.7904,
         4.1489,
@@ -3495,11 +4239,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_2_01",
-      "prefab": "aztec_tv_2",
+      "type": "tv_2",
+      "meshes": [
+        "aztec_tv_2.glb"
+      ],
       "position": [
         -72.7985,
         4.1442,
@@ -3514,11 +4262,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_2_02",
-      "prefab": "aztec_tv_2",
+      "type": "tv_2",
+      "meshes": [
+        "aztec_tv_2.glb"
+      ],
       "position": [
         -72.7985,
         4.1442,
@@ -3533,11 +4285,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_3_01",
-      "prefab": "aztec_tv_3",
+      "type": "tv_3",
+      "meshes": [
+        "aztec_tv_3.glb"
+      ],
       "position": [
         -72.7984,
         4.1443,
@@ -3552,11 +4308,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_3_02",
-      "prefab": "aztec_tv_3",
+      "type": "tv_3",
+      "meshes": [
+        "aztec_tv_3.glb"
+      ],
       "position": [
         -72.7984,
         4.1443,
@@ -3571,11 +4331,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_2_01",
-      "prefab": "aztec_mainframe_2",
+      "type": "mainframe_2",
+      "meshes": [
+        "aztec_mainframe_2.glb"
+      ],
       "position": [
         -76.7422,
         3.0715,
@@ -3590,11 +4354,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_01",
-      "prefab": "aztec_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "aztec_window_glass.glb"
+      ],
       "position": [
         -72.5936,
         8.6337,
@@ -3609,11 +4377,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_1_01",
-      "prefab": "aztec_window_glass_1",
+      "type": "window_glass_1",
+      "meshes": [
+        "aztec_window_glass_1.glb"
+      ],
       "position": [
         -72.5936,
         3.6201,
@@ -3628,11 +4400,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_1_02",
-      "prefab": "aztec_window_glass_1",
+      "type": "window_glass_1",
+      "meshes": [
+        "aztec_window_glass_1.glb"
+      ],
       "position": [
         -72.5936,
         3.6201,
@@ -3647,7 +4423,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

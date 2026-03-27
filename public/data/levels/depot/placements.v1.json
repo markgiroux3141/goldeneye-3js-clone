@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         -11.9624,
         1.3843,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         21.3238,
         0.4525,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         28.0018,
         0.4525,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         36.022,
         1.0737,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         -15.5343,
         -1.6699,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         -8.8054,
         -1.6699,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_07",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         47.4539,
         -0.4275,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_08",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         49.8223,
         -0.4275,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_09",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         52.848,
         -0.4275,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_10",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         44.5257,
         -0.4275,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_11",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         46.029,
         -0.4275,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_12",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         51.2018,
         -0.4275,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_13",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         -22.3381,
         -1.3075,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_14",
-      "prefab": "depot_guard",
+      "type": "guard",
+      "meshes": [
+        "depot_guard.glb"
+      ],
       "position": [
         -19.4686,
         -1.3075,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_01",
-      "prefab": "depot_mainframe",
+      "type": "mainframe",
+      "meshes": [
+        "depot_mainframe.glb"
+      ],
       "position": [
         47.5158,
         -0.351,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_02",
-      "prefab": "depot_mainframe",
+      "type": "mainframe",
+      "meshes": [
+        "depot_mainframe.glb"
+      ],
       "position": [
         50.2594,
         -0.351,
@@ -303,11 +365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "key_01",
-      "prefab": "depot_key",
+      "type": "key",
+      "meshes": [
+        "depot_key.glb"
+      ],
       "position": [
         49.0764,
         -0.4398,
@@ -322,11 +388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_01",
-      "prefab": "depot_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
       "position": [
         50.9387,
         -1.1593,
@@ -341,11 +411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_02",
-      "prefab": "depot_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
       "position": [
         49.1575,
         -1.1593,
@@ -360,11 +434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_03",
-      "prefab": "depot_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
       "position": [
         47.892,
         -1.1593,
@@ -379,11 +457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_04",
-      "prefab": "depot_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ],
       "position": [
         46.027,
         -1.1593,
@@ -398,11 +480,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_01",
-      "prefab": "depot_tv",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
       "position": [
         50.9318,
         -0.223,
@@ -417,11 +503,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_02",
-      "prefab": "depot_tv",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
       "position": [
         48.6271,
         -0.223,
@@ -436,11 +526,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_03",
-      "prefab": "depot_tv",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
       "position": [
         48.1364,
         -0.223,
@@ -455,11 +549,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_04",
-      "prefab": "depot_tv",
+      "type": "tv",
+      "meshes": [
+        "depot_tv.glb"
+      ],
       "position": [
         46.6869,
         -0.223,
@@ -474,11 +572,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_01",
-      "prefab": "depot_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
       "position": [
         50.835,
         -0.423,
@@ -493,11 +595,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_02",
-      "prefab": "depot_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
       "position": [
         48.6893,
         -0.423,
@@ -512,11 +618,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_03",
-      "prefab": "depot_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
       "position": [
         48.0914,
         -0.423,
@@ -531,11 +641,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_04",
-      "prefab": "depot_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "depot_keyboard.glb"
+      ],
       "position": [
         46.6419,
         -0.423,
@@ -550,11 +664,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_01",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         50.8352,
         -0.4449,
@@ -569,11 +688,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_02",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         49.0233,
         -0.4449,
@@ -588,11 +712,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_03",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         47.8327,
         -0.4449,
@@ -607,11 +736,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_04",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         46.5903,
         -0.4449,
@@ -626,11 +760,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_05",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         -9.5769,
         -1.6873,
@@ -645,11 +784,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_06",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         -9.991,
         -1.6873,
@@ -664,11 +808,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_07",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         -14.7018,
         -1.6873,
@@ -683,11 +832,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_08",
-      "prefab": "depot_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ],
       "position": [
         -14.5465,
         -1.6873,
@@ -702,11 +856,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_01",
-      "prefab": "depot_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "depot_drone_gun_primary.glb",
+        "depot_drone_gun_secondary.glb"
+      ],
       "position": [
         54.2176,
         4.7959,
@@ -721,11 +880,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "dk5_01",
-      "prefab": "depot_dk5",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
       "position": [
         -9.8454,
         -1.6669,
@@ -740,11 +904,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "dk5_02",
-      "prefab": "depot_dk5",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
       "position": [
         -10.4666,
         -1.6669,
@@ -759,11 +928,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "dk5_03",
-      "prefab": "depot_dk5",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
       "position": [
         -10.0093,
         -1.6669,
@@ -778,11 +952,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "dk5_04",
-      "prefab": "depot_dk5",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
       "position": [
         -9.8022,
         -1.6669,
@@ -797,11 +976,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "dk5_05",
-      "prefab": "depot_dk5",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
       "position": [
         -9.3881,
         -1.6669,
@@ -816,11 +1000,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "dk5_06",
-      "prefab": "depot_dk5",
+      "type": "dk5",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ],
       "position": [
         -9.4916,
         -1.6669,
@@ -835,11 +1024,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "kf7_01",
-      "prefab": "depot_kf7_primary",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
       "position": [
         -9.4117,
         -1.6654,
@@ -854,11 +1048,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "kf7_02",
-      "prefab": "depot_kf7_primary",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
       "position": [
         -13.8637,
         -1.6654,
@@ -873,11 +1072,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "kf7_03",
-      "prefab": "depot_kf7_primary",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
       "position": [
         -14.0707,
         -1.6654,
@@ -892,11 +1096,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "kf7_04",
-      "prefab": "depot_kf7_primary",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
       "position": [
         -14.4849,
         -1.6654,
@@ -911,11 +1120,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "kf7_05",
-      "prefab": "depot_kf7_primary",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
       "position": [
         -14.7955,
         -1.6654,
@@ -930,11 +1144,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "kf7_06",
-      "prefab": "depot_kf7_primary",
+      "type": "kf7",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ],
       "position": [
         -15.1578,
         -1.6654,
@@ -949,11 +1168,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rocket_01",
-      "prefab": "depot_rocket",
+      "type": "rocket",
+      "meshes": [
+        "depot_rocket_primary.glb",
+        "depot_rocket_secondary.glb"
+      ],
       "position": [
         -15.059,
         -1.6183,
@@ -968,11 +1192,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rocket_02",
-      "prefab": "depot_rocket",
+      "type": "rocket",
+      "meshes": [
+        "depot_rocket_primary.glb",
+        "depot_rocket_secondary.glb"
+      ],
       "position": [
         -14.5414,
         -1.6183,
@@ -987,11 +1216,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rocket_03",
-      "prefab": "depot_rocket",
+      "type": "rocket",
+      "meshes": [
+        "depot_rocket_primary.glb",
+        "depot_rocket_secondary.glb"
+      ],
       "position": [
         -14.7484,
         -1.6183,
@@ -1006,11 +1240,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_01",
-      "prefab": "depot_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "depot_ammo_crate.glb"
+      ],
       "position": [
         -9.991,
         -1.5719,
@@ -1025,11 +1263,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_01",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -11.4405,
         -2.5129,
@@ -1044,11 +1286,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_02",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -12.3723,
         -2.5129,
@@ -1063,11 +1309,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_03",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -13.2524,
         -2.5129,
@@ -1082,11 +1332,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_04",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -12.4241,
         -2.5129,
@@ -1101,11 +1355,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_05",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -11.544,
         -2.5129,
@@ -1120,11 +1378,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_06",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -9.2145,
         -2.5129,
@@ -1139,11 +1401,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_07",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -10.1463,
         -2.5129,
@@ -1158,11 +1424,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_08",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -11.0264,
         -2.5129,
@@ -1177,11 +1447,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_09",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -15.323,
         -2.5129,
@@ -1196,11 +1470,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_10",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -14.443,
         -2.5129,
@@ -1215,11 +1493,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_11",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -13.5112,
         -2.5129,
@@ -1234,11 +1516,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_12",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -10.664,
         -2.5129,
@@ -1253,11 +1539,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_13",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -11.5958,
         -2.5129,
@@ -1272,11 +1562,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_14",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -12.4758,
         -2.5129,
@@ -1291,11 +1585,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_15",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -11.4923,
         -2.5129,
@@ -1310,11 +1608,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_16",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -9.9393,
         -2.5129,
@@ -1329,11 +1631,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_17",
-      "prefab": "depot_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ],
       "position": [
         -9.8875,
         -2.5129,
@@ -1348,11 +1654,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rocket_launcher_01",
-      "prefab": "depot_rocket_launcher",
+      "type": "rocket_launcher",
+      "meshes": [
+        "depot_rocket_launcher_primary.glb",
+        "depot_rocket_launcher_secondary.glb"
+      ],
       "position": [
         -13.2292,
         -2.6651,
@@ -1367,11 +1678,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "helicopter_schematic_01",
-      "prefab": "depot_helicopter_schematic",
+      "type": "helicopter_schematic",
+      "meshes": [
+        "depot_helicopter_schematic.glb"
+      ],
       "position": [
         3.0543,
         1.6512,
@@ -1386,11 +1701,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "depot_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
       "position": [
         13.5144,
         -0.5262,
@@ -1405,11 +1724,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_02",
-      "prefab": "depot_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
       "position": [
         -5.9404,
         -0.5262,
@@ -1424,11 +1747,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_03",
-      "prefab": "depot_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
       "position": [
         52.0677,
         0.095,
@@ -1443,11 +1770,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_04",
-      "prefab": "depot_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
       "position": [
         17.2325,
         -2.6486,
@@ -1462,11 +1793,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_05",
-      "prefab": "depot_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
       "position": [
         7.5771,
         -2.6486,
@@ -1481,11 +1816,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_06",
-      "prefab": "depot_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "depot_body_armor.glb"
+      ],
       "position": [
         -6.6294,
         -2.6486,
@@ -1500,11 +1839,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_01",
-      "prefab": "depot_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
       "position": [
         -6.4459,
         -0.5311,
@@ -1519,11 +1862,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_02",
-      "prefab": "depot_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
       "position": [
         50.0319,
         -0.5311,
@@ -1538,11 +1885,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_03",
-      "prefab": "depot_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
       "position": [
         58.6252,
         -0.5311,
@@ -1557,11 +1908,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_04",
-      "prefab": "depot_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
       "position": [
         29.7419,
         -2.6536,
@@ -1576,11 +1931,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_05",
-      "prefab": "depot_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
       "position": [
         -34.4519,
         -2.6536,
@@ -1595,11 +1954,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_06",
-      "prefab": "depot_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ],
       "position": [
         -22.1831,
         -2.6536,
@@ -1614,11 +1977,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_01",
-      "prefab": "depot_metal_crate_stack",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "depot_metal_crate_stack.glb"
+      ],
       "position": [
         37.3519,
         3.7284,
@@ -1633,11 +2000,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_02",
-      "prefab": "depot_metal_crate_stack",
+      "type": "metal_crate_stack",
+      "meshes": [
+        "depot_metal_crate_stack.glb"
+      ],
       "position": [
         31.9641,
         3.7286,
@@ -1652,11 +2023,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_1_01",
-      "prefab": "depot_metal_crate_stack_1",
+      "type": "metal_crate_stack_1",
+      "meshes": [
+        "depot_metal_crate_stack_1.glb"
+      ],
       "position": [
         34.6299,
         3.1407,
@@ -1671,11 +2046,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_1_02",
-      "prefab": "depot_metal_crate_stack_1",
+      "type": "metal_crate_stack_1",
+      "meshes": [
+        "depot_metal_crate_stack_1.glb"
+      ],
       "position": [
         -32.7707,
         1.0182,
@@ -1690,11 +2069,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_2_01",
-      "prefab": "depot_metal_crate_stack_2",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
       "position": [
         48.2672,
         3.1407,
@@ -1709,11 +2092,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_2_02",
-      "prefab": "depot_metal_crate_stack_2",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
       "position": [
         -32.5853,
         1.0181,
@@ -1728,11 +2115,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_2_03",
-      "prefab": "depot_metal_crate_stack_2",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
       "position": [
         -12.2409,
         1.0176,
@@ -1747,11 +2138,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_2_04",
-      "prefab": "depot_metal_crate_stack_2",
+      "type": "metal_crate_stack_2",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ],
       "position": [
         2.5087,
         1.0182,
@@ -1766,11 +2161,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_3_01",
-      "prefab": "depot_metal_crate_stack_3",
+      "type": "metal_crate_stack_3",
+      "meshes": [
+        "depot_metal_crate_stack_3.glb"
+      ],
       "position": [
         1.9136,
         2.2272,
@@ -1785,11 +2184,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_3_02",
-      "prefab": "depot_metal_crate_stack_3",
+      "type": "metal_crate_stack_3",
+      "meshes": [
+        "depot_metal_crate_stack_3.glb"
+      ],
       "position": [
         49.0512,
         2.2272,
@@ -1804,11 +2207,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_4_01",
-      "prefab": "depot_metal_crate_stack_4",
+      "type": "metal_crate_stack_4",
+      "meshes": [
+        "depot_metal_crate_stack_4.glb"
+      ],
       "position": [
         9.2978,
         3.3257,
@@ -1823,11 +2230,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_5_01",
-      "prefab": "depot_metal_crate_stack_5",
+      "type": "metal_crate_stack_5",
+      "meshes": [
+        "depot_metal_crate_stack_5.glb"
+      ],
       "position": [
         54.7491,
         2.7412,
@@ -1842,11 +2253,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_5_02",
-      "prefab": "depot_metal_crate_stack_5",
+      "type": "metal_crate_stack_5",
+      "meshes": [
+        "depot_metal_crate_stack_5.glb"
+      ],
       "position": [
         54.9009,
         2.7411,
@@ -1861,11 +2276,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_6_01",
-      "prefab": "depot_metal_crate_stack_6",
+      "type": "metal_crate_stack_6",
+      "meshes": [
+        "depot_metal_crate_stack_6.glb"
+      ],
       "position": [
         42.9644,
         2.7412,
@@ -1880,11 +2299,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_7_01",
-      "prefab": "depot_metal_crate_stack_7",
+      "type": "metal_crate_stack_7",
+      "meshes": [
+        "depot_metal_crate_stack_7.glb"
+      ],
       "position": [
         -2.7921,
         1.0182,
@@ -1899,11 +2322,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_8_01",
-      "prefab": "depot_metal_crate_stack_8",
+      "type": "metal_crate_stack_8",
+      "meshes": [
+        "depot_metal_crate_stack_8.glb"
+      ],
       "position": [
         5.5215,
         2.9207,
@@ -1918,11 +2345,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_9_01",
-      "prefab": "depot_metal_crate_stack_9",
+      "type": "metal_crate_stack_9",
+      "meshes": [
+        "depot_metal_crate_stack_9.glb"
+      ],
       "position": [
         37.8241,
         3.2925,
@@ -1937,11 +2368,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_9_02",
-      "prefab": "depot_metal_crate_stack_9",
+      "type": "metal_crate_stack_9",
+      "meshes": [
+        "depot_metal_crate_stack_9.glb"
+      ],
       "position": [
         -27.92,
         1.1701,
@@ -1956,11 +2391,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_10_01",
-      "prefab": "depot_metal_crate_stack_10",
+      "type": "metal_crate_stack_10",
+      "meshes": [
+        "depot_metal_crate_stack_10.glb"
+      ],
       "position": [
         5.6496,
         2.3787,
@@ -1975,11 +2414,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_11_01",
-      "prefab": "depot_metal_crate_stack_11",
+      "type": "metal_crate_stack_11",
+      "meshes": [
+        "depot_metal_crate_stack_11.glb"
+      ],
       "position": [
         48.9268,
         2.8876,
@@ -1994,11 +2437,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_12_01",
-      "prefab": "depot_metal_crate_stack_12",
+      "type": "metal_crate_stack_12",
+      "meshes": [
+        "depot_metal_crate_stack_12.glb"
+      ],
       "position": [
         -33.8401,
         1.1701,
@@ -2013,11 +2460,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_13_01",
-      "prefab": "depot_metal_crate_stack_13",
+      "type": "metal_crate_stack_13",
+      "meshes": [
+        "depot_metal_crate_stack_13.glb"
+      ],
       "position": [
         -2.3806,
         2.7829,
@@ -2032,11 +2483,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_14_01",
-      "prefab": "depot_metal_crate_stack_14",
+      "type": "metal_crate_stack_14",
+      "meshes": [
+        "depot_metal_crate_stack_14.glb"
+      ],
       "position": [
         25.0559,
         0.6604,
@@ -2051,11 +2506,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_stack_15_01",
-      "prefab": "depot_metal_crate_stack_15",
+      "type": "metal_crate_stack_15",
+      "meshes": [
+        "depot_metal_crate_stack_15.glb"
+      ],
       "position": [
         -32.9749,
         0.6604,
@@ -2070,11 +2529,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_01",
-      "prefab": "depot_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "depot_metal_door.glb"
+      ],
       "position": [
         34.6486,
         1.5445,
@@ -2089,11 +2552,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_02",
-      "prefab": "depot_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "depot_metal_door.glb"
+      ],
       "position": [
         5.7887,
         0.0433,
@@ -2108,11 +2575,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_01",
-      "prefab": "depot_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
       "position": [
         12.89,
         0.9464,
@@ -2127,11 +2598,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_02",
-      "prefab": "depot_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
       "position": [
         30.6978,
         0.9464,
@@ -2146,11 +2621,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_03",
-      "prefab": "depot_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
       "position": [
         -12.1488,
         -1.1761,
@@ -2165,11 +2644,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_04",
-      "prefab": "depot_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
       "position": [
         -30.0602,
         -1.1761,
@@ -2184,11 +2667,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_05",
-      "prefab": "depot_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
       "position": [
         -10.6122,
         -1.1761,
@@ -2203,11 +2690,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_06",
-      "prefab": "depot_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ],
       "position": [
         17.0313,
         -1.1761,
@@ -2222,11 +2713,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_01",
-      "prefab": "depot_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "depot_metal_door_2.glb"
+      ],
       "position": [
         35.7192,
         1.0155,
@@ -2241,11 +2736,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_02",
-      "prefab": "depot_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "depot_metal_door_2.glb"
+      ],
       "position": [
         35.7192,
         1.0155,
@@ -2260,11 +2759,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_03",
-      "prefab": "depot_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "depot_metal_door_2.glb"
+      ],
       "position": [
         35.7192,
         1.0155,
@@ -2279,11 +2782,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_3_01",
-      "prefab": "depot_metal_door_3",
+      "type": "metal_door_3",
+      "meshes": [
+        "depot_metal_door_3.glb"
+      ],
       "position": [
         48.7481,
         0.0433,
@@ -2298,11 +2805,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_4_01",
-      "prefab": "depot_metal_door_4",
+      "type": "metal_door_4",
+      "meshes": [
+        "depot_metal_door_4.glb"
+      ],
       "position": [
         -33.7428,
         -1.1761,
@@ -2317,11 +2828,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_5_01",
-      "prefab": "depot_metal_door_5",
+      "type": "metal_door_5",
+      "meshes": [
+        "depot_metal_door_5.glb"
+      ],
       "position": [
         -14.1449,
         -1.1069,
@@ -2336,11 +2851,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_6_01",
-      "prefab": "depot_metal_door_6",
+      "type": "metal_door_6",
+      "meshes": [
+        "depot_metal_door_6.glb"
+      ],
       "position": [
         -26.9575,
         -1.1069,
@@ -2355,11 +2874,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_6_02",
-      "prefab": "depot_metal_door_6",
+      "type": "metal_door_6",
+      "meshes": [
+        "depot_metal_door_6.glb"
+      ],
       "position": [
         -4.3484,
         -1.1069,
@@ -2374,11 +2897,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chain_link_fence_01",
-      "prefab": "depot_chain_link_fence",
+      "type": "chain_link_fence",
+      "meshes": [
+        "depot_chain_link_fence_primary.glb",
+        "depot_chain_link_fence_secondary.glb"
+      ],
       "position": [
         17.3937,
         -0.0329,
@@ -2393,11 +2921,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "chain_link_fence_02",
-      "prefab": "depot_chain_link_fence",
+      "type": "chain_link_fence",
+      "meshes": [
+        "depot_chain_link_fence_primary.glb",
+        "depot_chain_link_fence_secondary.glb"
+      ],
       "position": [
         19.0503,
         -0.0329,
@@ -2412,11 +2945,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_7_01",
-      "prefab": "depot_metal_door_7",
+      "type": "metal_door_7",
+      "meshes": [
+        "depot_metal_door_7.glb"
+      ],
       "position": [
         -7.0403,
         -1.3718,
@@ -2431,11 +2968,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_8_01",
-      "prefab": "depot_metal_door_8",
+      "type": "metal_door_8",
+      "meshes": [
+        "depot_metal_door_8.glb"
+      ],
       "position": [
         -7.0921,
         2.5625,
@@ -2450,11 +2991,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_8_02",
-      "prefab": "depot_metal_door_8",
+      "type": "metal_door_8",
+      "meshes": [
+        "depot_metal_door_8.glb"
+      ],
       "position": [
         3.8308,
         -1.3718,
@@ -2469,11 +3014,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_door_01",
-      "prefab": "depot_train_door",
+      "type": "train_door",
+      "meshes": [
+        "depot_train_door.glb"
+      ],
       "position": [
         -21.1262,
         -1.1847,
@@ -2488,11 +3037,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "train_door_02",
-      "prefab": "depot_train_door",
+      "type": "train_door",
+      "meshes": [
+        "depot_train_door.glb"
+      ],
       "position": [
         -18.6309,
         -1.1847,
@@ -2507,11 +3060,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_01",
-      "prefab": "depot_divider",
+      "type": "divider",
+      "meshes": [
+        "depot_divider.glb"
+      ],
       "position": [
         48.3576,
         1.9002,
@@ -2526,11 +3083,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_safe_01",
-      "prefab": "depot_metal_safe",
+      "type": "metal_safe",
+      "meshes": [
+        "depot_metal_safe.glb"
+      ],
       "position": [
         3.0033,
         1.7114,
@@ -2545,11 +3106,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_safe_door_01",
-      "prefab": "depot_metal_safe_door",
+      "type": "metal_safe_door",
+      "meshes": [
+        "depot_metal_safe_door.glb"
+      ],
       "position": [
         2.7237,
         1.7083,
@@ -2564,7 +3129,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

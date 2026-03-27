@@ -1,9 +1,12 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "boris_01",
-      "prefab": "bunker1_boris",
+      "type": "boris",
+      "meshes": [
+        "bunker1_boris.glb",
+        "bunker1_boris_glasses.glb"
+      ],
       "position": [
         12.3163,
         1.589,
@@ -18,11 +21,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_01",
-      "prefab": "bunker1_guard",
+      "type": "guard",
+      "meshes": [
+        "bunker1_guard.glb"
+      ],
       "position": [
         -26.603,
         3.0573,
@@ -37,11 +44,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "bunker1_guard",
+      "type": "guard",
+      "meshes": [
+        "bunker1_guard.glb"
+      ],
       "position": [
         -14.0753,
         3.0573,
@@ -56,11 +67,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "bunker1_guard",
+      "type": "guard",
+      "meshes": [
+        "bunker1_guard.glb"
+      ],
       "position": [
         5.0578,
         2.8056,
@@ -75,11 +90,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "bunker1_guard",
+      "type": "guard",
+      "meshes": [
+        "bunker1_guard.glb"
+      ],
       "position": [
         -23.5694,
         3.0573,
@@ -94,11 +113,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "bunker1_guard",
+      "type": "guard",
+      "meshes": [
+        "bunker1_guard.glb"
+      ],
       "position": [
         -19.6477,
         3.0573,
@@ -113,11 +136,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_01",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -15.1752,
         2.8056,
@@ -132,11 +159,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_02",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -21.873,
         3.0573,
@@ -151,11 +182,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_03",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -11.8533,
         3.0573,
@@ -170,11 +205,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_04",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -18.0112,
         3.0573,
@@ -189,11 +228,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_05",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -15.5452,
         3.0573,
@@ -208,11 +251,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_06",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -12.1907,
         3.0573,
@@ -227,11 +274,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_07",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -3.9927,
         1.1068,
@@ -246,11 +297,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_08",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -3.4185,
         1.1068,
@@ -265,11 +320,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_09",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -4.1468,
         1.1068,
@@ -284,11 +343,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_10",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         1.3057,
         1.1068,
@@ -303,11 +366,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_11",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         12.6703,
         1.5892,
@@ -322,11 +389,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_12",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         6.7047,
         2.8056,
@@ -341,11 +412,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_13",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         11.9084,
         2.8056,
@@ -360,11 +435,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_14",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -1.0108,
         5.2385,
@@ -379,11 +458,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_15",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         0.9679,
         5.2385,
@@ -398,11 +481,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_16",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         0.1204,
         1.1068,
@@ -417,11 +504,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_17",
-      "prefab": "bunker1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ],
       "position": [
         -17.6437,
         3.0573,
@@ -436,11 +527,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_2_01",
-      "prefab": "bunker1_guard_2",
+      "type": "guard_2",
+      "meshes": [
+        "bunker1_guard_2.glb"
+      ],
       "position": [
         15.0427,
         2.8059,
@@ -455,11 +550,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "blue_chair_01",
-      "prefab": "bunker1_blue_chair",
+      "type": "blue_chair",
+      "meshes": [
+        "bunker1_blue_chair.glb"
+      ],
       "position": [
         -17.0297,
         2.2925,
@@ -474,11 +573,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_01",
-      "prefab": "bunker1_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "bunker1_metal_crate.glb"
+      ],
       "position": [
         10.3397,
         1.2546,
@@ -493,11 +596,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_02",
-      "prefab": "bunker1_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "bunker1_metal_crate.glb"
+      ],
       "position": [
         -20.5308,
         2.7227,
@@ -512,11 +619,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_03",
-      "prefab": "bunker1_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "bunker1_metal_crate.glb"
+      ],
       "position": [
         12.1446,
         2.4711,
@@ -531,11 +642,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_01",
-      "prefab": "bunker1_wooden_table",
+      "type": "wooden_table",
+      "meshes": [
+        "bunker1_wooden_table.glb"
+      ],
       "position": [
         10.36,
         2.3318,
@@ -550,11 +665,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_01",
-      "prefab": "bunker1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker1_wooden_crate.glb"
+      ],
       "position": [
         8.3837,
         0.8864,
@@ -569,11 +688,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_02",
-      "prefab": "bunker1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker1_wooden_crate.glb"
+      ],
       "position": [
         -23.5011,
         2.4384,
@@ -588,11 +711,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_03",
-      "prefab": "bunker1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "bunker1_wooden_crate.glb"
+      ],
       "position": [
         -11.968,
         2.4384,
@@ -607,11 +734,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_1_01",
-      "prefab": "bunker1_metal_crate_1",
+      "type": "metal_crate_1",
+      "meshes": [
+        "bunker1_metal_crate_1.glb"
+      ],
       "position": [
         8.4732,
         1.0539,
@@ -626,11 +757,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_1_02",
-      "prefab": "bunker1_metal_crate_1",
+      "type": "metal_crate_1",
+      "meshes": [
+        "bunker1_metal_crate_1.glb"
+      ],
       "position": [
         6.502,
         2.3542,
@@ -645,11 +780,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "cardboard_crate_01",
-      "prefab": "bunker1_cardboard_crate",
+      "type": "cardboard_crate",
+      "meshes": [
+        "bunker1_cardboard_crate.glb"
+      ],
       "position": [
         -5.1335,
         0.5818,
@@ -664,11 +803,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_01",
-      "prefab": "bunker1_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "bunker1_wooden_crate_1.glb"
+      ],
       "position": [
         -3.2655,
         0.703,
@@ -683,11 +826,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "bunker1_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "bunker1_body_armor.glb"
+      ],
       "position": [
         12.0916,
         3.1127,
@@ -702,11 +849,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "cardboard_crate_1_01",
-      "prefab": "bunker1_cardboard_crate_1",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "bunker1_cardboard_crate_1.glb"
+      ],
       "position": [
         -26.6797,
         2.4765,
@@ -721,11 +872,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "cardboard_crate_1_02",
-      "prefab": "bunker1_cardboard_crate_1",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "bunker1_cardboard_crate_1.glb"
+      ],
       "position": [
         10.0482,
         2.2248,
@@ -740,11 +895,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "cardboard_crate_1_03",
-      "prefab": "bunker1_cardboard_crate_1",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "bunker1_cardboard_crate_1.glb"
+      ],
       "position": [
         -27.8542,
         2.4765,
@@ -759,11 +918,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "cardboard_crate_1_04",
-      "prefab": "bunker1_cardboard_crate_1",
+      "type": "cardboard_crate_1",
+      "meshes": [
+        "bunker1_cardboard_crate_1.glb"
+      ],
       "position": [
         -26.5002,
         2.4765,
@@ -778,11 +941,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_01",
-      "prefab": "bunker1_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "bunker1_metal_table_primary.glb",
+        "bunker1_metal_table_secondary.glb"
+      ],
       "position": [
         8.536,
         2.7553,
@@ -797,11 +965,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_02",
-      "prefab": "bunker1_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "bunker1_metal_table_primary.glb",
+        "bunker1_metal_table_secondary.glb"
+      ],
       "position": [
         13.3598,
         1.5388,
@@ -816,11 +989,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_01",
-      "prefab": "bunker1_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "bunker1_body_armor_1.glb"
+      ],
       "position": [
         -27.829,
         2.9907,
@@ -835,11 +1012,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_01",
-      "prefab": "bunker1_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "bunker1_ammo_crate.glb"
+      ],
       "position": [
         -17.6383,
         2.0659,
@@ -854,11 +1035,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_01",
-      "prefab": "bunker1_mainframe",
+      "type": "mainframe",
+      "meshes": [
+        "bunker1_mainframe.glb"
+      ],
       "position": [
         -16.5333,
         2.8491,
@@ -873,11 +1058,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "mainframe_1_01",
-      "prefab": "bunker1_mainframe_1",
+      "type": "mainframe_1",
+      "meshes": [
+        "bunker1_mainframe_1.glb"
+      ],
       "position": [
         -15.6708,
         2.9039,
@@ -892,11 +1081,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "monitor_holder_01",
-      "prefab": "bunker1_monitor_holder",
+      "type": "monitor_holder",
+      "meshes": [
+        "bunker1_monitor_holder_primary.glb",
+        "bunker1_monitor_holder_secondary.glb"
+      ],
       "position": [
         -0.3516,
         5.0082,
@@ -911,11 +1105,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "monitor_holder_02",
-      "prefab": "bunker1_monitor_holder",
+      "type": "monitor_holder",
+      "meshes": [
+        "bunker1_monitor_holder_primary.glb",
+        "bunker1_monitor_holder_secondary.glb"
+      ],
       "position": [
         -0.3516,
         5.0082,
@@ -930,11 +1129,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_01",
-      "prefab": "bunker1_tv",
+      "type": "tv",
+      "meshes": [
+        "bunker1_tv.glb"
+      ],
       "position": [
         13.6002,
         1.7608,
@@ -949,11 +1152,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_01",
-      "prefab": "bunker1_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "bunker1_keyboard.glb"
+      ],
       "position": [
         13.204,
         1.5607,
@@ -968,11 +1175,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "encryption_key_01",
-      "prefab": "bunker1_encryption_key",
+      "type": "encryption_key",
+      "meshes": [
+        "bunker1_encryption_key_primary.glb",
+        "bunker1_encryption_key_secondary.glb"
+      ],
       "position": [
         13.4646,
         1.5506,
@@ -987,11 +1199,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "glass_door_01",
-      "prefab": "bunker1_glass_door",
+      "type": "glass_door",
+      "meshes": [
+        "bunker1_glass_door_primary.glb",
+        "bunker1_glass_door_secondary.glb"
+      ],
       "position": [
         1.1325,
         1.2898,
@@ -1006,11 +1223,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "glass_door_02",
-      "prefab": "bunker1_glass_door",
+      "type": "glass_door",
+      "meshes": [
+        "bunker1_glass_door_primary.glb",
+        "bunker1_glass_door_secondary.glb"
+      ],
       "position": [
         -0.6921,
         1.2898,
@@ -1025,11 +1247,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "glass_door_03",
-      "prefab": "bunker1_glass_door_v2",
+      "type": "glass_door",
+      "meshes": [
+        "bunker1_glass_door_primary_1.glb",
+        "bunker1_glass_door_secondary_1.glb"
+      ],
       "position": [
         0.7026,
         1.2898,
@@ -1044,11 +1271,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "glass_door_04",
-      "prefab": "bunker1_glass_door_v2",
+      "type": "glass_door",
+      "meshes": [
+        "bunker1_glass_door_primary_1.glb",
+        "bunker1_glass_door_secondary_1.glb"
+      ],
       "position": [
         0.2622,
         1.2898,
@@ -1063,11 +1295,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "glass_door_05",
-      "prefab": "bunker1_glass_door_v2",
+      "type": "glass_door",
+      "meshes": [
+        "bunker1_glass_door_primary_1.glb",
+        "bunker1_glass_door_secondary_1.glb"
+      ],
       "position": [
         -1.1221,
         1.2898,
@@ -1082,11 +1319,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "glass_door_06",
-      "prefab": "bunker1_glass_door_v2",
+      "type": "glass_door",
+      "meshes": [
+        "bunker1_glass_door_primary_1.glb",
+        "bunker1_glass_door_secondary_1.glb"
+      ],
       "position": [
         -0.2622,
         1.2898,
@@ -1101,11 +1343,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_01",
-      "prefab": "bunker1_brown_sliding_door",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "bunker1_brown_sliding_door.glb"
+      ],
       "position": [
         0.0797,
         5.2223,
@@ -1120,11 +1366,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_01",
-      "prefab": "bunker1_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary.glb",
+        "bunker1_metal_door_secondary.glb"
+      ],
       "position": [
         -20.307,
         3.5496,
@@ -1139,11 +1390,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_02",
-      "prefab": "bunker1_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary.glb",
+        "bunker1_metal_door_secondary.glb"
+      ],
       "position": [
         -16.7625,
         3.5496,
@@ -1158,11 +1414,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_03",
-      "prefab": "bunker1_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary.glb",
+        "bunker1_metal_door_secondary.glb"
+      ],
       "position": [
         -16.7625,
         3.5496,
@@ -1177,11 +1438,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_04",
-      "prefab": "bunker1_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary.glb",
+        "bunker1_metal_door_secondary.glb"
+      ],
       "position": [
         -13.1303,
         3.5496,
@@ -1196,11 +1462,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_05",
-      "prefab": "bunker1_metal_door_v2",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary_1.glb",
+        "bunker1_metal_door_secondary_1.glb"
+      ],
       "position": [
         -21.8193,
         3.5496,
@@ -1215,11 +1486,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_06",
-      "prefab": "bunker1_metal_door_v2",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary_1.glb",
+        "bunker1_metal_door_secondary_1.glb"
+      ],
       "position": [
         -18.2749,
         3.5496,
@@ -1234,11 +1510,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_07",
-      "prefab": "bunker1_metal_door_v2",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary_1.glb",
+        "bunker1_metal_door_secondary_1.glb"
+      ],
       "position": [
         -18.2749,
         3.5496,
@@ -1253,11 +1534,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_08",
-      "prefab": "bunker1_metal_door_v2",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door_primary_1.glb",
+        "bunker1_metal_door_secondary_1.glb"
+      ],
       "position": [
         -13.1303,
         3.5496,
@@ -1272,11 +1558,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_09",
-      "prefab": "bunker1_metal_door_v3",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door.glb"
+      ],
       "position": [
         -15.6983,
         2.8977,
@@ -1291,11 +1581,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_10",
-      "prefab": "bunker1_metal_door_v3",
+      "type": "metal_door",
+      "meshes": [
+        "bunker1_metal_door.glb"
+      ],
       "position": [
         -15.6983,
         2.8977,
@@ -1310,11 +1604,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "security_camera_01",
-      "prefab": "bunker1_security_camera",
+      "type": "security_camera",
+      "meshes": [
+        "bunker1_security_camera_primary.glb",
+        "bunker1_security_camera_secondary.glb"
+      ],
       "position": [
         -24.1182,
         5.0527,
@@ -1329,11 +1628,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "security_camera_02",
-      "prefab": "bunker1_security_camera",
+      "type": "security_camera",
+      "meshes": [
+        "bunker1_security_camera_primary.glb",
+        "bunker1_security_camera_secondary.glb"
+      ],
       "position": [
         -28.879,
         4.7486,
@@ -1348,11 +1652,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "security_camera_03",
-      "prefab": "bunker1_security_camera",
+      "type": "security_camera",
+      "meshes": [
+        "bunker1_security_camera_primary.glb",
+        "bunker1_security_camera_secondary.glb"
+      ],
       "position": [
         -9.7113,
         4.5703,
@@ -1367,11 +1676,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "security_camera_04",
-      "prefab": "bunker1_security_camera",
+      "type": "security_camera",
+      "meshes": [
+        "bunker1_security_camera_primary.glb",
+        "bunker1_security_camera_secondary.glb"
+      ],
       "position": [
         10.6227,
         5.1575,
@@ -1386,11 +1700,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "alarm_01",
-      "prefab": "bunker1_alarm",
+      "type": "alarm",
+      "meshes": [
+        "bunker1_alarm.glb"
+      ],
       "position": [
         -13.3598,
         3.8485,
@@ -1405,11 +1723,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "alarm_02",
-      "prefab": "bunker1_alarm",
+      "type": "alarm",
+      "meshes": [
+        "bunker1_alarm.glb"
+      ],
       "position": [
         -1.4471,
         5.5788,
@@ -1424,11 +1746,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_01",
-      "prefab": "bunker1_divider",
+      "type": "divider",
+      "meshes": [
+        "bunker1_divider.glb"
+      ],
       "position": [
         -7.2357,
         4.6875,
@@ -1443,11 +1769,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_02",
-      "prefab": "bunker1_divider",
+      "type": "divider",
+      "meshes": [
+        "bunker1_divider.glb"
+      ],
       "position": [
         -7.2357,
         3.5549,
@@ -1462,11 +1792,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_03",
-      "prefab": "bunker1_divider",
+      "type": "divider",
+      "meshes": [
+        "bunker1_divider.glb"
+      ],
       "position": [
         -7.2357,
         2.349,
@@ -1481,11 +1815,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_04",
-      "prefab": "bunker1_divider",
+      "type": "divider",
+      "meshes": [
+        "bunker1_divider.glb"
+      ],
       "position": [
         -7.2357,
         2.349,
@@ -1500,11 +1838,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_01",
-      "prefab": "bunker1_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "bunker1_divider_1.glb"
+      ],
       "position": [
         -7.2357,
         4.6875,
@@ -1519,11 +1861,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_1_02",
-      "prefab": "bunker1_divider_1",
+      "type": "divider_1",
+      "meshes": [
+        "bunker1_divider_1.glb"
+      ],
       "position": [
         -7.2357,
         3.5549,
@@ -1538,11 +1884,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_01",
-      "prefab": "bunker1_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "bunker1_divider_2.glb"
+      ],
       "position": [
         -7.2357,
         5.2957,
@@ -1557,11 +1907,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_02",
-      "prefab": "bunker1_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "bunker1_divider_2.glb"
+      ],
       "position": [
         -7.2357,
         5.2957,
@@ -1576,11 +1930,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_03",
-      "prefab": "bunker1_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "bunker1_divider_2.glb"
+      ],
       "position": [
         -7.2357,
         5.2957,
@@ -1595,11 +1953,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_2_04",
-      "prefab": "bunker1_divider_2",
+      "type": "divider_2",
+      "meshes": [
+        "bunker1_divider_2.glb"
+      ],
       "position": [
         -7.2357,
         5.2957,
@@ -1614,11 +1976,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_01",
-      "prefab": "bunker1_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "bunker1_divider_3.glb"
+      ],
       "position": [
         -7.2357,
         2.2231,
@@ -1633,11 +1999,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_3_02",
-      "prefab": "bunker1_divider_3",
+      "type": "divider_3",
+      "meshes": [
+        "bunker1_divider_3.glb"
+      ],
       "position": [
         -7.2357,
         1.8247,
@@ -1652,11 +2022,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_01",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         2.2231,
@@ -1671,11 +2045,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_02",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         2.2231,
@@ -1690,11 +2068,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_03",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         2.2231,
@@ -1709,11 +2091,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_04",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         2.2231,
@@ -1728,11 +2114,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_05",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         1.8247,
@@ -1747,11 +2137,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_06",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         1.8247,
@@ -1766,11 +2160,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_07",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         1.8247,
@@ -1785,11 +2183,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_4_08",
-      "prefab": "bunker1_divider_4",
+      "type": "divider_4",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ],
       "position": [
         -7.2357,
         1.8247,
@@ -1804,11 +2206,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "divider_5_01",
-      "prefab": "bunker1_divider_5",
+      "type": "divider_5",
+      "meshes": [
+        "bunker1_divider_5.glb"
+      ],
       "position": [
         -7.2357,
         3.769,
@@ -1823,11 +2229,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_01",
-      "prefab": "bunker1_console",
+      "type": "console",
+      "meshes": [
+        "bunker1_console.glb"
+      ],
       "position": [
         -14.4611,
         2.9628,
@@ -1842,11 +2252,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_02",
-      "prefab": "bunker1_console",
+      "type": "console",
+      "meshes": [
+        "bunker1_console.glb"
+      ],
       "position": [
         -17.3763,
         2.9628,
@@ -1861,11 +2275,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_01",
-      "prefab": "bunker1_console_1",
+      "type": "console_1",
+      "meshes": [
+        "bunker1_console_1.glb"
+      ],
       "position": [
         -15.1847,
         2.9305,
@@ -1880,11 +2298,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_2_01",
-      "prefab": "bunker1_console_2",
+      "type": "console_2",
+      "meshes": [
+        "bunker1_console_2.glb"
+      ],
       "position": [
         -15.9082,
         2.9658,
@@ -1899,11 +2321,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_3_01",
-      "prefab": "bunker1_console_3",
+      "type": "console_3",
+      "meshes": [
+        "bunker1_console_3.glb"
+      ],
       "position": [
         -16.6424,
         2.9305,
@@ -1918,11 +2344,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_01",
-      "prefab": "bunker1_window_glass",
+      "type": "window_glass",
+      "meshes": [
+        "bunker1_window_glass.glb"
+      ],
       "position": [
         8.169,
         3.7647,
@@ -1937,7 +2367,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

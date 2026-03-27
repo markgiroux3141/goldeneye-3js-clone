@@ -6,10 +6,10 @@ import { FreeFlyCamera } from '../editor/FreeFlyCamera';
 import { InputManager } from '../core/InputManager';
 import { renameFile, saveToProject, isDevServer } from '../utils/editorApi';
 import {
-  ECSWorld, createDefaultRegistry, MeshSystem,
-  deserializeWorld, serializeWorld,
+  ECSWorld, createDefaultRegistry, MeshSystem, PrefabCatalog,
+  deserializeWorldAny, serializeWorldV2,
 } from '../ecs';
-import type { TransformComponent, MeshComponent, PrefabComponent, EntityId } from '../ecs';
+import type { TransformComponent, MeshComponent, MeshOffset, PrefabComponent, EntityId } from '../ecs';
 
 // ── Step constants (matching PlacementSystem) ────────────────────────────────
 const POSITION_STEPS = [0.001, 0.005, 0.01, 0.05, 0.1, 0.25, 0.5, 1.0, 2.0];
@@ -136,8 +136,82 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
   const raycaster = new THREE.Raycaster();
   const mouseNDC = new THREE.Vector2();
 
+  // ── Sub-mesh selection state ──────────────────────────────────────────
+  let subMeshIndex: number | null = null;
+  let subMeshHelper: THREE.BoxHelper | null = null;
+
   // ── Search state ─────────────────────────────────────────────────────
   const searchHighlights = new Set<THREE.BoxHelper>();
+
+  /** Sync a sub-mesh child's local transform back to meshOffsets */
+  function syncSubMeshToComponent(entityId: EntityId, meshIdx: number): void {
+    const group = meshSystem.getGroup(entityId, ecsWorld);
+    const mesh = ecsWorld.getComponent(entityId, 'Mesh') as MeshComponent | undefined;
+    if (!group || !mesh) return;
+
+    const subChild = group.children.find(c => c.userData.meshIndex === meshIdx);
+    if (!subChild) return;
+
+    // Ensure meshOffsets array exists
+    if (!mesh.meshOffsets) {
+      mesh.meshOffsets = new Array(mesh.meshPaths.length).fill(undefined);
+    }
+    while (mesh.meshOffsets.length < mesh.meshPaths.length) {
+      mesh.meshOffsets.push(undefined);
+    }
+
+    const offset: MeshOffset = {
+      position: [round4(subChild.position.x), round4(subChild.position.y), round4(subChild.position.z)],
+      rotation: [
+        round4(subChild.rotation.x * RAD2DEG),
+        round4(subChild.rotation.y * RAD2DEG),
+        round4(subChild.rotation.z * RAD2DEG),
+      ],
+      scale: [round4(subChild.scale.x), round4(subChild.scale.y), round4(subChild.scale.z)],
+    };
+
+    // If identity, store as undefined
+    const isIdentity =
+      offset.position!.every(v => v === 0) &&
+      offset.rotation!.every(v => v === 0) &&
+      offset.scale!.every(v => v === 1);
+    mesh.meshOffsets[meshIdx] = isIdentity ? undefined : offset;
+
+    // If all offsets are undefined, remove the array
+    if (mesh.meshOffsets.every(o => o === undefined)) {
+      mesh.meshOffsets = undefined;
+    }
+  }
+
+  /** Update sub-mesh selection visual and gizmo attachment */
+  function updateSubMeshSelection(): void {
+    if (subMeshHelper) {
+      scene.remove(subMeshHelper);
+      subMeshHelper.dispose();
+      subMeshHelper = null;
+    }
+
+    if (!selectedEntityId) return;
+    const group = meshSystem.getGroup(selectedEntityId, ecsWorld);
+    if (!group) return;
+
+    if (subMeshIndex !== null) {
+      const subChild = group.children.find(c => c.userData.meshIndex === subMeshIndex);
+      if (subChild) {
+        subMeshHelper = new THREE.BoxHelper(subChild, 0xff8800);
+        scene.add(subMeshHelper);
+        transformControls.attach(subChild);
+      }
+      const mesh = ecsWorld.getComponent(selectedEntityId, 'Mesh') as MeshComponent | undefined;
+      const filename = mesh?.meshPaths[subMeshIndex] ?? '?';
+      selectionLabel.textContent = `${selectedEntityId} [mesh ${subMeshIndex + 1}/${mesh?.meshPaths.length}] (${filename})`;
+      infoLabel.textContent = 'P = save offset to prefab';
+    } else {
+      transformControls.attach(group);
+      const prefab = ecsWorld.getComponent(selectedEntityId, 'Prefab') as PrefabComponent | undefined;
+      selectionLabel.textContent = `${selectedEntityId} (${prefab?.prefabId ?? prefab?.prefabType ?? 'mesh'})`;
+    }
+  }
 
   /** Sync a THREE.Group's transform back to the entity's TransformComponent */
   function syncGroupToComponent(entityId: EntityId): void {
@@ -164,6 +238,13 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
 
   transformControls.addEventListener('objectChange', () => {
     if (!selectedEntityId) return;
+
+    if (subMeshIndex !== null) {
+      // Sub-mesh mode: sync sub-child transform → meshOffsets
+      syncSubMeshToComponent(selectedEntityId, subMeshIndex);
+      markDirty();
+      return;
+    }
 
     // Dampen uniform scaling
     if (transformMode === 'scale') {
@@ -383,7 +464,7 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
   const controlsLabel = document.createElement('div');
   controlsLabel.style.cssText = 'color: #666; font-size: 11px; margin-top: 4px;';
   controlsLabel.textContent = isDevServer()
-    ? 'RMB+drag look | WASD move | Space/Shift up/down | Scroll=speed | Q/R/F=transform | Alt+Scroll=step | Del=delete'
+    ? 'RMB+drag look | WASD move | Space/Shift up/down | Scroll=speed | Q/R/F=transform | Alt+Scroll=step | Del=delete | Tab=cycle meshes'
     : 'Right-click + drag to look | WASD move | Space/Shift up/down | Scroll = speed';
   ui.appendChild(controlsLabel);
 
@@ -513,6 +594,14 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
   }
 
   function selectObject(entityId: EntityId | null): void {
+    // Clear sub-mesh state
+    subMeshIndex = null;
+    if (subMeshHelper) {
+      scene.remove(subMeshHelper);
+      subMeshHelper.dispose();
+      subMeshHelper = null;
+    }
+
     // Clear old selection helper
     if (selectionHelper) {
       scene.remove(selectionHelper);
@@ -531,8 +620,7 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
         transformControls.attach(group);
       }
       const prefab = ecsWorld.getComponent(entityId, 'Prefab') as PrefabComponent | undefined;
-      const typeStr = prefab?.prefabType ?? 'mesh';
-      selectionLabel.textContent = `${entityId} (${typeStr})`;
+      selectionLabel.textContent = `${entityId} (${prefab?.prefabId ?? prefab?.prefabType ?? 'mesh'})`;
       selectionRow.style.display = 'flex';
       renameRow.style.display = isDevServer() ? 'flex' : 'none';
       transformRow.style.display = isDevServer() ? 'flex' : 'none';
@@ -598,6 +686,52 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
       return;
     }
 
+    // Tab: cycle sub-meshes within a multi-mesh entity
+    if (e.code === 'Tab' && selectedEntityId && isDevServer()) {
+      e.preventDefault();
+      const mesh = ecsWorld.getComponent(selectedEntityId, 'Mesh') as MeshComponent | undefined;
+      if (mesh && mesh.meshPaths.length > 1) {
+        if (subMeshIndex === null) {
+          subMeshIndex = 0;
+        } else {
+          subMeshIndex++;
+          if (subMeshIndex >= mesh.meshPaths.length) {
+            subMeshIndex = null; // back to whole entity
+          }
+        }
+        updateSubMeshSelection();
+      }
+      return;
+    }
+
+    // P: save current sub-mesh offset to prefab (affects all instances)
+    if (e.code === 'KeyP' && selectedEntityId && subMeshIndex !== null && isDevServer()) {
+      const prefabComp = ecsWorld.getComponent(selectedEntityId, 'Prefab') as PrefabComponent | undefined;
+      const mesh = ecsWorld.getComponent(selectedEntityId, 'Mesh') as MeshComponent | undefined;
+      if (prefabComp?.prefabId && mesh) {
+        // Sync current sub-mesh transform to component first
+        syncSubMeshToComponent(selectedEntityId, subMeshIndex);
+        // Build serializable offsets from MeshComponent
+        const offsets = (mesh.meshOffsets ?? []).map(o => {
+          if (!o) return null;
+          const entry: { position?: [number, number, number]; rotation?: [number, number, number]; scale?: [number, number, number] } = {};
+          if (o.position) entry.position = [...o.position] as [number, number, number];
+          if (o.rotation) entry.rotation = [...o.rotation] as [number, number, number];
+          if (o.scale) entry.scale = [...o.scale] as [number, number, number];
+          return Object.keys(entry).length > 0 ? entry : null;
+        });
+        catalog.updateMeshOffsets(prefabComp.prefabId, offsets);
+        saveToProject('/data/prefabs.json', JSON.stringify(catalog.toJSON(), null, 2))
+          .then(() => {
+            infoLabel.textContent = `Saved offset to prefab: ${prefabComp.prefabId}`;
+          })
+          .catch(err => {
+            infoLabel.textContent = `Failed to save prefab: ${err}`;
+          });
+      }
+      return;
+    }
+
     // Transform mode switching (only when object selected)
     if (selectedEntityId && isDevServer()) {
       if (e.code === 'KeyQ') { setTransformMode('translate'); return; }
@@ -610,10 +744,20 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
         if (group) {
           const step = ROTATION_STEPS[rotStepIdx] * DEG2RAD;
           const delta = e.code === 'BracketRight' ? step : -step;
-          group.rotation.y += delta;
-          syncGroupToComponent(selectedEntityId);
-          if (selectionHelper) selectionHelper.update();
-          markDirty();
+          if (subMeshIndex !== null) {
+            const subChild = group.children.find(c => c.userData.meshIndex === subMeshIndex);
+            if (subChild) {
+              subChild.rotation.y += delta;
+              syncSubMeshToComponent(selectedEntityId, subMeshIndex);
+              if (subMeshHelper) subMeshHelper.update();
+              markDirty();
+            }
+          } else {
+            group.rotation.y += delta;
+            syncGroupToComponent(selectedEntityId);
+            if (selectionHelper) selectionHelper.update();
+            markDirty();
+          }
         }
         return;
       }
@@ -623,24 +767,50 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
       if (group) {
         const step = POSITION_STEPS[posStepIdx];
         let nudged = false;
-        if (e.code === 'ArrowRight') { group.position.x += step; nudged = true; }
-        if (e.code === 'ArrowLeft') { group.position.x -= step; nudged = true; }
-        if (e.code === 'ArrowUp') { group.position.z -= step; nudged = true; }
-        if (e.code === 'ArrowDown') { group.position.z += step; nudged = true; }
-        if (e.code === 'PageUp') { group.position.y += step; nudged = true; }
-        if (e.code === 'PageDown') { group.position.y -= step; nudged = true; }
-        if (nudged) {
-          syncGroupToComponent(selectedEntityId);
-          if (selectionHelper) selectionHelper.update();
-          markDirty();
-          return;
+
+        if (subMeshIndex !== null) {
+          // Nudge sub-mesh
+          const subChild = group.children.find(c => c.userData.meshIndex === subMeshIndex);
+          if (subChild) {
+            if (e.code === 'ArrowRight') { subChild.position.x += step; nudged = true; }
+            if (e.code === 'ArrowLeft') { subChild.position.x -= step; nudged = true; }
+            if (e.code === 'ArrowUp') { subChild.position.z -= step; nudged = true; }
+            if (e.code === 'ArrowDown') { subChild.position.z += step; nudged = true; }
+            if (e.code === 'PageUp') { subChild.position.y += step; nudged = true; }
+            if (e.code === 'PageDown') { subChild.position.y -= step; nudged = true; }
+            if (nudged) {
+              syncSubMeshToComponent(selectedEntityId, subMeshIndex);
+              if (subMeshHelper) subMeshHelper.update();
+              markDirty();
+              return;
+            }
+          }
+        } else {
+          // Nudge whole entity
+          if (e.code === 'ArrowRight') { group.position.x += step; nudged = true; }
+          if (e.code === 'ArrowLeft') { group.position.x -= step; nudged = true; }
+          if (e.code === 'ArrowUp') { group.position.z -= step; nudged = true; }
+          if (e.code === 'ArrowDown') { group.position.z += step; nudged = true; }
+          if (e.code === 'PageUp') { group.position.y += step; nudged = true; }
+          if (e.code === 'PageDown') { group.position.y -= step; nudged = true; }
+          if (nudged) {
+            syncGroupToComponent(selectedEntityId);
+            if (selectionHelper) selectionHelper.update();
+            markDirty();
+            return;
+          }
         }
       }
     }
 
-    // Escape to deselect
+    // Escape: exit sub-mesh mode first, then deselect
     if (e.code === 'Escape' && selectedEntityId) {
-      selectObject(null);
+      if (subMeshIndex !== null) {
+        subMeshIndex = null;
+        updateSubMeshSelection();
+      } else {
+        selectObject(null);
+      }
     }
   });
 
@@ -731,11 +901,14 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
   speedLabel.textContent = `Speed: ${flySpeed.toFixed(1)}`;
 
   // ── Load placement data via ECS ────────────────────────────────────
+  const catalog = new PrefabCatalog();
+
   try {
-    const [placementsResp, renamesResp, manifestResp] = await Promise.all([
+    const [placementsResp, renamesResp, manifestResp, prefabsResp] = await Promise.all([
       fetch(`${levelDataPath}/placements.json`),
       fetch(`${levelDataPath}/renames.json`),
       fetch(`${objectsPoolPath}/manifest.json`),
+      fetch('/data/prefabs.json'),
     ]);
 
     if (!placementsResp.ok) {
@@ -747,9 +920,12 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
     const data = await placementsResp.json();
     renames = renamesResp.ok ? await renamesResp.json() : {};
     manifest = manifestResp.ok ? await manifestResp.json() : [];
+    if (prefabsResp.ok) {
+      catalog.loadFromJSON(await prefabsResp.json());
+    }
 
-    // Deserialize into ECS world — MeshSystem will load GLBs via onEntityAdded
-    deserializeWorld(data, ecsWorld, registry);
+    // Deserialize into ECS world — supports both v1 and v2 formats
+    deserializeWorldAny(data, ecsWorld, registry, catalog);
 
     // Wait for all meshes to finish loading
     // MeshSystem.onEntityAdded is async — we need to wait for all entities
@@ -783,7 +959,7 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
   async function savePlacements(): Promise<void> {
     if (!isDevServer() || !placementsDirty) return;
 
-    const saveData = JSON.stringify(serializeWorld(ecsWorld), null, 2);
+    const saveData = JSON.stringify(serializeWorldV2(ecsWorld), null, 2);
 
     try {
       await saveToProject(`${levelDataPath}/placements.json`, saveData);
@@ -815,6 +991,7 @@ export async function launchLevelViewer(levelSlug: string): Promise<void> {
 
       // Update helpers
       if (selectionHelper) selectionHelper.update();
+      if (subMeshHelper) subMeshHelper.update();
       for (const h of searchHighlights) h.update();
 
       renderer.render(scene, camera);

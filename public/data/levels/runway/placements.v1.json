@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "ammo_crate_01",
-      "prefab": "runway_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "runway_ammo_crate.glb"
+      ],
       "position": [
         81.325,
         -4.9468,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_02",
-      "prefab": "runway_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "runway_ammo_crate.glb"
+      ],
       "position": [
         64.9084,
         -7.2198,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_01",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         69.7586,
         -6.4538,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         69.7574,
         -6.4538,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         128.2181,
         -6.4538,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         131.2354,
         -6.4616,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         79.6318,
         -6.4538,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         81.2735,
         -6.4538,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_07",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         79.6356,
         -6.4538,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_08",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         86.4992,
         -4.1807,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_09",
-      "prefab": "runway_guard",
+      "type": "guard",
+      "meshes": [
+        "runway_guard.glb"
+      ],
       "position": [
         106.8304,
         -6.4538,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_1_01",
-      "prefab": "runway_ammo_crate_1",
+      "type": "ammo_crate_1",
+      "meshes": [
+        "runway_ammo_crate_1.glb"
+      ],
       "position": [
         86.2499,
         -5.0621,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_01",
-      "prefab": "runway_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "runway_guard_1.glb"
+      ],
       "position": [
         129.8683,
         -6.4538,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "trash_cans_01",
-      "prefab": "runway_trash_cans",
+      "type": "trash_cans",
+      "meshes": [
+        "runway_trash_cans.glb"
+      ],
       "position": [
         84.8544,
         -4.5816,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "trash_cans_02",
-      "prefab": "runway_trash_cans",
+      "type": "trash_cans",
+      "meshes": [
+        "runway_trash_cans.glb"
+      ],
       "position": [
         88.6429,
         -4.5816,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "trash_cans_03",
-      "prefab": "runway_trash_cans",
+      "type": "trash_cans",
+      "meshes": [
+        "runway_trash_cans.glb"
+      ],
       "position": [
         102.9126,
         -4.5816,
@@ -303,11 +365,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tank_01",
-      "prefab": "runway_tank",
+      "type": "tank",
+      "meshes": [
+        "runway_tank_primary.glb",
+        "runway_tank_secondary.glb"
+      ],
       "position": [
         160.2188,
         -5.7691,
@@ -322,11 +389,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_01",
-      "prefab": "runway_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
       "position": [
         127.6702,
         -6.7028,
@@ -341,11 +412,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_02",
-      "prefab": "runway_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
       "position": [
         83.8507,
         -6.7028,
@@ -360,11 +435,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_03",
-      "prefab": "runway_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
       "position": [
         82.5878,
         -6.7028,
@@ -379,11 +458,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_04",
-      "prefab": "runway_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ],
       "position": [
         126.4072,
         -6.7028,
@@ -398,11 +481,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_01",
-      "prefab": "runway_tv",
+      "type": "tv",
+      "meshes": [
+        "runway_tv.glb"
+      ],
       "position": [
         66.7086,
         -6.061,
@@ -417,11 +504,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_01",
-      "prefab": "runway_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "runway_keyboard.glb"
+      ],
       "position": [
         67.0222,
         -6.261,
@@ -436,11 +527,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_01",
-      "prefab": "runway_wooden_table",
+      "type": "wooden_table",
+      "meshes": [
+        "runway_wooden_table.glb"
+      ],
       "position": [
         66.9276,
         -6.6296,
@@ -455,11 +550,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "key_01",
-      "prefab": "runway_key",
+      "type": "key",
+      "meshes": [
+        "runway_key.glb"
+      ],
       "position": [
         66.9292,
         -6.2778,
@@ -474,11 +573,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_01",
-      "prefab": "runway_black_chair",
+      "type": "black_chair",
+      "meshes": [
+        "runway_black_chair.glb"
+      ],
       "position": [
         68.2179,
         -6.976,
@@ -493,11 +596,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "filing_cabinet_01",
-      "prefab": "runway_filing_cabinet",
+      "type": "filing_cabinet",
+      "meshes": [
+        "runway_filing_cabinet.glb"
+      ],
       "position": [
         63.6456,
         -6.3704,
@@ -512,11 +619,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "filing_cabinet_02",
-      "prefab": "runway_filing_cabinet",
+      "type": "filing_cabinet",
+      "meshes": [
+        "runway_filing_cabinet.glb"
+      ],
       "position": [
         63.0142,
         -6.3704,
@@ -531,11 +642,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "filing_cabinet_03",
-      "prefab": "runway_filing_cabinet",
+      "type": "filing_cabinet",
+      "meshes": [
+        "runway_filing_cabinet.glb"
+      ],
       "position": [
         62.3828,
         -6.3704,
@@ -550,11 +665,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "missile_turret_01",
-      "prefab": "runway_missile_turret",
+      "type": "missile_turret",
+      "meshes": [
+        "runway_missile_turret.glb"
+      ],
       "position": [
         127.8378,
         -0.8986,
@@ -569,11 +688,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "plane_01",
-      "prefab": "runway_plane",
+      "type": "plane",
+      "meshes": [
+        "runway_plane_primary.glb",
+        "runway_plane_secondary.glb"
+      ],
       "position": [
         116.4049,
         -5.5006,
@@ -588,11 +712,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "gun_turret_01",
-      "prefab": "runway_gun_turret",
+      "type": "gun_turret",
+      "meshes": [
+        "runway_gun_turret.glb"
+      ],
       "position": [
         78.8741,
         -4.6075,
@@ -607,11 +735,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "gun_turret_1_01",
-      "prefab": "runway_gun_turret_1",
+      "type": "gun_turret_1",
+      "meshes": [
+        "runway_gun_turret_1.glb"
+      ],
       "position": [
         70.2373,
         3.6008,
@@ -626,11 +758,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "gun_turret_1_02",
-      "prefab": "runway_gun_turret_1",
+      "type": "gun_turret_1",
+      "meshes": [
+        "runway_gun_turret_1.glb"
+      ],
       "position": [
         133.075,
         1.2014,
@@ -645,11 +781,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "grey_door_01",
-      "prefab": "runway_grey_door",
+      "type": "grey_door",
+      "meshes": [
+        "runway_grey_door.glb"
+      ],
       "position": [
         86.8996,
         -3.8067,
@@ -664,11 +804,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "grey_door_02",
-      "prefab": "runway_grey_door",
+      "type": "grey_door",
+      "meshes": [
+        "runway_grey_door.glb"
+      ],
       "position": [
         85.6002,
         -3.8067,
@@ -683,11 +827,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "grey_door_03",
-      "prefab": "runway_grey_door",
+      "type": "grey_door",
+      "meshes": [
+        "runway_grey_door.glb"
+      ],
       "position": [
         64.0876,
         -6.0797,
@@ -702,11 +850,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_01",
-      "prefab": "runway_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "runway_metal_door.glb"
+      ],
       "position": [
         91.501,
         -3.3792,
@@ -721,11 +873,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_01",
-      "prefab": "runway_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "runway_metal_door_1.glb"
+      ],
       "position": [
         82.2292,
         -3.3792,
@@ -740,11 +896,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_01",
-      "prefab": "runway_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "runway_metal_door_2.glb"
+      ],
       "position": [
         73.7544,
         -3.3099,
@@ -759,7 +919,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

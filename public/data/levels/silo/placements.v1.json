@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -1.2438,
         -20.2183,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         0.454,
         -17.9206,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         5.6956,
         -17.9206,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         10.4345,
         -17.9206,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         19.8228,
         -17.9206,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         31.7834,
         -4.4697,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_07",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         27.9364,
         -9.7831,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_08",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         38.1802,
         -14.905,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_09",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         47.628,
         -14.905,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_10",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         56.7048,
         -12.5834,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_11",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         58.5956,
         -12.5834,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_12",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         53.9524,
         -12.5834,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_13",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         49.5051,
         -12.5834,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_14",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         41.3108,
         -9.7831,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_15",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         30.4385,
         -9.7831,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_16",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         30.9044,
         -9.7831,
@@ -303,11 +365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_17",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         30.1034,
         -9.7831,
@@ -322,11 +388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_18",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         30.2949,
         -9.7831,
@@ -341,11 +411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_19",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         27.4467,
         -4.4697,
@@ -360,11 +434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_20",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         31.0177,
         -9.7831,
@@ -379,11 +457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_21",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         29.3438,
         -9.7831,
@@ -398,11 +480,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_22",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         30.1991,
         -9.7831,
@@ -417,11 +503,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_23",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         22.0679,
         -7.4854,
@@ -436,11 +526,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_24",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         14.9834,
         -7.4854,
@@ -455,11 +549,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_25",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         13.8873,
         -4.4697,
@@ -474,11 +572,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_26",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         21.7693,
         -4.4697,
@@ -493,11 +595,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_27",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         10.2236,
         -4.4697,
@@ -512,11 +618,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_28",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -3.347,
         -4.4697,
@@ -531,11 +641,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_29",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -9.4023,
         -4.4697,
@@ -550,11 +664,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_30",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -15.6251,
         -4.4697,
@@ -569,11 +687,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_31",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -18.1143,
         -4.4697,
@@ -588,11 +710,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_32",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -26.8485,
         -2.1481,
@@ -607,11 +733,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_33",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -28.5717,
         -2.1481,
@@ -626,11 +756,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_34",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -28.5956,
         -2.1481,
@@ -645,11 +779,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_35",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -24.6705,
         -2.1481,
@@ -664,11 +802,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_36",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -7.157,
         0.6521,
@@ -683,11 +825,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_37",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -12.4751,
         0.6521,
@@ -702,11 +848,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_38",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -2.9685,
         0.6521,
@@ -721,11 +871,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_39",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -0.891,
         0.6521,
@@ -740,11 +894,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_40",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         0.7126,
         0.6521,
@@ -759,11 +917,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_41",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -0.3535,
         0.6521,
@@ -778,11 +940,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_42",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -1.3109,
         0.6521,
@@ -797,11 +963,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_43",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         6.5155,
         0.6521,
@@ -816,11 +986,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_44",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         11.7269,
         0.6521,
@@ -835,11 +1009,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_45",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         10.9371,
         0.6521,
@@ -854,11 +1032,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_46",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         10.9084,
         0.6521,
@@ -873,11 +1055,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_47",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         7.8032,
         0.6521,
@@ -892,11 +1078,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_48",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         12.78,
         0.6521,
@@ -911,11 +1101,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_49",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         11.6984,
         0.6521,
@@ -930,11 +1124,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_50",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         21.5878,
         -0.0419,
@@ -949,11 +1147,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_51",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         26.6278,
         0.6521,
@@ -968,11 +1170,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_52",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -0.4125,
         -17.9206,
@@ -987,11 +1193,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_53",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         14.9053,
         -14.905,
@@ -1006,11 +1216,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_54",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         24.6225,
         -14.905,
@@ -1025,11 +1239,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_55",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         26.0346,
         -14.905,
@@ -1044,11 +1262,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_56",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         35.7518,
         -14.905,
@@ -1063,11 +1285,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_57",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         42.5251,
         -9.7831,
@@ -1082,11 +1308,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_58",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         30.1991,
         -9.7831,
@@ -1101,11 +1331,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_59",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         30.1273,
         -9.7831,
@@ -1120,11 +1354,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_60",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         16.2935,
         -7.4854,
@@ -1139,11 +1377,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_61",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         14.8814,
         -7.4854,
@@ -1158,11 +1400,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_62",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         14.9053,
         -4.4697,
@@ -1177,11 +1423,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_63",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         5.7147,
         -4.4697,
@@ -1196,11 +1446,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_64",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         3.7042,
         -4.4697,
@@ -1215,11 +1469,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_65",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -27.5536,
         -2.1481,
@@ -1234,11 +1492,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_66",
-      "prefab": "silo_guard",
+      "type": "guard",
+      "meshes": [
+        "silo_guard.glb"
+      ],
       "position": [
         -13.0735,
         0.6521,
@@ -1253,11 +1515,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_01",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         12.158,
         -18.01,
@@ -1272,11 +1538,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_02",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         12.1901,
         -18.01,
@@ -1291,11 +1561,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_03",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         11.8718,
         -18.01,
@@ -1310,11 +1584,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_04",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         51.6913,
         -12.6727,
@@ -1329,11 +1607,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_05",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         50.4829,
         -12.6727,
@@ -1348,11 +1630,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_06",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         18.0283,
         -7.5747,
@@ -1367,11 +1653,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_07",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         9.0171,
         -7.5747,
@@ -1386,11 +1676,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_08",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         17.6033,
         -7.5747,
@@ -1405,11 +1699,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_09",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         -17.3103,
         -2.2375,
@@ -1424,11 +1722,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "scientist_10",
-      "prefab": "silo_scientist",
+      "type": "scientist",
+      "meshes": [
+        "silo_scientist.glb"
+      ],
       "position": [
         -19.506,
         -2.2375,
@@ -1443,11 +1745,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_01",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         19.6977,
         -18.5693,
@@ -1462,11 +1768,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_02",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         17.6874,
         -18.5693,
@@ -1481,11 +1791,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_03",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         19.5782,
         -15.5536,
@@ -1500,11 +1814,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_04",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         7.6828,
         -15.5536,
@@ -1519,11 +1837,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_05",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         4.6911,
         -18.5053,
@@ -1538,11 +1860,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_06",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         30.9463,
         -10.3677,
@@ -1557,11 +1883,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_07",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         45.6897,
         -13.232,
@@ -1576,11 +1906,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_08",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         53.7555,
         -13.232,
@@ -1595,11 +1929,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_09",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         58.4704,
         -13.168,
@@ -1614,11 +1952,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_10",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         56.7236,
         -13.168,
@@ -1633,11 +1975,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_11",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         13.6424,
         -8.1341,
@@ -1652,11 +1998,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_12",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         13.7618,
         -5.1184,
@@ -1671,11 +2021,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_13",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         -8.2572,
         -4.9878,
@@ -1690,11 +2044,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_14",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         -11.3922,
         -4.9878,
@@ -1709,11 +2067,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_15",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         -14.3608,
         -4.9878,
@@ -1728,11 +2090,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_16",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         -16.8256,
         -4.9878,
@@ -1747,11 +2113,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_17",
-      "prefab": "silo_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ],
       "position": [
         -28.649,
         -2.7968,
@@ -1766,11 +2136,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_01",
-      "prefab": "silo_console",
+      "type": "console",
+      "meshes": [
+        "silo_console_primary.glb",
+        "silo_console_secondary.glb"
+      ],
       "position": [
         11.5947,
         -18.0949,
@@ -1785,11 +2160,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_02",
-      "prefab": "silo_console",
+      "type": "console",
+      "meshes": [
+        "silo_console_primary.glb",
+        "silo_console_secondary.glb"
+      ],
       "position": [
         50.9707,
         -12.7576,
@@ -1804,11 +2184,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_03",
-      "prefab": "silo_console",
+      "type": "console",
+      "meshes": [
+        "silo_console_primary.glb",
+        "silo_console_secondary.glb"
+      ],
       "position": [
         50.2062,
         -12.7576,
@@ -1823,11 +2208,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_04",
-      "prefab": "silo_console",
+      "type": "console",
+      "meshes": [
+        "silo_console_primary.glb",
+        "silo_console_secondary.glb"
+      ],
       "position": [
         16.1174,
         -7.6596,
@@ -1842,11 +2232,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_05",
-      "prefab": "silo_console",
+      "type": "console",
+      "meshes": [
+        "silo_console_primary.glb",
+        "silo_console_secondary.glb"
+      ],
       "position": [
         19.2156,
         -7.6596,
@@ -1861,11 +2256,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_06",
-      "prefab": "silo_console",
+      "type": "console",
+      "meshes": [
+        "silo_console_primary.glb",
+        "silo_console_secondary.glb"
+      ],
       "position": [
         -20.3323,
         -2.3224,
@@ -1880,11 +2280,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_01",
-      "prefab": "silo_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "silo_metal_table_primary.glb",
+        "silo_metal_table_secondary.glb"
+      ],
       "position": [
         9.7172,
         -17.9712,
@@ -1899,11 +2304,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "circuit_board_01",
-      "prefab": "silo_circuit_board",
+      "type": "circuit_board",
+      "meshes": [
+        "silo_circuit_board.glb"
+      ],
       "position": [
         9.3343,
         -17.966,
@@ -1918,11 +2327,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "circuit_board_02",
-      "prefab": "silo_circuit_board",
+      "type": "circuit_board",
+      "meshes": [
+        "silo_circuit_board.glb"
+      ],
       "position": [
         10.2438,
         -17.966,
@@ -1937,11 +2350,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "circuit_board_03",
-      "prefab": "silo_circuit_board",
+      "type": "circuit_board",
+      "meshes": [
+        "silo_circuit_board.glb"
+      ],
       "position": [
         51.0752,
         -13.6851,
@@ -1956,11 +2373,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "circuit_board_04",
-      "prefab": "silo_circuit_board",
+      "type": "circuit_board",
+      "meshes": [
+        "silo_circuit_board.glb"
+      ],
       "position": [
         19.2669,
         -8.5871,
@@ -1975,11 +2396,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "circuit_board_05",
-      "prefab": "silo_circuit_board",
+      "type": "circuit_board",
+      "meshes": [
+        "silo_circuit_board.glb"
+      ],
       "position": [
         -21.8278,
         -1.6463,
@@ -1994,11 +2419,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_01",
-      "prefab": "silo_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ],
       "position": [
         50.6445,
         -12.9425,
@@ -2013,11 +2442,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_02",
-      "prefab": "silo_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ],
       "position": [
         58.4948,
         -12.9425,
@@ -2032,11 +2465,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_03",
-      "prefab": "silo_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ],
       "position": [
         57.7289,
         -12.9425,
@@ -2051,11 +2488,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_04",
-      "prefab": "silo_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ],
       "position": [
         56.939,
         -12.9425,
@@ -2070,11 +2511,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_05",
-      "prefab": "silo_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ],
       "position": [
         56.8193,
         -12.9425,
@@ -2089,11 +2534,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_06",
-      "prefab": "silo_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ],
       "position": [
         10.2438,
         -7.8446,
@@ -2108,11 +2557,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_07",
-      "prefab": "silo_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ],
       "position": [
         10.2438,
         -7.8446,
@@ -2127,11 +2580,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "silo_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "silo_body_armor.glb"
+      ],
       "position": [
         45.6639,
         -12.6731,
@@ -2146,11 +2603,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_02",
-      "prefab": "silo_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "silo_body_armor.glb"
+      ],
       "position": [
         30.184,
         -5.4816,
@@ -2165,11 +2626,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "satelite_01",
-      "prefab": "silo_satelite",
+      "type": "satelite",
+      "meshes": [
+        "silo_satelite_primary.glb",
+        "silo_satelite_secondary.glb"
+      ],
       "position": [
         14.2839,
         -5.9455,
@@ -2184,11 +2650,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "satelite_02",
-      "prefab": "silo_satelite_v2",
+      "type": "satelite",
+      "meshes": [
+        "silo_satelite_primary_1.glb",
+        "silo_satelite_secondary_1.glb"
+      ],
       "position": [
         -21.9193,
         -2.0293,
@@ -2203,11 +2674,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_01",
-      "prefab": "silo_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "silo_body_armor_1.glb"
+      ],
       "position": [
         -22.4252,
         -3.165,
@@ -2222,11 +2697,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "orumov_01",
-      "prefab": "silo_orumov",
+      "type": "orumov",
+      "meshes": [
+        "silo_orumov.glb"
+      ],
       "position": [
         -1.4411,
         0.8678,
@@ -2241,11 +2720,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_07",
-      "prefab": "silo_console_v2",
+      "type": "console",
+      "meshes": [
+        "silo_console.glb"
+      ],
       "position": [
         13.2379,
         -17.3686,
@@ -2260,11 +2743,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_08",
-      "prefab": "silo_console_v2",
+      "type": "console",
+      "meshes": [
+        "silo_console.glb"
+      ],
       "position": [
         12.0145,
         1.2042,
@@ -2279,11 +2766,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_01",
-      "prefab": "silo_console_1",
+      "type": "console_1",
+      "meshes": [
+        "silo_console_1.glb"
+      ],
       "position": [
         13.2379,
         -17.3686,
@@ -2298,11 +2789,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_02",
-      "prefab": "silo_console_1",
+      "type": "console_1",
+      "meshes": [
+        "silo_console_1.glb"
+      ],
       "position": [
         16.9429,
         -6.9334,
@@ -2317,11 +2812,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_03",
-      "prefab": "silo_console_1",
+      "type": "console_1",
+      "meshes": [
+        "silo_console_1.glb"
+      ],
       "position": [
         10.9015,
         1.2042,
@@ -2336,11 +2835,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_2_01",
-      "prefab": "silo_console_2",
+      "type": "console_2",
+      "meshes": [
+        "silo_console_2.glb"
+      ],
       "position": [
         52.7661,
         -12.0314,
@@ -2355,11 +2858,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_2_02",
-      "prefab": "silo_console_2",
+      "type": "console_2",
+      "meshes": [
+        "silo_console_2.glb"
+      ],
       "position": [
         8.6766,
         1.2041,
@@ -2374,11 +2881,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_3_01",
-      "prefab": "silo_console_3",
+      "type": "console_3",
+      "meshes": [
+        "silo_console_3.glb"
+      ],
       "position": [
         52.7661,
         -12.0313,
@@ -2393,11 +2904,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_3_02",
-      "prefab": "silo_console_3",
+      "type": "console_3",
+      "meshes": [
+        "silo_console_3.glb"
+      ],
       "position": [
         -15.9963,
         -1.5961,
@@ -2412,11 +2927,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_4_01",
-      "prefab": "silo_console_4",
+      "type": "console_4",
+      "meshes": [
+        "silo_console_4.glb"
+      ],
       "position": [
         16.9429,
         -6.9335,
@@ -2431,11 +2950,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_4_02",
-      "prefab": "silo_console_4",
+      "type": "console_4",
+      "meshes": [
+        "silo_console_4.glb"
+      ],
       "position": [
         9.7885,
         1.2041,
@@ -2450,11 +2973,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_5_01",
-      "prefab": "silo_console_5",
+      "type": "console_5",
+      "meshes": [
+        "silo_console_5.glb"
+      ],
       "position": [
         -20.9786,
         -1.5961,
@@ -2469,11 +2996,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_5_02",
-      "prefab": "silo_console_5",
+      "type": "console_5",
+      "meshes": [
+        "silo_console_5.glb"
+      ],
       "position": [
         8.6757,
         1.2042,
@@ -2488,11 +3019,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_6_01",
-      "prefab": "silo_console_6",
+      "type": "console_6",
+      "meshes": [
+        "silo_console_6.glb"
+      ],
       "position": [
         -15.9963,
         -1.5961,
@@ -2507,11 +3042,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_7_01",
-      "prefab": "silo_console_7",
+      "type": "console_7",
+      "meshes": [
+        "silo_console_7.glb"
+      ],
       "position": [
         -15.9963,
         -1.5962,
@@ -2526,11 +3065,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_7_02",
-      "prefab": "silo_console_7",
+      "type": "console_7",
+      "meshes": [
+        "silo_console_7.glb"
+      ],
       "position": [
         12.0153,
         1.2041,
@@ -2545,11 +3088,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_8_01",
-      "prefab": "silo_console_8",
+      "type": "console_8",
+      "meshes": [
+        "silo_console_8.glb"
+      ],
       "position": [
         -19.8657,
         -1.5961,
@@ -2564,11 +3111,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_9_01",
-      "prefab": "silo_console_9",
+      "type": "console_9",
+      "meshes": [
+        "silo_console_9.glb"
+      ],
       "position": [
         9.7894,
         1.2042,
@@ -2583,11 +3134,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_10_01",
-      "prefab": "silo_console_10",
+      "type": "console_10",
+      "meshes": [
+        "silo_console_10.glb"
+      ],
       "position": [
         10.9024,
         1.2042,
@@ -2602,11 +3157,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_10_02",
-      "prefab": "silo_console_10",
+      "type": "console_10",
+      "meshes": [
+        "silo_console_10.glb"
+      ],
       "position": [
         22.3669,
         0.5101,
@@ -2621,11 +3180,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_11_01",
-      "prefab": "silo_console_11",
+      "type": "console_11",
+      "meshes": [
+        "silo_console_11.glb"
+      ],
       "position": [
         5.1434,
         1.2042,
@@ -2640,11 +3203,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_11_02",
-      "prefab": "silo_console_11",
+      "type": "console_11",
+      "meshes": [
+        "silo_console_11.glb"
+      ],
       "position": [
         24.3194,
         0.5101,
@@ -2659,11 +3226,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_12_01",
-      "prefab": "silo_console_12",
+      "type": "console_12",
+      "meshes": [
+        "silo_console_12.glb"
+      ],
       "position": [
         5.1434,
         1.2041,
@@ -2678,11 +3249,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_13_01",
-      "prefab": "silo_console_13",
+      "type": "console_13",
+      "meshes": [
+        "silo_console_13.glb"
+      ],
       "position": [
         5.1434,
         1.2042,
@@ -2697,11 +3272,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_14_01",
-      "prefab": "silo_console_14",
+      "type": "console_14",
+      "meshes": [
+        "silo_console_14.glb"
+      ],
       "position": [
         5.1434,
         1.2042,
@@ -2716,11 +3295,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_15_01",
-      "prefab": "silo_console_15",
+      "type": "console_15",
+      "meshes": [
+        "silo_console_15.glb"
+      ],
       "position": [
         19.791,
         0.51,
@@ -2735,11 +3318,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_15_02",
-      "prefab": "silo_console_15",
+      "type": "console_15",
+      "meshes": [
+        "silo_console_15.glb"
+      ],
       "position": [
         22.8564,
         0.51,
@@ -2754,11 +3341,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_16_01",
-      "prefab": "silo_console_16",
+      "type": "console_16",
+      "meshes": [
+        "silo_console_16.glb"
+      ],
       "position": [
         19.791,
         0.5101,
@@ -2773,11 +3364,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_16_02",
-      "prefab": "silo_console_16",
+      "type": "console_16",
+      "meshes": [
+        "silo_console_16.glb"
+      ],
       "position": [
         24.3194,
         0.5101,
@@ -2792,11 +3387,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_16_03",
-      "prefab": "silo_console_16",
+      "type": "console_16",
+      "meshes": [
+        "silo_console_16.glb"
+      ],
       "position": [
         21.7435,
         0.5101,
@@ -2811,11 +3410,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_17_01",
-      "prefab": "silo_console_17",
+      "type": "console_17",
+      "meshes": [
+        "silo_console_17.glb"
+      ],
       "position": [
         21.254,
         0.51,
@@ -2830,11 +3433,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rocket_01",
-      "prefab": "silo_rocket",
+      "type": "rocket",
+      "meshes": [
+        "silo_rocket.glb"
+      ],
       "position": [
         -0.4409,
         -15.1106,
@@ -2849,11 +3456,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "rocket_02",
-      "prefab": "silo_rocket",
+      "type": "rocket",
+      "meshes": [
+        "silo_rocket.glb"
+      ],
       "position": [
         30.1659,
         -15.1106,
@@ -2868,11 +3479,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_01",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         16.0358,
         -17.3761,
@@ -2887,11 +3502,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_02",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         16.0358,
         -17.3761,
@@ -2906,11 +3525,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_03",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         15.9879,
         -14.5758,
@@ -2925,11 +3548,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_04",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         15.8204,
         -14.5758,
@@ -2944,11 +3571,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_05",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         55.9142,
         -12.0388,
@@ -2963,11 +3594,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_06",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         55.2113,
         -12.0388,
@@ -2982,11 +3617,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_07",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         43.9712,
         -9.2385,
@@ -3001,11 +3640,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_08",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         43.3879,
         -9.2385,
@@ -3020,11 +3663,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_09",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         13.7142,
         -6.9409,
@@ -3039,11 +3686,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_10",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         13.6902,
         -6.9409,
@@ -3058,11 +3709,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_11",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         13.7381,
         -4.1406,
@@ -3077,11 +3732,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_12",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         13.9296,
         -4.1406,
@@ -3096,11 +3755,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_13",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         -26.1882,
         -1.6036,
@@ -3115,11 +3778,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_14",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         -25.4853,
         -1.6036,
@@ -3134,11 +3801,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_15",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         -14.2451,
         1.1967,
@@ -3153,11 +3824,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "door_camera_16",
-      "prefab": "silo_door_camera",
+      "type": "door_camera",
+      "meshes": [
+        "silo_door_camera.glb"
+      ],
       "position": [
         -13.6619,
         1.1967,
@@ -3172,11 +3847,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_01",
-      "prefab": "silo_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "silo_metal_door.glb"
+      ],
       "position": [
         -0.8306,
         -20.1704,
@@ -3191,11 +3870,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_02",
-      "prefab": "silo_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "silo_metal_door.glb"
+      ],
       "position": [
         29.781,
         -9.7352,
@@ -3210,11 +3893,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_03",
-      "prefab": "silo_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "silo_metal_door.glb"
+      ],
       "position": [
         -0.055,
         0.7121,
@@ -3229,11 +3916,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_04",
-      "prefab": "silo_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "silo_metal_door.glb"
+      ],
       "position": [
         4.4876,
         0.7121,
@@ -3248,11 +3939,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_05",
-      "prefab": "silo_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "silo_metal_door.glb"
+      ],
       "position": [
         4.4876,
         -4.4098,
@@ -3267,11 +3962,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_01",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         15.2628,
         -17.8607,
@@ -3286,11 +3985,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_02",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         15.2628,
         -15.0604,
@@ -3305,11 +4008,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_03",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         -0.8306,
         0.7121,
@@ -3324,11 +4031,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_04",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         25.2504,
         -14.845,
@@ -3343,11 +4054,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_05",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         29.781,
         -9.7352,
@@ -3362,11 +4077,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_06",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         30.5566,
         -9.7352,
@@ -3381,11 +4100,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_07",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         25.2505,
         -4.4098,
@@ -3400,11 +4123,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_08",
-      "prefab": "silo_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ],
       "position": [
         -5.3611,
         -4.4098,
@@ -3419,11 +4146,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_01",
-      "prefab": "silo_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "silo_metal_door_2.glb"
+      ],
       "position": [
         -5.3612,
         -4.4098,
@@ -3438,11 +4169,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_02",
-      "prefab": "silo_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "silo_metal_door_2.glb"
+      ],
       "position": [
         4.4757,
         -14.845,
@@ -3457,11 +4192,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_03",
-      "prefab": "silo_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "silo_metal_door_2.glb"
+      ],
       "position": [
         55.6226,
         -12.5234,
@@ -3476,11 +4215,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_04",
-      "prefab": "silo_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "silo_metal_door_2.glb"
+      ],
       "position": [
         35.0872,
         -4.4098,
@@ -3495,11 +4238,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_05",
-      "prefab": "silo_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "silo_metal_door_2.glb"
+      ],
       "position": [
         14.4831,
         -4.6252,
@@ -3514,11 +4261,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_06",
-      "prefab": "silo_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "silo_metal_door_2.glb"
+      ],
       "position": [
         -13.8338,
         0.7121,
@@ -3533,11 +4284,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_3_01",
-      "prefab": "silo_metal_door_3",
+      "type": "metal_door_3",
+      "meshes": [
+        "silo_metal_door_3.glb"
+      ],
       "position": [
         35.0991,
         -14.845,
@@ -3552,11 +4307,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_3_02",
-      "prefab": "silo_metal_door_3",
+      "type": "metal_door_3",
+      "meshes": [
+        "silo_metal_door_3.glb"
+      ],
       "position": [
         43.5718,
         -9.7352,
@@ -3571,11 +4330,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_3_03",
-      "prefab": "silo_metal_door_3",
+      "type": "metal_door_3",
+      "meshes": [
+        "silo_metal_door_3.glb"
+      ],
       "position": [
         14.4831,
         -7.4255,
@@ -3590,11 +4353,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_3_04",
-      "prefab": "silo_metal_door_3",
+      "type": "metal_door_3",
+      "meshes": [
+        "silo_metal_door_3.glb"
+      ],
       "position": [
         -25.8846,
         -2.0882,
@@ -3609,11 +4376,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "elevator_door_01",
-      "prefab": "silo_elevator_door",
+      "type": "elevator_door",
+      "meshes": [
+        "silo_elevator_door.glb"
+      ],
       "position": [
         21.8586,
         0.7713,
@@ -3628,11 +4399,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "elevator_door_02",
-      "prefab": "silo_elevator_door",
+      "type": "elevator_door",
+      "meshes": [
+        "silo_elevator_door.glb"
+      ],
       "position": [
         21.0946,
         0.7713,
@@ -3647,11 +4422,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_01",
-      "prefab": "silo_metal_floor_hatch",
+      "type": "metal_floor_hatch",
+      "meshes": [
+        "silo_metal_floor_hatch.glb"
+      ],
       "position": [
         2.5092,
         6.3592,
@@ -3666,11 +4445,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_02",
-      "prefab": "silo_metal_floor_hatch",
+      "type": "metal_floor_hatch",
+      "meshes": [
+        "silo_metal_floor_hatch.glb"
+      ],
       "position": [
         33.1208,
         6.3592,
@@ -3685,11 +4468,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_03",
-      "prefab": "silo_metal_floor_hatch",
+      "type": "metal_floor_hatch",
+      "meshes": [
+        "silo_metal_floor_hatch.glb"
+      ],
       "position": [
         33.1208,
         6.3592,
@@ -3704,11 +4491,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_04",
-      "prefab": "silo_metal_floor_hatch",
+      "type": "metal_floor_hatch",
+      "meshes": [
+        "silo_metal_floor_hatch.glb"
+      ],
       "position": [
         2.5092,
         6.3592,
@@ -3723,11 +4514,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_05",
-      "prefab": "silo_metal_floor_hatch",
+      "type": "metal_floor_hatch",
+      "meshes": [
+        "silo_metal_floor_hatch.glb"
+      ],
       "position": [
         -3.3857,
         6.3592,
@@ -3742,11 +4537,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_1_01",
-      "prefab": "silo_metal_floor_hatch_1",
+      "type": "metal_floor_hatch_1",
+      "meshes": [
+        "silo_metal_floor_hatch_1.glb"
+      ],
       "position": [
         -3.3857,
         6.3592,
@@ -3761,11 +4560,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_1_02",
-      "prefab": "silo_metal_floor_hatch_1",
+      "type": "metal_floor_hatch_1",
+      "meshes": [
+        "silo_metal_floor_hatch_1.glb"
+      ],
       "position": [
         27.2259,
         6.3592,
@@ -3780,11 +4583,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_floor_hatch_1_03",
-      "prefab": "silo_metal_floor_hatch_1",
+      "type": "metal_floor_hatch_1",
+      "meshes": [
+        "silo_metal_floor_hatch_1.glb"
+      ],
       "position": [
         27.2259,
         6.3592,
@@ -3799,7 +4606,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

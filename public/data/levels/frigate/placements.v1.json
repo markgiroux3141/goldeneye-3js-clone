@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -3.1435,
         10.0446,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         0.3697,
         10.0446,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         2.3624,
         10.0446,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         2.4554,
         10.0446,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -1.7394,
         10.0446,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -2.7502,
         10.0446,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_07",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -6.5997,
         10.0446,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_08",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -3.7487,
         10.0446,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_09",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         3.8615,
         10.0446,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_10",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         6.726,
         10.0446,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_11",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         6.1364,
         10.0446,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_12",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -2.5481,
         10.0446,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_13",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         0.8521,
         10.0446,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_14",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         2.4799,
         10.0446,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_15",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         3.5062,
         10.0446,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_16",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         3.0276,
         1.9329,
@@ -303,11 +365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_17",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -0.071,
         1.9329,
@@ -322,11 +388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_18",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -6.8939,
         1.9329,
@@ -341,11 +411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_19",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -4.1491,
         1.9329,
@@ -360,11 +434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_20",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -3.8711,
         1.9329,
@@ -379,11 +457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_21",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         5.6958,
         1.9329,
@@ -398,11 +480,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_22",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         6.8939,
         1.9329,
@@ -417,11 +503,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_23",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         4.755,
         1.9329,
@@ -436,11 +526,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_24",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         2.228,
         -1.7059,
@@ -455,11 +549,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_25",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -0.3379,
         1.9329,
@@ -474,11 +572,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_26",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -3.3405,
         1.9329,
@@ -493,11 +595,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_27",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -4.8217,
         -1.7059,
@@ -512,11 +618,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_28",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         4.9188,
         -1.7059,
@@ -531,11 +641,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_29",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -4.2658,
         5.6476,
@@ -550,11 +664,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_30",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -5.6647,
         5.6476,
@@ -569,11 +687,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_31",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         2.4969,
         5.6476,
@@ -588,11 +710,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_32",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         1.8106,
         5.6476,
@@ -607,11 +733,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_33",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -3.9433,
         5.6476,
@@ -626,11 +756,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_34",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         1.7647,
         5.6476,
@@ -645,11 +779,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_35",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         -6.7928,
         5.6476,
@@ -664,11 +802,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_36",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         6.7675,
         5.6476,
@@ -683,11 +825,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_37",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         6.844,
         5.6476,
@@ -702,11 +848,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_38",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         4.7971,
         5.6476,
@@ -721,11 +871,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_39",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         3.66,
         5.6476,
@@ -740,11 +894,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_40",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         5.0245,
         5.6476,
@@ -759,11 +917,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_41",
-      "prefab": "frigate_guard",
+      "type": "guard",
+      "meshes": [
+        "frigate_guard.glb"
+      ],
       "position": [
         4.0895,
         5.6476,
@@ -778,11 +940,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_01",
-      "prefab": "frigate_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
       "position": [
         -0.3436,
         10.0292,
@@ -797,11 +963,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_02",
-      "prefab": "frigate_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
       "position": [
         -4.2906,
         10.0292,
@@ -816,11 +986,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_03",
-      "prefab": "frigate_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
       "position": [
         3.2044,
         10.0292,
@@ -835,11 +1009,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_04",
-      "prefab": "frigate_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
       "position": [
         4.3937,
         1.9176,
@@ -854,11 +1032,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_05",
-      "prefab": "frigate_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
       "position": [
         -6.7422,
         1.9176,
@@ -873,11 +1055,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_06",
-      "prefab": "frigate_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ],
       "position": [
         -1.7009,
         -1.7213,
@@ -892,11 +1078,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "helicopter_01",
-      "prefab": "frigate_helicopter",
+      "type": "helicopter",
+      "meshes": [
+        "frigate_helicopter_primary.glb",
+        "frigate_helicopter_secondary.glb"
+      ],
       "position": [
         -1.3093,
         4.9805,
@@ -911,11 +1102,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "c4_explosive_01",
-      "prefab": "frigate_c4_explosive",
+      "type": "c4_explosive",
+      "meshes": [
+        "frigate_c4_explosive.glb"
+      ],
       "position": [
         1.5669,
         9.0527,
@@ -930,11 +1125,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "c4_explosive_02",
-      "prefab": "frigate_c4_explosive",
+      "type": "c4_explosive",
+      "meshes": [
+        "frigate_c4_explosive.glb"
+      ],
       "position": [
         4.1694,
         2.7213,
@@ -949,11 +1148,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ship_gun_01",
-      "prefab": "frigate_ship_gun",
+      "type": "ship_gun",
+      "meshes": [
+        "frigate_ship_gun_primary.glb",
+        "frigate_ship_gun_secondary.glb"
+      ],
       "position": [
         0.0316,
         5.3065,
@@ -968,11 +1172,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ship_turret_1_01",
-      "prefab": "frigate_ship_turret_1",
+      "type": "ship_turret_1",
+      "meshes": [
+        "frigate_ship_turret_1.glb"
+      ],
       "position": [
         -0.0446,
         5.9011,
@@ -987,11 +1195,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ship_turret_1_02",
-      "prefab": "frigate_ship_turret_1",
+      "type": "ship_turret_1",
+      "meshes": [
+        "frigate_ship_turret_1.glb"
+      ],
       "position": [
         -0.0312,
         3.4246,
@@ -1006,11 +1218,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ship_turret_01",
-      "prefab": "frigate_ship_turret",
+      "type": "ship_turret",
+      "meshes": [
+        "frigate_ship_turret.glb"
+      ],
       "position": [
         -0.0496,
         11.5365,
@@ -1025,11 +1241,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_01",
-      "prefab": "frigate_console",
+      "type": "console",
+      "meshes": [
+        "frigate_console.glb"
+      ],
       "position": [
         -4.9566,
         9.8336,
@@ -1044,11 +1264,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_02",
-      "prefab": "frigate_console",
+      "type": "console",
+      "meshes": [
+        "frigate_console.glb"
+      ],
       "position": [
         -2.7844,
         9.8336,
@@ -1063,11 +1287,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_01",
-      "prefab": "frigate_console_1",
+      "type": "console_1",
+      "meshes": [
+        "frigate_console_1.glb"
+      ],
       "position": [
         -3.8719,
         9.8391,
@@ -1082,11 +1310,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_1_02",
-      "prefab": "frigate_console_1",
+      "type": "console_1",
+      "meshes": [
+        "frigate_console_1.glb"
+      ],
       "position": [
         -1.6987,
         9.8391,
@@ -1101,11 +1333,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_2_01",
-      "prefab": "frigate_console_2",
+      "type": "console_2",
+      "meshes": [
+        "frigate_console_2.glb"
+      ],
       "position": [
         2.6903,
         9.8336,
@@ -1120,11 +1356,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_2_02",
-      "prefab": "frigate_console_2",
+      "type": "console_2",
+      "meshes": [
+        "frigate_console_2.glb"
+      ],
       "position": [
         3.7769,
         9.8336,
@@ -1139,11 +1379,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_3_01",
-      "prefab": "frigate_console_3",
+      "type": "console_3",
+      "meshes": [
+        "frigate_console_3.glb"
+      ],
       "position": [
         1.6812,
         9.858,
@@ -1158,11 +1402,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_4_01",
-      "prefab": "frigate_console_4",
+      "type": "console_4",
+      "meshes": [
+        "frigate_console_4.glb"
+      ],
       "position": [
         -4.6569,
         9.85,
@@ -1177,11 +1425,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_4_02",
-      "prefab": "frigate_console_4",
+      "type": "console_4",
+      "meshes": [
+        "frigate_console_4.glb"
+      ],
       "position": [
         -4.6569,
         9.85,
@@ -1196,11 +1448,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_5_01",
-      "prefab": "frigate_console_5",
+      "type": "console_5",
+      "meshes": [
+        "frigate_console_5.glb"
+      ],
       "position": [
         4.6364,
         9.8396,
@@ -1215,11 +1471,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_5_02",
-      "prefab": "frigate_console_5",
+      "type": "console_5",
+      "meshes": [
+        "frigate_console_5.glb"
+      ],
       "position": [
         4.6364,
         9.8396,
@@ -1234,11 +1494,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_6_01",
-      "prefab": "frigate_console_6",
+      "type": "console_6",
+      "meshes": [
+        "frigate_console_6.glb"
+      ],
       "position": [
         4.94,
         9.858,
@@ -1253,11 +1517,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_7_01",
-      "prefab": "frigate_console_7",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
       "position": [
         0.4296,
         9.9834,
@@ -1272,11 +1540,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_7_02",
-      "prefab": "frigate_console_7",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
       "position": [
         3.0071,
         9.9834,
@@ -1291,11 +1563,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_7_03",
-      "prefab": "frigate_console_7",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
       "position": [
         1.2635,
         9.9834,
@@ -1310,11 +1586,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_7_04",
-      "prefab": "frigate_console_7",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
       "position": [
         -1.314,
         9.9834,
@@ -1329,11 +1609,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_7_05",
-      "prefab": "frigate_console_7",
+      "type": "console_7",
+      "meshes": [
+        "frigate_console_7.glb"
+      ],
       "position": [
         -0.4801,
         9.9834,
@@ -1348,11 +1632,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_8_01",
-      "prefab": "frigate_console_8",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
       "position": [
         1.3013,
         9.9461,
@@ -1367,11 +1655,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_8_02",
-      "prefab": "frigate_console_8",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
       "position": [
         2.1352,
         9.9461,
@@ -1386,11 +1678,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_8_03",
-      "prefab": "frigate_console_8",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
       "position": [
         0.3918,
         9.9461,
@@ -1405,11 +1701,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_8_04",
-      "prefab": "frigate_console_8",
+      "type": "console_8",
+      "meshes": [
+        "frigate_console_8.glb"
+      ],
       "position": [
         3.6011,
         1.8344,
@@ -1424,11 +1724,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_9_01",
-      "prefab": "frigate_console_9",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
       "position": [
         0.4296,
         9.9861,
@@ -1443,11 +1747,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_9_02",
-      "prefab": "frigate_console_9",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
       "position": [
         3.0071,
         9.9861,
@@ -1462,11 +1770,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_9_03",
-      "prefab": "frigate_console_9",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
       "position": [
         4.4728,
         1.8745,
@@ -1481,11 +1793,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_9_04",
-      "prefab": "frigate_console_9",
+      "type": "console_9",
+      "meshes": [
+        "frigate_console_9.glb"
+      ],
       "position": [
         -0.4801,
         9.9861,
@@ -1500,11 +1816,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_10_01",
-      "prefab": "frigate_console_10",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
       "position": [
         1.3014,
         9.9847,
@@ -1519,11 +1839,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_10_02",
-      "prefab": "frigate_console_10",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
       "position": [
         2.1353,
         9.9847,
@@ -1538,11 +1862,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_10_03",
-      "prefab": "frigate_console_10",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
       "position": [
         -0.4422,
         9.9847,
@@ -1557,11 +1885,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_10_04",
-      "prefab": "frigate_console_10",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
       "position": [
         0.3917,
         9.9847,
@@ -1576,11 +1908,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_10_05",
-      "prefab": "frigate_console_10",
+      "type": "console_10",
+      "meshes": [
+        "frigate_console_10.glb"
+      ],
       "position": [
         -1.3519,
         9.9847,
@@ -1595,11 +1931,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_11_01",
-      "prefab": "frigate_console_11",
+      "type": "console_11",
+      "meshes": [
+        "frigate_console_11.glb"
+      ],
       "position": [
         1.2636,
         9.9461,
@@ -1614,11 +1954,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_12_01",
-      "prefab": "frigate_console_12",
+      "type": "console_12",
+      "meshes": [
+        "frigate_console_12.glb"
+      ],
       "position": [
         -0.4423,
         9.9461,
@@ -1633,11 +1977,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_13_01",
-      "prefab": "frigate_console_13",
+      "type": "console_13",
+      "meshes": [
+        "frigate_console_13.glb"
+      ],
       "position": [
         -1.314,
         9.9861,
@@ -1652,11 +2000,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_14_01",
-      "prefab": "frigate_console_14",
+      "type": "console_14",
+      "meshes": [
+        "frigate_console_14.glb"
+      ],
       "position": [
         -1.3519,
         9.9834,
@@ -1671,11 +2023,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_01",
-      "prefab": "frigate_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "frigate_metal_table_primary.glb",
+        "frigate_metal_table_secondary.glb"
+      ],
       "position": [
         -0.2906,
         10.0272,
@@ -1690,11 +2047,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_02",
-      "prefab": "frigate_metal_table",
+      "type": "metal_table",
+      "meshes": [
+        "frigate_metal_table_primary.glb",
+        "frigate_metal_table_secondary.glb"
+      ],
       "position": [
         -0.2906,
         10.0272,
@@ -1709,11 +2071,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_table_03",
-      "prefab": "frigate_metal_table_v2",
+      "type": "metal_table",
+      "meshes": [
+        "frigate_metal_table_primary_1.glb",
+        "frigate_metal_table_secondary_1.glb"
+      ],
       "position": [
         -0.2906,
         10.0272,
@@ -1728,11 +2095,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "radio_01",
-      "prefab": "frigate_radio",
+      "type": "radio",
+      "meshes": [
+        "frigate_radio.glb"
+      ],
       "position": [
         -0.4404,
         10.4189,
@@ -1747,11 +2118,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "radio_02",
-      "prefab": "frigate_radio",
+      "type": "radio",
+      "meshes": [
+        "frigate_radio.glb"
+      ],
       "position": [
         -0.4404,
         10.4189,
@@ -1766,11 +2141,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "radio_1_01",
-      "prefab": "frigate_radio_1",
+      "type": "radio_1",
+      "meshes": [
+        "frigate_radio_1.glb"
+      ],
       "position": [
         -0.4404,
         10.4189,
@@ -1785,11 +2164,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "radio_1_02",
-      "prefab": "frigate_radio_1",
+      "type": "radio_1",
+      "meshes": [
+        "frigate_radio_1.glb"
+      ],
       "position": [
         -0.4404,
         10.4189,
@@ -1804,11 +2187,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "radio_2_01",
-      "prefab": "frigate_radio_2",
+      "type": "radio_2",
+      "meshes": [
+        "frigate_radio_2.glb"
+      ],
       "position": [
         -0.4404,
         10.4189,
@@ -1823,11 +2210,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "radio_3_01",
-      "prefab": "frigate_radio_3",
+      "type": "radio_3",
+      "meshes": [
+        "frigate_radio_3.glb"
+      ],
       "position": [
         -0.4404,
         10.4189,
@@ -1842,11 +2233,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_01",
-      "prefab": "frigate_black_chair",
+      "type": "black_chair",
+      "meshes": [
+        "frigate_black_chair.glb"
+      ],
       "position": [
         1.0432,
         9.4454,
@@ -1861,11 +2256,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_1_01",
-      "prefab": "frigate_black_chair_1",
+      "type": "black_chair_1",
+      "meshes": [
+        "frigate_black_chair_1.glb"
+      ],
       "position": [
         0.9563,
         9.4454,
@@ -1880,11 +2279,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "frigate_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "frigate_body_armor.glb"
+      ],
       "position": [
         1.1249,
         9.0609,
@@ -1899,11 +2302,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_2_01",
-      "prefab": "frigate_black_chair_2",
+      "type": "black_chair_2",
+      "meshes": [
+        "frigate_black_chair_2.glb"
+      ],
       "position": [
         -1.3372,
         9.4454,
@@ -1918,11 +2325,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_3_01",
-      "prefab": "frigate_black_chair_3",
+      "type": "black_chair_3",
+      "meshes": [
+        "frigate_black_chair_3.glb"
+      ],
       "position": [
         1.3195,
         9.4454,
@@ -1937,11 +2348,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_4_01",
-      "prefab": "frigate_black_chair_4",
+      "type": "black_chair_4",
+      "meshes": [
+        "frigate_black_chair_4.glb"
+      ],
       "position": [
         -0.7311,
         9.4454,
@@ -1956,11 +2371,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_5_01",
-      "prefab": "frigate_black_chair_5",
+      "type": "black_chair_5",
+      "meshes": [
+        "frigate_black_chair_5.glb"
+      ],
       "position": [
         -0.4305,
         9.4454,
@@ -1975,11 +2394,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_01",
-      "prefab": "frigate_metal_crate",
+      "type": "metal_crate",
+      "meshes": [
+        "frigate_metal_crate.glb"
+      ],
       "position": [
         -0.8974,
         5.0385,
@@ -1994,11 +2417,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_01",
-      "prefab": "frigate_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
       "position": [
         -1.9598,
         5.0694,
@@ -2013,11 +2440,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_02",
-      "prefab": "frigate_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
       "position": [
         -0.8199,
         5.0694,
@@ -2032,11 +2463,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_03",
-      "prefab": "frigate_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
       "position": [
         -1.9823,
         5.0694,
@@ -2051,11 +2486,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_04",
-      "prefab": "frigate_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ],
       "position": [
         -1.9014,
         5.0694,
@@ -2070,11 +2509,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_01",
-      "prefab": "frigate_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "frigate_wooden_crate_1.glb"
+      ],
       "position": [
         -3.1391,
         5.0694,
@@ -2089,11 +2532,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_01",
-      "prefab": "frigate_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "frigate_wooden_crate_2.glb"
+      ],
       "position": [
         -1.968,
         5.991,
@@ -2108,11 +2555,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_crate_1_01",
-      "prefab": "frigate_metal_crate_1",
+      "type": "metal_crate_1",
+      "meshes": [
+        "frigate_metal_crate_1.glb"
+      ],
       "position": [
         -3.1208,
         5.0385,
@@ -2127,11 +2578,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_3_01",
-      "prefab": "frigate_wooden_crate_3",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "frigate_wooden_crate_3.glb"
+      ],
       "position": [
         -3.0231,
         5.991,
@@ -2146,11 +2601,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_1_01",
-      "prefab": "frigate_body_armor_1",
+      "type": "body_armor_1",
+      "meshes": [
+        "frigate_body_armor_1.glb"
+      ],
       "position": [
         -3.0529,
         5.6039,
@@ -2165,11 +2624,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ship_engine_01",
-      "prefab": "frigate_ship_engine",
+      "type": "ship_engine",
+      "meshes": [
+        "frigate_ship_engine.glb"
+      ],
       "position": [
         0.0445,
         -1.4747,
@@ -2184,11 +2647,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_01",
-      "prefab": "frigate_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
       "position": [
         -6.0395,
         10.2842,
@@ -2203,11 +2670,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_02",
-      "prefab": "frigate_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
       "position": [
         -6.0395,
         10.2842,
@@ -2222,11 +2693,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_03",
-      "prefab": "frigate_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
       "position": [
         6.0395,
         10.2842,
@@ -2241,11 +2716,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_04",
-      "prefab": "frigate_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ],
       "position": [
         6.0395,
         10.2842,
@@ -2260,11 +2739,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_01",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -4.9529,
         10.2969,
@@ -2279,11 +2762,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_02",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -6.0395,
         10.2969,
@@ -2298,11 +2785,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_03",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -4.9529,
         10.2969,
@@ -2317,11 +2808,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_04",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -3.323,
         10.2969,
@@ -2336,11 +2831,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_05",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -2.3248,
         10.2969,
@@ -2355,11 +2854,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_06",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -0.935,
         10.2969,
@@ -2374,11 +2877,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_07",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -2.3248,
         10.2969,
@@ -2393,11 +2900,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_08",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         2.3248,
         10.2969,
@@ -2412,11 +2923,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_09",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -2.3248,
         10.2969,
@@ -2431,11 +2946,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_10",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         2.3248,
         10.2969,
@@ -2450,11 +2969,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_11",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         6.0395,
         10.2969,
@@ -2469,11 +2992,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_12",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         4.9529,
         10.2969,
@@ -2488,11 +3015,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_13",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -4.9529,
         5.8872,
@@ -2507,11 +3038,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_14",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         3.0956,
         5.8872,
@@ -2526,11 +3061,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_15",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         4.5612,
         5.8872,
@@ -2545,11 +3084,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_16",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         4.5612,
         5.8872,
@@ -2564,11 +3107,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_17",
-      "prefab": "frigate_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ],
       "position": [
         -6.8103,
         2.1726,
@@ -2583,11 +3130,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_01",
-      "prefab": "frigate_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "frigate_metal_door_2.glb"
+      ],
       "position": [
         -6.8103,
         10.2842,
@@ -2602,11 +3153,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_02",
-      "prefab": "frigate_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "frigate_metal_door_2.glb"
+      ],
       "position": [
         6.8103,
         10.2842,
@@ -2621,11 +3176,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_3_01",
-      "prefab": "frigate_metal_door_3",
+      "type": "metal_door_3",
+      "meshes": [
+        "frigate_metal_door_3.glb"
+      ],
       "position": [
         -6.7345,
         10.2969,
@@ -2640,11 +3199,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_3_02",
-      "prefab": "frigate_metal_door_3",
+      "type": "metal_door_3",
+      "meshes": [
+        "frigate_metal_door_3.glb"
+      ],
       "position": [
         6.7345,
         10.2969,
@@ -2659,11 +3222,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_4_01",
-      "prefab": "frigate_metal_door_4",
+      "type": "metal_door_4",
+      "meshes": [
+        "frigate_metal_door_4.glb"
+      ],
       "position": [
         4.9529,
         2.1726,
@@ -2678,11 +3245,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_4_02",
-      "prefab": "frigate_metal_door_4",
+      "type": "metal_door_4",
+      "meshes": [
+        "frigate_metal_door_4.glb"
+      ],
       "position": [
         4.9529,
         2.1726,
@@ -2697,11 +3268,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_4_03",
-      "prefab": "frigate_metal_door_4",
+      "type": "metal_door_4",
+      "meshes": [
+        "frigate_metal_door_4.glb"
+      ],
       "position": [
         -4.9529,
         2.1726,
@@ -2716,11 +3291,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_segment_door_01",
-      "prefab": "frigate_wooden_segment_door",
+      "type": "wooden_segment_door",
+      "meshes": [
+        "frigate_wooden_segment_door.glb"
+      ],
       "position": [
         0,
         5.5762,
@@ -2735,7 +3314,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

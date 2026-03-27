@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -130.6517,
         1.6411,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -129.174,
         1.6424,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -77.1446,
         1.7065,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -196.5144,
         3.1002,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -122.5927,
         1.2336,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_06",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -89.9454,
         1.8061,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_07",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -5.151,
         2.3536,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_08",
-      "prefab": "surface1_guard",
+      "type": "guard",
+      "meshes": [
+        "surface1_guard.glb"
+      ],
       "position": [
         -3.9099,
         2.3536,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_1_01",
-      "prefab": "surface1_guard_1",
+      "type": "guard_1",
+      "meshes": [
+        "surface1_guard_1.glb"
+      ],
       "position": [
         -75.6875,
         1.5798,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "padlock_01",
-      "prefab": "surface1_padlock",
+      "type": "padlock",
+      "meshes": [
+        "surface1_padlock.glb"
+      ],
       "position": [
         78.478,
         3.1684,
@@ -189,11 +227,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "padlock_02",
-      "prefab": "surface1_padlock",
+      "type": "padlock",
+      "meshes": [
+        "surface1_padlock.glb"
+      ],
       "position": [
         75.896,
         3.1684,
@@ -208,11 +250,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "padlock_03",
-      "prefab": "surface1_padlock",
+      "type": "padlock",
+      "meshes": [
+        "surface1_padlock.glb"
+      ],
       "position": [
         77.2339,
         3.1684,
@@ -227,11 +273,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "padlock_04",
-      "prefab": "surface1_padlock",
+      "type": "padlock",
+      "meshes": [
+        "surface1_padlock.glb"
+      ],
       "position": [
         77.1992,
         3.1684,
@@ -246,11 +296,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "key_01",
-      "prefab": "surface1_key",
+      "type": "key",
+      "meshes": [
+        "surface1_key.glb"
+      ],
       "position": [
         -119.6882,
         2.1183,
@@ -265,11 +319,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "tv_01",
-      "prefab": "surface1_tv",
+      "type": "tv",
+      "meshes": [
+        "surface1_tv.glb"
+      ],
       "position": [
         -120.6243,
         2.3352,
@@ -284,11 +342,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "keyboard_01",
-      "prefab": "surface1_keyboard",
+      "type": "keyboard",
+      "meshes": [
+        "surface1_keyboard.glb"
+      ],
       "position": [
         -120.5235,
         2.1351,
@@ -303,11 +365,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_01",
-      "prefab": "surface1_wooden_table",
+      "type": "wooden_table",
+      "meshes": [
+        "surface1_wooden_table.glb"
+      ],
       "position": [
         -120.379,
         1.7666,
@@ -322,11 +388,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_01",
-      "prefab": "surface1_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "surface1_ammo_crate.glb"
+      ],
       "position": [
         -131.5029,
         1.1449,
@@ -341,11 +411,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_02",
-      "prefab": "surface1_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "surface1_ammo_crate.glb"
+      ],
       "position": [
         -132.8219,
         1.1435,
@@ -360,11 +434,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_03",
-      "prefab": "surface1_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "surface1_ammo_crate.glb"
+      ],
       "position": [
         -75.0094,
         0.7036,
@@ -379,11 +457,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "ammo_crate_04",
-      "prefab": "surface1_ammo_crate",
+      "type": "ammo_crate",
+      "meshes": [
+        "surface1_ammo_crate.glb"
+      ],
       "position": [
         92.3059,
         0.7036,
@@ -398,11 +480,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "grenade_launcher_01",
-      "prefab": "surface1_grenade_launcher",
+      "type": "grenade_launcher",
+      "meshes": [
+        "surface1_grenade_launcher_primary.glb",
+        "surface1_grenade_launcher_secondary.glb"
+      ],
       "position": [
         -76.9568,
         1.6771,
@@ -417,11 +504,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "book_01",
-      "prefab": "surface1_book",
+      "type": "book",
+      "meshes": [
+        "surface1_book.glb"
+      ],
       "position": [
         92.6294,
         1.5805,
@@ -436,11 +527,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "book_02",
-      "prefab": "surface1_book",
+      "type": "book",
+      "meshes": [
+        "surface1_book.glb"
+      ],
       "position": [
         92.8285,
         1.5805,
@@ -455,11 +550,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "book_03",
-      "prefab": "surface1_book",
+      "type": "book",
+      "meshes": [
+        "surface1_book.glb"
+      ],
       "position": [
         89.5434,
         1.5992,
@@ -474,11 +573,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "book_04",
-      "prefab": "surface1_book",
+      "type": "book",
+      "meshes": [
+        "surface1_book.glb"
+      ],
       "position": [
         57.4143,
         1.5805,
@@ -493,11 +596,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "lamp_01",
-      "prefab": "surface1_lamp",
+      "type": "lamp",
+      "meshes": [
+        "surface1_lamp_primary.glb",
+        "surface1_lamp_secondary.glb"
+      ],
       "position": [
         93.0031,
         1.9411,
@@ -512,11 +620,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "lamp_02",
-      "prefab": "surface1_lamp",
+      "type": "lamp",
+      "meshes": [
+        "surface1_lamp_primary.glb",
+        "surface1_lamp_secondary.glb"
+      ],
       "position": [
         57.2397,
         1.9411,
@@ -531,11 +644,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "car_01",
-      "prefab": "surface1_car",
+      "type": "car",
+      "meshes": [
+        "surface1_car_primary.glb",
+        "surface1_car_secondary.glb"
+      ],
       "position": [
         90.578,
         1.6896,
@@ -550,11 +668,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "beaker_01",
-      "prefab": "surface1_beaker",
+      "type": "beaker",
+      "meshes": [
+        "surface1_beaker.glb"
+      ],
       "position": [
         93.0525,
         1.8463,
@@ -569,11 +691,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "motorcycle_01",
-      "prefab": "surface1_motorcycle",
+      "type": "motorcycle",
+      "meshes": [
+        "surface1_motorcycle_primary.glb",
+        "surface1_motorcycle_secondary.glb"
+      ],
       "position": [
         88.6202,
         1.7682,
@@ -588,11 +715,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_01",
-      "prefab": "surface1_black_chair",
+      "type": "black_chair",
+      "meshes": [
+        "surface1_black_chair.glb"
+      ],
       "position": [
         91.2871,
         0.9474,
@@ -607,11 +738,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_chair_02",
-      "prefab": "surface1_black_chair",
+      "type": "black_chair",
+      "meshes": [
+        "surface1_black_chair.glb"
+      ],
       "position": [
         59.2792,
         0.9474,
@@ -626,11 +761,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "black_table_01",
-      "prefab": "surface1_black_table",
+      "type": "black_table",
+      "meshes": [
+        "surface1_black_table.glb"
+      ],
       "position": [
         88.9419,
         1.011,
@@ -645,11 +784,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "gas_can_01",
-      "prefab": "surface1_gas_can",
+      "type": "gas_can",
+      "meshes": [
+        "surface1_gas_can_primary.glb",
+        "surface1_gas_can_secondary.glb"
+      ],
       "position": [
         111.3734,
         1.2159,
@@ -664,11 +808,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "gas_can_02",
-      "prefab": "surface1_gas_can",
+      "type": "gas_can",
+      "meshes": [
+        "surface1_gas_can_primary.glb",
+        "surface1_gas_can_secondary.glb"
+      ],
       "position": [
         110.0831,
         1.2159,
@@ -683,11 +832,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "schematic_01",
-      "prefab": "surface1_schematic",
+      "type": "schematic",
+      "meshes": [
+        "surface1_schematic.glb"
+      ],
       "position": [
         60.5003,
         1.1956,
@@ -702,11 +855,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "hat_01",
-      "prefab": "surface1_hat",
+      "type": "hat",
+      "meshes": [
+        "surface1_hat.glb"
+      ],
       "position": [
         57.5769,
         1.6274,
@@ -721,11 +878,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_01",
-      "prefab": "surface1_brown_sliding_door",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "surface1_brown_sliding_door.glb"
+      ],
       "position": [
         -0.0946,
         1.2692,
@@ -740,11 +901,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_01",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         68.4443,
         0.5035,
@@ -759,11 +924,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_02",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         69.8797,
         0.5035,
@@ -778,11 +947,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_03",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         69.9764,
         0.5035,
@@ -797,11 +970,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_04",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         68.5294,
         0.5035,
@@ -816,11 +993,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_05",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         60.1374,
         0.5035,
@@ -835,11 +1016,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_06",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         59.3722,
         0.5035,
@@ -854,11 +1039,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_07",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         60.7,
         0.5206,
@@ -873,11 +1062,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_08",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         61.4577,
         0.5035,
@@ -892,11 +1085,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_09",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         73.6546,
         0.551,
@@ -911,11 +1108,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_10",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         72.8946,
         0.5444,
@@ -930,11 +1131,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_11",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         71.5751,
         0.5151,
@@ -949,11 +1154,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_12",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         72.3338,
         0.5311,
@@ -968,11 +1177,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_13",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         -131.7558,
         1.4921,
@@ -987,11 +1200,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_14",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         -134.3064,
         1.4921,
@@ -1006,11 +1223,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_15",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         -134.4363,
         2.613,
@@ -1025,11 +1246,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_16",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         -74.3786,
         1.0665,
@@ -1044,11 +1269,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_17",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         -75.9613,
         1.0665,
@@ -1063,11 +1292,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_18",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         -75.9455,
         2.1865,
@@ -1082,11 +1315,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_19",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         110.4204,
         0.9763,
@@ -1101,11 +1338,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_20",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         109.0967,
         0.9763,
@@ -1120,11 +1361,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_21",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         108.339,
         0.9763,
@@ -1139,11 +1384,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_22",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         109.6651,
         0.9763,
@@ -1158,11 +1407,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_23",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         57.7135,
         0.9763,
@@ -1177,11 +1430,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_24",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         68.0241,
         1.9264,
@@ -1196,11 +1453,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_25",
-      "prefab": "surface1_wooden_crate",
+      "type": "wooden_crate",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ],
       "position": [
         68.1421,
         0.9763,
@@ -1215,11 +1476,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_01",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         62.3791,
         0.7477,
@@ -1234,11 +1499,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_02",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         62.6155,
         0.7477,
@@ -1253,11 +1522,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_03",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         61.3588,
         0.7477,
@@ -1272,11 +1545,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_04",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         72.8067,
         0.7477,
@@ -1291,11 +1568,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_05",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         73.2609,
         0.7477,
@@ -1310,11 +1591,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_06",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         71.7616,
         0.7477,
@@ -1329,11 +1614,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_07",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         -131.9635,
         0.9966,
@@ -1348,11 +1637,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_08",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         -131.51,
         0.9966,
@@ -1367,11 +1660,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_09",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         -132.9963,
         0.9966,
@@ -1386,11 +1683,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_10",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         -63.798,
         0.7477,
@@ -1405,11 +1706,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_11",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         -62.3107,
         0.7477,
@@ -1424,11 +1729,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "explosive_barrel_12",
-      "prefab": "surface1_explosive_barrel",
+      "type": "explosive_barrel",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ],
       "position": [
         -62.7776,
         0.7477,
@@ -1443,11 +1752,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_01",
-      "prefab": "surface1_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "surface1_wooden_door_primary.glb",
+        "surface1_wooden_door_secondary.glb"
+      ],
       "position": [
         71.8237,
         2.1744,
@@ -1462,11 +1776,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_02",
-      "prefab": "surface1_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "surface1_wooden_door_primary.glb",
+        "surface1_wooden_door_secondary.glb"
+      ],
       "position": [
         62.205,
         2.1744,
@@ -1481,11 +1800,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_03",
-      "prefab": "surface1_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "surface1_wooden_door_primary.glb",
+        "surface1_wooden_door_secondary.glb"
+      ],
       "position": [
         106.1803,
         2.1744,
@@ -1500,11 +1824,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_04",
-      "prefab": "surface1_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "surface1_wooden_door_primary.glb",
+        "surface1_wooden_door_secondary.glb"
+      ],
       "position": [
         -79.1532,
         2.1744,
@@ -1519,11 +1848,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_05",
-      "prefab": "surface1_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "surface1_wooden_door_primary.glb",
+        "surface1_wooden_door_secondary.glb"
+      ],
       "position": [
         -87.5025,
         2.6473,
@@ -1538,11 +1872,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_06",
-      "prefab": "surface1_wooden_door",
+      "type": "wooden_door",
+      "meshes": [
+        "surface1_wooden_door_primary.glb",
+        "surface1_wooden_door_secondary.glb"
+      ],
       "position": [
         -123.2651,
         2.6473,
@@ -1557,11 +1896,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_07",
-      "prefab": "surface1_wooden_door_primary_1",
+      "type": "wooden_door",
+      "meshes": [
+        "surface1_wooden_door_primary_1.glb"
+      ],
       "position": [
         93.6995,
         2.1744,
@@ -1576,11 +1919,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_door_2_01",
-      "prefab": "surface1_wooden_door_v2",
+      "type": "wooden_door_2",
+      "meshes": [
+        "surface1_wooden_door_2.glb",
+        "surface1_wooden_door_secondary_1.glb"
+      ],
       "position": [
         -130.7007,
         2.5728,
@@ -1595,11 +1943,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_01",
-      "prefab": "surface1_metal_door",
+      "type": "metal_door",
+      "meshes": [
+        "surface1_metal_door.glb",
+        "surface1_window_glass_2.glb"
+      ],
       "position": [
         27.4731,
         2.887,
@@ -1614,11 +1967,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_1_01",
-      "prefab": "surface1_metal_door_1",
+      "type": "metal_door_1",
+      "meshes": [
+        "surface1_metal_door_1.glb"
+      ],
       "position": [
         28.5858,
         2.887,
@@ -1633,11 +1990,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_01",
-      "prefab": "surface1_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "surface1_metal_door_2.glb"
+      ],
       "position": [
         27.5623,
         8.586,
@@ -1652,11 +2013,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_02",
-      "prefab": "surface1_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "surface1_metal_door_2.glb"
+      ],
       "position": [
         19.3994,
         8.586,
@@ -1671,11 +2036,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_door_2_03",
-      "prefab": "surface1_metal_door_2",
+      "type": "metal_door_2",
+      "meshes": [
+        "surface1_metal_door_2.glb"
+      ],
       "position": [
         24.551,
         8.586,
@@ -1690,11 +2059,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_grate_01",
-      "prefab": "surface1_metal_grate",
+      "type": "metal_grate",
+      "meshes": [
+        "surface1_metal_grate_primary.glb",
+        "surface1_metal_grate_secondary.glb"
+      ],
       "position": [
         77.1621,
         3.0113,
@@ -1709,11 +2083,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_01",
-      "prefab": "surface1_console",
+      "type": "console",
+      "meshes": [
+        "surface1_console.glb"
+      ],
       "position": [
         29.6959,
         8.2967,
@@ -1728,11 +2106,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "satelite_dish_01",
-      "prefab": "surface1_satelite_dish",
+      "type": "satelite_dish",
+      "meshes": [
+        "surface1_satelite_dish_primary.glb",
+        "surface1_satelite_dish_secondary.glb"
+      ],
       "position": [
         22.4988,
         11.8601,
@@ -1747,11 +2130,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_01",
-      "prefab": "surface1_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "surface1_wooden_crate_1.glb"
+      ],
       "position": [
         -130.3467,
         1.4926,
@@ -1766,11 +2153,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_1_02",
-      "prefab": "surface1_wooden_crate_1",
+      "type": "wooden_crate_1",
+      "meshes": [
+        "surface1_wooden_crate_1.glb"
+      ],
       "position": [
         -132.8278,
         2.6089,
@@ -1785,11 +2176,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_2_01",
-      "prefab": "surface1_wooden_crate_2",
+      "type": "wooden_crate_2",
+      "meshes": [
+        "surface1_wooden_crate_2.glb"
+      ],
       "position": [
         -132.8249,
         1.489,
@@ -1804,11 +2199,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_3_01",
-      "prefab": "surface1_wooden_crate_3",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "surface1_wooden_crate_3.glb"
+      ],
       "position": [
         -77.0113,
         1.0665,
@@ -1823,11 +2222,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_3_02",
-      "prefab": "surface1_wooden_crate_3",
+      "type": "wooden_crate_3",
+      "meshes": [
+        "surface1_wooden_crate_3.glb"
+      ],
       "position": [
         -77.8544,
         1.0665,
@@ -1842,11 +2245,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_crate_4_01",
-      "prefab": "surface1_wooden_crate_4",
+      "type": "wooden_crate_4",
+      "meshes": [
+        "surface1_wooden_crate_4.glb"
+      ],
       "position": [
         -74.4967,
         2.1865,
@@ -1861,11 +2268,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_1_01",
-      "prefab": "surface1_wooden_table_1",
+      "type": "wooden_table_1",
+      "meshes": [
+        "surface1_wooden_table_1.glb"
+      ],
       "position": [
         92.6183,
         1.2254,
@@ -1880,11 +2291,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_2_01",
-      "prefab": "surface1_wooden_table_2",
+      "type": "wooden_table_2",
+      "meshes": [
+        "surface1_wooden_table_2.glb"
+      ],
       "position": [
         89.5772,
         1.2254,
@@ -1899,11 +2314,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "wooden_table_2_02",
-      "prefab": "surface1_wooden_table_2",
+      "type": "wooden_table_2",
+      "meshes": [
+        "surface1_wooden_table_2.glb"
+      ],
       "position": [
         57.6159,
         1.2254,
@@ -1918,11 +2337,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "bookshelf_01",
-      "prefab": "surface1_bookshelf",
+      "type": "bookshelf",
+      "meshes": [
+        "surface1_bookshelf.glb"
+      ],
       "position": [
         90.6633,
         1.8616,
@@ -1937,11 +2360,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "bookshelf_02",
-      "prefab": "surface1_bookshelf",
+      "type": "bookshelf",
+      "meshes": [
+        "surface1_bookshelf.glb"
+      ],
       "position": [
         89.3304,
         1.8616,
@@ -1956,11 +2383,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "bookshelf_03",
-      "prefab": "surface1_bookshelf",
+      "type": "bookshelf",
+      "meshes": [
+        "surface1_bookshelf.glb"
+      ],
       "position": [
         70.4441,
         1.8616,
@@ -1975,11 +2406,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "bookshelf_04",
-      "prefab": "surface1_bookshelf",
+      "type": "bookshelf",
+      "meshes": [
+        "surface1_bookshelf.glb"
+      ],
       "position": [
         67.0068,
         1.8616,
@@ -1994,11 +2429,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_safe_01",
-      "prefab": "surface1_metal_safe",
+      "type": "metal_safe",
+      "meshes": [
+        "surface1_metal_safe.glb"
+      ],
       "position": [
         60.4855,
         1.2239,
@@ -2013,11 +2452,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "metal_safe_door_01",
-      "prefab": "surface1_metal_safe_door",
+      "type": "metal_safe_door",
+      "meshes": [
+        "surface1_metal_safe_door.glb"
+      ],
       "position": [
         60.7294,
         1.1821,
@@ -2032,11 +2475,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "alarm_01",
-      "prefab": "surface1_alarm",
+      "type": "alarm",
+      "meshes": [
+        "surface1_alarm.glb"
+      ],
       "position": [
         106.143,
         2.1403,
@@ -2051,11 +2498,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "security_camera_01",
-      "prefab": "surface1_security_camera",
+      "type": "security_camera",
+      "meshes": [
+        "surface1_security_camera_primary.glb",
+        "surface1_security_camera_secondary.glb"
+      ],
       "position": [
         93.6662,
         2.2014,
@@ -2070,11 +2522,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_01",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         -124.9576,
         2.8122,
@@ -2089,11 +2545,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_02",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         -118.2132,
         2.8122,
@@ -2108,11 +2568,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_03",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         -129.176,
         2.75,
@@ -2127,11 +2591,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_04",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         -80.9325,
         2.3394,
@@ -2146,11 +2614,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_05",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         62.1677,
         2.3394,
@@ -2165,11 +2637,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_06",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         62.1677,
         2.3394,
@@ -2184,11 +2660,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_07",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         106.2177,
         2.3394,
@@ -2203,11 +2683,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_08",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         112.0413,
         2.3394,
@@ -2222,11 +2706,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_09",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         93.6747,
         2.3394,
@@ -2241,11 +2729,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_10",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         93.6747,
         2.3394,
@@ -2260,11 +2752,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_11",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         69.2854,
         2.3394,
@@ -2279,11 +2775,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_3_12",
-      "prefab": "surface1_window_glass_3",
+      "type": "window_glass_3",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ],
       "position": [
         73.4166,
         2.3394,
@@ -2298,11 +2798,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_4_01",
-      "prefab": "surface1_window_glass_4",
+      "type": "window_glass_4",
+      "meshes": [
+        "surface1_window_glass_4.glb"
+      ],
       "position": [
         -136.6943,
         2.7376,
@@ -2317,11 +2821,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_5_01",
-      "prefab": "surface1_window_glass_5",
+      "type": "window_glass_5",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ],
       "position": [
         25.4594,
         3.3722,
@@ -2336,11 +2844,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_5_02",
-      "prefab": "surface1_window_glass_5",
+      "type": "window_glass_5",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ],
       "position": [
         25.4594,
         9.5691,
@@ -2355,11 +2867,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_5_03",
-      "prefab": "surface1_window_glass_5",
+      "type": "window_glass_5",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ],
       "position": [
         14.6336,
         3.3722,
@@ -2374,11 +2890,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_5_04",
-      "prefab": "surface1_window_glass_5",
+      "type": "window_glass_5",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ],
       "position": [
         14.6336,
         3.3722,
@@ -2393,11 +2913,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_5_05",
-      "prefab": "surface1_window_glass_5",
+      "type": "window_glass_5",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ],
       "position": [
         14.6336,
         9.5691,
@@ -2412,11 +2936,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_5_06",
-      "prefab": "surface1_window_glass_5",
+      "type": "window_glass_5",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ],
       "position": [
         30.387,
         9.5691,
@@ -2431,11 +2959,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_5_07",
-      "prefab": "surface1_window_glass_5",
+      "type": "window_glass_5",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ],
       "position": [
         30.387,
         3.3722,
@@ -2450,11 +2982,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_6_01",
-      "prefab": "surface1_window_glass_6",
+      "type": "window_glass_6",
+      "meshes": [
+        "surface1_window_glass_6.glb"
+      ],
       "position": [
         21.5148,
         9.5691,
@@ -2469,11 +3005,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_6_02",
-      "prefab": "surface1_window_glass_6",
+      "type": "window_glass_6",
+      "meshes": [
+        "surface1_window_glass_6.glb"
+      ],
       "position": [
         21.5148,
         6.7568,
@@ -2488,11 +3028,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_6_03",
-      "prefab": "surface1_window_glass_6",
+      "type": "window_glass_6",
+      "meshes": [
+        "surface1_window_glass_6.glb"
+      ],
       "position": [
         30.387,
         3.3722,
@@ -2507,11 +3051,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "window_glass_6_04",
-      "prefab": "surface1_window_glass_6",
+      "type": "window_glass_6",
+      "meshes": [
+        "surface1_window_glass_6.glb"
+      ],
       "position": [
         30.387,
         9.5691,
@@ -2526,7 +3074,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }

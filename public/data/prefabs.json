@@ -1,0 +1,5254 @@
+{
+  "version": 1,
+  "prefabs": {
+    "archives_guard": {
+      "type": "character",
+      "meshes": [
+        "archives_guard.glb"
+      ]
+    },
+    "archives_guard_1": {
+      "type": "character",
+      "meshes": [
+        "archives_guard_1.glb"
+      ]
+    },
+    "archives_guard_2": {
+      "type": "character",
+      "meshes": [
+        "archives_guard_2.glb"
+      ]
+    },
+    "archives_natalia": {
+      "type": "character",
+      "meshes": [
+        "archives_natalia.glb"
+      ]
+    },
+    "archives_helicopter_blackbox": {
+      "type": "pickup",
+      "meshes": [
+        "archives_helicopter_blackbox.glb"
+      ]
+    },
+    "archives_lamp": {
+      "type": "environment",
+      "meshes": [
+        "archives_lamp_primary.glb",
+        "archives_lamp_secondary.glb"
+      ]
+    },
+    "archives_wedge": {
+      "type": "prop",
+      "meshes": [
+        "archives_wedge.glb"
+      ]
+    },
+    "archives_pp7": {
+      "type": "pickup",
+      "meshes": [
+        "archives_pp7_primary.glb",
+        "archives_pp7_secondary.glb"
+      ]
+    },
+    "archives_metal_window": {
+      "type": "mesh",
+      "meshes": [
+        "archives_metal_window.glb"
+      ]
+    },
+    "archives_metal_window_1": {
+      "type": "mesh",
+      "meshes": [
+        "archives_metal_window_1.glb"
+      ]
+    },
+    "archives_metal_window_2": {
+      "type": "mesh",
+      "meshes": [
+        "archives_metal_window_2.glb"
+      ]
+    },
+    "archives_metal_window_3": {
+      "type": "mesh",
+      "meshes": [
+        "archives_metal_window_3.glb"
+      ]
+    },
+    "archives_bookshelf": {
+      "type": "pickup",
+      "meshes": [
+        "archives_bookshelf.glb"
+      ]
+    },
+    "archives_bookshelf_1": {
+      "type": "pickup",
+      "meshes": [
+        "archives_bookshelf_1.glb"
+      ]
+    },
+    "archives_cardboard_crate": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate.glb"
+      ]
+    },
+    "archives_cardboard_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_1.glb"
+      ]
+    },
+    "archives_cardboard_crate_2": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_2.glb"
+      ]
+    },
+    "archives_cardboard_crate_3": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_3.glb"
+      ]
+    },
+    "archives_cardboard_crate_4": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_4.glb"
+      ]
+    },
+    "archives_cardboard_crate_5": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_5.glb"
+      ]
+    },
+    "archives_cardboard_crate_6": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_6.glb"
+      ]
+    },
+    "archives_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "archives_body_armor.glb"
+      ]
+    },
+    "archives_wooden_table": {
+      "type": "prop",
+      "meshes": [
+        "archives_wooden_table.glb"
+      ]
+    },
+    "archives_wooden_table_1": {
+      "type": "prop",
+      "meshes": [
+        "archives_wooden_table_1.glb"
+      ]
+    },
+    "archives_wooden_table_2": {
+      "type": "prop",
+      "meshes": [
+        "archives_wooden_table_2.glb"
+      ]
+    },
+    "archives_black_chair": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair.glb"
+      ]
+    },
+    "archives_black_chair_1": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_1.glb"
+      ]
+    },
+    "archives_black_chair_2": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_2.glb"
+      ]
+    },
+    "archives_metal_door": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door.glb"
+      ]
+    },
+    "archives_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_1.glb"
+      ]
+    },
+    "archives_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_2.glb"
+      ]
+    },
+    "archives_metal_door_3": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_3.glb"
+      ]
+    },
+    "archives_metal_door_4": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_4.glb"
+      ]
+    },
+    "archives_metal_door_5": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_5.glb"
+      ]
+    },
+    "archives_metal_safe": {
+      "type": "prop",
+      "meshes": [
+        "archives_metal_safe.glb"
+      ]
+    },
+    "archives_metal_safe_door": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_safe_door.glb"
+      ]
+    },
+    "archives_cardboard_crate_7": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_7.glb"
+      ]
+    },
+    "archives_cardboard_crate_8": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_8.glb"
+      ]
+    },
+    "archives_black_chair_3": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_3.glb"
+      ]
+    },
+    "archives_bookshelf_2": {
+      "type": "pickup",
+      "meshes": [
+        "archives_bookshelf_2.glb"
+      ]
+    },
+    "archives_bookshelf_3": {
+      "type": "pickup",
+      "meshes": [
+        "archives_bookshelf_3.glb"
+      ]
+    },
+    "archives_bookshelf_4": {
+      "type": "pickup",
+      "meshes": [
+        "archives_bookshelf_4.glb"
+      ]
+    },
+    "archives_metal_door_6": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_6.glb"
+      ]
+    },
+    "archives_metal_door_7": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_7.glb"
+      ]
+    },
+    "archives_metal_door_8": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_8.glb"
+      ]
+    },
+    "archives_metal_door_9": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_9.glb"
+      ]
+    },
+    "archives_metal_door_10": {
+      "type": "door",
+      "meshes": [
+        "archives_metal_door_10.glb"
+      ]
+    },
+    "archives_cardboard_crate_9": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_9.glb"
+      ]
+    },
+    "archives_cardboard_crate_10": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_10.glb"
+      ]
+    },
+    "archives_cardboard_crate_11": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_11.glb"
+      ]
+    },
+    "archives_cardboard_crate_12": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_12.glb"
+      ]
+    },
+    "archives_cardboard_crate_13": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_13.glb"
+      ]
+    },
+    "archives_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "archives_body_armor_1.glb"
+      ]
+    },
+    "archives_cardboard_crate_14": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_14.glb"
+      ]
+    },
+    "archives_filing_cabinet": {
+      "type": "prop",
+      "meshes": [
+        "archives_filing_cabinet.glb"
+      ]
+    },
+    "archives_filing_cabinet_1": {
+      "type": "prop",
+      "meshes": [
+        "archives_filing_cabinet_1.glb"
+      ]
+    },
+    "archives_black_chair_4": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_4.glb"
+      ]
+    },
+    "archives_black_chair_5": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_5.glb"
+      ]
+    },
+    "archives_cardboard_crate_15": {
+      "type": "prop",
+      "meshes": [
+        "archives_cardboard_crate_15.glb"
+      ]
+    },
+    "archives_black_chair_6": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_6.glb"
+      ]
+    },
+    "archives_black_chair_7": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_7.glb"
+      ]
+    },
+    "archives_black_chair_8": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_8.glb"
+      ]
+    },
+    "archives_black_chair_9": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_9.glb"
+      ]
+    },
+    "archives_black_chair_10": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_10.glb"
+      ]
+    },
+    "archives_black_chair_11": {
+      "type": "prop",
+      "meshes": [
+        "archives_black_chair_11.glb"
+      ]
+    },
+    "archives_wooden_table_3": {
+      "type": "prop",
+      "meshes": [
+        "archives_wooden_table_3.glb"
+      ]
+    },
+    "archives_secret_door": {
+      "type": "door",
+      "meshes": [
+        "archives_secret_door.glb"
+      ]
+    },
+    "archives_secret_door_1": {
+      "type": "door",
+      "meshes": [
+        "archives_secret_door_1.glb"
+      ]
+    },
+    "archives_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "archives_window_glass.glb"
+      ]
+    },
+    "archives_window_glass_1": {
+      "type": "prop-destructible",
+      "meshes": [
+        "archives_window_glass_1.glb"
+      ]
+    },
+    "archives_window_glass_2": {
+      "type": "prop-destructible",
+      "meshes": [
+        "archives_window_glass_2.glb"
+      ]
+    },
+    "aztec_guard": {
+      "type": "character",
+      "meshes": [
+        "aztec_guard.glb"
+      ]
+    },
+    "aztec_jaws": {
+      "type": "character",
+      "meshes": [
+        "aztec_jaws.glb"
+      ]
+    },
+    "aztec_metal_bracket": {
+      "type": "environment",
+      "meshes": [
+        "aztec_metal_bracket.glb"
+      ]
+    },
+    "aztec_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "aztec_metal_table_primary.glb",
+        "aztec_metal_table_secondary.glb"
+      ]
+    },
+    "aztec_tv": {
+      "type": "prop",
+      "meshes": [
+        "aztec_tv.glb"
+      ]
+    },
+    "aztec_audio_tape": {
+      "type": "pickup",
+      "meshes": [
+        "aztec_audio_tape.glb"
+      ]
+    },
+    "aztec_keyboard": {
+      "type": "console",
+      "meshes": [
+        "aztec_keyboard.glb"
+      ]
+    },
+    "aztec_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "aztec_metal_crate.glb"
+      ]
+    },
+    "aztec_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "aztec_body_armor.glb"
+      ]
+    },
+    "aztec_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "aztec_drone_gun_primary.glb",
+        "aztec_drone_gun_secondary.glb"
+      ]
+    },
+    "aztec_console": {
+      "type": "console",
+      "meshes": [
+        "aztec_console.glb"
+      ]
+    },
+    "aztec_console_1": {
+      "type": "console",
+      "meshes": [
+        "aztec_console_1.glb"
+      ]
+    },
+    "aztec_floor_hatch": {
+      "type": "door",
+      "meshes": [
+        "aztec_floor_hatch.glb"
+      ]
+    },
+    "aztec_floor_hatch_1": {
+      "type": "door",
+      "meshes": [
+        "aztec_floor_hatch_1.glb"
+      ]
+    },
+    "aztec_stone_door": {
+      "type": "door",
+      "meshes": [
+        "aztec_stone_door.glb"
+      ]
+    },
+    "aztec_stone_door_1": {
+      "type": "door",
+      "meshes": [
+        "aztec_stone_door_1.glb"
+      ]
+    },
+    "aztec_wood_segment_door": {
+      "type": "door",
+      "meshes": [
+        "aztec_wood_segment_door.glb"
+      ]
+    },
+    "aztec_unknown": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown.glb"
+      ]
+    },
+    "aztec_unknown_1": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown_1.glb"
+      ]
+    },
+    "aztec_unknown_2": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown_2.glb"
+      ]
+    },
+    "aztec_unknown_3": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown_3.glb"
+      ]
+    },
+    "aztec_unknown_4": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown_4.glb"
+      ]
+    },
+    "aztec_unknown_5": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown_5.glb"
+      ]
+    },
+    "aztec_rocket_ship": {
+      "type": "environment",
+      "meshes": [
+        "aztec_rocket_ship.glb"
+      ]
+    },
+    "aztec_divider": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider.glb"
+      ]
+    },
+    "aztec_divider_1": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_1.glb"
+      ]
+    },
+    "aztec_divider_2": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_2.glb"
+      ]
+    },
+    "aztec_divider_3": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_3.glb"
+      ]
+    },
+    "aztec_divider_4": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_4.glb"
+      ]
+    },
+    "aztec_divider_5": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_5.glb"
+      ]
+    },
+    "aztec_divider_6": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_6.glb"
+      ]
+    },
+    "aztec_divider_7": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_7.glb"
+      ]
+    },
+    "aztec_divider_8": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_8.glb"
+      ]
+    },
+    "aztec_divider_9": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_9.glb"
+      ]
+    },
+    "aztec_divider_10": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_10.glb"
+      ]
+    },
+    "aztec_divider_11": {
+      "type": "prop",
+      "meshes": [
+        "aztec_divider_11.glb"
+      ]
+    },
+    "aztec_mainframe": {
+      "type": "console",
+      "meshes": [
+        "aztec_mainframe.glb"
+      ]
+    },
+    "aztec_mainframe_1": {
+      "type": "console",
+      "meshes": [
+        "aztec_mainframe_1.glb"
+      ]
+    },
+    "aztec_unknown_6": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown_6.glb"
+      ]
+    },
+    "aztec_unknown_7": {
+      "type": "mesh",
+      "meshes": [
+        "aztec_unknown_7.glb"
+      ]
+    },
+    "aztec_rack_device": {
+      "type": "prop",
+      "meshes": [
+        "aztec_rack_device.glb"
+      ]
+    },
+    "aztec_rack_device_1": {
+      "type": "prop",
+      "meshes": [
+        "aztec_rack_device_1.glb"
+      ]
+    },
+    "aztec_console_2": {
+      "type": "console",
+      "meshes": [
+        "aztec_console_2.glb"
+      ]
+    },
+    "aztec_tv_1": {
+      "type": "prop",
+      "meshes": [
+        "aztec_tv_1.glb"
+      ]
+    },
+    "aztec_tv_2": {
+      "type": "prop",
+      "meshes": [
+        "aztec_tv_2.glb"
+      ]
+    },
+    "aztec_tv_3": {
+      "type": "prop",
+      "meshes": [
+        "aztec_tv_3.glb"
+      ]
+    },
+    "aztec_mainframe_2": {
+      "type": "console",
+      "meshes": [
+        "aztec_mainframe_2.glb"
+      ]
+    },
+    "aztec_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "aztec_window_glass.glb"
+      ]
+    },
+    "aztec_window_glass_1": {
+      "type": "prop-destructible",
+      "meshes": [
+        "aztec_window_glass_1.glb"
+      ]
+    },
+    "bunker1_boris": {
+      "type": "character",
+      "meshes": [
+        "bunker1_boris.glb",
+        "bunker1_boris_glasses.glb"
+      ]
+    },
+    "bunker1_guard": {
+      "type": "character",
+      "meshes": [
+        "bunker1_guard.glb"
+      ]
+    },
+    "bunker1_guard_1": {
+      "type": "character",
+      "meshes": [
+        "bunker1_guard_1.glb"
+      ]
+    },
+    "bunker1_guard_2": {
+      "type": "character",
+      "meshes": [
+        "bunker1_guard_2.glb"
+      ]
+    },
+    "bunker1_blue_chair": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_blue_chair.glb"
+      ]
+    },
+    "bunker1_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_metal_crate.glb"
+      ]
+    },
+    "bunker1_wooden_table": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_wooden_table.glb"
+      ]
+    },
+    "bunker1_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_wooden_crate.glb"
+      ]
+    },
+    "bunker1_metal_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_metal_crate_1.glb"
+      ]
+    },
+    "bunker1_cardboard_crate": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_cardboard_crate.glb"
+      ]
+    },
+    "bunker1_wooden_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_wooden_crate_1.glb"
+      ]
+    },
+    "bunker1_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "bunker1_body_armor.glb"
+      ]
+    },
+    "bunker1_cardboard_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_cardboard_crate_1.glb"
+      ]
+    },
+    "bunker1_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_metal_table_primary.glb",
+        "bunker1_metal_table_secondary.glb"
+      ]
+    },
+    "bunker1_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "bunker1_body_armor_1.glb"
+      ]
+    },
+    "bunker1_ammo_crate": {
+      "type": "pickup",
+      "meshes": [
+        "bunker1_ammo_crate.glb"
+      ]
+    },
+    "bunker1_mainframe": {
+      "type": "console",
+      "meshes": [
+        "bunker1_mainframe.glb"
+      ]
+    },
+    "bunker1_mainframe_1": {
+      "type": "console",
+      "meshes": [
+        "bunker1_mainframe_1.glb"
+      ]
+    },
+    "bunker1_monitor_holder": {
+      "type": "mesh",
+      "meshes": [
+        "bunker1_monitor_holder_primary.glb",
+        "bunker1_monitor_holder_secondary.glb"
+      ]
+    },
+    "bunker1_tv": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_tv.glb"
+      ]
+    },
+    "bunker1_keyboard": {
+      "type": "console",
+      "meshes": [
+        "bunker1_keyboard.glb"
+      ]
+    },
+    "bunker1_encryption_key": {
+      "type": "pickup",
+      "meshes": [
+        "bunker1_encryption_key_primary.glb",
+        "bunker1_encryption_key_secondary.glb"
+      ]
+    },
+    "bunker1_glass_door": {
+      "type": "door",
+      "meshes": [
+        "bunker1_glass_door_primary.glb",
+        "bunker1_glass_door_secondary.glb"
+      ]
+    },
+    "bunker1_glass_door_v2": {
+      "type": "door",
+      "meshes": [
+        "bunker1_glass_door_primary_1.glb",
+        "bunker1_glass_door_secondary_1.glb"
+      ]
+    },
+    "bunker1_brown_sliding_door": {
+      "type": "door",
+      "meshes": [
+        "bunker1_brown_sliding_door.glb"
+      ]
+    },
+    "bunker1_metal_door": {
+      "type": "door",
+      "meshes": [
+        "bunker1_metal_door_primary.glb",
+        "bunker1_metal_door_secondary.glb"
+      ]
+    },
+    "bunker1_metal_door_v2": {
+      "type": "door",
+      "meshes": [
+        "bunker1_metal_door_primary_1.glb",
+        "bunker1_metal_door_secondary_1.glb"
+      ]
+    },
+    "bunker1_metal_door_v3": {
+      "type": "door",
+      "meshes": [
+        "bunker1_metal_door.glb"
+      ]
+    },
+    "bunker1_security_camera": {
+      "type": "security-camera",
+      "meshes": [
+        "bunker1_security_camera_primary.glb",
+        "bunker1_security_camera_secondary.glb"
+      ]
+    },
+    "bunker1_alarm": {
+      "type": "security-camera",
+      "meshes": [
+        "bunker1_alarm.glb"
+      ]
+    },
+    "bunker1_divider": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_divider.glb"
+      ]
+    },
+    "bunker1_divider_1": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_divider_1.glb"
+      ]
+    },
+    "bunker1_divider_2": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_divider_2.glb"
+      ]
+    },
+    "bunker1_divider_3": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_divider_3.glb"
+      ]
+    },
+    "bunker1_divider_4": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_divider_4.glb"
+      ]
+    },
+    "bunker1_divider_5": {
+      "type": "prop",
+      "meshes": [
+        "bunker1_divider_5.glb"
+      ]
+    },
+    "bunker1_console": {
+      "type": "console",
+      "meshes": [
+        "bunker1_console.glb"
+      ]
+    },
+    "bunker1_console_1": {
+      "type": "console",
+      "meshes": [
+        "bunker1_console_1.glb"
+      ]
+    },
+    "bunker1_console_2": {
+      "type": "console",
+      "meshes": [
+        "bunker1_console_2.glb"
+      ]
+    },
+    "bunker1_console_3": {
+      "type": "console",
+      "meshes": [
+        "bunker1_console_3.glb"
+      ]
+    },
+    "bunker1_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "bunker1_window_glass.glb"
+      ]
+    },
+    "bunker2_guard": {
+      "type": "character",
+      "meshes": [
+        "bunker2_guard.glb"
+      ]
+    },
+    "bunker2_monitor_support": {
+      "type": "mesh",
+      "meshes": [
+        "bunker2_monitor_support_primary.glb",
+        "bunker2_monitor_support_secondary.glb"
+      ]
+    },
+    "bunker2_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_wooden_crate.glb"
+      ]
+    },
+    "bunker2_primary_029": {
+      "type": "mesh",
+      "meshes": [
+        "bunker2_primary_029.glb"
+      ]
+    },
+    "bunker2_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "bunker2_drone_gun_primary.glb",
+        "bunker2_drone_gun_secondary.glb"
+      ]
+    },
+    "bunker2_silenced_pp7": {
+      "type": "pickup",
+      "meshes": [
+        "bunker2_silenced_pp7_primary.glb",
+        "bunker2_silenced_pp7_secondary.glb"
+      ]
+    },
+    "bunker2_book": {
+      "type": "pickup",
+      "meshes": [
+        "bunker2_book.glb"
+      ]
+    },
+    "bunker2_VHS": {
+      "type": "pickup",
+      "meshes": [
+        "bunker2_VHS.glb"
+      ]
+    },
+    "bunker2_checklist": {
+      "type": "pickup",
+      "meshes": [
+        "bunker2_checklist.glb"
+      ]
+    },
+    "bunker2_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "bunker2_body_armor.glb"
+      ]
+    },
+    "bunker2_natalia": {
+      "type": "character",
+      "meshes": [
+        "bunker2_natalia.glb"
+      ]
+    },
+    "bunker2_glass_door": {
+      "type": "door",
+      "meshes": [
+        "bunker2_glass_door_primary.glb",
+        "bunker2_glass_door_secondary.glb"
+      ]
+    },
+    "bunker2_glass_door_v2": {
+      "type": "door",
+      "meshes": [
+        "bunker2_glass_door_primary_1.glb",
+        "bunker2_glass_door_secondary_1.glb"
+      ]
+    },
+    "bunker2_metal_door": {
+      "type": "door",
+      "meshes": [
+        "bunker2_metal_door.glb"
+      ]
+    },
+    "bunker2_mainframe": {
+      "type": "console",
+      "meshes": [
+        "bunker2_mainframe.glb"
+      ]
+    },
+    "bunker2_mainframe_1": {
+      "type": "console",
+      "meshes": [
+        "bunker2_mainframe_1.glb"
+      ]
+    },
+    "bunker2_keyboard": {
+      "type": "console",
+      "meshes": [
+        "bunker2_keyboard.glb"
+      ]
+    },
+    "bunker2_keyboard_1": {
+      "type": "console",
+      "meshes": [
+        "bunker2_keyboard_1.glb"
+      ]
+    },
+    "bunker2_keyboard_2": {
+      "type": "console",
+      "meshes": [
+        "bunker2_keyboard_2.glb"
+      ]
+    },
+    "bunker2_tv": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_tv.glb"
+      ]
+    },
+    "bunker2_tv_1": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_tv_1.glb"
+      ]
+    },
+    "bunker2_tv_2": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_tv_2.glb"
+      ]
+    },
+    "bunker2_tv_3": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_tv_3.glb"
+      ]
+    },
+    "bunker2_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_metal_table_primary.glb",
+        "bunker2_metal_table_secondary.glb"
+      ]
+    },
+    "bunker2_metal_table_secondary_1": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_metal_table_secondary_1.glb"
+      ]
+    },
+    "bunker2_security_camera": {
+      "type": "security-camera",
+      "meshes": [
+        "bunker2_security_camera_primary.glb",
+        "bunker2_security_camera_secondary.glb"
+      ]
+    },
+    "bunker2_console": {
+      "type": "console",
+      "meshes": [
+        "bunker2_console.glb"
+      ]
+    },
+    "bunker2_console_1": {
+      "type": "console",
+      "meshes": [
+        "bunker2_console_1.glb"
+      ]
+    },
+    "bunker2_console_2": {
+      "type": "console",
+      "meshes": [
+        "bunker2_console_2.glb"
+      ]
+    },
+    "bunker2_console_3": {
+      "type": "console",
+      "meshes": [
+        "bunker2_console_3.glb"
+      ]
+    },
+    "bunker2_console_4": {
+      "type": "console",
+      "meshes": [
+        "bunker2_console_4.glb"
+      ]
+    },
+    "bunker2_console_5": {
+      "type": "console",
+      "meshes": [
+        "bunker2_console_5.glb"
+      ]
+    },
+    "bunker2_divider": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_divider.glb"
+      ]
+    },
+    "bunker2_divider_1": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_divider_1.glb"
+      ]
+    },
+    "bunker2_divider_2": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_divider_2.glb"
+      ]
+    },
+    "bunker2_divider_3": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_divider_3.glb"
+      ]
+    },
+    "bunker2_divider_4": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_divider_4.glb"
+      ]
+    },
+    "bunker2_divider_5": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_divider_5.glb"
+      ]
+    },
+    "bunker2_knife": {
+      "type": "pickup",
+      "meshes": [
+        "bunker2_knife.glb"
+      ]
+    },
+    "bunker2_metal_safe": {
+      "type": "prop",
+      "meshes": [
+        "bunker2_metal_safe.glb"
+      ]
+    },
+    "bunker2_metal_safe_door": {
+      "type": "door",
+      "meshes": [
+        "bunker2_metal_safe_door.glb"
+      ]
+    },
+    "bunker2_primary_133": {
+      "type": "mesh",
+      "meshes": [
+        "bunker2_primary_133.glb"
+      ]
+    },
+    "bunker2_primary_134": {
+      "type": "mesh",
+      "meshes": [
+        "bunker2_primary_134.glb"
+      ]
+    },
+    "bunker2_primary_135": {
+      "type": "mesh",
+      "meshes": [
+        "bunker2_primary_135.glb"
+      ]
+    },
+    "bunker2_primary_136": {
+      "type": "mesh",
+      "meshes": [
+        "bunker2_primary_136.glb"
+      ]
+    },
+    "bunker2_metal_door_v2": {
+      "type": "door",
+      "meshes": [
+        "bunker2_metal_door_primary.glb",
+        "bunker2_metal_door_secondary.glb"
+      ]
+    },
+    "bunker2_metal_door_v3": {
+      "type": "door",
+      "meshes": [
+        "bunker2_metal_door_primary_1.glb",
+        "bunker2_metal_door_secondary_1.glb"
+      ]
+    },
+    "bunker2_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "bunker2_metal_door_1.glb"
+      ]
+    },
+    "bunker2_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "bunker2_metal_door_2.glb"
+      ]
+    },
+    "bunker2_jail_door": {
+      "type": "door",
+      "meshes": [
+        "bunker2_jail_door.glb"
+      ]
+    },
+    "bunker2_brown_sliding_door": {
+      "type": "door",
+      "meshes": [
+        "bunker2_brown_sliding_door.glb"
+      ]
+    },
+    "bunker2_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "bunker2_window_glass.glb"
+      ]
+    },
+    "caverns_guard": {
+      "type": "character",
+      "meshes": [
+        "caverns_guard.glb"
+      ]
+    },
+    "caverns_scientist": {
+      "type": "character",
+      "meshes": [
+        "caverns_scientist.glb"
+      ]
+    },
+    "caverns_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "caverns_wooden_crate.glb"
+      ]
+    },
+    "caverns_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "caverns_body_armor.glb"
+      ]
+    },
+    "caverns_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "caverns_body_armor_1.glb"
+      ]
+    },
+    "caverns_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "caverns_drone_gun_primary.glb",
+        "caverns_drone_gun_secondary.glb"
+      ]
+    },
+    "caverns_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "caverns_metal_crate.glb"
+      ]
+    },
+    "caverns_explosive_barrel": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_explosive_barrel.glb"
+      ]
+    },
+    "caverns_trevalyn": {
+      "type": "mesh",
+      "meshes": [
+        "caverns_trevalyn.glb"
+      ]
+    },
+    "caverns_console": {
+      "type": "console",
+      "meshes": [
+        "caverns_console.glb"
+      ]
+    },
+    "caverns_console_1": {
+      "type": "console",
+      "meshes": [
+        "caverns_console_1.glb"
+      ]
+    },
+    "caverns_console_2": {
+      "type": "console",
+      "meshes": [
+        "caverns_console_2.glb"
+      ]
+    },
+    "caverns_console_3": {
+      "type": "console",
+      "meshes": [
+        "caverns_console_3.glb"
+      ]
+    },
+    "caverns_divider": {
+      "type": "prop",
+      "meshes": [
+        "caverns_divider.glb"
+      ]
+    },
+    "caverns_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass.glb"
+      ]
+    },
+    "caverns_window_glass_1": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_1.glb"
+      ]
+    },
+    "caverns_window_glass_2": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_2.glb"
+      ]
+    },
+    "caverns_window_glass_3": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_3.glb"
+      ]
+    },
+    "caverns_locker": {
+      "type": "prop",
+      "meshes": [
+        "caverns_locker.glb"
+      ]
+    },
+    "caverns_locker_1": {
+      "type": "prop",
+      "meshes": [
+        "caverns_locker_1.glb"
+      ]
+    },
+    "caverns_locker_2": {
+      "type": "prop",
+      "meshes": [
+        "caverns_locker_2.glb"
+      ]
+    },
+    "caverns_locker_3": {
+      "type": "prop",
+      "meshes": [
+        "caverns_locker_3.glb"
+      ]
+    },
+    "caverns_locker_4": {
+      "type": "prop",
+      "meshes": [
+        "caverns_locker_4.glb"
+      ]
+    },
+    "caverns_console_4": {
+      "type": "console",
+      "meshes": [
+        "caverns_console_4.glb"
+      ]
+    },
+    "caverns_console_5": {
+      "type": "console",
+      "meshes": [
+        "caverns_console_5.glb"
+      ]
+    },
+    "caverns_console_6": {
+      "type": "console",
+      "meshes": [
+        "caverns_console_6.glb"
+      ]
+    },
+    "caverns_console_7": {
+      "type": "console",
+      "meshes": [
+        "caverns_console_7.glb"
+      ]
+    },
+    "caverns_window_glass_4": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_4.glb"
+      ]
+    },
+    "caverns_window_glass_5": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_5.glb"
+      ]
+    },
+    "caverns_tv": {
+      "type": "prop",
+      "meshes": [
+        "caverns_tv.glb"
+      ]
+    },
+    "caverns_radio": {
+      "type": "prop",
+      "meshes": [
+        "caverns_radio.glb"
+      ]
+    },
+    "caverns_radio_1": {
+      "type": "prop",
+      "meshes": [
+        "caverns_radio_1.glb"
+      ]
+    },
+    "caverns_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "caverns_metal_table_primary.glb",
+        "caverns_metal_table_secondary.glb"
+      ]
+    },
+    "caverns_metal_table_secondary_1": {
+      "type": "prop",
+      "meshes": [
+        "caverns_metal_table_secondary_1.glb"
+      ]
+    },
+    "caverns_window_glass_6": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_6.glb"
+      ]
+    },
+    "caverns_window_glass_7": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_7.glb"
+      ]
+    },
+    "caverns_window_glass_8": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_8.glb"
+      ]
+    },
+    "caverns_window_glass_9": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_9.glb"
+      ]
+    },
+    "caverns_window_glass_10": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_10.glb"
+      ]
+    },
+    "caverns_window_glass_11": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_11.glb"
+      ]
+    },
+    "caverns_window_glass_12": {
+      "type": "prop-destructible",
+      "meshes": [
+        "caverns_window_glass_12.glb"
+      ]
+    },
+    "caverns_eyelid_door": {
+      "type": "door",
+      "meshes": [
+        "caverns_eyelid_door.glb"
+      ]
+    },
+    "caverns_eyelid_door_1": {
+      "type": "door",
+      "meshes": [
+        "caverns_eyelid_door_1.glb"
+      ]
+    },
+    "caverns_eyelid_door_2": {
+      "type": "door",
+      "meshes": [
+        "caverns_eyelid_door_2.glb"
+      ]
+    },
+    "caverns_eyelid_door_3": {
+      "type": "door",
+      "meshes": [
+        "caverns_eyelid_door_3.glb"
+      ]
+    },
+    "caverns_spiral_door": {
+      "type": "door",
+      "meshes": [
+        "caverns_spiral_door.glb"
+      ]
+    },
+    "caverns_spiral_door_1": {
+      "type": "door",
+      "meshes": [
+        "caverns_spiral_door_1.glb"
+      ]
+    },
+    "caverns_spiral_door_2": {
+      "type": "door",
+      "meshes": [
+        "caverns_spiral_door_2.glb"
+      ]
+    },
+    "caverns_elevator_door": {
+      "type": "door",
+      "meshes": [
+        "caverns_elevator_door.glb"
+      ]
+    },
+    "caverns_elevator_door_1": {
+      "type": "door",
+      "meshes": [
+        "caverns_elevator_door_1.glb"
+      ]
+    },
+    "caverns_blast_door": {
+      "type": "door",
+      "meshes": [
+        "caverns_blast_door.glb"
+      ]
+    },
+    "caverns_blast_door_1": {
+      "type": "door",
+      "meshes": [
+        "caverns_blast_door_1.glb"
+      ]
+    },
+    "caverns_blast_door_2": {
+      "type": "door",
+      "meshes": [
+        "caverns_blast_door_2.glb"
+      ]
+    },
+    "control_guard": {
+      "type": "character",
+      "meshes": [
+        "control_guard.glb"
+      ]
+    },
+    "control_boris": {
+      "type": "character",
+      "meshes": [
+        "control_boris_primary.glb",
+        "control_boris_secondary.glb"
+      ]
+    },
+    "control_trevelyn": {
+      "type": "character",
+      "meshes": [
+        "control_trevelyn.glb"
+      ]
+    },
+    "control_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "control_drone_gun_primary.glb",
+        "control_drone_gun_secondary.glb"
+      ]
+    },
+    "control_drone_gun_v2": {
+      "type": "environment",
+      "meshes": [
+        "control_drone_gun.glb"
+      ]
+    },
+    "control_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "control_body_armor.glb"
+      ]
+    },
+    "control_ammo_crate": {
+      "type": "pickup",
+      "meshes": [
+        "control_ammo_crate.glb"
+      ]
+    },
+    "control_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate.glb"
+      ]
+    },
+    "control_natalia": {
+      "type": "character",
+      "meshes": [
+        "control_natalia.glb"
+      ]
+    },
+    "control_metal_cage": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_cage.glb"
+      ]
+    },
+    "control_metal_cage_1": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_cage_1.glb"
+      ]
+    },
+    "control_metal_cage_2": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_cage_2.glb"
+      ]
+    },
+    "control_metal_cage_3": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_cage_3.glb"
+      ]
+    },
+    "control_mainframe": {
+      "type": "console",
+      "meshes": [
+        "control_mainframe.glb"
+      ]
+    },
+    "control_mainframe_1": {
+      "type": "console",
+      "meshes": [
+        "control_mainframe_1.glb"
+      ]
+    },
+    "control_mainframe_2": {
+      "type": "console",
+      "meshes": [
+        "control_mainframe_2.glb"
+      ]
+    },
+    "control_tv": {
+      "type": "prop",
+      "meshes": [
+        "control_tv.glb"
+      ]
+    },
+    "control_tv_1": {
+      "type": "prop",
+      "meshes": [
+        "control_tv_1.glb"
+      ]
+    },
+    "control_tv_2": {
+      "type": "prop",
+      "meshes": [
+        "control_tv_2.glb"
+      ]
+    },
+    "control_tv_3": {
+      "type": "prop",
+      "meshes": [
+        "control_tv_3.glb"
+      ]
+    },
+    "control_tv_4": {
+      "type": "prop",
+      "meshes": [
+        "control_tv_4.glb"
+      ]
+    },
+    "control_tv_5": {
+      "type": "prop",
+      "meshes": [
+        "control_tv_5.glb"
+      ]
+    },
+    "control_keyboard": {
+      "type": "console",
+      "meshes": [
+        "control_keyboard.glb"
+      ]
+    },
+    "control_keyboard_1": {
+      "type": "console",
+      "meshes": [
+        "control_keyboard_1.glb"
+      ]
+    },
+    "control_keyboard_2": {
+      "type": "console",
+      "meshes": [
+        "control_keyboard_2.glb"
+      ]
+    },
+    "control_keyboard_3": {
+      "type": "console",
+      "meshes": [
+        "control_keyboard_3.glb"
+      ]
+    },
+    "control_keyboard_4": {
+      "type": "console",
+      "meshes": [
+        "control_keyboard_4.glb"
+      ]
+    },
+    "control_keyboard_5": {
+      "type": "console",
+      "meshes": [
+        "control_keyboard_5.glb"
+      ]
+    },
+    "control_tv_6": {
+      "type": "prop",
+      "meshes": [
+        "control_tv_6.glb"
+      ]
+    },
+    "control_tv_7": {
+      "type": "prop",
+      "meshes": [
+        "control_tv_7.glb"
+      ]
+    },
+    "control_metal_crate_stack": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_stack.glb"
+      ]
+    },
+    "control_metal_crate_stack_1": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_stack_1.glb"
+      ]
+    },
+    "control_metal_crate_stack_2": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_stack_2.glb"
+      ]
+    },
+    "control_metal_crate_stack_3": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_stack_3.glb"
+      ]
+    },
+    "control_metal_crate_stack_4": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_stack_4.glb"
+      ]
+    },
+    "control_locker": {
+      "type": "prop",
+      "meshes": [
+        "control_locker.glb"
+      ]
+    },
+    "control_locker_1": {
+      "type": "prop",
+      "meshes": [
+        "control_locker_1.glb"
+      ]
+    },
+    "control_metal_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_1.glb"
+      ]
+    },
+    "control_metal_crate_2": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_2.glb"
+      ]
+    },
+    "control_metal_crate_3": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_3.glb"
+      ]
+    },
+    "control_metal_crate_4": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_crate_4.glb"
+      ]
+    },
+    "control_metal_cage_4": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_cage_4.glb"
+      ]
+    },
+    "control_metal_cage_5": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_cage_5.glb"
+      ]
+    },
+    "control_metal_cage_6": {
+      "type": "prop",
+      "meshes": [
+        "control_metal_cage_6.glb"
+      ]
+    },
+    "control_mainframe_3": {
+      "type": "console",
+      "meshes": [
+        "control_mainframe_3.glb"
+      ]
+    },
+    "control_elevator_door": {
+      "type": "door",
+      "meshes": [
+        "control_elevator_door.glb"
+      ]
+    },
+    "control_elevator_door_1": {
+      "type": "door",
+      "meshes": [
+        "control_elevator_door_1.glb"
+      ]
+    },
+    "control_elevator_door_2": {
+      "type": "door",
+      "meshes": [
+        "control_elevator_door_2.glb"
+      ]
+    },
+    "control_blast_door": {
+      "type": "door",
+      "meshes": [
+        "control_blast_door.glb"
+      ]
+    },
+    "control_elevator_door_3": {
+      "type": "door",
+      "meshes": [
+        "control_elevator_door_3.glb"
+      ]
+    },
+    "control_blast_door_1": {
+      "type": "door",
+      "meshes": [
+        "control_blast_door_1.glb"
+      ]
+    },
+    "control_blast_door_2": {
+      "type": "door",
+      "meshes": [
+        "control_blast_door_2.glb"
+      ]
+    },
+    "control_elevator_door_4": {
+      "type": "door",
+      "meshes": [
+        "control_elevator_door_4.glb"
+      ]
+    },
+    "control_elevator_door_5": {
+      "type": "door",
+      "meshes": [
+        "control_elevator_door_5.glb"
+      ]
+    },
+    "control_blast_door_3": {
+      "type": "door",
+      "meshes": [
+        "control_blast_door_3.glb"
+      ]
+    },
+    "control_blast_door_4": {
+      "type": "door",
+      "meshes": [
+        "control_blast_door_4.glb"
+      ]
+    },
+    "control_blast_door_5": {
+      "type": "door",
+      "meshes": [
+        "control_blast_door_5.glb"
+      ]
+    },
+    "control_blast_door_6": {
+      "type": "door",
+      "meshes": [
+        "control_blast_door_6.glb"
+      ]
+    },
+    "control_divider": {
+      "type": "prop",
+      "meshes": [
+        "control_divider.glb"
+      ]
+    },
+    "control_divider_1": {
+      "type": "prop",
+      "meshes": [
+        "control_divider_1.glb"
+      ]
+    },
+    "control_elevator_door_6": {
+      "type": "door",
+      "meshes": [
+        "control_elevator_door_6.glb"
+      ]
+    },
+    "control_mainframe_4": {
+      "type": "console",
+      "meshes": [
+        "control_mainframe_4.glb"
+      ]
+    },
+    "control_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass.glb"
+      ]
+    },
+    "control_window_glass_1": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_1.glb"
+      ]
+    },
+    "control_window_glass_2": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_2.glb"
+      ]
+    },
+    "control_keyboard_6": {
+      "type": "console",
+      "meshes": [
+        "control_keyboard_6.glb"
+      ]
+    },
+    "control_window_glass_3": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_3.glb"
+      ]
+    },
+    "control_window_glass_4": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_4.glb"
+      ]
+    },
+    "control_window_glass_5": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_5.glb"
+      ]
+    },
+    "control_invisible": {
+      "type": "character",
+      "meshes": [
+        "control_invisible.glb"
+      ]
+    },
+    "control_window_glass_6": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_6.glb"
+      ]
+    },
+    "control_invisible_1": {
+      "type": "character",
+      "meshes": [
+        "control_invisible_1.glb"
+      ]
+    },
+    "control_window_glass_7": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_7.glb"
+      ]
+    },
+    "control_window_glass_8": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_8.glb"
+      ]
+    },
+    "control_window_glass_9": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_9.glb"
+      ]
+    },
+    "control_window_glass_10": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_10.glb"
+      ]
+    },
+    "control_window_glass_11": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_11.glb"
+      ]
+    },
+    "control_window_glass_12": {
+      "type": "prop-destructible",
+      "meshes": [
+        "control_window_glass_12.glb"
+      ]
+    },
+    "cradle_guard": {
+      "type": "character",
+      "meshes": [
+        "cradle_guard.glb"
+      ]
+    },
+    "cradle_trevelyn": {
+      "type": "character",
+      "meshes": [
+        "cradle_trevelyn.glb"
+      ]
+    },
+    "cradle_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ]
+    },
+    "cradle_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "cradle_drone_gun_primary.glb",
+        "cradle_drone_gun_secondary.glb"
+      ]
+    },
+    "cradle_helicopter": {
+      "type": "environment",
+      "meshes": [
+        "cradle_helicopter_primary.glb",
+        "cradle_helicopter_secondary.glb"
+      ]
+    },
+    "cradle_console": {
+      "type": "console",
+      "meshes": [
+        "cradle_console.glb"
+      ]
+    },
+    "cradle_brown_sliding_door": {
+      "type": "door",
+      "meshes": [
+        "cradle_brown_sliding_door.glb"
+      ]
+    },
+    "cradle_brown_sliding_door_1": {
+      "type": "door",
+      "meshes": [
+        "cradle_brown_sliding_door_1.glb"
+      ]
+    },
+    "cradle_brown_sliding_door_2": {
+      "type": "door",
+      "meshes": [
+        "cradle_brown_sliding_door_2.glb"
+      ]
+    },
+    "dam_guard": {
+      "type": "character",
+      "meshes": [
+        "dam_guard.glb"
+      ]
+    },
+    "dam_guard_1": {
+      "type": "character",
+      "meshes": [
+        "dam_guard_1.glb"
+      ]
+    },
+    "dam_guard_2": {
+      "type": "character",
+      "meshes": [
+        "dam_guard_2.glb"
+      ]
+    },
+    "dam_guard_3": {
+      "type": "character",
+      "meshes": [
+        "dam_guard_3.glb"
+      ]
+    },
+    "dam_guard_4": {
+      "type": "character",
+      "meshes": [
+        "dam_guard_4.glb"
+      ]
+    },
+    "dam_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate.glb"
+      ]
+    },
+    "dam_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "dam_metal_crate.glb"
+      ]
+    },
+    "dam_tv": {
+      "type": "prop",
+      "meshes": [
+        "dam_tv.glb"
+      ]
+    },
+    "dam_keyboard": {
+      "type": "console",
+      "meshes": [
+        "dam_keyboard.glb"
+      ]
+    },
+    "dam_metal_table_top": {
+      "type": "prop",
+      "meshes": [
+        "dam_metal_table_top.glb",
+        "dam_metal_table_frame.glb"
+      ]
+    },
+    "dam_mainframe": {
+      "type": "console",
+      "meshes": [
+        "dam_mainframe.glb"
+      ]
+    },
+    "dam_blue_chair": {
+      "type": "prop",
+      "meshes": [
+        "dam_blue_chair.glb"
+      ]
+    },
+    "dam_sniper_rifle": {
+      "type": "pickup",
+      "meshes": [
+        "dam_sniper_rifle.glb"
+      ]
+    },
+    "dam_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "dam_body_armor.glb"
+      ]
+    },
+    "dam_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "dam_body_armor_1.glb"
+      ]
+    },
+    "dam_green_truck": {
+      "type": "environment",
+      "meshes": [
+        "dam_green_truck_primary.glb",
+        "dam_green_truck_secondary.glb"
+      ]
+    },
+    "dam_explosive_barrel": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_explosive_barrel.glb"
+      ]
+    },
+    "dam_metal_crate_stack": {
+      "type": "prop",
+      "meshes": [
+        "dam_metal_crate_stack.glb"
+      ]
+    },
+    "dam_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_window_glass.glb"
+      ]
+    },
+    "dam_big_metal_door": {
+      "type": "door",
+      "meshes": [
+        "dam_big_metal_door.glb"
+      ]
+    },
+    "dam_big_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "dam_big_metal_door_1.glb"
+      ]
+    },
+    "dam_chainlink_fence": {
+      "type": "environment",
+      "meshes": [
+        "dam_chainlink_fence_primary.glb",
+        "dam_chainlink_fence_secondary.glb"
+      ]
+    },
+    "dam_chainlink_fence_v2": {
+      "type": "environment",
+      "meshes": [
+        "dam_chainlink_fence_primary_1.glb",
+        "dam_chainlink_fence_secondary_1.glb"
+      ]
+    },
+    "dam_chainlink_fence_primary_2": {
+      "type": "environment",
+      "meshes": [
+        "dam_chainlink_fence_primary_2.glb"
+      ]
+    },
+    "dam_chainlink_fence_primary_2a": {
+      "type": "environment",
+      "meshes": [
+        "dam_chainlink_fence_primary_2a.glb",
+        "dam_chainlink_fence_secondary_2.glb"
+      ]
+    },
+    "dam_wooden_segment_door": {
+      "type": "door",
+      "meshes": [
+        "dam_wooden_segment_door.glb"
+      ]
+    },
+    "dam_big_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "dam_big_metal_door_2.glb"
+      ]
+    },
+    "dam_chainlink_fence_v3": {
+      "type": "environment",
+      "meshes": [
+        "dam_chainlink_fence_primary_3.glb",
+        "dam_chainlink_fence_secondary_3.glb"
+      ]
+    },
+    "dam_blast_door": {
+      "type": "door",
+      "meshes": [
+        "dam_blast_door.glb"
+      ]
+    },
+    "dam_wooden_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_1.glb"
+      ]
+    },
+    "dam_wooden_crate_2": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_2.glb"
+      ]
+    },
+    "dam_wooden_crate_3": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_3.glb"
+      ]
+    },
+    "dam_wooden_crate_4": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_4.glb"
+      ]
+    },
+    "dam_wooden_crate_5": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_5.glb"
+      ]
+    },
+    "dam_wooden_crate_6": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_6.glb"
+      ]
+    },
+    "dam_wooden_crate_7": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_7.glb"
+      ]
+    },
+    "dam_wooden_crate_8": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_8.glb"
+      ]
+    },
+    "dam_wooden_crate_9": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_9.glb"
+      ]
+    },
+    "dam_wooden_crate_10": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_10.glb"
+      ]
+    },
+    "dam_wooden_crate_11": {
+      "type": "prop",
+      "meshes": [
+        "dam_wooden_crate_11.glb"
+      ]
+    },
+    "dam_explosive_barrel_1": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_explosive_barrel_1.glb"
+      ]
+    },
+    "dam_explosive_barrel_2": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_explosive_barrel_2.glb"
+      ]
+    },
+    "dam_explosive_barrel_3": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_explosive_barrel_3.glb"
+      ]
+    },
+    "dam_explosive_barrel_4": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_explosive_barrel_4.glb"
+      ]
+    },
+    "dam_explosive_barrel_5": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_explosive_barrel_5.glb"
+      ]
+    },
+    "dam_wall_display": {
+      "type": "environment",
+      "meshes": [
+        "dam_wall_display.glb"
+      ]
+    },
+    "dam_satelite_dish": {
+      "type": "environment",
+      "meshes": [
+        "dam_satelite_dish_primary.glb",
+        "dam_satelite_dish_secondary.glb"
+      ]
+    },
+    "dam_window_glass_1": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_window_glass_1.glb"
+      ]
+    },
+    "dam_brown_sliding_door": {
+      "type": "door",
+      "meshes": [
+        "dam_brown_sliding_door.glb"
+      ]
+    },
+    "dam_window_glass_2": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_window_glass_2.glb"
+      ]
+    },
+    "dam_brown_sliding_door_1": {
+      "type": "door",
+      "meshes": [
+        "dam_brown_sliding_door_1.glb"
+      ]
+    },
+    "dam_brown_sliding_door_2": {
+      "type": "door",
+      "meshes": [
+        "dam_brown_sliding_door_2.glb"
+      ]
+    },
+    "dam_alarm": {
+      "type": "security-camera",
+      "meshes": [
+        "dam_alarm.glb"
+      ]
+    },
+    "dam_padlock": {
+      "type": "prop",
+      "meshes": [
+        "dam_padlock.glb"
+      ]
+    },
+    "dam_window_glass_3": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_window_glass_3.glb"
+      ]
+    },
+    "dam_window_glass_4": {
+      "type": "prop-destructible",
+      "meshes": [
+        "dam_window_glass_4.glb"
+      ]
+    },
+    "dam_wall_display_1": {
+      "type": "environment",
+      "meshes": [
+        "dam_wall_display_1.glb"
+      ]
+    },
+    "depot_guard": {
+      "type": "character",
+      "meshes": [
+        "depot_guard.glb"
+      ]
+    },
+    "depot_mainframe": {
+      "type": "console",
+      "meshes": [
+        "depot_mainframe.glb"
+      ]
+    },
+    "depot_key": {
+      "type": "pickup",
+      "meshes": [
+        "depot_key.glb"
+      ]
+    },
+    "depot_blue_chair": {
+      "type": "prop",
+      "meshes": [
+        "depot_blue_chair.glb"
+      ]
+    },
+    "depot_tv": {
+      "type": "prop",
+      "meshes": [
+        "depot_tv.glb"
+      ]
+    },
+    "depot_keyboard": {
+      "type": "console",
+      "meshes": [
+        "depot_keyboard.glb"
+      ]
+    },
+    "depot_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_table_primary.glb",
+        "depot_metal_table_secondary.glb"
+      ]
+    },
+    "depot_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "depot_drone_gun_primary.glb",
+        "depot_drone_gun_secondary.glb"
+      ]
+    },
+    "depot_dk5": {
+      "type": "pickup",
+      "meshes": [
+        "depot_dk5_primary.glb",
+        "depot_dk5_secondary.glb"
+      ]
+    },
+    "depot_kf7_primary": {
+      "type": "pickup",
+      "meshes": [
+        "depot_kf7_primary.glb",
+        "depot_k47_secondary.glb"
+      ]
+    },
+    "depot_rocket": {
+      "type": "environment",
+      "meshes": [
+        "depot_rocket_primary.glb",
+        "depot_rocket_secondary.glb"
+      ]
+    },
+    "depot_ammo_crate": {
+      "type": "pickup",
+      "meshes": [
+        "depot_ammo_crate.glb"
+      ]
+    },
+    "depot_ammo_crate_1": {
+      "type": "pickup",
+      "meshes": [
+        "depot_ammo_crate_1.glb"
+      ]
+    },
+    "depot_rocket_launcher": {
+      "type": "pickup",
+      "meshes": [
+        "depot_rocket_launcher_primary.glb",
+        "depot_rocket_launcher_secondary.glb"
+      ]
+    },
+    "depot_helicopter_schematic": {
+      "type": "pickup",
+      "meshes": [
+        "depot_helicopter_schematic.glb"
+      ]
+    },
+    "depot_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "depot_body_armor.glb"
+      ]
+    },
+    "depot_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "depot_body_armor_1.glb"
+      ]
+    },
+    "depot_metal_crate_stack": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack.glb"
+      ]
+    },
+    "depot_metal_crate_stack_1": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_1.glb"
+      ]
+    },
+    "depot_metal_crate_stack_2": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_2.glb"
+      ]
+    },
+    "depot_metal_crate_stack_3": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_3.glb"
+      ]
+    },
+    "depot_metal_crate_stack_4": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_4.glb"
+      ]
+    },
+    "depot_metal_crate_stack_5": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_5.glb"
+      ]
+    },
+    "depot_metal_crate_stack_6": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_6.glb"
+      ]
+    },
+    "depot_metal_crate_stack_7": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_7.glb"
+      ]
+    },
+    "depot_metal_crate_stack_8": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_8.glb"
+      ]
+    },
+    "depot_metal_crate_stack_9": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_9.glb"
+      ]
+    },
+    "depot_metal_crate_stack_10": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_10.glb"
+      ]
+    },
+    "depot_metal_crate_stack_11": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_11.glb"
+      ]
+    },
+    "depot_metal_crate_stack_12": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_12.glb"
+      ]
+    },
+    "depot_metal_crate_stack_13": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_13.glb"
+      ]
+    },
+    "depot_metal_crate_stack_14": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_14.glb"
+      ]
+    },
+    "depot_metal_crate_stack_15": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_crate_stack_15.glb"
+      ]
+    },
+    "depot_metal_door": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door.glb"
+      ]
+    },
+    "depot_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_1.glb"
+      ]
+    },
+    "depot_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_2.glb"
+      ]
+    },
+    "depot_metal_door_3": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_3.glb"
+      ]
+    },
+    "depot_metal_door_4": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_4.glb"
+      ]
+    },
+    "depot_metal_door_5": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_5.glb"
+      ]
+    },
+    "depot_metal_door_6": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_6.glb"
+      ]
+    },
+    "depot_chain_link_fence": {
+      "type": "environment",
+      "meshes": [
+        "depot_chain_link_fence_primary.glb",
+        "depot_chain_link_fence_secondary.glb"
+      ]
+    },
+    "depot_metal_door_7": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_7.glb"
+      ]
+    },
+    "depot_metal_door_8": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_door_8.glb"
+      ]
+    },
+    "depot_train_door": {
+      "type": "door",
+      "meshes": [
+        "depot_train_door.glb"
+      ]
+    },
+    "depot_divider": {
+      "type": "prop",
+      "meshes": [
+        "depot_divider.glb"
+      ]
+    },
+    "depot_metal_safe": {
+      "type": "prop",
+      "meshes": [
+        "depot_metal_safe.glb"
+      ]
+    },
+    "depot_metal_safe_door": {
+      "type": "door",
+      "meshes": [
+        "depot_metal_safe_door.glb"
+      ]
+    },
+    "egyptian_primary_00": {
+      "type": "mesh",
+      "meshes": [
+        "egyptian_primary_00.glb"
+      ]
+    },
+    "egyptian_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "egyptian_drone_gun_primary.glb",
+        "egyptian_drone_gun_secondary.glb"
+      ]
+    },
+    "egyptian_metal_bracket": {
+      "type": "environment",
+      "meshes": [
+        "egyptian_metal_bracket.glb"
+      ]
+    },
+    "egyptian_golden_gun": {
+      "type": "pickup",
+      "meshes": [
+        "egyptian_golden_gun.glb"
+      ]
+    },
+    "egyptian_ammo_box": {
+      "type": "pickup",
+      "meshes": [
+        "egyptian_ammo_box.glb"
+      ]
+    },
+    "egyptian_baron_samedi": {
+      "type": "character",
+      "meshes": [
+        "egyptian_baron_samedi.glb"
+      ]
+    },
+    "egyptian_drone_gun_v2": {
+      "type": "environment",
+      "meshes": [
+        "egyptian_drone_gun.glb"
+      ]
+    },
+    "egyptian_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "egyptian_body_armor.glb"
+      ]
+    },
+    "egyptian_stone_door": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door.glb"
+      ]
+    },
+    "egyptian_stone_door_1": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_1.glb"
+      ]
+    },
+    "egyptian_stone_door_2": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_2.glb"
+      ]
+    },
+    "egyptian_stone_door_3": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_3.glb"
+      ]
+    },
+    "egyptian_stone_door_4": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_4.glb"
+      ]
+    },
+    "egyptian_stone_door_5": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_5.glb"
+      ]
+    },
+    "egyptian_stone_door_6": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_6.glb"
+      ]
+    },
+    "egyptian_stone_door_7": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_7.glb"
+      ]
+    },
+    "egyptian_stone_door_8": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_8.glb"
+      ]
+    },
+    "egyptian_stone_platform": {
+      "type": "environment",
+      "meshes": [
+        "egyptian_stone_platform.glb"
+      ]
+    },
+    "egyptian_stone_door_9": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_9.glb"
+      ]
+    },
+    "egyptian_stone_door_10": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_10.glb"
+      ]
+    },
+    "egyptian_stone_door_11": {
+      "type": "door",
+      "meshes": [
+        "egyptian_stone_door_11.glb"
+      ]
+    },
+    "egyptian_black_barrier": {
+      "type": "environment",
+      "meshes": [
+        "egyptian_black_barrier.glb"
+      ]
+    },
+    "egyptian_blck_barrier": {
+      "type": "mesh",
+      "meshes": [
+        "egyptian_blck_barrier.glb"
+      ]
+    },
+    "facility_guard": {
+      "type": "character",
+      "meshes": [
+        "facility_guard.glb"
+      ]
+    },
+    "facility_scientist": {
+      "type": "character",
+      "meshes": [
+        "facility_scientist.glb"
+      ]
+    },
+    "facility_calculator": {
+      "type": "prop",
+      "meshes": [
+        "facility_calculator.glb",
+        "facility_torn_paper.glb"
+      ]
+    },
+    "facility_trevelyn": {
+      "type": "character",
+      "meshes": [
+        "facility_trevelyn.glb"
+      ]
+    },
+    "facility_heavy_wooden_table": {
+      "type": "prop",
+      "meshes": [
+        "facility_heavy_wooden_table.glb"
+      ]
+    },
+    "facility_heavy_wooden_table_1": {
+      "type": "prop",
+      "meshes": [
+        "facility_heavy_wooden_table_1.glb"
+      ]
+    },
+    "facility_unknown": {
+      "type": "mesh",
+      "meshes": [
+        "facility_unknown.glb"
+      ]
+    },
+    "facility_unknown_1": {
+      "type": "mesh",
+      "meshes": [
+        "facility_unknown_1.glb"
+      ]
+    },
+    "facility_beaker": {
+      "type": "prop",
+      "meshes": [
+        "facility_beaker.glb"
+      ]
+    },
+    "facility_test_tubes": {
+      "type": "prop",
+      "meshes": [
+        "facility_test_tubes_primary.glb",
+        "facility_test_tubes_secondary.glb"
+      ]
+    },
+    "facility_blue_chair": {
+      "type": "prop",
+      "meshes": [
+        "facility_blue_chair.glb"
+      ]
+    },
+    "facility_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "facility_body_armor.glb"
+      ]
+    },
+    "facility_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "facility_wooden_crate.glb"
+      ]
+    },
+    "facility_cardboard_crate": {
+      "type": "prop",
+      "meshes": [
+        "facility_cardboard_crate.glb"
+      ]
+    },
+    "facility_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "facility_body_armor_1.glb"
+      ]
+    },
+    "facility_trash_cans": {
+      "type": "prop",
+      "meshes": [
+        "facility_trash_cans.glb"
+      ]
+    },
+    "facility_trash_can": {
+      "type": "prop",
+      "meshes": [
+        "facility_trash_can.glb"
+      ]
+    },
+    "facility_guard_1": {
+      "type": "character",
+      "meshes": [
+        "facility_guard_1.glb"
+      ]
+    },
+    "facility_poison_gas_tank": {
+      "type": "pickup",
+      "meshes": [
+        "facility_poison_gas_tank.glb"
+      ]
+    },
+    "facility_divider": {
+      "type": "prop",
+      "meshes": [
+        "facility_divider.glb"
+      ]
+    },
+    "facility_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "facility_metal_table_primary.glb",
+        "facility_metal_table_secondary.glb"
+      ],
+      "meshOffsets": [
+        {
+          "position": [
+            0,
+            0.3906,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        null
+      ]
+    },
+    "facility_metal_table_v2": {
+      "type": "prop",
+      "meshes": [
+        "facility_metal_table_primary_1.glb",
+        "facility_metal_table_secondary.glb"
+      ],
+      "meshOffsets": [
+        {
+          "position": [
+            0,
+            0,
+            0.1047
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "position": [
+            0,
+            -0.4094,
+            0
+          ],
+          "rotation": [
+            0,
+            90,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "facility_locker": {
+      "type": "prop",
+      "meshes": [
+        "facility_locker.glb"
+      ]
+    },
+    "facility_console": {
+      "type": "console",
+      "meshes": [
+        "facility_console.glb"
+      ]
+    },
+    "facility_console_1": {
+      "type": "console",
+      "meshes": [
+        "facility_console_1.glb"
+      ]
+    },
+    "facility_console_2": {
+      "type": "console",
+      "meshes": [
+        "facility_console_2.glb"
+      ]
+    },
+    "facility_console_3": {
+      "type": "console",
+      "meshes": [
+        "facility_console_3.glb"
+      ]
+    },
+    "facility_console_4": {
+      "type": "console",
+      "meshes": [
+        "facility_console_4.glb"
+      ]
+    },
+    "facility_console_5": {
+      "type": "console",
+      "meshes": [
+        "facility_console_5.glb"
+      ]
+    },
+    "facility_console_6": {
+      "type": "console",
+      "meshes": [
+        "facility_console_6.glb"
+      ]
+    },
+    "facility_console_7": {
+      "type": "console",
+      "meshes": [
+        "facility_console_7.glb"
+      ]
+    },
+    "facility_console_8": {
+      "type": "console",
+      "meshes": [
+        "facility_console_8.glb"
+      ]
+    },
+    "facility_console_9": {
+      "type": "console",
+      "meshes": [
+        "facility_console_9.glb"
+      ]
+    },
+    "facility_console_10": {
+      "type": "console",
+      "meshes": [
+        "facility_console_10.glb"
+      ]
+    },
+    "facility_bathroom_door": {
+      "type": "door",
+      "meshes": [
+        "facility_bathroom_door.glb"
+      ]
+    },
+    "facility_bathroom_door_1": {
+      "type": "door",
+      "meshes": [
+        "facility_bathroom_door_1.glb"
+      ]
+    },
+    "facility_grey_door": {
+      "type": "door",
+      "meshes": [
+        "facility_grey_door.glb"
+      ]
+    },
+    "facility_brown_sliding_door": {
+      "type": "door",
+      "meshes": [
+        "facility_brown_sliding_door.glb"
+      ]
+    },
+    "facility_grey_door_1": {
+      "type": "door",
+      "meshes": [
+        "facility_grey_door_1.glb"
+      ]
+    },
+    "facility_brown_sliding_door_1": {
+      "type": "door",
+      "meshes": [
+        "facility_brown_sliding_door_1.glb"
+      ]
+    },
+    "facility_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "facility_window_glass.glb"
+      ]
+    },
+    "facility_window_glass_1": {
+      "type": "prop-destructible",
+      "meshes": [
+        "facility_window_glass_1.glb"
+      ]
+    },
+    "facility_window_glass_2": {
+      "type": "prop-destructible",
+      "meshes": [
+        "facility_window_glass_2.glb"
+      ]
+    },
+    "facility_window_glass_3": {
+      "type": "prop-destructible",
+      "meshes": [
+        "facility_window_glass_3.glb"
+      ]
+    },
+    "facility_glass_door": {
+      "type": "door",
+      "meshes": [
+        "facility_glass_door_primary.glb",
+        "facility_glass_door_secondary.glb"
+      ],
+      "meshOffsets": [
+        null,
+        {
+          "position": [
+            -0.1585,
+            0.1025,
+            -0.0027
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "facility_brown_sliding_door_2": {
+      "type": "door",
+      "meshes": [
+        "facility_brown_sliding_door_2.glb"
+      ]
+    },
+    "facility_invisible": {
+      "type": "character",
+      "meshes": [
+        "facility_invisible.glb"
+      ]
+    },
+    "facility_invisible_1": {
+      "type": "character",
+      "meshes": [
+        "facility_invisible_1.glb"
+      ]
+    },
+    "facility_window_glass_4": {
+      "type": "prop-destructible",
+      "meshes": [
+        "facility_window_glass_4.glb"
+      ]
+    },
+    "facility_window_glass_5": {
+      "type": "prop-destructible",
+      "meshes": [
+        "facility_window_glass_5.glb"
+      ]
+    },
+    "facility_grey_door_2": {
+      "type": "door",
+      "meshes": [
+        "facility_grey_door_2.glb"
+      ]
+    },
+    "frigate_guard": {
+      "type": "character",
+      "meshes": [
+        "frigate_guard.glb"
+      ]
+    },
+    "frigate_guard_1": {
+      "type": "character",
+      "meshes": [
+        "frigate_guard_1.glb"
+      ]
+    },
+    "frigate_helicopter": {
+      "type": "environment",
+      "meshes": [
+        "frigate_helicopter_primary.glb",
+        "frigate_helicopter_secondary.glb"
+      ]
+    },
+    "frigate_c4_explosive": {
+      "type": "pickup",
+      "meshes": [
+        "frigate_c4_explosive.glb"
+      ]
+    },
+    "frigate_ship_gun": {
+      "type": "environment",
+      "meshes": [
+        "frigate_ship_gun_primary.glb",
+        "frigate_ship_gun_secondary.glb"
+      ]
+    },
+    "frigate_ship_turret_1": {
+      "type": "environment",
+      "meshes": [
+        "frigate_ship_turret_1.glb"
+      ]
+    },
+    "frigate_ship_turret": {
+      "type": "environment",
+      "meshes": [
+        "frigate_ship_turret.glb"
+      ]
+    },
+    "frigate_console": {
+      "type": "console",
+      "meshes": [
+        "frigate_console.glb"
+      ]
+    },
+    "frigate_console_1": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_1.glb"
+      ]
+    },
+    "frigate_console_2": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_2.glb"
+      ]
+    },
+    "frigate_console_3": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_3.glb"
+      ]
+    },
+    "frigate_console_4": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_4.glb"
+      ]
+    },
+    "frigate_console_5": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_5.glb"
+      ]
+    },
+    "frigate_console_6": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_6.glb"
+      ]
+    },
+    "frigate_console_7": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_7.glb"
+      ]
+    },
+    "frigate_console_8": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_8.glb"
+      ]
+    },
+    "frigate_console_9": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_9.glb"
+      ]
+    },
+    "frigate_console_10": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_10.glb"
+      ]
+    },
+    "frigate_console_11": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_11.glb"
+      ]
+    },
+    "frigate_console_12": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_12.glb"
+      ]
+    },
+    "frigate_console_13": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_13.glb"
+      ]
+    },
+    "frigate_console_14": {
+      "type": "console",
+      "meshes": [
+        "frigate_console_14.glb"
+      ]
+    },
+    "frigate_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "frigate_metal_table_primary.glb",
+        "frigate_metal_table_secondary.glb"
+      ]
+    },
+    "frigate_metal_table_v2": {
+      "type": "prop",
+      "meshes": [
+        "frigate_metal_table_primary_1.glb",
+        "frigate_metal_table_secondary_1.glb"
+      ]
+    },
+    "frigate_radio": {
+      "type": "prop",
+      "meshes": [
+        "frigate_radio.glb"
+      ]
+    },
+    "frigate_radio_1": {
+      "type": "prop",
+      "meshes": [
+        "frigate_radio_1.glb"
+      ]
+    },
+    "frigate_radio_2": {
+      "type": "prop",
+      "meshes": [
+        "frigate_radio_2.glb"
+      ]
+    },
+    "frigate_radio_3": {
+      "type": "prop",
+      "meshes": [
+        "frigate_radio_3.glb"
+      ]
+    },
+    "frigate_black_chair": {
+      "type": "prop",
+      "meshes": [
+        "frigate_black_chair.glb"
+      ]
+    },
+    "frigate_black_chair_1": {
+      "type": "prop",
+      "meshes": [
+        "frigate_black_chair_1.glb"
+      ]
+    },
+    "frigate_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "frigate_body_armor.glb"
+      ]
+    },
+    "frigate_black_chair_2": {
+      "type": "prop",
+      "meshes": [
+        "frigate_black_chair_2.glb"
+      ]
+    },
+    "frigate_black_chair_3": {
+      "type": "prop",
+      "meshes": [
+        "frigate_black_chair_3.glb"
+      ]
+    },
+    "frigate_black_chair_4": {
+      "type": "prop",
+      "meshes": [
+        "frigate_black_chair_4.glb"
+      ]
+    },
+    "frigate_black_chair_5": {
+      "type": "prop",
+      "meshes": [
+        "frigate_black_chair_5.glb"
+      ]
+    },
+    "frigate_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "frigate_metal_crate.glb"
+      ]
+    },
+    "frigate_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "frigate_wooden_crate.glb"
+      ]
+    },
+    "frigate_wooden_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "frigate_wooden_crate_1.glb"
+      ]
+    },
+    "frigate_wooden_crate_2": {
+      "type": "prop",
+      "meshes": [
+        "frigate_wooden_crate_2.glb"
+      ]
+    },
+    "frigate_metal_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "frigate_metal_crate_1.glb"
+      ]
+    },
+    "frigate_wooden_crate_3": {
+      "type": "prop",
+      "meshes": [
+        "frigate_wooden_crate_3.glb"
+      ]
+    },
+    "frigate_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "frigate_body_armor_1.glb"
+      ]
+    },
+    "frigate_ship_engine": {
+      "type": "environment",
+      "meshes": [
+        "frigate_ship_engine.glb"
+      ]
+    },
+    "frigate_metal_door": {
+      "type": "door",
+      "meshes": [
+        "frigate_metal_door.glb"
+      ]
+    },
+    "frigate_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "frigate_metal_door_1.glb"
+      ]
+    },
+    "frigate_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "frigate_metal_door_2.glb"
+      ]
+    },
+    "frigate_metal_door_3": {
+      "type": "door",
+      "meshes": [
+        "frigate_metal_door_3.glb"
+      ]
+    },
+    "frigate_metal_door_4": {
+      "type": "door",
+      "meshes": [
+        "frigate_metal_door_4.glb"
+      ]
+    },
+    "frigate_wooden_segment_door": {
+      "type": "door",
+      "meshes": [
+        "frigate_wooden_segment_door.glb"
+      ]
+    },
+    "jungle_tree": {
+      "type": "environment",
+      "meshes": [
+        "jungle_tree_primary.glb",
+        "jungle_tree_secondary.glb"
+      ]
+    },
+    "jungle_tree_v2": {
+      "type": "environment",
+      "meshes": [
+        "jungle_tree_primary_1.glb",
+        "jungle_tree_secondary_1.glb"
+      ]
+    },
+    "jungle_tree_v3": {
+      "type": "environment",
+      "meshes": [
+        "jungle_tree_primary_2.glb",
+        "jungle_tree_secondary_2.glb"
+      ]
+    },
+    "jungle_bush": {
+      "type": "environment",
+      "meshes": [
+        "jungle_bush.glb"
+      ]
+    },
+    "jungle_bush_1": {
+      "type": "environment",
+      "meshes": [
+        "jungle_bush_1.glb"
+      ]
+    },
+    "jungle_bush_2": {
+      "type": "environment",
+      "meshes": [
+        "jungle_bush_2.glb"
+      ]
+    },
+    "jungle_bush_3": {
+      "type": "environment",
+      "meshes": [
+        "jungle_bush_3.glb"
+      ]
+    },
+    "jungle_bush_v2": {
+      "type": "environment",
+      "meshes": [
+        "jungle_bush_primary.glb",
+        "jungle_bush_secondary.glb"
+      ]
+    },
+    "jungle_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "jungle_wooden_crate.glb"
+      ]
+    },
+    "jungle_guard": {
+      "type": "character",
+      "meshes": [
+        "jungle_guard.glb"
+      ]
+    },
+    "jungle_natalia": {
+      "type": "character",
+      "meshes": [
+        "jungle_natalia.glb"
+      ]
+    },
+    "jungle_drone_gun": {
+      "type": "environment",
+      "meshes": [
+        "jungle_drone_gun.glb"
+      ]
+    },
+    "jungle_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "jungle_body_armor.glb"
+      ]
+    },
+    "jungle_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "jungle_body_armor_1.glb"
+      ]
+    },
+    "jungle_explosive_barrel": {
+      "type": "prop-destructible",
+      "meshes": [
+        "jungle_explosive_barrel.glb"
+      ]
+    },
+    "jungle_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "jungle_metal_crate.glb"
+      ]
+    },
+    "jungle_ammo_crate": {
+      "type": "pickup",
+      "meshes": [
+        "jungle_ammo_crate.glb"
+      ]
+    },
+    "jungle_xenia": {
+      "type": "character",
+      "meshes": [
+        "jungle_xenia.glb"
+      ]
+    },
+    "jungle_elevator_door": {
+      "type": "door",
+      "meshes": [
+        "jungle_elevator_door.glb"
+      ]
+    },
+    "runway_ammo_crate": {
+      "type": "pickup",
+      "meshes": [
+        "runway_ammo_crate.glb"
+      ]
+    },
+    "runway_guard": {
+      "type": "character",
+      "meshes": [
+        "runway_guard.glb"
+      ]
+    },
+    "runway_ammo_crate_1": {
+      "type": "pickup",
+      "meshes": [
+        "runway_ammo_crate_1.glb"
+      ]
+    },
+    "runway_guard_1": {
+      "type": "character",
+      "meshes": [
+        "runway_guard_1.glb"
+      ]
+    },
+    "runway_trash_cans": {
+      "type": "prop",
+      "meshes": [
+        "runway_trash_cans.glb"
+      ]
+    },
+    "runway_tank": {
+      "type": "environment",
+      "meshes": [
+        "runway_tank_primary.glb",
+        "runway_tank_secondary.glb"
+      ]
+    },
+    "runway_explosive_barrel": {
+      "type": "prop-destructible",
+      "meshes": [
+        "runway_explosive_barrel.glb"
+      ]
+    },
+    "runway_tv": {
+      "type": "prop",
+      "meshes": [
+        "runway_tv.glb"
+      ]
+    },
+    "runway_keyboard": {
+      "type": "console",
+      "meshes": [
+        "runway_keyboard.glb"
+      ]
+    },
+    "runway_wooden_table": {
+      "type": "prop",
+      "meshes": [
+        "runway_wooden_table.glb"
+      ]
+    },
+    "runway_key": {
+      "type": "pickup",
+      "meshes": [
+        "runway_key.glb"
+      ]
+    },
+    "runway_black_chair": {
+      "type": "prop",
+      "meshes": [
+        "runway_black_chair.glb"
+      ]
+    },
+    "runway_filing_cabinet": {
+      "type": "prop",
+      "meshes": [
+        "runway_filing_cabinet.glb"
+      ]
+    },
+    "runway_missile_turret": {
+      "type": "environment",
+      "meshes": [
+        "runway_missile_turret.glb"
+      ]
+    },
+    "runway_plane": {
+      "type": "environment",
+      "meshes": [
+        "runway_plane_primary.glb",
+        "runway_plane_secondary.glb"
+      ]
+    },
+    "runway_gun_turret": {
+      "type": "environment",
+      "meshes": [
+        "runway_gun_turret.glb"
+      ]
+    },
+    "runway_gun_turret_1": {
+      "type": "environment",
+      "meshes": [
+        "runway_gun_turret_1.glb"
+      ]
+    },
+    "runway_grey_door": {
+      "type": "door",
+      "meshes": [
+        "runway_grey_door.glb"
+      ]
+    },
+    "runway_metal_door": {
+      "type": "door",
+      "meshes": [
+        "runway_metal_door.glb"
+      ]
+    },
+    "runway_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "runway_metal_door_1.glb"
+      ]
+    },
+    "runway_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "runway_metal_door_2.glb"
+      ]
+    },
+    "silo_guard": {
+      "type": "character",
+      "meshes": [
+        "silo_guard.glb"
+      ]
+    },
+    "silo_scientist": {
+      "type": "character",
+      "meshes": [
+        "silo_scientist.glb"
+      ]
+    },
+    "silo_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "silo_metal_crate.glb"
+      ]
+    },
+    "silo_console": {
+      "type": "console",
+      "meshes": [
+        "silo_console_primary.glb",
+        "silo_console_secondary.glb"
+      ]
+    },
+    "silo_metal_table": {
+      "type": "prop",
+      "meshes": [
+        "silo_metal_table_primary.glb",
+        "silo_metal_table_secondary.glb"
+      ]
+    },
+    "silo_circuit_board": {
+      "type": "pickup",
+      "meshes": [
+        "silo_circuit_board.glb"
+      ]
+    },
+    "silo_explosive_barrel": {
+      "type": "prop-destructible",
+      "meshes": [
+        "silo_explosive_barrel.glb"
+      ]
+    },
+    "silo_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "silo_body_armor.glb"
+      ]
+    },
+    "silo_satelite": {
+      "type": "environment",
+      "meshes": [
+        "silo_satelite_primary.glb",
+        "silo_satelite_secondary.glb"
+      ]
+    },
+    "silo_satelite_v2": {
+      "type": "environment",
+      "meshes": [
+        "silo_satelite_primary_1.glb",
+        "silo_satelite_secondary_1.glb"
+      ]
+    },
+    "silo_body_armor_1": {
+      "type": "pickup",
+      "meshes": [
+        "silo_body_armor_1.glb"
+      ]
+    },
+    "silo_orumov": {
+      "type": "character",
+      "meshes": [
+        "silo_orumov.glb"
+      ]
+    },
+    "silo_console_v2": {
+      "type": "console",
+      "meshes": [
+        "silo_console.glb"
+      ]
+    },
+    "silo_console_1": {
+      "type": "console",
+      "meshes": [
+        "silo_console_1.glb"
+      ]
+    },
+    "silo_console_2": {
+      "type": "console",
+      "meshes": [
+        "silo_console_2.glb"
+      ]
+    },
+    "silo_console_3": {
+      "type": "console",
+      "meshes": [
+        "silo_console_3.glb"
+      ]
+    },
+    "silo_console_4": {
+      "type": "console",
+      "meshes": [
+        "silo_console_4.glb"
+      ]
+    },
+    "silo_console_5": {
+      "type": "console",
+      "meshes": [
+        "silo_console_5.glb"
+      ]
+    },
+    "silo_console_6": {
+      "type": "console",
+      "meshes": [
+        "silo_console_6.glb"
+      ]
+    },
+    "silo_console_7": {
+      "type": "console",
+      "meshes": [
+        "silo_console_7.glb"
+      ]
+    },
+    "silo_console_8": {
+      "type": "console",
+      "meshes": [
+        "silo_console_8.glb"
+      ]
+    },
+    "silo_console_9": {
+      "type": "console",
+      "meshes": [
+        "silo_console_9.glb"
+      ]
+    },
+    "silo_console_10": {
+      "type": "console",
+      "meshes": [
+        "silo_console_10.glb"
+      ]
+    },
+    "silo_console_11": {
+      "type": "console",
+      "meshes": [
+        "silo_console_11.glb"
+      ]
+    },
+    "silo_console_12": {
+      "type": "console",
+      "meshes": [
+        "silo_console_12.glb"
+      ]
+    },
+    "silo_console_13": {
+      "type": "console",
+      "meshes": [
+        "silo_console_13.glb"
+      ]
+    },
+    "silo_console_14": {
+      "type": "console",
+      "meshes": [
+        "silo_console_14.glb"
+      ]
+    },
+    "silo_console_15": {
+      "type": "console",
+      "meshes": [
+        "silo_console_15.glb"
+      ]
+    },
+    "silo_console_16": {
+      "type": "console",
+      "meshes": [
+        "silo_console_16.glb"
+      ]
+    },
+    "silo_console_17": {
+      "type": "console",
+      "meshes": [
+        "silo_console_17.glb"
+      ]
+    },
+    "silo_rocket": {
+      "type": "environment",
+      "meshes": [
+        "silo_rocket.glb"
+      ]
+    },
+    "silo_door_camera": {
+      "type": "door",
+      "meshes": [
+        "silo_door_camera.glb"
+      ]
+    },
+    "silo_metal_door": {
+      "type": "door",
+      "meshes": [
+        "silo_metal_door.glb"
+      ]
+    },
+    "silo_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "silo_metal_door_1.glb"
+      ]
+    },
+    "silo_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "silo_metal_door_2.glb"
+      ]
+    },
+    "silo_metal_door_3": {
+      "type": "door",
+      "meshes": [
+        "silo_metal_door_3.glb"
+      ]
+    },
+    "silo_elevator_door": {
+      "type": "door",
+      "meshes": [
+        "silo_elevator_door.glb"
+      ]
+    },
+    "silo_metal_floor_hatch": {
+      "type": "door",
+      "meshes": [
+        "silo_metal_floor_hatch.glb"
+      ]
+    },
+    "silo_metal_floor_hatch_1": {
+      "type": "door",
+      "meshes": [
+        "silo_metal_floor_hatch_1.glb"
+      ]
+    },
+    "statue_valentin": {
+      "type": "character",
+      "meshes": [
+        "statue_valentin.glb"
+      ]
+    },
+    "statue_helicopter_blackbox": {
+      "type": "pickup",
+      "meshes": [
+        "statue_helicopter_blackbox.glb"
+      ]
+    },
+    "statue_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "statue_body_armor.glb"
+      ]
+    },
+    "statue_helicopter": {
+      "type": "environment",
+      "meshes": [
+        "statue_helicopter_primary.glb",
+        "statue_helicopter_secondary.glb"
+      ]
+    },
+    "statue_metal_bracket": {
+      "type": "environment",
+      "meshes": [
+        "statue_metal_bracket.glb"
+      ]
+    },
+    "statue_primary_10": {
+      "type": "mesh",
+      "meshes": [
+        "statue_primary_10.glb"
+      ]
+    },
+    "statue_metal_gate": {
+      "type": "environment",
+      "meshes": [
+        "statue_metal_gate.glb"
+      ]
+    },
+    "statue_metal_gate_1": {
+      "type": "environment",
+      "meshes": [
+        "statue_metal_gate_1.glb"
+      ]
+    },
+    "streets_primary_000": {
+      "type": "environment",
+      "meshes": [
+        "streets_primary_000.glb"
+      ]
+    },
+    "streets_primary_002": {
+      "type": "environment",
+      "meshes": [
+        "streets_primary_002.glb"
+      ]
+    },
+    "streets_primary_008": {
+      "type": "environment",
+      "meshes": [
+        "streets_primary_008.glb"
+      ]
+    },
+    "streets_secondary_008": {
+      "type": "environment",
+      "meshes": [
+        "streets_secondary_008.glb"
+      ]
+    },
+    "streets_military_jeep": {
+      "type": "environment",
+      "meshes": [
+        "streets_military_jeep_primary.glb",
+        "streets_military_jeep_secondary.glb"
+      ]
+    },
+    "streets_car": {
+      "type": "environment",
+      "meshes": [
+        "streets_car_primary.glb",
+        "streets_car_secondary.glb"
+      ]
+    },
+    "streets_car_v2": {
+      "type": "environment",
+      "meshes": [
+        "streets_car_primary_1.glb",
+        "streets_car_secondary_1.glb"
+      ]
+    },
+    "streets_car_secondary_2": {
+      "type": "environment",
+      "meshes": [
+        "streets_car_secondary_2.glb"
+      ]
+    },
+    "streets_car_secondary_3": {
+      "type": "environment",
+      "meshes": [
+        "streets_car_secondary_3.glb"
+      ]
+    },
+    "streets_barricade": {
+      "type": "environment",
+      "meshes": [
+        "streets_barricade.glb"
+      ]
+    },
+    "streets_grenade": {
+      "type": "pickup",
+      "meshes": [
+        "streets_grenade.glb"
+      ]
+    },
+    "streets_body_armor": {
+      "type": "pickup",
+      "meshes": [
+        "streets_body_armor.glb"
+      ]
+    },
+    "streets_valentin": {
+      "type": "character",
+      "meshes": [
+        "streets_valentin.glb"
+      ]
+    },
+    "streets_grenade_launcher": {
+      "type": "pickup",
+      "meshes": [
+        "streets_grenade_launcher_primary.glb",
+        "streets_grenade_launcher_secondary.glb"
+      ]
+    },
+    "streets_ammo_crate": {
+      "type": "pickup",
+      "meshes": [
+        "streets_ammo_crate.glb"
+      ]
+    },
+    "streets_land_mine": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine.glb"
+      ]
+    },
+    "streets_land_mine_1": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_1.glb"
+      ]
+    },
+    "streets_land_mine_2": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_2.glb"
+      ]
+    },
+    "streets_land_mine_3": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_3.glb"
+      ]
+    },
+    "streets_land_mine_4": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_4.glb"
+      ]
+    },
+    "streets_land_mine_5": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_5.glb"
+      ]
+    },
+    "streets_land_mine_6": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_6.glb"
+      ]
+    },
+    "streets_land_mine_7": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_7.glb"
+      ]
+    },
+    "streets_land_mine_8": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_8.glb"
+      ]
+    },
+    "streets_land_mine_9": {
+      "type": "environment",
+      "meshes": [
+        "streets_land_mine_9.glb"
+      ]
+    },
+    "streets_buildings": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings.glb"
+      ]
+    },
+    "streets_buildings_1": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_1.glb"
+      ]
+    },
+    "streets_buildings_2": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_2.glb"
+      ]
+    },
+    "streets_buildings_3": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_3.glb"
+      ]
+    },
+    "streets_buildings_4": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_4.glb"
+      ]
+    },
+    "streets_buildings_5": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_5.glb"
+      ]
+    },
+    "streets_buildings_6": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_6.glb"
+      ]
+    },
+    "streets_buildings_7": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_7.glb"
+      ]
+    },
+    "streets_buildings_8": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_8.glb"
+      ]
+    },
+    "streets_buildings_9": {
+      "type": "environment",
+      "meshes": [
+        "streets_buildings_9.glb"
+      ]
+    },
+    "surface1_guard": {
+      "type": "character",
+      "meshes": [
+        "surface1_guard.glb"
+      ]
+    },
+    "surface1_guard_1": {
+      "type": "character",
+      "meshes": [
+        "surface1_guard_1.glb"
+      ]
+    },
+    "surface1_padlock": {
+      "type": "prop",
+      "meshes": [
+        "surface1_padlock.glb"
+      ]
+    },
+    "surface1_key": {
+      "type": "pickup",
+      "meshes": [
+        "surface1_key.glb"
+      ]
+    },
+    "surface1_tv": {
+      "type": "prop",
+      "meshes": [
+        "surface1_tv.glb"
+      ]
+    },
+    "surface1_keyboard": {
+      "type": "console",
+      "meshes": [
+        "surface1_keyboard.glb"
+      ]
+    },
+    "surface1_wooden_table": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_table.glb"
+      ]
+    },
+    "surface1_ammo_crate": {
+      "type": "pickup",
+      "meshes": [
+        "surface1_ammo_crate.glb"
+      ]
+    },
+    "surface1_grenade_launcher": {
+      "type": "pickup",
+      "meshes": [
+        "surface1_grenade_launcher_primary.glb",
+        "surface1_grenade_launcher_secondary.glb"
+      ]
+    },
+    "surface1_book": {
+      "type": "pickup",
+      "meshes": [
+        "surface1_book.glb"
+      ]
+    },
+    "surface1_lamp": {
+      "type": "environment",
+      "meshes": [
+        "surface1_lamp_primary.glb",
+        "surface1_lamp_secondary.glb"
+      ]
+    },
+    "surface1_car": {
+      "type": "environment",
+      "meshes": [
+        "surface1_car_primary.glb",
+        "surface1_car_secondary.glb"
+      ]
+    },
+    "surface1_beaker": {
+      "type": "prop",
+      "meshes": [
+        "surface1_beaker.glb"
+      ]
+    },
+    "surface1_motorcycle": {
+      "type": "mesh",
+      "meshes": [
+        "surface1_motorcycle_primary.glb",
+        "surface1_motorcycle_secondary.glb"
+      ]
+    },
+    "surface1_black_chair": {
+      "type": "prop",
+      "meshes": [
+        "surface1_black_chair.glb"
+      ]
+    },
+    "surface1_black_table": {
+      "type": "prop",
+      "meshes": [
+        "surface1_black_table.glb"
+      ]
+    },
+    "surface1_gas_can": {
+      "type": "mesh",
+      "meshes": [
+        "surface1_gas_can_primary.glb",
+        "surface1_gas_can_secondary.glb"
+      ]
+    },
+    "surface1_schematic": {
+      "type": "mesh",
+      "meshes": [
+        "surface1_schematic.glb"
+      ]
+    },
+    "surface1_hat": {
+      "type": "mesh",
+      "meshes": [
+        "surface1_hat.glb"
+      ]
+    },
+    "surface1_brown_sliding_door": {
+      "type": "door",
+      "meshes": [
+        "surface1_brown_sliding_door.glb"
+      ]
+    },
+    "surface1_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_crate.glb"
+      ]
+    },
+    "surface1_explosive_barrel": {
+      "type": "prop-destructible",
+      "meshes": [
+        "surface1_explosive_barrel.glb"
+      ]
+    },
+    "surface1_wooden_door": {
+      "type": "door",
+      "meshes": [
+        "surface1_wooden_door_primary.glb",
+        "surface1_wooden_door_secondary.glb"
+      ]
+    },
+    "surface1_wooden_door_primary_1": {
+      "type": "door",
+      "meshes": [
+        "surface1_wooden_door_primary_1.glb"
+      ]
+    },
+    "surface1_wooden_door_v2": {
+      "type": "door",
+      "meshes": [
+        "surface1_wooden_door_2.glb",
+        "surface1_wooden_door_secondary_1.glb"
+      ]
+    },
+    "surface1_metal_door": {
+      "type": "door",
+      "meshes": [
+        "surface1_metal_door.glb",
+        "surface1_window_glass_2.glb"
+      ]
+    },
+    "surface1_metal_door_1": {
+      "type": "door",
+      "meshes": [
+        "surface1_metal_door_1.glb"
+      ]
+    },
+    "surface1_metal_door_2": {
+      "type": "door",
+      "meshes": [
+        "surface1_metal_door_2.glb"
+      ]
+    },
+    "surface1_metal_grate": {
+      "type": "mesh",
+      "meshes": [
+        "surface1_metal_grate_primary.glb",
+        "surface1_metal_grate_secondary.glb"
+      ]
+    },
+    "surface1_console": {
+      "type": "console",
+      "meshes": [
+        "surface1_console.glb"
+      ]
+    },
+    "surface1_satelite_dish": {
+      "type": "environment",
+      "meshes": [
+        "surface1_satelite_dish_primary.glb",
+        "surface1_satelite_dish_secondary.glb"
+      ]
+    },
+    "surface1_wooden_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_crate_1.glb"
+      ]
+    },
+    "surface1_wooden_crate_2": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_crate_2.glb"
+      ]
+    },
+    "surface1_wooden_crate_3": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_crate_3.glb"
+      ]
+    },
+    "surface1_wooden_crate_4": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_crate_4.glb"
+      ]
+    },
+    "surface1_wooden_table_1": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_table_1.glb"
+      ]
+    },
+    "surface1_wooden_table_2": {
+      "type": "prop",
+      "meshes": [
+        "surface1_wooden_table_2.glb"
+      ]
+    },
+    "surface1_bookshelf": {
+      "type": "pickup",
+      "meshes": [
+        "surface1_bookshelf.glb"
+      ]
+    },
+    "surface1_metal_safe": {
+      "type": "prop",
+      "meshes": [
+        "surface1_metal_safe.glb"
+      ]
+    },
+    "surface1_metal_safe_door": {
+      "type": "door",
+      "meshes": [
+        "surface1_metal_safe_door.glb"
+      ]
+    },
+    "surface1_alarm": {
+      "type": "security-camera",
+      "meshes": [
+        "surface1_alarm.glb"
+      ]
+    },
+    "surface1_security_camera": {
+      "type": "security-camera",
+      "meshes": [
+        "surface1_security_camera_primary.glb",
+        "surface1_security_camera_secondary.glb"
+      ]
+    },
+    "surface1_window_glass_3": {
+      "type": "prop-destructible",
+      "meshes": [
+        "surface1_window_glass_3.glb"
+      ]
+    },
+    "surface1_window_glass_4": {
+      "type": "prop-destructible",
+      "meshes": [
+        "surface1_window_glass_4.glb"
+      ]
+    },
+    "surface1_window_glass_5": {
+      "type": "prop-destructible",
+      "meshes": [
+        "surface1_window_glass_5.glb"
+      ]
+    },
+    "surface1_window_glass_6": {
+      "type": "prop-destructible",
+      "meshes": [
+        "surface1_window_glass_6.glb"
+      ]
+    },
+    "surface2_primary_000": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_000.glb"
+      ]
+    },
+    "surface2_primary_001": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_001.glb"
+      ]
+    },
+    "surface2_secondary_001": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_001.glb"
+      ]
+    },
+    "surface2_primary_002": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_002.glb"
+      ]
+    },
+    "surface2_primary_009": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_009.glb"
+      ]
+    },
+    "surface2_primary_010": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_010.glb"
+      ]
+    },
+    "surface2_secondary_010": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_010.glb"
+      ]
+    },
+    "surface2_primary_012": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_012.glb"
+      ]
+    },
+    "surface2_primary_015": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_015.glb"
+      ]
+    },
+    "surface2_primary_021": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_021.glb"
+      ]
+    },
+    "surface2_primary_022": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_022.glb"
+      ]
+    },
+    "surface2_secondary_022": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_022.glb"
+      ]
+    },
+    "surface2_primary_023": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_023.glb"
+      ]
+    },
+    "surface2_primary_028": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_028.glb"
+      ]
+    },
+    "surface2_primary_029": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_029.glb"
+      ]
+    },
+    "surface2_primary_030": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_030.glb"
+      ]
+    },
+    "surface2_primary_031": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_031.glb"
+      ]
+    },
+    "surface2_primary_032": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_032.glb"
+      ]
+    },
+    "surface2_primary_035": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_035.glb"
+      ]
+    },
+    "surface2_secondary_035": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_035.glb"
+      ]
+    },
+    "surface2_primary_037": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_037.glb"
+      ]
+    },
+    "surface2_primary_038": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_038.glb"
+      ]
+    },
+    "surface2_secondary_038": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_038.glb"
+      ]
+    },
+    "surface2_primary_040": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_040.glb"
+      ]
+    },
+    "surface2_primary_044": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_044.glb"
+      ]
+    },
+    "surface2_secondary_044": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_044.glb"
+      ]
+    },
+    "surface2_primary_046": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_046.glb"
+      ]
+    },
+    "surface2_secondary_046": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_046.glb"
+      ]
+    },
+    "surface2_primary_047": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_047.glb"
+      ]
+    },
+    "surface2_primary_048": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_048.glb"
+      ]
+    },
+    "surface2_primary_051": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_051.glb"
+      ]
+    },
+    "surface2_secondary_051": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_051.glb"
+      ]
+    },
+    "surface2_primary_052": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_052.glb"
+      ]
+    },
+    "surface2_primary_054": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_054.glb"
+      ]
+    },
+    "surface2_secondary_054": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_054.glb"
+      ]
+    },
+    "surface2_primary_055": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_055.glb"
+      ]
+    },
+    "surface2_primary_056": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_056.glb"
+      ]
+    },
+    "surface2_primary_057": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_057.glb"
+      ]
+    },
+    "surface2_primary_059": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_059.glb"
+      ]
+    },
+    "surface2_secondary_059": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_059.glb"
+      ]
+    },
+    "surface2_primary_063": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_primary_063.glb"
+      ]
+    },
+    "surface2_secondary_063": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_063.glb"
+      ]
+    },
+    "surface2_secondary_066": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_066.glb"
+      ]
+    },
+    "surface2_secondary_070": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_070.glb"
+      ]
+    },
+    "surface2_secondary_105": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_105.glb"
+      ]
+    },
+    "surface2_secondary_107": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_107.glb"
+      ]
+    },
+    "surface2_secondary_116": {
+      "type": "mesh",
+      "meshes": [
+        "surface2_secondary_116.glb"
+      ]
+    },
+    "train_guard": {
+      "type": "character",
+      "meshes": [
+        "train_guard.glb"
+      ]
+    },
+    "train_guard_1": {
+      "type": "character",
+      "meshes": [
+        "train_guard_1.glb"
+      ]
+    },
+    "train_trevelyn": {
+      "type": "character",
+      "meshes": [
+        "train_trevelyn.glb"
+      ]
+    },
+    "train_xenia": {
+      "type": "character",
+      "meshes": [
+        "train_xenia.glb"
+      ]
+    },
+    "train_orumov": {
+      "type": "character",
+      "meshes": [
+        "train_orumov.glb"
+      ]
+    },
+    "train_natalia": {
+      "type": "character",
+      "meshes": [
+        "train_natalia.glb"
+      ]
+    },
+    "train_guard_2": {
+      "type": "character",
+      "meshes": [
+        "train_guard_2.glb"
+      ]
+    },
+    "train_metal_bracket": {
+      "type": "environment",
+      "meshes": [
+        "train_metal_bracket.glb"
+      ]
+    },
+    "train_train_brake": {
+      "type": "mesh",
+      "meshes": [
+        "train_train_brake.glb"
+      ]
+    },
+    "train_wooden_crate": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate.glb"
+      ]
+    },
+    "train_wooden_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_1.glb"
+      ]
+    },
+    "train_wooden_crate_2": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_2.glb"
+      ]
+    },
+    "train_wooden_crate_3": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_3.glb"
+      ]
+    },
+    "train_wooden_crate_4": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_4.glb"
+      ]
+    },
+    "train_wooden_crate_5": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_5.glb"
+      ]
+    },
+    "train_wooden_crate_6": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_6.glb"
+      ]
+    },
+    "train_wooden_crate_7": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_7.glb"
+      ]
+    },
+    "train_wooden_crate_8": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_8.glb"
+      ]
+    },
+    "train_wooden_crate_9": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_9.glb"
+      ]
+    },
+    "train_wooden_crate_10": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_10.glb"
+      ]
+    },
+    "train_wooden_door": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door.glb"
+      ]
+    },
+    "train_metal_crate": {
+      "type": "prop",
+      "meshes": [
+        "train_metal_crate.glb"
+      ]
+    },
+    "train_wooden_crate_11": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_11.glb"
+      ]
+    },
+    "train_wooden_crate_12": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_12.glb"
+      ]
+    },
+    "train_metal_crate_1": {
+      "type": "prop",
+      "meshes": [
+        "train_metal_crate_1.glb"
+      ]
+    },
+    "train_wooden_crate_13": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_13.glb"
+      ]
+    },
+    "train_wooden_crate_14": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_14.glb"
+      ]
+    },
+    "train_wooden_door_14": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_14.glb"
+      ]
+    },
+    "train_wooden_door_15": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_15.glb"
+      ]
+    },
+    "train_wooden_door_16": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_16.glb",
+        "train_window_glass_1.glb"
+      ]
+    },
+    "train_wooden_door_1": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_1.glb"
+      ]
+    },
+    "train_wooden_door_2": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_2.glb"
+      ]
+    },
+    "train_wooden_door_3": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_3.glb"
+      ]
+    },
+    "train_wooden_door_4": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_4.glb"
+      ]
+    },
+    "train_wooden_door_5": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_5.glb"
+      ]
+    },
+    "train_wooden_door_6": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_6.glb"
+      ]
+    },
+    "train_wooden_door_7": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_7.glb"
+      ]
+    },
+    "train_window_glass": {
+      "type": "prop-destructible",
+      "meshes": [
+        "train_window_glass.glb"
+      ]
+    },
+    "train_wooden_table": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_table.glb"
+      ]
+    },
+    "train_wooden_door_8": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_8.glb"
+      ]
+    },
+    "train_wooden_door_10": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_10.glb"
+      ]
+    },
+    "train_wooden_door_9": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_9.glb"
+      ]
+    },
+    "train_wooden_crate_15": {
+      "type": "prop",
+      "meshes": [
+        "train_wooden_crate_15.glb"
+      ]
+    },
+    "train_metal_crate_2": {
+      "type": "prop",
+      "meshes": [
+        "train_metal_crate_2.glb"
+      ]
+    },
+    "train_metal_crate_3": {
+      "type": "prop",
+      "meshes": [
+        "train_metal_crate_3.glb"
+      ]
+    },
+    "train_metal_crate_4": {
+      "type": "prop",
+      "meshes": [
+        "train_metal_crate_4.glb"
+      ]
+    },
+    "train_tv": {
+      "type": "prop",
+      "meshes": [
+        "train_tv.glb"
+      ]
+    },
+    "train_keyboard": {
+      "type": "console",
+      "meshes": [
+        "train_keyboard.glb"
+      ]
+    },
+    "train_wooden_door_11": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_11.glb"
+      ]
+    },
+    "train_wooden_door_12": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_12.glb"
+      ]
+    },
+    "train_wooden_door_13": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_door_13.glb"
+      ]
+    },
+    "train_wooden_segment_door": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_segment_door.glb"
+      ]
+    },
+    "train_wooden_segment_door_1": {
+      "type": "door",
+      "meshes": [
+        "train_wooden_segment_door_1.glb"
+      ]
+    },
+    "train_train_escape_hatch": {
+      "type": "door",
+      "meshes": [
+        "train_train_escape_hatch.glb"
+      ]
+    }
+  }
+}

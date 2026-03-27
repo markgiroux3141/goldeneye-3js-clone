@@ -15,9 +15,17 @@ export interface TransformComponent extends Component {
   scale: [number, number, number];
 }
 
+export interface MeshOffset {
+  position?: [number, number, number];
+  rotation?: [number, number, number]; // degrees XYZ
+  scale?: [number, number, number];
+}
+
 export interface MeshComponent extends Component {
   _type: 'Mesh';
   meshPaths: string[];
+  /** Per-mesh local offsets, parallel to meshPaths. Optional — omit for identity. */
+  meshOffsets?: (MeshOffset | undefined)[];
   castShadow: boolean;
   receiveShadow: boolean;
   /** Transient runtime ref — not serialized */
@@ -27,6 +35,8 @@ export interface MeshComponent extends Component {
 export interface PrefabComponent extends Component {
   _type: 'Prefab';
   prefabType: string;
+  /** Catalog prefab ID (e.g., "facility_guard") — set when loaded from prefabs.json */
+  prefabId?: string;
 }
 
 // ── Physics ──────────────────────────────────────────────────────────────────

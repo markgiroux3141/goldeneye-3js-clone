@@ -1,9 +1,11 @@
 {
-  "version": 2,
   "objects": [
     {
       "id": "guard_01",
-      "prefab": "cradle_guard",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
       "position": [
         -13.7271,
         15.0387,
@@ -18,11 +20,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_02",
-      "prefab": "cradle_guard",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
       "position": [
         -39.1613,
         -5.1167,
@@ -37,11 +43,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_03",
-      "prefab": "cradle_guard",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
       "position": [
         39.3487,
         -5.1167,
@@ -56,11 +66,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_04",
-      "prefab": "cradle_guard",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
       "position": [
         -6.9366,
         5.2017,
@@ -75,11 +89,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "guard_05",
-      "prefab": "cradle_guard",
+      "type": "guard",
+      "meshes": [
+        "cradle_guard.glb"
+      ],
       "position": [
         60.207,
         5.223,
@@ -94,11 +112,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "trevelyn_01",
-      "prefab": "cradle_trevelyn",
+      "type": "trevelyn",
+      "meshes": [
+        "cradle_trevelyn.glb"
+      ],
       "position": [
         -56.9858,
         4.6585,
@@ -113,11 +135,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_01",
-      "prefab": "cradle_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
       "position": [
         -80.3679,
         2.0146,
@@ -132,11 +158,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_02",
-      "prefab": "cradle_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
       "position": [
         -39.7146,
         2.0146,
@@ -151,11 +181,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_03",
-      "prefab": "cradle_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
       "position": [
         119.267,
         2.0146,
@@ -170,11 +204,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "body_armor_04",
-      "prefab": "cradle_body_armor",
+      "type": "body_armor",
+      "meshes": [
+        "cradle_body_armor.glb"
+      ],
       "position": [
         -15.3053,
         0.287,
@@ -189,11 +227,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_01",
-      "prefab": "cradle_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "cradle_drone_gun_primary.glb",
+        "cradle_drone_gun_secondary.glb"
+      ],
       "position": [
         16.7079,
         3.894,
@@ -208,11 +251,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "drone_gun_02",
-      "prefab": "cradle_drone_gun",
+      "type": "drone_gun",
+      "meshes": [
+        "cradle_drone_gun_primary.glb",
+        "cradle_drone_gun_secondary.glb"
+      ],
       "position": [
         22.0827,
         3.894,
@@ -227,11 +275,16 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "helicopter_01",
-      "prefab": "cradle_helicopter",
+      "type": "helicopter",
+      "meshes": [
+        "cradle_helicopter_primary.glb",
+        "cradle_helicopter_secondary.glb"
+      ],
       "position": [
         8.5814,
         -28.0704,
@@ -246,11 +299,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "console_01",
-      "prefab": "cradle_console",
+      "type": "console",
+      "meshes": [
+        "cradle_console.glb"
+      ],
       "position": [
         13.2926,
         1.172,
@@ -265,11 +322,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_01",
-      "prefab": "cradle_brown_sliding_door",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "cradle_brown_sliding_door.glb"
+      ],
       "position": [
         9.5978,
         1.7516,
@@ -284,11 +345,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_02",
-      "prefab": "cradle_brown_sliding_door",
+      "type": "brown_sliding_door",
+      "meshes": [
+        "cradle_brown_sliding_door.glb"
+      ],
       "position": [
         -9.5978,
         1.7516,
@@ -303,11 +368,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_1_01",
-      "prefab": "cradle_brown_sliding_door_1",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "cradle_brown_sliding_door_1.glb"
+      ],
       "position": [
         23.1547,
         1.7516,
@@ -322,11 +391,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_1_02",
-      "prefab": "cradle_brown_sliding_door_1",
+      "type": "brown_sliding_door_1",
+      "meshes": [
+        "cradle_brown_sliding_door_1.glb"
+      ],
       "position": [
         -23.1547,
         1.7516,
@@ -341,11 +414,15 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     },
     {
       "id": "brown_sliding_door_2_01",
-      "prefab": "cradle_brown_sliding_door_2",
+      "type": "brown_sliding_door_2",
+      "meshes": [
+        "cradle_brown_sliding_door_2.glb"
+      ],
       "position": [
         -2.9753,
         -11.3494,
@@ -360,7 +437,8 @@
         1,
         1,
         1
-      ]
+      ],
+      "properties": {}
     }
   ]
 }
