@@ -60,6 +60,27 @@ export class PrefabCatalog {
     prefab.meshOffsets = hasNonNull ? cleaned : undefined;
   }
 
+  /** Update component defaults for a prefab (in-memory, replaces all defaults) */
+  updateDefaults(prefabId: string, defaults: Record<string, Record<string, unknown>>): void {
+    const prefab = this.prefabs.get(prefabId);
+    if (!prefab) return;
+    const hasEntries = Object.keys(defaults).length > 0;
+    prefab.defaults = hasEntries ? defaults : undefined;
+  }
+
+  /** Update a single component's defaults for a prefab */
+  updateComponentDefault(prefabId: string, componentType: string, data: Record<string, unknown>): void {
+    const prefab = this.prefabs.get(prefabId);
+    if (!prefab) return;
+    if (!prefab.defaults) prefab.defaults = {};
+    prefab.defaults[componentType] = data;
+  }
+
+  /** Add a new prefab entry to the catalog */
+  addPrefab(id: string, data: Omit<CatalogPrefab, 'id'>): void {
+    this.prefabs.set(id, { id, ...data });
+  }
+
   /** Serialize catalog back to PrefabsFile format for saving */
   toJSON(): PrefabsFile {
     const prefabs: Record<string, Omit<CatalogPrefab, 'id'>> = {};

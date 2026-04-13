@@ -107,6 +107,10 @@ if (rawMode === 'level-viewer') {
   import('./viewer/ObjectViewer').then(({ launchObjectViewer }) => {
     launchObjectViewer(basePath);
   });
+} else if (rawMode === 'prefab-editor') {
+  import('./prefab-editor/PrefabEditorApp').then(({ launchPrefabEditor }) => {
+    launchPrefabEditor();
+  });
 } else if (!rawLevel) {
   showLevelSelect();
 } else {

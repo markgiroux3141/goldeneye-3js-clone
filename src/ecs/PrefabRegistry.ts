@@ -105,11 +105,27 @@ export function createDefaultRegistry(): PrefabRegistry {
     displayName: 'Door',
     defaultComponents: [
       {
-        _type: 'Door', doorType: 'swinging', hingeSide: 'left', swingDirection: 1,
-        openAngle: 90, slideDistance: 1, slideAxis: 'x', slideDirection: 1,
-        triggerRadius: 3, openDuration: 3, animationSpeed: 2,
-        pivotOffset: [0, 0, 0],
+        _type: 'StateMachine',
+        states: ['closed', 'opening', 'open', 'closing'],
+        initialState: 'closed',
+        transitions: {
+          'closed→opening': { trigger: 'interact', animation: 'open' },
+          'opening→open': { trigger: 'animation-complete' },
+          'open→closing': { trigger: 'timer', delay: 3, animation: 'close' },
+          'closing→closed': { trigger: 'animation-complete' },
+        },
       },
+      {
+        _type: 'KeyframeAnimation',
+        tracks: [
+          { targetMesh: 0, property: 'rotation.y', keyframes: [{ time: 0, value: 0 }, { time: 1, value: 90 }], easing: 'ease-in-out' },
+        ],
+        clips: {
+          open: { tracks: [0], duration: 0.5 },
+          close: { tracks: [0], duration: 0.5, reverse: true },
+        },
+      },
+      { _type: 'Pivot', offset: [0, 0, 0], affectsMeshes: [0] },
       { _type: 'Interactable', triggerRadius: 3, singleUse: false },
       { _type: 'Audio', sounds: {} },
       { _type: 'PhysicsBody', bodyType: 'kinematic', colliderShape: 'auto-box' },
@@ -133,10 +149,29 @@ export function createDefaultRegistry(): PrefabRegistry {
     displayName: 'Destructible Prop',
     defaultComponents: [
       { _type: 'Health', health: 50, maxHealth: 50, armor: 0, maxArmor: 0, invincible: false },
-      { _type: 'Destructible', destroyEffect: 'break', debrisCount: 5 },
+      {
+        _type: 'Destructible', destroyEffect: 'break', debrisCount: 5,
+        explosionRadius: 0, chainReaction: false,
+      },
       { _type: 'PhysicsBody', bodyType: 'fixed', colliderShape: 'auto-box' },
     ],
     namePatterns: ['explosive_barrel', 'glass', 'window_glass'],
+  });
+
+  reg.register({
+    type: 'prop-explosive',
+    category: 'props',
+    displayName: 'Explosive Prop',
+    defaultComponents: [
+      { _type: 'Health', health: 30, maxHealth: 30, armor: 0, maxArmor: 0, invincible: false },
+      {
+        _type: 'Destructible', destroyEffect: 'explode', debrisCount: 8,
+        explosionRadius: 5, chainReaction: true,
+      },
+      { _type: 'PhysicsBody', bodyType: 'fixed', colliderShape: 'auto-box' },
+      { _type: 'Audio', sounds: {} },
+    ],
+    namePatterns: ['explosive', 'fuel_tank', 'gas_tank', 'propane'],
   });
 
   reg.register({
@@ -159,7 +194,16 @@ export function createDefaultRegistry(): PrefabRegistry {
     displayName: 'Console',
     defaultComponents: [
       { _type: 'Interactable', triggerRadius: 2, singleUse: true },
-      { _type: 'ConsoleAction', actionType: 'emit-event' },
+      {
+        _type: 'StateMachine',
+        states: ['inactive', 'activated'],
+        initialState: 'inactive',
+        transitions: {
+          'inactive→activated': { trigger: 'interact', sound: 'activate' },
+        },
+      },
+      { _type: 'VariableSetter', onState: 'activated', sets: {} },
+      { _type: 'Audio', sounds: {} },
     ],
     namePatterns: ['console', 'mainframe', 'keyboard', 'computer'],
   });
@@ -181,9 +225,44 @@ export function createDefaultRegistry(): PrefabRegistry {
     category: 'pickups',
     displayName: 'Pickup',
     defaultComponents: [
-      { _type: 'Interactable', triggerRadius: 1.5, singleUse: true },
+      {
+        _type: 'Pickup', itemType: 'weapon', itemId: '', quantity: 1,
+        respawn: false, bobAnimation: true, collectRadius: 1.5,
+      },
     ],
     namePatterns: ['body_armor', 'ammo_crate', 'ammo_box', 'key', 'pp7', 'rcp90', 'ar33', 'kf7'],
+  });
+
+  reg.register({
+    type: 'drone-gun',
+    category: 'security',
+    displayName: 'Drone Gun',
+    defaultComponents: [
+      { _type: 'Health', health: 80, maxHealth: 80, armor: 0, maxArmor: 0, invincible: false },
+      {
+        _type: 'StateMachine',
+        states: ['idle', 'tracking', 'firing', 'destroyed'],
+        initialState: 'idle',
+        transitions: {
+          'idle→tracking': { trigger: 'proximity', radius: 15 },
+          'tracking→firing': { trigger: 'timer', delay: 0.5 },
+          'firing→tracking': { trigger: 'timer', delay: 0.3 },
+          'tracking→idle': { trigger: 'timer', delay: 3 },
+          'idle→destroyed': { trigger: 'destroy' },
+          'tracking→destroyed': { trigger: 'destroy' },
+          'firing→destroyed': { trigger: 'destroy' },
+        },
+      },
+      { _type: 'Detection', detectionAngle: 60, detectionRange: 15, sweepSpeed: 1, sweepAngle: 90, baseRotationY: 0 },
+      { _type: 'Turret', mode: 'track-player', fireRate: 2, projectileSpeed: 50, damage: 10, rotationSpeed: 90 },
+      {
+        _type: 'Destructible', destroyEffect: 'explode', debrisCount: 4,
+        explosionRadius: 0, chainReaction: false,
+      },
+      { _type: 'PhysicsBody', bodyType: 'fixed', colliderShape: 'auto-box' },
+      { _type: 'Audio', sounds: {} },
+    ],
+    namePatterns: ['drone_gun', 'ceiling_gun', 'auto_gun', 'turret'],
   });
 
   reg.register({

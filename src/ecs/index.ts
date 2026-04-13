@@ -1,11 +1,12 @@
 export type { Component, ComponentType, ComponentTypeMap } from './Component';
 export type {
-  MeshOffset,
+  MeshOffset, StateTransition, Keyframe, AnimationTrack, AnimationClip,
   TransformComponent, MeshComponent, PrefabComponent,
   PhysicsBodyComponent, HealthComponent, FactionComponent,
-  DestructibleComponent, DoorComponent, InteractableComponent,
-  ConsoleActionComponent, DetectionComponent, AlarmComponent,
-  AudioComponent,
+  DestructibleComponent, StateMachineComponent, KeyframeAnimationComponent,
+  PivotComponent, InteractableComponent, VariableSetterComponent,
+  VariableListenerComponent, PickupComponent, TurretComponent,
+  DetectionComponent, AlarmComponent, AudioComponent,
 } from './Component';
 export { serializeComponent } from './Component';
 export { ECSWorld, createEntity } from './ECSWorld';
@@ -21,3 +22,6 @@ export {
 } from './Serialization';
 export type { SerializedEntity, PlacementsFile, SerializedEntityV2, PlacementsFileV2 } from './Serialization';
 export { MeshSystem } from './systems/MeshSystem';
+export { StateMachineSystem } from './systems/StateMachineSystem';
+export { AnimationSystem } from './systems/AnimationSystem';
+export { VariableSystem } from './systems/VariableSystem';
