@@ -10,7 +10,8 @@ import { ColliderFactory } from './physics/ColliderFactory';
 import { FPSCamera } from './player/FPSCamera';
 import { PlayerController } from './player/PlayerController';
 import { LevelLoader } from './world/LevelLoader';
-import { setupLighting } from './world/Lighting';
+import { setupLighting, applyPointLights, applyCustomAmbient, convertEditorPointLights } from './world/Lighting';
+import type { EditorLightsFile } from './world/Lighting';
 import { loadStarterRoomMaterials } from './world/StarterRoomMaterials';
 import { WeaponSystem } from './weapons/WeaponSystem';
 import { ALL_WEAPONS, loadWeaponOverrides } from './weapons/WeaponConfig';
@@ -122,6 +123,34 @@ export class Game {
       const fogCfg = this.levelConfig.fog ?? { color: 0x8090a0, near: 30, far: 120 };
       this.engine.scene.fog = new THREE.Fog(fogCfg.color, fogCfg.near, fogCfg.far);
       this.engine.scene.background = new THREE.Color(fogCfg.color);
+    }
+
+    // Real-time point lights (custom levels only — real GE levels use baked vertex colors)
+    if (this.levelData?.pointLights && this.levelData.pointLights.length > 0) {
+      const lights = applyPointLights(this.engine.scene, this.engine.renderer, this.levelData.pointLights);
+      console.log(`[Game] Spawned ${lights.length} real-time point light(s) from level JSON`);
+    }
+
+    // Sidecar lights file (editor-exported <slug>.lights.json next to the GLB).
+    // Positions/ranges are scaled by modelScale; intensity scales by modelScale²
+    // to compensate for physical inverse-square decay on the scaled-up geometry.
+    try {
+      const resp = await fetch(`/models/levels/${this.levelType}.lights.json`);
+      if (!resp.ok) {
+        console.log(`[Game] No sidecar lights file (HTTP ${resp.status}) — skipping`);
+      } else {
+        const source = (await resp.json()) as EditorLightsFile;
+        const scale = this.levelConfig.modelScale ?? 1;
+        applyCustomAmbient(this.engine.scene, source);
+        const pointLights = convertEditorPointLights(source, scale);
+        const lights = applyPointLights(this.engine.scene, this.engine.renderer, pointLights);
+        console.log(`[Game] Applied editor lighting: ambient=${source.ambient?.intensity ?? 0.2}, ${lights.length} point light(s), scale=${scale}`);
+        for (const l of pointLights) {
+          console.log(`  • pos=(${l.position.x.toFixed(1)}, ${l.position.y.toFixed(1)}, ${l.position.z.toFixed(1)}) intensity=${l.intensity?.toFixed(2)} distance=${l.distance?.toFixed(1)}`);
+        }
+      }
+    } catch (err) {
+      console.warn('[Game] Sidecar lights file load failed:', err);
     }
 
     if (this.mode === 'editor') {
@@ -324,6 +353,13 @@ export class Game {
     );
 
     const levelGroup = await this.loadLevelGeometry(levelLoader, colliderFactory, assetLoader);
+
+    // DEBUG: log world-space bounding box of level geometry so we can compare
+    // against spawn + light positions to diagnose coordinate-space issues.
+    if (levelGroup) {
+      const bbox = new THREE.Box3().setFromObject(levelGroup);
+      console.log(`[Game] Level world bounds: min=(${bbox.min.x.toFixed(1)}, ${bbox.min.y.toFixed(1)}, ${bbox.min.z.toFixed(1)}) max=(${bbox.max.x.toFixed(1)}, ${bbox.max.y.toFixed(1)}, ${bbox.max.z.toFixed(1)})`);
+    }
 
     // DISABLED: navmesh WIP — uncomment to re-enable
     // this.navMeshSystem = new NavMeshSystem(this.engine.scene);

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "levelType": "testlevel",
+  "spawn": { "x": 0, "y": 1, "z": 0 },
+  "music": "/music/111 Archives.mp3",
+  "pointLights": [
+    {
+      "position": { "x": 0, "y": 3, "z": 0 },
+      "color": { "r": 255, "g": 210, "b": 160 },
+      "intensity": 2.0,
+      "distance": 20,
+      "decay": 2,
+      "castShadow": true
+    }
+  ],
+  "objects": []
+}

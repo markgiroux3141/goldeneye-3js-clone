@@ -9,6 +9,24 @@ export interface LevelConfig {
 
 const DEFAULT_DOOR_SCALE = 0.0014;
 
+// Scale applied to GLB levels exported from the GoldenEye Level Editor.
+// These exports share a consistent export scale, so one value covers all of them.
+export const CUSTOM_LEVEL_SCALE = 1.5;
+
+// Build a LevelConfig for a GoldenEye-Level-Editor export. GLB is expected at
+// /models/levels/<slug>.glb. Adding a new custom level = one line in LEVELS.
+export function customLevel(
+  slug: string,
+  spawn: { x: number; y: number; z: number } = { x: 0, y: 1, z: 0 }
+): LevelConfig {
+  return {
+    type: 'glb',
+    modelPath: `/models/levels/${slug}.glb`,
+    modelScale: CUSTOM_LEVEL_SCALE,
+    spawn,
+  };
+}
+
 export const LEVELS: Record<string, LevelConfig> = {
   procedural: {
     type: 'procedural',
@@ -144,6 +162,9 @@ export const LEVELS: Record<string, LevelConfig> = {
     modelScale: 1,
     spawn: { x: 0, y: 1, z: 0 },
   },
+  level1: customLevel('level1'),
+  testlevel: customLevel('testlevel'),
+  testlights: customLevel('testlights'),
 };
 
 export type LevelType = keyof typeof LEVELS;

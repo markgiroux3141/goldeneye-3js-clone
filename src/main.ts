@@ -26,6 +26,9 @@ const LEVEL_DISPLAY_NAMES: Record<string, string> = {
   aztec: 'Aztec',
   egyptian: 'Egyptian',
   complex: 'Complex',
+  level1: 'Level 1',
+  testlevel: 'Test Level',
+  testlights: 'Test Lights',
 };
 
 // Mission order for display
@@ -33,6 +36,7 @@ const MISSION_ORDER = [
   'dam', 'facility', 'runway', 'surface1', 'bunker1', 'silo', 'frigate',
   'surface2', 'bunker2', 'statue', 'archives', 'streets', 'depot', 'train',
   'jungle', 'control', 'caverns', 'cradle', 'aztec', 'egyptian', 'complex',
+  'level1', 'testlevel', 'testlights',
 ];
 
 function showLevelSelect(): void {

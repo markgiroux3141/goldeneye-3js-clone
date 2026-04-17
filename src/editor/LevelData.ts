@@ -17,6 +17,17 @@ export interface BakeLight {
   falloff?: number;      // attenuation exponent, default 2.0
 }
 
+// Real-time point light for custom (editor-produced) levels.
+// Real GoldenEye levels omit this and rely on baked vertex-color lighting instead.
+export interface PointLightData {
+  position: { x: number; y: number; z: number };
+  color?: { r: number; g: number; b: number };  // 0-255, default white
+  intensity?: number;    // default 1.0
+  distance?: number;     // world units, 0 = infinite, default 15
+  decay?: number;        // physical falloff exponent, default 2
+  castShadow?: boolean;  // default true
+}
+
 export interface EnemyPlacementData {
   characterId: string;
   characterFile?: string;
@@ -35,6 +46,7 @@ export interface LevelData {
   music?: string;
   fog?: { color: { r: number; g: number; b: number }; near: number; far: number };
   lights?: BakeLight[];
+  pointLights?: PointLightData[];
   objects: PlacedObjectData[];
   enemyPlacements?: EnemyPlacementData[];
 }
